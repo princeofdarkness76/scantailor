@@ -1,0 +1,131 @@
+/*
+    Scan Tailor - Interactive post-processing tool for scanned pages.
+    Copyright (C) 2007-2008  Joseph Artsimovich <joseph_a@mail.ru>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+#ifndef OUTPUT_OUTPUTGENERATOR_H_
+#define OUTPUT_OUTPUTGENERATOR_H_
+
+#include "Dpi.h"
+#include "ColorParams.h"
+#include <QRect>
+#include <QTransform>
+#include <QColor>
+#include <QPolygonF>
+
+class TaskStatus;
+class DebugImages;
+class ImageTransformation;
+class QSize;
+class QImage;
+
+namespace imageproc
+{
+	class BinaryImage;
+}
+
+namespace output
+{
+
+class OutputGenerator
+{
+public:
+	OutputGenerator(
+		Dpi const& dpi, ColorParams const& color_params,
+		ImageTransformation const& pre_xform,
+		QPolygonF const& content_rect_phys,
+		QPolygonF const& page_rect_phys);
+	
+	QImage process(QImage const& input,
+		TaskStatus const& status, DebugImages* dbg = 0) const;
+private:
+	QImage processColorOrGrayscale(QImage const& input,
+		TaskStatus const& status, DebugImages* dbg = 0) const;
+	
+	QImage processMixedOrBitonal(QImage const& input,
+		TaskStatus const& status, DebugImages* dbg = 0) const;
+	
+	static QSize from300dpi(QSize const& size, Dpi const& target_dpi);
+	
+	static QSize to300dpi(QSize const& size, Dpi const& source_dpi);
+	
+	static QImage detectPictures(
+		QImage const& input_300dpi, TaskStatus const& status,
+		DebugImages* dbg = 0);
+	
+	imageproc::BinaryImage binarize(
+		QImage const& image, Dpi const& image_dpi) const;
+	
+	static void morphologicalSmoothInPlace(
+		imageproc::BinaryImage& img, TaskStatus const& status);
+	
+	static void hitMissReplaceAllDirections(
+		imageproc::BinaryImage& img, char const* pattern,
+		int pattern_width, int pattern_height);
+	
+	static QSize calcLocalWindowSize(Dpi const& dpi);
+	
+	static void colorizeBitonal(
+		QImage& img, QRgb light_color, QRgb dark_color);
+	
+	static unsigned char calcDominantBackgroundGrayLevel(QImage const& img);
+	
+	static QImage normalizeIllumination(QImage const& gray_input, DebugImages* dbg);
+	
+	QImage transformAndNormalizeIllumination(
+		QImage const& gray_input, DebugImages* dbg,
+		QImage const* morph_background = 0) const;
+	
+	QImage transformAndNormalizeIllumination2(
+		QImage const& gray_input, DebugImages* dbg,
+		QImage const* morph_background = 0) const;
+	
+	Dpi m_dpi;
+	ColorParams m_colorParams;
+	QPolygonF m_pageRectPhys;
+	
+	/**
+	 * Transformation from the input image coordinates to coordinates
+	 * of the output image before it's cropped.  This transformation
+	 * includes all transformations from the ImageTransformation
+	 * passed to a constructor, plus scaling to produce the
+	 * desired output DPI.
+	 */
+	QTransform m_toUncropped;
+	
+	/**
+	 * The content rectangle in m_toUncropped coordinates.
+	 */
+	QRect m_contentRect;
+	
+	/**
+	 * The cropping rectangle in m_toUncropped coordinates.
+	 * The cropping rectangle is the content rect plus margins.
+	 */
+	QRect m_cropRect;
+	
+	/**
+	 * The bounding rectangle of a polygon that represents
+	 * the page boundaries.  The polygon is usually formed
+	 * by image edges and a split line.  This rectangle is
+	 * in m_toUncropped coordinates.
+	 */
+	QRect m_fullPageRect;
+};
+
+} // namespace output
+
+#endif

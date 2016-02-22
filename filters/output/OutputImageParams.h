@@ -54,6 +54,17 @@ public:
 		dewarping::DistortionModel const& distortion_model,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.coo
 //begin of modified by monday2000
 //Picture_Shape
 		//DepthPerception const& depth_perception, DespeckleLevel despeckle_level);
@@ -66,6 +77,21 @@ public:
 =======
 		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
 	
 //begin of modified by monday2000
 //Picture_Shape_Bug	
@@ -137,6 +163,17 @@ private:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.coo
 //begin of modified by monday2000
 //Picture_Shape
 	/** Shape of the pictures in image */
@@ -150,6 +187,23 @@ private:
 	/** Shape of the pictures in image */
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	/** Shape of the pictures in image */
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+	/** Shape of the pictures in image */
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
 
 	/** Two curves and two lines connecting their endpoints.  Used for dewarping. */
 	dewarping::DistortionModel m_distortionModel;

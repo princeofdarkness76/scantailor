@@ -38,6 +38,17 @@ OutputImageParams::OutputImageParams(
 	DepthPerception const& depth_perception,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.coo
 //begin of modified by monday2000
 //Picture_Shape
 	//DespeckleLevel const despeckle_level)
@@ -52,12 +63,40 @@ OutputImageParams::OutputImageParams(
 	DespeckleLevel const despeckle_level,
 	PictureShape const picture_shape)
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
 :	m_size(out_image_size),
 	m_contentRect(content_rect),
 	m_dpi(dpi),
 	m_colorParams(color_params),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.coo
 //begin of modified by monday2000
 //Picture_Shape
 	m_pictureShape(picture_shape),
@@ -68,6 +107,21 @@ OutputImageParams::OutputImageParams(
 =======
 	m_pictureShape(picture_shape),
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	m_pictureShape(picture_shape),
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+	m_pictureShape(picture_shape),
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
 	m_distortionModel(distortion_model),
 	m_depthPerception(depth_perception),
 	m_dewarpingMode(dewarping_mode),
@@ -143,6 +197,17 @@ OutputImageParams::matches(OutputImageParams const& other) const
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.coo
 //begin of modified by monday2000
 //Picture_Shape
 	if (m_pictureShape != other.m_pictureShape) {
@@ -159,6 +224,25 @@ OutputImageParams::matches(OutputImageParams const& other) const
 		return false;
 	}
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
 
 	if (m_dewarpingMode != other.m_dewarpingMode) {
 		return false;

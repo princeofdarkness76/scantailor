@@ -205,6 +205,17 @@ public:
 	QRect contentBoundingBox(BWColor content_color = BLACK) const;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.coo
 //begin of modified by monday2000
 //Picture_Shape
 	void rectangularizeAreas(BWColor content_color = BLACK);
@@ -213,6 +224,19 @@ public:
 =======
 =======
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
 
 	void rectangularizeAreas(BWColor content_color = BLACK);
 	

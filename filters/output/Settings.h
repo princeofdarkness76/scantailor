@@ -64,6 +64,8 @@ public:
 
 	void setColorParams(PageId const& page_id, ColorParams const& prms);
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
@@ -75,6 +77,25 @@ public:
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> scantailor/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+>>>>>>> pod/filters.coo
 >>>>>>> scantailor/tiff
 	void setDpi(PageId const& page_id, Dpi const& dpi);
 

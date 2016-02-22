@@ -434,6 +434,33 @@ OrderByWidthProvider.cpp.s:
 	cd /Users/pod/scantailor && $(MAKE) -f filters/select_content/CMakeFiles/select_content.dir/build.make filters/select_content/CMakeFiles/select_content.dir/OrderByWidthProvider.cpp.s
 .PHONY : OrderByWidthProvider.cpp.s
 
+PageFinder.o: PageFinder.cpp.o
+
+.PHONY : PageFinder.o
+
+# target to build an object file
+PageFinder.cpp.o:
+	cd /Users/pod/scantailor && $(MAKE) -f filters/select_content/CMakeFiles/select_content.dir/build.make filters/select_content/CMakeFiles/select_content.dir/PageFinder.cpp.o
+.PHONY : PageFinder.cpp.o
+
+PageFinder.i: PageFinder.cpp.i
+
+.PHONY : PageFinder.i
+
+# target to preprocess a source file
+PageFinder.cpp.i:
+	cd /Users/pod/scantailor && $(MAKE) -f filters/select_content/CMakeFiles/select_content.dir/build.make filters/select_content/CMakeFiles/select_content.dir/PageFinder.cpp.i
+.PHONY : PageFinder.cpp.i
+
+PageFinder.s: PageFinder.cpp.s
+
+.PHONY : PageFinder.s
+
+# target to generate assembly for a file
+PageFinder.cpp.s:
+	cd /Users/pod/scantailor && $(MAKE) -f filters/select_content/CMakeFiles/select_content.dir/build.make filters/select_content/CMakeFiles/select_content.dir/PageFinder.cpp.s
+.PHONY : PageFinder.cpp.s
+
 Params.o: Params.cpp.o
 
 .PHONY : Params.o
@@ -611,6 +638,9 @@ help:
 	@echo "... OrderByWidthProvider.o"
 	@echo "... OrderByWidthProvider.i"
 	@echo "... OrderByWidthProvider.s"
+	@echo "... PageFinder.o"
+	@echo "... PageFinder.i"
+	@echo "... PageFinder.s"
 	@echo "... Params.o"
 	@echo "... Params.i"
 	@echo "... Params.s"

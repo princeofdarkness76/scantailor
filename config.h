@@ -4,7 +4,7 @@
 #define SCANTAILOR_CONFIG_H_
 
 #define TRANSLATIONS_DIR_REL "share/scantailor/translations"
-#define TRANSLATIONS_DIR_ABS "/usr/local/share/scantailor/translations"
+#define TRANSLATIONS_DIR_ABS "/usr/local/Cellar/scantailor/0.9.11/share/scantailor/translations"
 
 /* #undef ENABLE_CRASH_REPORTER */
 /* #undef ENABLE_OPENGL */
