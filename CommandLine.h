@@ -91,10 +91,14 @@ public:
 	bool hasColorMode() const { return contains("color-mode"); }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	bool hasPictureShape() const { return contains("picture-shape") && !m_options["picture-shape"].isEmpty(); }
 //end of modified by monday2000
+=======
+	bool hasPictureShape() const { return contains("picture-shape"); }
+>>>>>>> scantailor/tiff
 =======
 	bool hasPictureShape() const { return contains("picture-shape"); }
 >>>>>>> scantailor/tiff
@@ -115,10 +119,14 @@ public:
 	output::ColorParams::ColorMode getColorMode() const { return m_colorMode; }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	output::PictureShape getPictureShape() const { return m_pictureShape; }
 //end of modified by monday2000
+=======
+	output::PictureShape getPictureShape() const { return m_pictureShape; }
+>>>>>>> scantailor/tiff
 =======
 	output::PictureShape getPictureShape() const { return m_pictureShape; }
 >>>>>>> scantailor/tiff
@@ -172,10 +180,14 @@ private:
 	output::ColorParams::ColorMode m_colorMode;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	output::PictureShape m_pictureShape;
 //end of modified by monday2000
+=======
+	output::PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
 =======
 	output::PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
@@ -208,10 +220,14 @@ private:
 	output::ColorParams::ColorMode fetchColorMode();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape	
 	output::PictureShape fetchPictureShape();
 //end of modified by monday2000
+=======
+	output::PictureShape fetchPictureShape();
+>>>>>>> scantailor/tiff
 =======
 	output::PictureShape fetchPictureShape();
 >>>>>>> scantailor/tiff

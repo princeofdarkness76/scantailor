@@ -89,11 +89,15 @@ CacheDrivenTask::process(
 				params.dewarpingMode(), params.distortionModel(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				params.depthPerception(), params.despeckleLevel()
 //begin of modified by monday2000
 //Picture_Shape
                 , params.pictureShape()
 //end of modified by monday2000
+=======
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> scantailor/tiff
 =======
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff

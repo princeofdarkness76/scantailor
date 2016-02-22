@@ -34,10 +34,14 @@ Params::Params()
 	m_despeckleLevel(DESPECKLE_CAUTIOUS),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	m_pictureShape(FREE_SHAPE)
 //end of modified by monday2000
+=======
+	m_pictureShape(FREE_SHAPE)
+>>>>>>> scantailor/tiff
 =======
 	m_pictureShape(FREE_SHAPE)
 >>>>>>> scantailor/tiff
@@ -54,12 +58,17 @@ Params::Params(QDomElement const& el)
 	m_dewarpingMode(el.attribute("dewarpingMode")),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	//m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel")))
 	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
 	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
 //end of modified by monday2000
+=======
+	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
+	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
+>>>>>>> scantailor/tiff
 =======
 	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
 	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
@@ -90,10 +99,14 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 	el.appendChild(m_distortionModel.toXml(doc, "distortion-model"));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	el.setAttribute("pictureShape", (int)m_pictureShape);
 //end of modified by monday2000
+=======
+	el.setAttribute("pictureShape", (int)m_pictureShape);
+>>>>>>> scantailor/tiff
 =======
 	el.setAttribute("pictureShape", (int)m_pictureShape);
 >>>>>>> scantailor/tiff

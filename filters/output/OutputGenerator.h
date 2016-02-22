@@ -133,6 +133,7 @@ public:
 		imageproc::BinaryImage* speckles_image = 0,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -141,6 +142,9 @@ public:
 		, PageId* p_pageId = NULL, IntrusivePtr<Settings>* p_settings = NULL
 		) const;
 //end of modified by monday2000
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> scantailor/tiff
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
@@ -174,6 +178,7 @@ private:
 		imageproc::BinaryImage* speckles_image = 0,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -183,6 +188,9 @@ private:
 		, PageId* p_pageId = NULL, IntrusivePtr<Settings>* p_settings = NULL
 		) const;
 //end of modified by monday2000
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> scantailor/tiff
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
@@ -210,6 +218,7 @@ private:
 		imageproc::BinaryImage* speckles_image = 0,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -218,6 +227,9 @@ private:
 		, PageId* p_pageId = NULL, IntrusivePtr<Settings>* p_settings = NULL
 		) const;
 //end of modified by monday2000
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> scantailor/tiff
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
@@ -243,6 +255,7 @@ private:
 		imageproc::BinaryImage* speckles_image = 0,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -264,6 +277,9 @@ private:
 	void movePointToBottomMargin(BinaryImage& bw_image, std::vector<QPointF>& polyline, int idx) const;
 	float vert_border_skew_angle(QPointF const& top, QPointF const& bottom) const;
 //end of modified by monday2000
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> scantailor/tiff
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff

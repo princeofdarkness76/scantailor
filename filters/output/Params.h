@@ -33,12 +33,16 @@ namespace output
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE, 
 //Quadro_Zoner		
 		QUADRO_SHAPE };
 //end of modified by monday2000
+=======
+	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
+>>>>>>> scantailor/tiff
 =======
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
 >>>>>>> scantailor/tiff
@@ -60,6 +64,7 @@ public:
 	ColorParams const& colorParams() const { return m_colorParams; }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	PictureShape pictureShape() const { return m_pictureShape; }
@@ -68,11 +73,16 @@ public:
 =======
 =======
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
 
 	PictureShape pictureShape() const { return m_pictureShape; }
 	void setPictureShape(PictureShape ps) { m_pictureShape = ps; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
@@ -105,8 +115,12 @@ private:
 	ColorParams m_colorParams;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	Dpi m_dpi;
+=======
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
 =======
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff

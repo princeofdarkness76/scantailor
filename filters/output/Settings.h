@@ -64,6 +64,7 @@ public:
 
 	void setColorParams(PageId const& page_id, ColorParams const& prms);
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
@@ -75,6 +76,11 @@ public:
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
+>>>>>>> scantailor/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
 >>>>>>> scantailor/tiff
 	void setDpi(PageId const& page_id, Dpi const& dpi);
 

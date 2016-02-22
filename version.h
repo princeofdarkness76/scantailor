@@ -21,6 +21,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Export_Subscans
 //#define VERSION "0.9.11"
@@ -28,6 +29,10 @@
 #define VERSION "2013.05.31"
 #define VERSION_QUAD
 //end of modified by monday2000
+=======
+#define VERSION __DATE__
+#define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
+>>>>>>> scantailor/tiff
 =======
 #define VERSION __DATE__
 #define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.

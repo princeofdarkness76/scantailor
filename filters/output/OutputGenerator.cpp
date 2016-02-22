@@ -310,6 +310,7 @@ OutputGenerator::process(
 	imageproc::BinaryImage* speckles_image,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* const dbg) const
@@ -326,11 +327,15 @@ OutputGenerator::process(
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 {
 	QImage image(
 		processImpl(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 //begin of modified by monday2000
@@ -348,6 +353,9 @@ OutputGenerator::process(
 			, p_pageId,
 			p_settings
 //end of modified by monday2000
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
@@ -548,6 +556,7 @@ OutputGenerator::processImpl(
 	imageproc::BinaryImage* speckles_image,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* const dbg) const
@@ -558,6 +567,9 @@ OutputGenerator::processImpl(
 	IntrusivePtr<Settings>* p_settings
 	) const
 //end of modified by monday2000
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
@@ -610,6 +622,7 @@ OutputGenerator::processImpl(
 			dewarping_mode, distortion_model, depth_perception,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
 //added:			
@@ -630,6 +643,9 @@ OutputGenerator::processImpl(
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
 		);
 	} else if (!render_params.whiteMargins()) {
 		return processAsIs(
@@ -638,6 +654,7 @@ OutputGenerator::processImpl(
 	} else {
 		return processWithoutDewarping(
 			status, input, picture_zones, fill_zones,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 //begin of modified by monday2000
@@ -653,6 +670,9 @@ OutputGenerator::processImpl(
 			, p_pageId,
 			p_settings
 //end of modified by monday2000
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
@@ -729,6 +749,7 @@ OutputGenerator::processWithoutDewarping(
 	imageproc::BinaryImage* speckles_image,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* dbg) const
@@ -739,6 +760,9 @@ OutputGenerator::processWithoutDewarping(
 	IntrusivePtr<Settings>* p_settings
 	) const
 //end of modified by monday2000
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
@@ -899,6 +923,7 @@ OutputGenerator::processWithoutDewarping(
 		);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 //Quadro_Zoner
@@ -948,11 +973,16 @@ OutputGenerator::processWithoutDewarping(
 =======
 =======
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
 
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			bw_mask.rectangularizeAreas(WHITE);
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
@@ -1117,6 +1147,7 @@ OutputGenerator::processWithDewarping(
 	imageproc::BinaryImage* speckles_image,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* dbg) const
@@ -1127,6 +1158,9 @@ OutputGenerator::processWithDewarping(
 	IntrusivePtr<Settings>* p_settings
 	) const
 //end of modified by monday2000
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
@@ -1304,6 +1338,7 @@ OutputGenerator::processWithDewarping(
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 //Quadro_Zoner
@@ -1350,6 +1385,11 @@ OutputGenerator::processWithDewarping(
 			(*p_settings)->setPictureZones(*p_pageId, picture_zones);
 		}
 //end of modified by monday2000
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> scantailor/tiff
 =======
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			warped_bw_mask.rectangularizeAreas(WHITE);

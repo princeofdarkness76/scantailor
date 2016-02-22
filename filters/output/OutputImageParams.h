@@ -54,12 +54,16 @@ public:
 		dewarping::DistortionModel const& distortion_model,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 		//DepthPerception const& depth_perception, DespeckleLevel despeckle_level);
 		DepthPerception const& depth_perception, DespeckleLevel despeckle_level,
 		PictureShape picture_shape);
 //end of modified by monday2000
+=======
+		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
+>>>>>>> scantailor/tiff
 =======
 		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
 >>>>>>> scantailor/tiff
@@ -137,11 +141,16 @@ private:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	/** Shape of the pictures in image */
 	PictureShape m_pictureShape;
 //end of modified by monday2000
+=======
+	/** Shape of the pictures in image */
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
 =======
 	/** Shape of the pictures in image */
 	PictureShape m_pictureShape;
