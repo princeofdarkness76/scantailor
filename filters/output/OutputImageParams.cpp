@@ -39,8 +39,11 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,7 +51,12 @@ OutputImageParams::OutputImageParams(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	//DespeckleLevel const despeckle_level)
@@ -64,7 +72,10 @@ OutputImageParams::OutputImageParams(
 	PictureShape const picture_shape)
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -76,10 +87,14 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	DespeckleLevel const despeckle_level,
 	PictureShape const picture_shape)
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 :	m_size(out_image_size),
 	m_contentRect(content_rect),
 	m_dpi(dpi),
@@ -87,8 +102,11 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,7 +114,12 @@ OutputImageParams::OutputImageParams(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	m_pictureShape(picture_shape),
@@ -108,7 +131,10 @@ OutputImageParams::OutputImageParams(
 	m_pictureShape(picture_shape),
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -119,9 +145,13 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	m_pictureShape(picture_shape),
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 	m_distortionModel(distortion_model),
 	m_depthPerception(depth_perception),
 	m_dewarpingMode(dewarping_mode),
@@ -198,8 +228,11 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,7 +240,12 @@ OutputImageParams::matches(OutputImageParams const& other) const
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	if (m_pictureShape != other.m_pictureShape) {
@@ -225,7 +263,10 @@ OutputImageParams::matches(OutputImageParams const& other) const
 	}
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -238,11 +279,15 @@ OutputImageParams::matches(OutputImageParams const& other) const
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	if (m_pictureShape != other.m_pictureShape) {
 		return false;
 	}
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 
 	if (m_dewarpingMode != other.m_dewarpingMode) {
 		return false;

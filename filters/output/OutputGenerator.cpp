@@ -311,8 +311,11 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,7 +323,12 @@ OutputGenerator::process(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* const dbg) const
@@ -338,7 +346,10 @@ OutputGenerator::process(
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -349,9 +360,13 @@ OutputGenerator::process(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 {
 	QImage image(
 		processImpl(
@@ -360,8 +375,11 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,7 +387,12 @@ OutputGenerator::process(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
 //Original_Foreground_Mixed
@@ -392,7 +415,10 @@ OutputGenerator::process(
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -403,9 +429,13 @@ OutputGenerator::process(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 		)
 	);
 	assert(!image.isNull());
@@ -601,8 +631,11 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,7 +643,12 @@ OutputGenerator::processImpl(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* const dbg) const
@@ -628,7 +666,10 @@ OutputGenerator::processImpl(
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -639,9 +680,13 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 {
 	RenderParams const render_params(m_colorParams);
 
@@ -689,8 +734,11 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -698,7 +746,12 @@ OutputGenerator::processImpl(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
 //added:			
@@ -720,7 +773,10 @@ OutputGenerator::processImpl(
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -731,9 +787,13 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 		);
 	} else if (!render_params.whiteMargins()) {
 		return processAsIs(
@@ -745,8 +805,11 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -754,7 +817,12 @@ OutputGenerator::processImpl(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
 //added:			
@@ -775,7 +843,10 @@ OutputGenerator::processImpl(
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -786,9 +857,13 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 		);
 	}
 }
@@ -860,8 +935,11 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -869,7 +947,12 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* dbg) const
@@ -887,7 +970,10 @@ OutputGenerator::processWithoutDewarping(
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -898,9 +984,13 @@ OutputGenerator::processWithoutDewarping(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 {
 	RenderParams const render_params(m_colorParams);
 	
@@ -1056,8 +1146,11 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1065,7 +1158,12 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 //Quadro_Zoner
@@ -1116,7 +1214,10 @@ OutputGenerator::processWithoutDewarping(
 =======
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1126,16 +1227,23 @@ OutputGenerator::processWithoutDewarping(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			bw_mask.rectangularizeAreas(WHITE);
 		}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1145,9 +1253,14 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
@@ -1313,8 +1426,11 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1322,7 +1438,12 @@ OutputGenerator::processWithDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* dbg) const
@@ -1340,7 +1461,10 @@ OutputGenerator::processWithDewarping(
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1351,9 +1475,13 @@ OutputGenerator::processWithDewarping(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 {
 	QSize const target_size(m_outRect.size().expandedTo(QSize(1, 1)));
 	if (m_outRect.isEmpty()) {
@@ -1526,8 +1654,11 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1535,7 +1666,12 @@ OutputGenerator::processWithDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 //Quadro_Zoner
@@ -1593,7 +1729,10 @@ OutputGenerator::processWithDewarping(
 		}
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1606,11 +1745,15 @@ OutputGenerator::processWithDewarping(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			warped_bw_mask.rectangularizeAreas(WHITE);
 		}
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 
 		status.throwIfCancelled();
 

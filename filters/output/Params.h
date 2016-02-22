@@ -34,8 +34,11 @@ namespace output
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43,7 +46,12 @@ namespace output
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE, 
@@ -57,7 +65,10 @@ namespace output
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -68,9 +79,13 @@ namespace output
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 
 class Params
 {
@@ -87,8 +102,11 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,7 +114,12 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	PictureShape pictureShape() const { return m_pictureShape; }
@@ -106,7 +129,10 @@ public:
 =======
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -116,16 +142,23 @@ public:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 
 	PictureShape pictureShape() const { return m_pictureShape; }
 	void setPictureShape(PictureShape ps) { m_pictureShape = ps; }
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,9 +168,14 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
@@ -171,8 +209,11 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,7 +221,12 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 
 	Dpi m_dpi;
 =======
@@ -190,7 +236,10 @@ private:
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -201,9 +250,13 @@ private:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 	dewarping::DistortionModel m_distortionModel;
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;

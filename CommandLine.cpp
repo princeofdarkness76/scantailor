@@ -227,8 +227,11 @@ CommandLine::setup()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,7 +239,12 @@ CommandLine::setup()
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	m_pictureShape = fetchPictureShape();
@@ -248,7 +256,10 @@ CommandLine::setup()
 	m_pictureShape = fetchPictureShape();
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -259,9 +270,13 @@ CommandLine::setup()
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	m_pictureShape = fetchPictureShape();
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 	m_dpi = fetchDpi();
 	m_outputDpi = fetchDpi("output-dpi");
 	m_margins = fetchMargins();
@@ -348,8 +363,11 @@ CommandLine::printHelp()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,7 +375,12 @@ CommandLine::printHelp()
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << std::endl;
@@ -369,7 +392,10 @@ CommandLine::printHelp()
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -380,9 +406,13 @@ CommandLine::printHelp()
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 	std::cout << "\t--white-margins\t\t\t\t-- default: false" << "\n";
 	std::cout << "\t--normalize-illumination\t\t-- default: false" << "\n";
 	std::cout << "\t--threshold=<n>\t\t\t\t-- n<0 thinner, n>0 thicker; default: 0" << "\n";
@@ -504,7 +534,10 @@ CommandLine::fetchPictureShape()
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 output::PictureShape
@@ -520,11 +553,15 @@ CommandLine::fetchPictureShape()
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 =======
 >>>>>>> master
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 output::PictureShape
 CommandLine::fetchPictureShape()
 {
@@ -539,6 +576,9 @@ CommandLine::fetchPictureShape()
 
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 Margins
 CommandLine::fetchMargins()
 {

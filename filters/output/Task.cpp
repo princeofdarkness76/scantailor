@@ -204,8 +204,11 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,7 +216,12 @@ Task::process(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 		params.depthPerception(), params.despeckleLevel() 
@@ -226,7 +234,10 @@ Task::process(
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -237,9 +248,13 @@ Task::process(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 	);
 
 //begin of modified by monday2000
@@ -425,8 +440,11 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -434,7 +452,12 @@ Task::process(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 			m_ptrDbg.get()
 //begin of modified by monday2000
 //Picture_Shape
@@ -449,7 +472,10 @@ Task::process(
 			m_ptrDbg.get(), params.pictureShape()
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -460,9 +486,13 @@ Task::process(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 			m_ptrDbg.get(), params.pictureShape()
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 		);
 
 		if ((params.dewarpingMode() == DewarpingMode::AUTO && distortion_model.isValid())

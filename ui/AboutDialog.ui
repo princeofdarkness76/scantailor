@@ -66,8 +66,11 @@ font-weight: bold;</string>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,7 +78,12 @@ font-weight: bold;</string>
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
           <string notr="true">Scan Tailor Featured</string>
 =======
           <string notr="true">Scan Tailor "Enhanced"</string>
@@ -84,7 +92,10 @@ font-weight: bold;</string>
           <string notr="true">Scan Tailor "Enhanced"</string>
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -95,9 +106,13 @@ font-weight: bold;</string>
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
           <string notr="true">Scan Tailor "Enhanced"</string>
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
          </property>
          <property name="alignment">
           <set>Qt::AlignBottom|Qt::AlignHCenter</set>

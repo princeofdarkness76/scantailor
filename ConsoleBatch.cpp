@@ -435,8 +435,11 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -444,7 +447,12 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 
@@ -463,7 +471,10 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 		}
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -476,11 +487,15 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 		if (cli.hasPictureShape()) {
 			params.setPictureShape(cli.getPictureShape());
 		}
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 
 		output::ColorParams colorParams = params.colorParams();
 		if (cli.hasColorMode())

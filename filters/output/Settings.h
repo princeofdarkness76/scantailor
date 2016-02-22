@@ -66,6 +66,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 //begin of modified by monday2000
 //Picture_Shape
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
@@ -78,7 +81,10 @@ public:
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
@@ -90,12 +96,17 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
 
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> scantailor/tiff
 	void setDpi(PageId const& page_id, Dpi const& dpi);
 

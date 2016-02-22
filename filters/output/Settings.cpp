@@ -188,7 +188,10 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 
 void
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
@@ -211,10 +214,14 @@ void
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 
 void
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 Settings::setDpi(PageId const& page_id, Dpi const& dpi)
 {
 	QMutexLocker const locker(&m_mutex);

@@ -9,8 +9,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,7 +21,12 @@
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
     <width>228</width>
     <height>735</height>
 =======
@@ -30,7 +38,10 @@
     <height>789</height>
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -42,10 +53,14 @@
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
     <width>269</width>
     <height>789</height>
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
    </rect>
   </property>
   <property name="windowTitle">
@@ -358,8 +373,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,7 +385,12 @@
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
         <layout class="QVBoxLayout" name="verticalLayout_10">
          <property name="spacing">
           <number>3</number>
@@ -385,7 +408,10 @@
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -396,9 +422,13 @@
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_14">
            <item>
@@ -418,8 +448,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -427,7 +460,12 @@
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
             <widget class="QLabel" name="labePictureShape">
 =======
             <widget class="QLabel" name="label">
@@ -436,7 +474,10 @@
             <widget class="QLabel" name="label">
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -447,9 +488,13 @@
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
             <widget class="QLabel" name="label">
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
              <property name="text">
               <string>Picture Shape</string>
              </property>
@@ -880,14 +925,23 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
 =======
 =======
 >>>>>>> scantailor/tiff
@@ -898,14 +952,23 @@
 =======
 >>>>>>> scantailor/tiff
 >>>>>>> master
+>>>>>>> pod/filters.cpp
 =======
 =======
 =======
 >>>>>>> scantailor/tiff
 >>>>>>> master
+=======
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+<<<<<<< HEAD
 =======
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
+=======
+>>>>>>> pod/filters.cpp
     <widget class="QWidget" name="pictureShapeOptions_2" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_10">
       <item>
@@ -984,8 +1047,11 @@
    <item>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -995,9 +1061,14 @@
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
