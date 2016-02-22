@@ -202,11 +202,15 @@ Task::process(
 		new_xform, params.outputDpi(), params.colorParams(),
 		params.dewarpingMode(), params.distortionModel(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 		params.depthPerception(), params.despeckleLevel() 
 		, params.pictureShape()
 //end of modified by monday2000
+=======
+		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> scantailor/tiff
 =======
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
@@ -393,6 +397,7 @@ Task::process(
 			write_automask ? &automask_img : 0,
 			write_speckles_file ? &speckles_img : 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
 			m_ptrDbg.get()
 //begin of modified by monday2000
 //Picture_Shape
@@ -400,6 +405,9 @@ Task::process(
 //Quadro_Zoner
             , &m_pageId, &m_ptrSettings
 //end of modified by monday2000
+=======
+			m_ptrDbg.get(), params.pictureShape()
+>>>>>>> scantailor/tiff
 =======
 			m_ptrDbg.get(), params.pictureShape()
 >>>>>>> scantailor/tiff

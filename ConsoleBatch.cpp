@@ -433,6 +433,7 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 
@@ -440,6 +441,11 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 			params.setPictureShape(cli.getPictureShape());
 		}
 //end of modified by monday2000
+=======
+		if (cli.hasPictureShape()) {
+			params.setPictureShape(cli.getPictureShape());
+		}
+>>>>>>> scantailor/tiff
 =======
 		if (cli.hasPictureShape()) {
 			params.setPictureShape(cli.getPictureShape());

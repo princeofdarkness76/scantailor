@@ -64,7 +64,11 @@ font-weight: bold;</string>
          </property>
          <property name="text">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <string notr="true">Scan Tailor Featured</string>
+=======
+          <string notr="true">Scan Tailor "Enhanced"</string>
+>>>>>>> scantailor/tiff
 =======
           <string notr="true">Scan Tailor "Enhanced"</string>
 >>>>>>> scantailor/tiff
