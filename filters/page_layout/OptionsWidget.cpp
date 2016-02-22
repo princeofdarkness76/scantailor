@@ -126,6 +126,14 @@ OptionsWidget::OptionsWidget(
 		this, SLOT(horMarginsChanged(double))
 	);
 	connect(
+		autoMargins, SIGNAL(toggled(bool)),
+		this, SLOT(autoMarginsChanged(bool))
+	);
+	connect(
+		alignmentMode, SIGNAL(currentIndexChanged(int)),
+		this, SLOT(alignmentModeChanged(int))
+	);
+	connect(
 		topBottomLink, SIGNAL(clicked()),
 		this, SLOT(topBottomLinkClicked())
 	);
@@ -166,7 +174,10 @@ OptionsWidget::preUpdateUI(
 	m_pageId = page_id;
 	m_marginsMM = margins_mm;
 	m_alignment = alignment;
-	
+
+	bool old_ignore = m_ignoreMarginChanges;
+	m_ignoreMarginChanges = true;
+
 	typedef AlignmentByButton::value_type KeyVal;
 	BOOST_FOREACH (KeyVal const& kv, m_alignmentByButton) {
 		if (kv.second == m_alignment) {
@@ -179,7 +190,17 @@ OptionsWidget::preUpdateUI(
 	alignWithOthersCB->blockSignals(true);
 	alignWithOthersCB->setChecked(!alignment.isNull());
 	alignWithOthersCB->blockSignals(false);
+
+	alignmentMode->blockSignals(true);
+	if (alignment.vertical() == Alignment::VAUTO)
+		alignmentMode->setCurrentIndex(0);
+	else if (alignment.vertical() == Alignment::VORIGINAL)
+		alignmentMode->setCurrentIndex(2);
+	else
+		alignmentMode->setCurrentIndex(1);
+	alignmentMode->blockSignals(false);
 	
+	autoMargins->setChecked(m_alignment.isAutoMarginsEnabled());
 	enableDisableAlignmentButtons();
 	
 	m_leftRightLinked = m_leftRightLinked && (margins_mm.left() == margins_mm.right());
@@ -189,6 +210,8 @@ OptionsWidget::preUpdateUI(
 	
 	marginsGroup->setEnabled(false);
 	alignmentGroup->setEnabled(false);
+
+	m_ignoreMarginChanges = old_ignore;
 }
 
 void
@@ -299,6 +322,49 @@ OptionsWidget::alignWithOthersToggled()
 	emit alignmentChanged(m_alignment);
 }
 
+
+void
+OptionsWidget::autoMarginsChanged(bool checked)
+{
+	if (m_ignoreMarginChanges) {
+		return;
+	}
+
+	alignmentMode->setEnabled(!checked);
+	alignmentMode->setCurrentIndex(2);
+	enableDisableAlignmentButtons();
+	m_alignment.setAutoMargins(checked);
+	m_alignment.setVertical(Alignment::VORIGINAL);
+	m_alignment.setHorizontal(Alignment::HORIGINAL);
+	m_ptrSettings->setPageAlignment(m_pageId, m_alignment);
+	m_ptrSettings->updateContentRect();
+	emit reloadRequested();
+}
+
+void
+OptionsWidget::alignmentModeChanged(int idx)
+{
+	switch (idx) {
+		case 0:
+			m_alignment.setVertical(Alignment::VAUTO);
+			m_alignment.setHorizontal(Alignment::HCENTER);
+			break;
+		case 1:
+			m_alignment.setVertical(Alignment::TOP);
+			m_alignment.setHorizontal(Alignment::HCENTER);
+			break;
+		case 2:
+			m_alignment.setVertical(Alignment::VORIGINAL);
+			m_alignment.setHorizontal(Alignment::HCENTER);
+			break;
+	}
+
+	m_ptrSettings->updateContentRect();
+	enableDisableAlignmentButtons();
+	emit alignmentChanged(m_alignment);
+}
+
+
 void
 OptionsWidget::alignmentButtonClicked()
 {
@@ -391,7 +457,7 @@ OptionsWidget::updateLinkDisplay(QToolButton* button, bool const linked)
 void
 OptionsWidget::enableDisableAlignmentButtons()
 {
-	bool const enabled = alignWithOthersCB->isChecked();
+	bool const enabled = alignWithOthersCB->isChecked() && (alignmentMode->currentIndex() == 1);
 	
 	alignTopLeftBtn->setEnabled(enabled);
 	alignTopBtn->setEnabled(enabled);

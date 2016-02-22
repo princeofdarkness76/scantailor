@@ -98,6 +98,11 @@ Thumbnail::paintOverImage(
 	// For some reason, if we let Qt round the coordinates,
 	// the result is slightly different.
 	painter.drawRect(inner_rect.toRect());
+
+	if (m_params.isDeviant()) {
+		paintDeviant(painter);
+	}
 }
+
 
 } // namespace page_layout

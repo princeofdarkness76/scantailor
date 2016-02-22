@@ -23,24 +23,28 @@ class QDomDocument;
 class QDomElement;
 class QString;
 
+#include <iostream>
+
 namespace page_layout
 {
+
+const double DEFAULT_TOLERANCE=0.2;
 
 class Alignment
 {
 public:
-	enum Vertical { TOP, VCENTER, BOTTOM };
+	enum Vertical { TOP, VCENTER, BOTTOM, VAUTO, VORIGINAL };
 	
-	enum Horizontal { LEFT, HCENTER, RIGHT };
+	enum Horizontal { LEFT, HCENTER, RIGHT, HAUTO, HORIGINAL };
 	
 	/**
 	 * \brief Constructs a null alignment.
 	 */
 	Alignment()
-	: m_vert(VCENTER), m_hor(HCENTER), m_isNull(true) {}
+	: m_vert(VCENTER), m_hor(HCENTER), m_isNull(true), m_tolerance(DEFAULT_TOLERANCE), m_autoMargins(false) {}
 	
 	Alignment(Vertical vert, Horizontal hor)
-	: m_vert(vert), m_hor(hor), m_isNull(false) {}
+	: m_vert(vert), m_hor(hor), m_isNull(false), m_tolerance(DEFAULT_TOLERANCE), m_autoMargins(false) {}
 	
 	Alignment(QDomElement const& el);
 	
@@ -55,10 +59,16 @@ public:
 	bool isNull() const { return m_isNull; }
 	
 	void setNull(bool is_null) { m_isNull = is_null; }
+
+	double tolerance() const { return m_tolerance; };
+	void setTolerance(double t) { m_tolerance = t; };
+
+	bool isAutoMarginsEnabled() const { return m_autoMargins; };
+	void setAutoMargins(bool state) { m_autoMargins = state; };
 	
 	bool operator==(Alignment const& other) const {
 		return m_vert == other.m_vert && m_hor == other.m_hor
-				&& m_isNull == other.m_isNull;
+				&& m_isNull == other.m_isNull && m_autoMargins == other.m_autoMargins;
 	}
 	
 	bool operator!=(Alignment const& other) const {
@@ -70,6 +80,8 @@ private:
 	Vertical m_vert;
 	Horizontal m_hor;
 	bool m_isNull;
+	double m_tolerance;
+	bool m_autoMargins;
 };
 
 } // namespace page_layout

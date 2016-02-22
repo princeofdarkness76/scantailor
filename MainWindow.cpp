@@ -134,6 +134,8 @@
 #include <math.h>
 #include <assert.h>
 
+#include <iostream>
+
 class MainWindow::PageSelectionProviderImpl : public PageSelectionProvider
 {
 public:
@@ -1034,7 +1036,7 @@ MainWindow::currentPageChanged(
 			thumbView->ensureVisible(thumb_rect, 0, 0);
 		}
 	}
-	
+
 	if (flags & ThumbnailSequence::SELECTED_BY_USER) {
 		if (isBatchProcessingInProgress()) {
 			stopBatchProcessing();
@@ -1323,6 +1325,9 @@ MainWindow::stopBatchProcessing(MainAreaAction main_area)
 			removeImageWidget();
 			break;
 	}
+
+	m_ptrStages->filterAt(m_curFilter)->updateStatistics();
+	resetThumbSequence(currentPageOrderProvider());
 }
 
 void
@@ -2073,7 +2078,7 @@ MainWindow::showAboutDialog()
 	Ui::AboutDialog ui;
 	QDialog* dialog = new QDialog(this);
 	ui.setupUi(dialog);
-	ui.version->setText(QString::fromUtf8(VERSION));
+	ui.version->setText(QString("build from") + QString::fromUtf8(VERSION));
 
 	QResource license(":/GPLv3.html");
 	ui.licenseViewer->setHtml(QString::fromUtf8((char const*)license.data(), license.size()));
@@ -2266,10 +2271,14 @@ MainWindow::updateWindowTitle()
 		project_name = QFileInfo(m_projectFile).baseName();
 	}
 	QString const version(QString::fromUtf8(VERSION));
+<<<<<<< HEAD
 //begin of modified by monday2000
 	//setWindowTitle(tr("%2 - Scan Tailor %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
 	setWindowTitle(tr("%2 - Scan Tailor Featured %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));	
 //end of modified by monday2000
+=======
+	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
+>>>>>>> scantailor/tiff
 }
 
 /**

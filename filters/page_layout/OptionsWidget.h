@@ -81,13 +81,17 @@ private slots:
 	void horMarginsChanged(double val);
 	
 	void vertMarginsChanged(double val);
+
+	void autoMarginsChanged(bool checked);
 	
+	void alignmentModeChanged(int idx);
+
 	void topBottomLinkClicked();
 	
 	void leftRightLinkClicked();
 	
 	void alignWithOthersToggled();
-	
+
 	void alignmentButtonClicked();
 	
 	void showApplyMarginsDialog();

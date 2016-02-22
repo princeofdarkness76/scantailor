@@ -22,6 +22,8 @@
 #include "Dependencies.h"
 #include "AutoManualMode.h"
 #include <QString>
+#include <cmath>
+#include <algorithm>
 
 class QDomDocument;
 class QDomElement;
@@ -42,6 +44,11 @@ public:
 	~Params();
 	
 	double deskewAngle() const { return m_deskewAngleDeg; }
+
+	double deviation() const { return m_deviation; }
+	void computeDeviation(double avg) { m_deviation = avg - m_deskewAngleDeg; }
+	// check if skew is too large
+	bool isDeviant(double std, double max_dev=1.0) const { return std::max(1.5*std, max_dev) < fabs(m_deviation); }
 	
 	Dependencies const& dependencies() const { return m_deps; }
 	
@@ -52,6 +59,7 @@ private:
 	double m_deskewAngleDeg;
 	Dependencies m_deps;
 	AutoManualMode m_mode;
+	double m_deviation;
 };
 
 } // namespace deskew
