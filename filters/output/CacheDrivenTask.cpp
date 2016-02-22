@@ -89,6 +89,19 @@ CacheDrivenTask::process(
 				params.dewarpingMode(), params.distortionModel(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 				params.depthPerception(), params.despeckleLevel()
 //begin of modified by monday2000
 //Picture_Shape
@@ -100,6 +113,21 @@ CacheDrivenTask::process(
 =======
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 			);
 
 			if (!stored_output_params->outputImageParams().matches(new_output_image_params)) {

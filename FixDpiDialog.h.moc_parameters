@@ -5,7 +5,7 @@
 -I/Users/pod/scantailor/zones
 -I/Library/Frameworks/Mono.framework/Headers
 -I/usr/local/include
--I/Library/Frameworks/Mono.framework/Headers
+-I/usr/X11/include
 -I/Library/Frameworks/Mono.framework/Headers
 -I/usr/local/include
 -I/opt/X11/include

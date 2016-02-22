@@ -8,6 +8,19 @@
     <y>0</y>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
     <width>228</width>
     <height>735</height>
 =======
@@ -18,6 +31,22 @@
     <width>269</width>
     <height>789</height>
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <width>269</width>
+    <height>789</height>
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
    </rect>
   </property>
   <property name="windowTitle">
@@ -329,6 +358,19 @@
        <widget class="QWidget" name="pictureShapeOptions" native="true">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
         <layout class="QVBoxLayout" name="verticalLayout_10">
          <property name="spacing">
           <number>3</number>
@@ -345,6 +387,21 @@
 =======
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_14">
            <item>
@@ -363,6 +420,19 @@
            <item>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
             <widget class="QLabel" name="labePictureShape">
 =======
             <widget class="QLabel" name="label">
@@ -370,6 +440,21 @@
 =======
             <widget class="QLabel" name="label">
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <widget class="QLabel" name="label">
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
              <property name="text">
               <string>Picture Shape</string>
              </property>
@@ -799,9 +884,36 @@
    <item>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
+=======
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+=======
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+=======
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+>>>>>>> pod/filters.cpp
     <widget class="QWidget" name="pictureShapeOptions_2" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_10">
       <item>
@@ -879,6 +991,21 @@
    </item>
    <item>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
