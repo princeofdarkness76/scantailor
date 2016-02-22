@@ -21,6 +21,7 @@
 #include <QPixmap>
 #include <QButtonGroup>
 #include <assert.h>
+#include <iostream>
 
 namespace page_split
 {
@@ -44,7 +45,10 @@ SplitModeDialog::SplitModeDialog(
 	m_pScopeGroup->addButton(thisPageRB);
 	m_pScopeGroup->addButton(allPagesRB);
 	m_pScopeGroup->addButton(thisPageAndFollowersRB);
+	m_pScopeGroup->addButton(thisEveryOtherRB);
+	m_pScopeGroup->addButton(everyOtherRB);
 	m_pScopeGroup->addButton(selectedPagesRB);
+	m_pScopeGroup->addButton(everyOtherSelectedRB);
 	if (m_selectedPages.size() <= 1) {
 		selectedPagesWidget->setEnabled(false);
 	}
@@ -92,17 +96,36 @@ SplitModeDialog::onSubmit()
 		pages.insert(m_curPage);
 	} else if (allPagesRB->isChecked()) {
 		m_pages.selectAll().swap(pages);
-		emit accepted(m_selectedPages, true, layout_type);
-		accept();
+		//emit accepted(m_selectedPages, true, layout_type, applyCutOption->isChecked());
+		//accept();
 	} else if (thisPageAndFollowersRB->isChecked()) {
 		m_pages.selectPagePlusFollowers(m_curPage).swap(pages);
 	} else if (selectedPagesRB->isChecked()) {
-		emit accepted(m_selectedPages, false, layout_type);
+		emit accepted(m_selectedPages, false, layout_type, applyCutOption->isChecked());
 		accept();
 		return;
+    } else if (everyOtherRB->isChecked()) {
+		m_pages.selectEveryOther(m_curPage).swap(pages);
+	} else if (thisEveryOtherRB->isChecked()) {
+		std::set<PageId> tmp;
+		m_pages.selectPagePlusFollowers(m_curPage).swap(tmp);
+		std::set<PageId>::iterator it = tmp.begin();
+		for (int i=0; it != tmp.end(); ++it, ++i) {
+			if (i % 2 == 0) {
+				pages.insert(*it);
+			}
+		}
+        
+	} else if (everyOtherSelectedRB->isChecked()) {
+		std::set<PageId>::iterator it = m_selectedPages.begin();
+		for (int i=0; it != m_selectedPages.end(); ++it, ++i) {
+			if (i % 2 == 0) {
+				pages.insert(*it);
+			}
+		}
 	}
-	
-	emit accepted(pages, false, layout_type);
+    
+	emit accepted(pages, false, layout_type, applyCutOption->isChecked());
 	
 	// We assume the default connection from accepted() to accept()
 	// was removed.

@@ -99,6 +99,7 @@ Task::process(TaskStatus const& status, FilterData const& data)
 
 	std::auto_ptr<Params> params(m_ptrSettings->getPageParams(m_pageId));
 	Params new_params(deps);
+<<<<<<< HEAD
 	if (params.get() && !params->dependencies().matches(deps) && (params->mode() == MODE_AUTO || params->isPageDetectionEnabled())) {
 		new_params.setMode(params->mode());
 		new_params.setPageDetect(params->isPageDetectionEnabled());
@@ -106,8 +107,33 @@ Task::process(TaskStatus const& status, FilterData const& data)
 		new_params.setContentDetect(params->isContentDetectionEnabled());
 	} else if (params.get()) {
 	    new_params = *params;
-	}
+=======
 
+	if (params.get())
+	{
+		/*
+		new_params.setPageDetect(params->isPageDetectionEnabled());
+		new_params.setFineTuneCorners(params->isFineTuningEnabled());
+		new_params.setPageBorders(params->pageBorders());
+		new_params.setContentDetect(params->isContentDetectionEnabled());
+		new_params.setMode(params->mode());
+		new_params.setContentRect(params->contentRect());
+		new_params.setPageRect(params->pageRect());
+*/
+		new_params = *params;
+		new_params.setDependencies(deps);
+		if (!params->dependencies().matches(deps)) {
+			goto create_new_content;
+		}
+>>>>>>> origin/enhanced
+	}
+	else
+	{
+create_new_content:
+		QRectF page_rect(data.xform().resultingRect());
+		QRectF content_rect(page_rect);
+
+<<<<<<< HEAD
 	QRectF page_rect(data.xform().resultingRect());
 	if (new_params.isPageDetectionEnabled()) {
 		page_rect = PageFinder::findPageBox(status, data, new_params.isFineTuningEnabled(), m_ptrDbg.get());
@@ -135,6 +161,82 @@ Task::process(TaskStatus const& status, FilterData const& data)
 	new_params.computeDeviation(m_ptrSettings->avg());
 	m_ptrSettings->setPageParams(m_pageId, new_params);
 
+=======
+		if (new_params.isPageDetectionEnabled()) {
+			//std::cout << "PageFinder" << std::endl;
+			page_rect = PageFinder::findPageBox(status, data, new_params.isFineTuningEnabled(), m_ptrSettings->pageDetectionBox(), m_ptrSettings->pageDetectionTolerance(), new_params.pageBorders(), m_ptrDbg.get());
+		}
+
+		if (new_params.isContentDetectionEnabled() && new_params.mode() == MODE_AUTO) {
+			//std::cout << "ContentBoxFinder" << std::endl;
+			content_rect = ContentBoxFinder::findContentBox(status, data, page_rect, m_ptrDbg.get());
+		} else if (new_params.isContentDetectionEnabled() && new_params.mode() == MODE_MANUAL && new_params.contentRect().isValid()) {
+			content_rect = new_params.contentRect();
+		} else {
+			content_rect = page_rect;
+		}
+
+		new_params.setPageRect(page_rect);
+		new_params.setContentRect(content_rect);
+	}
+
+	ui_data.setContentRect(new_params.contentRect());
+	ui_data.setPageRect(new_params.pageRect());
+	ui_data.setDependencies(deps);
+	ui_data.setMode(new_params.mode());
+	ui_data.setContentDetection(new_params.isContentDetectionEnabled());
+	ui_data.setPageDetection(new_params.isPageDetectionEnabled());
+	ui_data.setFineTuneCorners(new_params.isFineTuningEnabled());
+	ui_data.setPageBorders(new_params.pageBorders());
+
+	new_params.setContentSizeMM(ui_data.contentSizeMM());
+
+	new_params.computeDeviation(m_ptrSettings->avg());
+	m_ptrSettings->setPageParams(m_pageId, new_params);
+
+/*
+	if (params.get() && !params->dependencies().matches(deps) && (params->mode() == MODE_AUTO || params->isPageDetectionEnabled())) {
+		new_params.setMode(params->mode());
+		new_params.setPageDetect(params->isPageDetectionEnabled());
+		new_params.setFineTuneCorners(params->isFineTuningEnabled());
+		new_params.setContentDetect(params->isContentDetectionEnabled());
+        new_params.setPageBorders(params->pageBorders());
+	} else if (params.get()) {
+	    new_params = *params;
+	    new_params.setDependencies(deps);
+	}
+
+	QRectF page_rect(data.xform().resultingRect());
+	if (new_params.isPageDetectionEnabled()) {
+		std::cout << "PageFinder" << std::endl;
+		page_rect = PageFinder::findPageBox(status, data, new_params.isFineTuningEnabled(), m_ptrSettings->pageDetectionBox(), m_ptrSettings->pageDetectionTolerance(), new_params.pageBorders(), m_ptrDbg.get());
+	}
+	new_params.setPageRect(page_rect);
+
+	QRectF content_rect(page_rect);
+	if (new_params.isContentDetectionEnabled() && new_params.mode() == MODE_AUTO) {
+		content_rect = ContentBoxFinder::findContentBox(status, data, page_rect, m_ptrDbg.get());
+	} else if (params.get() && new_params.isContentDetectionEnabled() && new_params.mode() == MODE_MANUAL) {
+		std::cout << "params->contentRect()" << std::endl;
+		content_rect = params->contentRect();
+	}
+	new_params.setContentRect(content_rect);
+
+	ui_data.setContentRect(content_rect);
+	ui_data.setPageRect(page_rect);
+	ui_data.setDependencies(deps);
+	ui_data.setMode(new_params.mode());
+	ui_data.setContentDetection(new_params.isContentDetectionEnabled());
+	ui_data.setPageDetection(new_params.isPageDetectionEnabled());
+	ui_data.setFineTuneCorners(new_params.isFineTuningEnabled());
+    ui_data.setPageBorders(new_params.pageBorders());
+
+	new_params.setContentSizeMM(ui_data.contentSizeMM());
+
+	new_params.computeDeviation(m_ptrSettings->avg());
+	m_ptrSettings->setPageParams(m_pageId, new_params);
+*/
+>>>>>>> origin/enhanced
 	/*
 	if (params.get()) {
 		ui_data.setContentRect(params->contentRect());
@@ -180,7 +282,11 @@ Task::process(TaskStatus const& status, FilterData const& data)
 	if (m_ptrNextTask) {
 		return m_ptrNextTask->process(
 			status, FilterData(data, data.xform()),
+<<<<<<< HEAD
 			page_rect, ui_data.contentRect()
+=======
+			ui_data.pageRect(), ui_data.contentRect()
+>>>>>>> origin/enhanced
 		);
 	} else {
 		return FilterResultPtr(
@@ -216,15 +322,16 @@ Task::UiUpdater::updateUI(FilterUiInterface* ui)
 {
 	// This function is executed from the GUI thread.
 	
+	if (m_batchProcessing) {
+		ui->invalidateThumbnail(m_pageId);
+		return;
+	}
+	
 	OptionsWidget* const opt_widget = m_ptrFilter->optionsWidget();
 	opt_widget->postUpdateUI(m_uiData);
 	ui->setOptionsWidget(opt_widget, ui->KEEP_OWNERSHIP);
 	
 	ui->invalidateThumbnail(m_pageId);
-	
-	if (m_batchProcessing) {
-		return;
-	}
 	
 	ImageView* view = new ImageView(
 		m_image, m_downscaledImage,

@@ -568,6 +568,7 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -606,6 +607,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 
 >>>>>>> pod/tiff
+=======
+
+>>>>>>> origin/enhanced
 void
 BinaryImage::rectangularizeAreas(BWColor content_color)
 {
@@ -693,6 +697,7 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 	}
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -921,6 +926,8 @@ BinaryImage::getPixel(int x, int y)
 >>>>>>> pod/filters.cpp
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
 
 uint32_t*
 BinaryImage::data()

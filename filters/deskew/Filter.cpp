@@ -104,11 +104,22 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 {
 	m_ptrSettings->clear();
 	
+    CommandLine cli = CommandLine::get();
+    
 	QDomElement const filter_el(filters_el.namedItem("deskew").toElement());
 
     m_ptrSettings->setAvg(filter_el.attribute("average").toDouble());
     m_ptrSettings->setStd(filter_el.attribute("sigma").toDouble());
+<<<<<<< HEAD
     m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
+=======
+    
+    if (cli.hasSkewDeviation()) {
+        m_ptrSettings->setMaxDeviation(cli.getSkewDeviation());
+    } else {
+        m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", QString::number(cli.getSkewDeviation())).toDouble());
+    }
+>>>>>>> origin/enhanced
 
     QString const page_tag_name("page");
 	QDomNode node(filter_el.firstChild());

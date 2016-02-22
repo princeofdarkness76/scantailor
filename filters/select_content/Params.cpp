@@ -22,6 +22,8 @@
 #include <QDomDocument>
 #include <QDomElement>
 
+#include "CommandLine.h"
+
 namespace select_content
 {
 
@@ -30,9 +32,32 @@ Params::Params(
 	Dependencies const& deps, AutoManualMode const mode, bool contentDetect, bool pageDetect, bool fineTuning)
 :	m_contentRect(content_rect),
 	m_pageRect(content_rect),
+<<<<<<< HEAD
 	m_contentSizeMM(content_size_mm),
 	m_deps(deps),
 	m_mode(mode),
+=======
+    m_pageBorders(0,0,0,0),
+	m_contentSizeMM(content_size_mm),
+	m_deps(deps),
+	m_mode(mode),
+	m_deviation(0.0)
+{
+	m_contentDetect = CommandLine::get().isContentDetectionEnabled();
+	m_pageDetect = CommandLine::get().isPageDetectionEnabled();
+	m_fineTuneCorners = CommandLine::get().isFineTuningEnabled();
+}
+
+Params::Params(
+	QRectF const& content_rect, QSizeF const& content_size_mm,
+	Dependencies const& deps, AutoManualMode const mode, bool contentDetect, bool pageDetect, bool fineTuning)
+:	m_contentRect(content_rect),
+	m_pageRect(content_rect),
+    m_pageBorders(0,0,0,0),
+	m_contentSizeMM(content_size_mm),
+	m_deps(deps),
+	m_mode(mode),
+>>>>>>> origin/enhanced
 	m_contentDetect(contentDetect),
 	m_pageDetect(pageDetect),
 	m_fineTuneCorners(fineTuning),
@@ -43,11 +68,18 @@ Params::Params(
 Params::Params(Dependencies const& deps)
 :	m_deps(deps),
 	m_mode(MODE_AUTO),
+<<<<<<< HEAD
 	m_contentDetect(true),
 	m_pageDetect(false),
 	m_fineTuneCorners(false),
+=======
+    m_pageBorders(0,0,0,0),
+>>>>>>> origin/enhanced
 	m_deviation(0.0)
 {
+	m_contentDetect = CommandLine::get().isContentDetectionEnabled();
+	m_pageDetect = CommandLine::get().isPageDetectionEnabled();
+	m_fineTuneCorners = CommandLine::get().isFineTuningEnabled();
 }
 
 Params::Params(QDomElement const& filter_el)
@@ -56,9 +88,19 @@ Params::Params(QDomElement const& filter_el)
 			filter_el.namedItem("content-rect").toElement()
 		)
 	),
+    m_pageRect(
+		XmlUnmarshaller::rectF(
+			filter_el.namedItem("page-rect").toElement()
+		)		
+	),
 	m_contentSizeMM(
 		XmlUnmarshaller::sizeF(
 			filter_el.namedItem("content-size-mm").toElement()
+		)
+	),
+   	m_pageBorders(
+		XmlUnmarshaller::margins(
+			filter_el.namedItem("page-borders").toElement()
 		)
 	),
 	m_deps(filter_el.namedItem("dependencies").toElement()),
@@ -68,6 +110,14 @@ Params::Params(QDomElement const& filter_el)
 	m_fineTuneCorners(filter_el.attribute("fine-tune-corners") == "true" ? true : false),
 	m_deviation(filter_el.attribute("deviation").toDouble())
 {
+	// ! m_contentDetect means content detection is disabled and should be the same as pageRect
+	// turn off pagedetection if page detection was enabled and set content detection to manual
+	if (m_pageDetect && !m_contentDetect && CommandLine::get().isForcePageDetectionDisabled()) {
+		m_pageDetect = false;
+		m_contentRect = m_pageRect;
+		m_contentDetect = true;
+		m_mode = MODE_MANUAL;
+	}
 }
 
 Params::~Params()
@@ -86,7 +136,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 	el.setAttribute("fine-tune-corners", m_fineTuneCorners ? "true" : "false");
 	el.setAttribute("deviation", m_deviation);
 	el.appendChild(marshaller.rectF(m_contentRect, "content-rect"));
+	el.appendChild(marshaller.rectF(m_pageRect, "page-rect"));
 	el.appendChild(marshaller.sizeF(m_contentSizeMM, "content-size-mm"));
+	el.appendChild(marshaller.margins(m_pageBorders, "page-borders"));
 	el.appendChild(m_deps.toXml(doc, "dependencies"));
 	return el;
 }

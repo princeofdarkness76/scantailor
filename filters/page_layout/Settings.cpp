@@ -24,6 +24,7 @@
 #include "Alignment.h"
 #include "RelinkablePath.h"
 #include "AbstractRelinker.h"
+#include "CommandLine.h"
 #include <QSizeF>
 #include <QRectF>
 #include <QMutex>
@@ -223,6 +224,11 @@ private:
 
 
 /*=============================== Settings ==================================*/
+
+Margins Settings::defaultHardMarginsMM()
+{ 
+	return CommandLine::get().getDefaultMargins();
+}
 
 Settings::Settings()
 :	m_ptrImpl(new Impl())

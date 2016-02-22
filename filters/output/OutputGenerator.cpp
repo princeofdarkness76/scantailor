@@ -16,6 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include "CommandLine.h"
 #include "OutputGenerator.h"
 #include "ImageTransformation.h"
 #include "FilterData.h"
@@ -312,6 +313,7 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -358,11 +360,15 @@ OutputGenerator::process(
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
 {
 	QImage image(
 		processImpl(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -418,6 +424,9 @@ OutputGenerator::process(
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> pod/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
 		)
 	);
 	assert(!image.isNull());
@@ -614,6 +623,7 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -660,6 +670,9 @@ OutputGenerator::processImpl(
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
 {
 	RenderParams const render_params(m_colorParams);
 
@@ -704,6 +717,7 @@ OutputGenerator::processImpl(
 		return processWithDewarping(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -758,6 +772,9 @@ OutputGenerator::processImpl(
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> pod/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
 		);
 	} else if (!render_params.whiteMargins()) {
 		return processAsIs(
@@ -766,6 +783,7 @@ OutputGenerator::processImpl(
 	} else {
 		return processWithoutDewarping(
 			status, input, picture_zones, fill_zones,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -819,6 +837,9 @@ OutputGenerator::processImpl(
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> pod/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
 		);
 	}
 }
@@ -839,8 +860,9 @@ OutputGenerator::processAsIs(
 	QColor const bg_color(dominant_gray, dominant_gray, dominant_gray);
 	
 	QImage out;
+	CommandLine const& cli = CommandLine::get();
 
-	if (input.origImage().allGray()) {
+	if (input.origImage().allGray() && !cli.hasTiffForceKeepColorSpace()) {
 		if (m_outRect.isEmpty()) {
 			QImage image(1, 1, QImage::Format_Indexed8);
 			image.setColorTable(createGrayscalePalette());
@@ -891,6 +913,7 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -937,6 +960,9 @@ OutputGenerator::processWithoutDewarping(
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
 {
 	RenderParams const render_params(m_colorParams);
 	
@@ -1093,6 +1119,7 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1170,10 +1197,13 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> pod/filters.cpp
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
 
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			bw_mask.rectangularizeAreas(WHITE);
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1196,6 +1226,8 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
 
 		if (dbg) {
 			dbg->add(bw_mask, "bw_mask");
@@ -1359,6 +1391,7 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1405,6 +1438,9 @@ OutputGenerator::processWithDewarping(
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
 {
 	QSize const target_size(m_outRect.size().expandedTo(QSize(1, 1)));
 	if (m_outRect.isEmpty()) {
@@ -1578,6 +1614,7 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1668,6 +1705,11 @@ OutputGenerator::processWithDewarping(
 			warped_bw_mask.rectangularizeAreas(WHITE);
 		}
 >>>>>>> pod/tiff
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> origin/enhanced
 
 		status.throwIfCancelled();
 

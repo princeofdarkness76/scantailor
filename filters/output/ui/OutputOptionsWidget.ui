@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,6 +53,10 @@
     <width>269</width>
     <height>789</height>
 >>>>>>> pod/tiff
+=======
+    <width>269</width>
+    <height>789</height>
+>>>>>>> origin/enhanced
    </rect>
   </property>
   <property name="windowTitle">
@@ -365,6 +370,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +417,9 @@
 =======
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> pod/tiff
+=======
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> origin/enhanced
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_14">
            <item>
@@ -427,6 +436,7 @@
             </spacer>
            </item>
            <item>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -468,6 +478,9 @@
 =======
             <widget class="QLabel" name="label">
 >>>>>>> pod/tiff
+=======
+            <widget class="QLabel" name="label">
+>>>>>>> origin/enhanced
              <property name="text">
               <string>Picture Shape</string>
              </property>
@@ -899,6 +912,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> scantailor/tiff
@@ -930,6 +944,8 @@
 >>>>>>> pod/filters.cpp
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
     <widget class="QWidget" name="pictureShapeOptions_2" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_10">
       <item>
@@ -1009,6 +1025,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1028,6 +1045,8 @@
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>

@@ -89,6 +89,7 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +109,8 @@ OptionsWidget::OptionsWidget(
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
 	darkerThresholdLink->setText(
 		Utils::richTextForLink(darkerThresholdLink->text())
 	);
@@ -182,7 +185,18 @@ OptionsWidget::OptionsWidget(
 		this, SLOT(tiffCompressionChanged(int))
 	);
 	connect(
+<<<<<<< HEAD
 >>>>>>> pod/tiff
+=======
+		pictureShapeSelector, SIGNAL(currentIndexChanged(int)),
+		this, SLOT(pictureShapeChanged(int))
+	);
+	connect(
+		tiffCompression, SIGNAL(currentIndexChanged(int)),
+		this, SLOT(tiffCompressionChanged(int))
+	);
+	connect(
+>>>>>>> origin/enhanced
 		whiteMarginsCB, SIGNAL(clicked(bool)),
 		this, SLOT(whiteMarginsToggled(bool))
 	);
@@ -271,6 +285,7 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311,6 +326,9 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 =======
 	m_pictureShape = params.pictureShape();
 >>>>>>> pod/tiff
+=======
+	m_pictureShape = params.pictureShape();
+>>>>>>> origin/enhanced
 	m_dewarpingMode = params.dewarpingMode();
 	m_depthPerception = params.depthPerception();
 	m_despeckleLevel = params.despeckleLevel();
@@ -397,6 +415,7 @@ OptionsWidget::pictureShapeChanged(int const idx)
 }
 
 void
+<<<<<<< HEAD
 OptionsWidget::tiffCompressionChanged(int idx)
 {
     int compression = tiffCompression->itemData(idx).toInt();
@@ -433,6 +452,8 @@ void
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
+=======
+>>>>>>> origin/enhanced
 OptionsWidget::pictureShapeChanged(int const idx)
 {
 	m_pictureShape = (PictureShape)(pictureShapeSelector->itemData(idx).toInt());
@@ -448,7 +469,10 @@ OptionsWidget::tiffCompressionChanged(int idx)
 }
 
 void
+<<<<<<< HEAD
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
 OptionsWidget::whiteMarginsToggled(bool const checked)
 {
 	ColorGrayscaleOptions opt(m_colorParams.colorGrayscaleOptions());
@@ -566,8 +590,8 @@ OptionsWidget::dpiChanged(std::set<PageId> const& pages, Dpi const& dpi)
 {
 	BOOST_FOREACH(PageId const& page_id, pages) {
 		m_ptrSettings->setDpi(page_id, dpi);
-		emit invalidateThumbnail(page_id);
 	}
+	emit invalidateAllThumbnails();
 	
 	if (pages.find(m_pageId) != pages.end()) {
 		m_outputDpi = dpi;
@@ -581,6 +605,7 @@ OptionsWidget::applyColorsConfirmed(std::set<PageId> const& pages)
 {
 	BOOST_FOREACH(PageId const& page_id, pages) {
 		m_ptrSettings->setColorParams(page_id, m_colorParams);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -626,7 +651,11 @@ OptionsWidget::applyColorsConfirmed(std::set<PageId> const& pages)
 		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
 >>>>>>> pod/tiff
 		emit invalidateThumbnail(page_id);
+=======
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> origin/enhanced
 	}
+	emit invalidateAllThumbnails();
 	
 	if (pages.find(m_pageId) != pages.end()) {
 		emit reloadRequested();
@@ -694,8 +723,8 @@ OptionsWidget::applyDespeckleConfirmed(std::set<PageId> const& pages)
 {
 	BOOST_FOREACH(PageId const& page_id, pages) {
 		m_ptrSettings->setDespeckleLevel(page_id, m_despeckleLevel);
-		emit invalidateThumbnail(page_id);
 	}
+	emit invalidateAllThumbnails();
 	
 	if (pages.find(m_pageId) != pages.end()) {
 		emit reloadRequested();
@@ -721,8 +750,8 @@ OptionsWidget::dewarpingChanged(std::set<PageId> const& pages, DewarpingMode con
 {
 	BOOST_FOREACH(PageId const& page_id, pages) {
 		m_ptrSettings->setDewarpingMode(page_id, mode);
-		emit invalidateThumbnail(page_id);
 	}
+	emit invalidateAllThumbnails();
 	
 	if (pages.find(m_pageId) != pages.end()) {
 		if (m_dewarpingMode != mode) {
@@ -779,8 +808,8 @@ OptionsWidget::applyDepthPerceptionConfirmed(std::set<PageId> const& pages)
 {
 	BOOST_FOREACH(PageId const& page_id, pages) {
 		m_ptrSettings->setDepthPerception(page_id, m_depthPerception);
-		emit invalidateThumbnail(page_id);
 	}
+	emit invalidateAllThumbnails();
 	
 	if (pages.find(m_pageId) != pages.end()) {
 		emit reloadRequested();
@@ -890,6 +919,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -930,6 +960,9 @@ OptionsWidget::updateColorsDisplay()
 =======
 	bool picture_shape_visible = false;
 >>>>>>> pod/tiff
+=======
+	bool picture_shape_visible = false;
+>>>>>>> origin/enhanced
 	switch (color_mode) {
 		case ColorParams::BLACK_AND_WHITE:
 			bw_options_visible = true;
@@ -943,6 +976,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -983,6 +1017,9 @@ OptionsWidget::updateColorsDisplay()
 =======
 			picture_shape_visible = true;
 >>>>>>> pod/tiff
+=======
+			picture_shape_visible = true;
+>>>>>>> origin/enhanced
 			break;
 	}
 	
@@ -1001,6 +1038,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1023,10 +1061,13 @@ OptionsWidget::updateColorsDisplay()
 //begin of modified by monday2000
 //Picture_Shape
 =======
+=======
+>>>>>>> origin/enhanced
 	pictureShapeOptions->setVisible(picture_shape_visible);
 	bwOptions->setVisible(bw_options_visible);
 	despecklePanel->setVisible(bw_options_visible && m_lastTab != TAB_DEWARPING);
 
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 	pictureShapeOptions->setVisible(picture_shape_visible);
@@ -1057,6 +1098,8 @@ OptionsWidget::updateColorsDisplay()
 >>>>>>> pod/filters.cpp
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
 	if (picture_shape_visible) {
 		int const picture_shape_idx = pictureShapeSelector->findData(m_pictureShape);
 		pictureShapeSelector->setCurrentIndex(picture_shape_idx);
@@ -1065,6 +1108,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1110,6 +1154,11 @@ OptionsWidget::updateColorsDisplay()
 	int compression_idx = tiffCompression->findData(m_ptrSettings->getTiffCompression());
 	tiffCompression->setCurrentIndex(compression_idx);
 >>>>>>> pod/tiff
+=======
+	
+	int compression_idx = tiffCompression->findData(m_ptrSettings->getTiffCompression());
+	tiffCompression->setCurrentIndex(compression_idx);
+>>>>>>> origin/enhanced
 
 	if (bw_options_visible) {
 		switch (m_despeckleLevel) {

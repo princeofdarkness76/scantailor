@@ -35,6 +35,7 @@ namespace output
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +78,9 @@ namespace output
 =======
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
 >>>>>>> pod/tiff
+=======
+	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
+>>>>>>> origin/enhanced
 
 class Params
 {
@@ -90,6 +94,7 @@ public:
 	void setOutputDpi(Dpi const& dpi) { m_dpi = dpi; }
 	
 	ColorParams const& colorParams() const { return m_colorParams; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,10 +135,13 @@ public:
 >>>>>>> pod/filters.cpp
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
 
 	PictureShape pictureShape() const { return m_pictureShape; }
 	void setPictureShape(PictureShape ps) { m_pictureShape = ps; }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,6 +164,8 @@ public:
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
 	void setColorParams(ColorParams const& params) { m_colorParams = params; }
 
 	DewarpingMode const& dewarpingMode() const { return m_dewarpingMode; }
@@ -183,6 +193,7 @@ private:
 	static QString formatColorMode(ColorParams::ColorMode mode);
 	
 	ColorParams m_colorParams;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +236,9 @@ private:
 =======
 	PictureShape m_pictureShape;
 >>>>>>> pod/tiff
+=======
+	PictureShape m_pictureShape;
+>>>>>>> origin/enhanced
 	dewarping::DistortionModel m_distortionModel;
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;

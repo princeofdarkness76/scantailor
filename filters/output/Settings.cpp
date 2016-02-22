@@ -154,6 +154,7 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 	}
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 //end of modified by monday2000
 
 void
@@ -218,6 +219,10 @@ void
 
 void
 >>>>>>> pod/tiff
+=======
+
+void
+>>>>>>> origin/enhanced
 Settings::setDpi(PageId const& page_id, Dpi const& dpi)
 {
 	QMutexLocker const locker(&m_mutex);

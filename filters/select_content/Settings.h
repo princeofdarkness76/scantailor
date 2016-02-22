@@ -54,6 +54,15 @@ public:
 
 	double maxDeviation() const { return m_maxDeviation; }
 	void setMaxDeviation(double md) { m_maxDeviation = md; }
+<<<<<<< HEAD
+=======
+    
+    QSizeF pageDetectionBox() const { return m_pageDetectionBox; }
+    void setPageDetectionBox(QSizeF size) { m_pageDetectionBox = size; }
+    
+    double pageDetectionTolerance() const { return m_pageDetectionTolerance; }
+    void setPageDetectionTolerance(double tolerance) { m_pageDetectionTolerance = tolerance; }
+>>>>>>> origin/enhanced
 
     double avg() const { return m_avg; };
     void setAvg(double a) { m_avg = a; };
@@ -68,6 +77,11 @@ private:
     double m_avg;
     double m_sigma;
 	double m_maxDeviation;
+<<<<<<< HEAD
+=======
+    QSizeF m_pageDetectionBox;
+    double m_pageDetectionTolerance;
+>>>>>>> origin/enhanced
 };
 
 } // namespace select_content

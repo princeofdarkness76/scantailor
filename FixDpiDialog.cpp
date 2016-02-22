@@ -341,11 +341,12 @@ FixDpiDialog::dpiValueChanged()
 		return;
 	}
 	
+	
 	if (metadata.isDpiOK()) {
 		applyBtn->setEnabled(true);
 		return;
 	}
-	
+		
 	applyBtn->setEnabled(false);
 }
 

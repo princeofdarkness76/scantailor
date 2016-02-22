@@ -42,8 +42,10 @@ ApplyDialog::ApplyDialog(
 	m_pBtnGroup->addButton(thisPageAndFollowersRB);
 	m_pBtnGroup->addButton(selectedPagesRB);
 	m_pBtnGroup->addButton(everyOtherRB);
+	m_pBtnGroup->addButton(thisEveryOtherRB);
 	m_pBtnGroup->addButton(everyOtherSelectedRB);
 	
+	/*
 	if (m_selectedPages.size() <= 1) {
 		selectedPagesWidget->setEnabled(false);
 		everyOtherSelectedWidget->setEnabled(false);
@@ -52,6 +54,7 @@ ApplyDialog::ApplyDialog(
 		everyOtherSelectedWidget->setEnabled(false);
 		everyOtherSelectedHint->setText(tr("Can't do: more than one group is selected."));
 	}
+	*/
 	
 	connect(buttonBox, SIGNAL(accepted()), this, SLOT(onSubmit()));
 }
@@ -68,24 +71,28 @@ ApplyDialog::onSubmit()
 	// thisPageOnlyRB is intentionally not handled.
 	if (allPagesRB->isChecked()) {
 		m_pages.selectAll().swap(pages);
-		emit applySelection(pages);
-		accept();
-		return;
 	} else if (thisPageAndFollowersRB->isChecked()) {
 		m_pages.selectPagePlusFollowers(m_curPage).swap(pages);
 	} else if (selectedPagesRB->isChecked()) {
-		emit applySelection(m_selectedPages);
-		accept();
-		return;
+        m_selectedPages.swap(pages);
 	} else if (everyOtherRB->isChecked()) {
 		m_pages.selectEveryOther(m_curPage).swap(pages);
+	} else if (thisEveryOtherRB->isChecked()) {
+		std::set<PageId> tmp;
+		m_pages.selectPagePlusFollowers(m_curPage).swap(tmp);
+		std::set<PageId>::iterator it = tmp.begin();
+		for (int i=0; it != tmp.end(); ++it, ++i) {
+			if (i % 2 == 0) {
+				pages.insert(*it);
+			}
+		}
 	} else if (everyOtherSelectedRB->isChecked()) {
 		assert(m_selectedRanges.size() == 1);
 		PageRange const& range = m_selectedRanges.front();
 		range.selectEveryOther(m_curPage).swap(pages);
 	}
 	
-	emit applySelection(pages);
+	emit applySelection(pages, applyContentBoxOption->isChecked());
 	
 	// We assume the default connection from accept() to accepted() was removed.
 	accept();
