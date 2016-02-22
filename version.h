@@ -23,6 +23,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 //begin of modified by monday2000
@@ -41,10 +44,13 @@
 #define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #define VERSION __DATE__
 #define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 

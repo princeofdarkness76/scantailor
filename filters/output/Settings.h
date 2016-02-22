@@ -77,11 +77,14 @@ public:
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
 
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> scantailor/tiff

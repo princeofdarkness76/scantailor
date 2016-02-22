@@ -67,6 +67,9 @@ font-weight: bold;</string>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
           <string notr="true">Scan Tailor Featured</string>
@@ -77,9 +80,12 @@ font-weight: bold;</string>
           <string notr="true">Scan Tailor "Enhanced"</string>
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
           <string notr="true">Scan Tailor "Enhanced"</string>
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
          </property>

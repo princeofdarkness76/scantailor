@@ -36,6 +36,9 @@ Params::Params()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 //begin of modified by monday2000
@@ -49,9 +52,12 @@ Params::Params()
 	m_pictureShape(FREE_SHAPE)
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	m_pictureShape(FREE_SHAPE)
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 {
@@ -66,6 +72,9 @@ Params::Params(QDomElement const& el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 //begin of modified by monday2000
@@ -83,10 +92,13 @@ Params::Params(QDomElement const& el)
 	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
 	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 {
@@ -113,6 +125,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 //begin of modified by monday2000
@@ -126,9 +141,12 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 	el.setAttribute("pictureShape", (int)m_pictureShape);
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	el.setAttribute("pictureShape", (int)m_pictureShape);
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 	el.setAttribute("depthPerception", m_depthPerception.toString());

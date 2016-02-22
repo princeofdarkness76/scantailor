@@ -10,6 +10,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
     <width>228</width>
@@ -23,10 +26,13 @@
     <height>789</height>
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <width>269</width>
     <height>789</height>
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
    </rect>
@@ -342,6 +348,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
         <layout class="QVBoxLayout" name="verticalLayout_10">
@@ -361,9 +370,12 @@
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
          <item>
@@ -386,6 +398,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
             <widget class="QLabel" name="labePictureShape">
@@ -396,9 +411,12 @@
             <widget class="QLabel" name="label">
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <widget class="QLabel" name="label">
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
              <property name="text">
@@ -832,11 +850,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
+=======
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
 =======
 =======
 =======
@@ -921,8 +945,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> scantailor/tiff
