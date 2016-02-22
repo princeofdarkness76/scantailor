@@ -201,11 +201,19 @@ Task::process(
 		generator.outputImageSize(), generator.outputContentRect(),
 		new_xform, params.outputDpi(), params.colorParams(),
 		params.dewarpingMode(), params.distortionModel(),
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 		params.depthPerception(), params.despeckleLevel() 
 		, params.pictureShape()
 //end of modified by monday2000
+=======
+		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> scantailor/tiff
+=======
+		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> scantailor/tiff
 	);
 
 //begin of modified by monday2000
@@ -388,6 +396,8 @@ Task::process(
 //end of modified by monday2000
 			write_automask ? &automask_img : 0,
 			write_speckles_file ? &speckles_img : 0,
+<<<<<<< HEAD
+<<<<<<< HEAD
 			m_ptrDbg.get()
 //begin of modified by monday2000
 //Picture_Shape
@@ -395,6 +405,12 @@ Task::process(
 //Quadro_Zoner
             , &m_pageId, &m_ptrSettings
 //end of modified by monday2000
+=======
+			m_ptrDbg.get(), params.pictureShape()
+>>>>>>> scantailor/tiff
+=======
+			m_ptrDbg.get(), params.pictureShape()
+>>>>>>> scantailor/tiff
 		);
 
 		if ((params.dewarpingMode() == DewarpingMode::AUTO && distortion_model.isValid())
@@ -419,7 +435,7 @@ Task::process(
 
 		bool invalidate_params = false;
 		
-		if (!TiffWriter::writeImage(out_file_path, out_img)) {
+		if (!TiffWriter::writeImage(out_file_path, out_img, m_ptrSettings->getTiffCompression())) {
 			invalidate_params = true;
 		} else {
 			deleteMutuallyExclusiveOutputFiles();
@@ -434,14 +450,14 @@ Task::process(
 			// Also note that QDir::mkdir() will fail if the directory already exists,
 			// so we ignore its return value here.
 
-			if (!TiffWriter::writeImage(automask_file_path, automask_img.toQImage())) {
+			if (!TiffWriter::writeImage(automask_file_path, automask_img.toQImage(), m_ptrSettings->getTiffCompression())) {
 				invalidate_params = true;
 			}
 		}
 		if (write_speckles_file) {
 			if (!QDir().mkpath(speckles_dir)) {
 				invalidate_params = true;
-			} else if (!TiffWriter::writeImage(speckles_file_path, speckles_img.toQImage())) {
+			} else if (!TiffWriter::writeImage(speckles_file_path, speckles_img.toQImage(), m_ptrSettings->getTiffCompression())) {
 				invalidate_params = true;
 			}
 		}

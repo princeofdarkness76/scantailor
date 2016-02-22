@@ -27,6 +27,7 @@
 #include "Settings.h"
 #include "TaskStatus.h"
 #include "ContentBoxFinder.h"
+#include "PageFinder.h"
 #include "FilterUiInterface.h"
 #include "ImageView.h"
 #include "OrthogonalRotation.h"
@@ -36,6 +37,8 @@
 #include <QObject>
 #include <QTransform>
 #include <QDebug>
+
+#include <iostream>
 
 namespace select_content
 {
@@ -91,14 +94,48 @@ Task::process(TaskStatus const& status, FilterData const& data)
 	
 	Dependencies const deps(data.xform().resultingPreCropArea());
 
-	std::auto_ptr<Params> params(m_ptrSettings->getPageParams(m_pageId));
-	if (params.get() && !params->dependencies().matches(deps) && (params->mode() == MODE_AUTO)) {
-		params.reset();
-	}
-
 	OptionsWidget::UiData ui_data;
 	ui_data.setSizeCalc(PhysSizeCalc(data.xform()));
 
+	std::auto_ptr<Params> params(m_ptrSettings->getPageParams(m_pageId));
+	Params new_params(deps);
+	if (params.get() && !params->dependencies().matches(deps) && (params->mode() == MODE_AUTO || params->isPageDetectionEnabled())) {
+		new_params.setMode(params->mode());
+		new_params.setPageDetect(params->isPageDetectionEnabled());
+		new_params.setFineTuneCorners(params->isFineTuningEnabled());
+		new_params.setContentDetect(params->isContentDetectionEnabled());
+	} else if (params.get()) {
+	    new_params = *params;
+	}
+
+	QRectF page_rect(data.xform().resultingRect());
+	if (new_params.isPageDetectionEnabled()) {
+		page_rect = PageFinder::findPageBox(status, data, new_params.isFineTuningEnabled(), m_ptrDbg.get());
+	}
+	new_params.setPageRect(page_rect);
+
+	QRectF content_rect(page_rect);
+	if (new_params.isContentDetectionEnabled() && new_params.mode() == MODE_AUTO) {
+		content_rect = ContentBoxFinder::findContentBox(status, data, page_rect, m_ptrDbg.get());
+	} else if (params.get() && new_params.mode() == MODE_MANUAL) {
+		content_rect = new_params.contentRect();
+	}
+	new_params.setContentRect(content_rect);
+
+	ui_data.setContentRect(content_rect);
+	ui_data.setPageRect(page_rect);
+	ui_data.setDependencies(deps);
+	ui_data.setMode(new_params.mode());
+	ui_data.setContentDetection(new_params.isContentDetectionEnabled());
+	ui_data.setPageDetection(new_params.isPageDetectionEnabled());
+	ui_data.setFineTuneCorners(new_params.isFineTuningEnabled());
+
+	new_params.setContentSizeMM(ui_data.contentSizeMM());
+
+	new_params.computeDeviation(m_ptrSettings->avg());
+	m_ptrSettings->setPageParams(m_pageId, new_params);
+
+	/*
 	if (params.get()) {
 		ui_data.setContentRect(params->contentRect());
 		ui_data.setDependencies(deps);
@@ -124,7 +161,7 @@ Task::process(TaskStatus const& status, FilterData const& data)
 	} else {
 		QRectF const content_rect(
 			ContentBoxFinder::findContentBox(
-				status, data, m_ptrDbg.get()
+				status, data, page_rect, m_ptrDbg.get()
 			)
 		);
 		ui_data.setContentRect(content_rect);
@@ -136,13 +173,14 @@ Task::process(TaskStatus const& status, FilterData const& data)
 		);
 		m_ptrSettings->setPageParams(m_pageId, new_params);
 	}
-	
+	*/
+
 	status.throwIfCancelled();
 	
 	if (m_ptrNextTask) {
 		return m_ptrNextTask->process(
 			status, FilterData(data, data.xform()),
-			ui_data.contentRect()
+			page_rect, ui_data.contentRect()
 		);
 	} else {
 		return FilterResultPtr(
@@ -190,7 +228,7 @@ Task::UiUpdater::updateUI(FilterUiInterface* ui)
 	
 	ImageView* view = new ImageView(
 		m_image, m_downscaledImage,
-		m_xform, m_uiData.contentRect()
+		m_xform, m_uiData.contentRect(), m_uiData.pageRect()
 	);
 	ui->setImageWidget(view, ui->TRANSFER_OWNERSHIP, m_ptrDbg.get());
 	

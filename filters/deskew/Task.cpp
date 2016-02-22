@@ -119,7 +119,7 @@ Task::process(TaskStatus const& status, FilterData const& data)
 	std::auto_ptr<Params> params(m_ptrSettings->getPageParams(m_pageId));
 	if (params.get()) {
 		if ((!deps.matches(params->dependencies()) ||
-					params->deskewAngle() != ui_data.effectiveDeskewAngle()) &&
+				params->deskewAngle() != ui_data.effectiveDeskewAngle()) &&
 				params->mode() == MODE_AUTO &&
 				!cli.hasDeskewAngle() && !cli.hasDeskew()) {
 			params.reset();
@@ -127,9 +127,10 @@ Task::process(TaskStatus const& status, FilterData const& data)
 			ui_data.setEffectiveDeskewAngle(params->deskewAngle());
 			ui_data.setMode(params->mode());
 
-			Params const new_params(
+            Params new_params(
 				ui_data.effectiveDeskewAngle(), deps, ui_data.mode()
-			);
+            );
+            new_params.computeDeviation(m_ptrSettings->avg());
 			m_ptrSettings->setPageParams(m_pageId, new_params);
 		}
 	}
@@ -182,9 +183,10 @@ Task::process(TaskStatus const& status, FilterData const& data)
 			}
 			ui_data.setMode(MODE_AUTO);
 			
-			Params const new_params(
+			Params new_params(
 				ui_data.effectiveDeskewAngle(), deps, ui_data.mode()
 			);
+			new_params.computeDeviation(m_ptrSettings->avg());
 			m_ptrSettings->setPageParams(m_pageId, new_params);
 			
 			status.throwIfCancelled();

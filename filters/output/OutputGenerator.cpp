@@ -279,6 +279,11 @@ OutputGenerator::OutputGenerator(
 	m_contentRect(xform.transform().map(content_rect_phys).boundingRect().toRect()),
 	m_despeckleLevel(despeckle_level)
 {	
+    /*
+    std::cout << "m_outRect.left(): " << m_outRect.left() << " right(): " << m_outRect.right() << " top: " << m_outRect.top() << " bottom: " << m_outRect.bottom() << std::endl;
+    std::cout << "m_contentRect.left(): " << m_contentRect.left() << " right(): " << m_contentRect.right() << " top: " << m_contentRect.top() << " bottom: " << m_contentRect.bottom() << std::endl;
+    */
+
 	assert(m_outRect.topLeft() == QPoint(0, 0));
 
 	// Note that QRect::contains(<empty rect>) always returns false, so we don't use it here.
@@ -303,6 +308,8 @@ OutputGenerator::process(
 //end of modified by monday2000
 	imageproc::BinaryImage* auto_picture_mask,
 	imageproc::BinaryImage* speckles_image,
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* const dbg) const
@@ -313,11 +320,19 @@ OutputGenerator::process(
 	IntrusivePtr<Settings>* p_settings
 	) const
 //end of modified by monday2000
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 {
 	QImage image(
 		processImpl(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
 //Original_Foreground_Mixed
@@ -333,6 +348,12 @@ OutputGenerator::process(
 			, p_pageId,
 			p_settings
 //end of modified by monday2000
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
 		)
 	);
 	assert(!image.isNull());
@@ -460,7 +481,8 @@ OutputGenerator::estimateBinarizationMask(
 	status.throwIfCancelled();
 	
 	BinaryThreshold const threshold(
-		BinaryThreshold::mokjiThreshold(picture_areas, 5, 26)
+		//BinaryThreshold::mokjiThreshold(picture_areas, 5, 26)
+		48
 	);
 	
 	// Scale back to original size.
@@ -524,6 +546,8 @@ OutputGenerator::processImpl(
 //end of modified by monday2000
 	imageproc::BinaryImage* auto_picture_mask,
 	imageproc::BinaryImage* speckles_image,
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* const dbg) const
@@ -534,6 +558,12 @@ OutputGenerator::processImpl(
 	IntrusivePtr<Settings>* p_settings
 	) const
 //end of modified by monday2000
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 {
 	RenderParams const render_params(m_colorParams);
 
@@ -578,6 +608,8 @@ OutputGenerator::processImpl(
 		return processWithDewarping(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
 //added:			
@@ -592,6 +624,12 @@ OutputGenerator::processImpl(
 			, p_pageId,
 			p_settings
 //end of modified by monday2000
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
 		);
 	} else if (!render_params.whiteMargins()) {
 		return processAsIs(
@@ -600,6 +638,8 @@ OutputGenerator::processImpl(
 	} else {
 		return processWithoutDewarping(
 			status, input, picture_zones, fill_zones,
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
 //added:			
@@ -613,6 +653,12 @@ OutputGenerator::processImpl(
 			, p_pageId,
 			p_settings
 //end of modified by monday2000
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
 		);
 	}
 }
@@ -681,6 +727,8 @@ OutputGenerator::processWithoutDewarping(
 //end of modified by monday2000
 	imageproc::BinaryImage* auto_picture_mask,
 	imageproc::BinaryImage* speckles_image,
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* dbg) const
@@ -691,6 +739,12 @@ OutputGenerator::processWithoutDewarping(
 	IntrusivePtr<Settings>* p_settings
 	) const
 //end of modified by monday2000
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 {
 	RenderParams const render_params(m_colorParams);
 	
@@ -843,6 +897,8 @@ OutputGenerator::processWithoutDewarping(
 			normalize_illumination_rect,
 			small_margins_rect, dbg
 		);
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 //Quadro_Zoner
@@ -889,6 +945,17 @@ OutputGenerator::processWithoutDewarping(
 			(*p_settings)->setPictureZones(*p_pageId, picture_zones);
 		}
 //end of modified by monday2000
+=======
+=======
+>>>>>>> scantailor/tiff
+
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			bw_mask.rectangularizeAreas(WHITE);
+		}
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
 
 		if (dbg) {
 			dbg->add(bw_mask, "bw_mask");
@@ -1048,6 +1115,8 @@ OutputGenerator::processWithDewarping(
 //end of modified by monday2000
 	imageproc::BinaryImage* auto_picture_mask,
 	imageproc::BinaryImage* speckles_image,
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* dbg) const
@@ -1058,6 +1127,12 @@ OutputGenerator::processWithDewarping(
 	IntrusivePtr<Settings>* p_settings
 	) const
 //end of modified by monday2000
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 {
 	QSize const target_size(m_outRect.size().expandedTo(QSize(1, 1)));
 	if (m_outRect.isEmpty()) {
@@ -1227,6 +1302,8 @@ OutputGenerator::processWithDewarping(
 			dbg->add(warped_bw_mask, "warped_bw_mask");
 		}
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 //Quadro_Zoner
@@ -1273,6 +1350,16 @@ OutputGenerator::processWithDewarping(
 			(*p_settings)->setPictureZones(*p_pageId, picture_zones);
 		}
 //end of modified by monday2000
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> scantailor/tiff
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> scantailor/tiff
 
 		status.throwIfCancelled();
 
@@ -2019,7 +2106,12 @@ OutputGenerator::detectPictures(
 		dbg->add(holes_filled, "holes_filled");
 	}
 	
-	return holes_filled;
+	GrayImage stretched2(stretchGrayRange(holes_filled , 5.0, 0.01));
+	if (dbg) {
+		dbg->add(stretched2, "stretched2");
+	}
+
+	return stretched2;
 }
 
 QImage

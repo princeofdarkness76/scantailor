@@ -30,6 +30,7 @@
 #include "DespeckleLevel.h"
 #include "Dpi.h"
 #include "ImageViewTab.h"
+#include "Params.h"
 #include <set>
 //begin of modified by monday2000
 //Picture_Shape
@@ -63,7 +64,7 @@ public:
 
 	ImageViewTab lastTab() const { return m_lastTab; }
 
-	DepthPerception const& depthPerception() const { return m_depthPerception; }
+    DepthPerception const& depthPerception() const { return m_depthPerception; }
 signals:
 	void despeckleLevelChanged(DespeckleLevel level, bool* handled);
 
@@ -82,10 +83,25 @@ private slots:
 	void applyColorsConfirmed(std::set<PageId> const& pages);
 
 	void colorModeChanged(int idx);
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	void pictureShapeChanged(int idx);
 //end of modified by monday2000	
+=======
+
+	void pictureShapeChanged(int idx);
+=======
+
+	void pictureShapeChanged(int idx);
+	
+	void tiffCompressionChanged(int idx);
+>>>>>>> scantailor/tiff
+	
+	void tiffCompressionChanged(int idx);
+	
+>>>>>>> scantailor/tiff
 	void whiteMarginsToggled(bool checked);
 	
 	void equalizeIlluminationToggled(bool checked);
@@ -135,10 +151,18 @@ private:
 	PageId m_pageId;
 	Dpi m_outputDpi;
 	ColorParams m_colorParams;
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	PictureShape m_pictureShape;
 //end of modified by monday2000
+=======
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
+=======
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;
 	DespeckleLevel m_despeckleLevel;

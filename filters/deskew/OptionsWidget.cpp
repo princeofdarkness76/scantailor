@@ -219,10 +219,11 @@ OptionsWidget::setSpinBoxKnownState(double const angle)
 void
 OptionsWidget::commitCurrentParams()
 {
-	Params const params(
+	Params params(
 		m_uiData.effectiveDeskewAngle(),
 		m_uiData.dependencies(), m_uiData.mode()
 	);
+	params.computeDeviation(m_ptrSettings->avg());
 	m_ptrSettings->setPageParams(m_pageId, params);
 }
 

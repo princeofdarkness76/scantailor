@@ -29,6 +29,7 @@ class Margins;
 class PageSequence;
 class AbstractRelinker;
 class QSizeF;
+class QRectF;
 
 namespace page_layout
 {
@@ -87,10 +88,14 @@ public:
 	 * \brief Updates content size and returns all parameters at once.
 	 */
 	Params updateContentSizeAndGetParams(
-		PageId const& page_id, QSizeF const& content_size_mm,
+		PageId const& page_id, QRectF const& page_rect, QRectF const& content_rect, QSizeF const& content_size_mm,
 		QSizeF* agg_hard_size_before = 0,
 		QSizeF* agg_hard_size_after = 0);
 	
+	QRectF const& updateContentRect();
+	QRectF const& getContentRect();
+	QRectF const& getPageRect();
+
 	/**
 	 * \brief Returns the hard margins for the specified page.
 	 *

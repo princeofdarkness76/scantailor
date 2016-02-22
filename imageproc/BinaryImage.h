@@ -203,11 +203,20 @@ public:
 	 * \brief Calculates the bounding box of either black or white content.
 	 */
 	QRect contentBoundingBox(BWColor content_color = BLACK) const;
+<<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	void rectangularizeAreas(BWColor content_color = BLACK);
 	void rectangularizeAreasQuadro(BWColor content_color, std::vector<QRect>& areas);
 //end of modified by monday2000	
+=======
+=======
+>>>>>>> scantailor/tiff
+
+	void rectangularizeAreas(BWColor content_color = BLACK);
+	
+>>>>>>> scantailor/tiff
 	int width() const { return m_width; }
 	
 	int height() const { return m_height; }
