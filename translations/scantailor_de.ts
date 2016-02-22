@@ -40,87 +40,92 @@
     <message>
         <location filename="../ui/AboutDialog.ui" line="157"/>
         <source>U235 - Picture auto-detection algorithm.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">U235 - Automatischer Bilderkennungs-Algorithmus.</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="164"/>
         <source>Robert B. - First generation dewarping algorithm.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Robert B. - Erste Generation des Dewarping-Algorithmus.</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="171"/>
         <source>Andrey Bergman - System load adjustment.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Andrey Bergman - Systemlastanpassung.</translation>
     </message>
     <message utf8="true">
         <location filename="../ui/AboutDialog.ui" line="178"/>
         <source>Petr Kovář - Command line interface.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Petr Kovář - Kommandozeileninterface.</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="205"/>
-        <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message utf8="true">
-        <location filename="../ui/AboutDialog.ui" line="212"/>
-        <source>Petr Kovář - Czech</source>
-        <translation type="unfinished"></translation>
+        <source>Neco Torquato - Brazilian Portuguese</source>
+        <translation type="unfinished">Neco Torquato - Brasilianisches Portugiesisch</translation>
     </message>
     <message>
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+        <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
+        <translation type="unfinished">Svetoslav Sashkov, Mandor - Bulgarisch</translation>
+    </message>
+    <message utf8="true">
         <location filename="../ui/AboutDialog.ui" line="219"/>
-        <source>Stefan Birkner - German</source>
-        <translation type="unfinished"></translation>
+        <source>Petr Kovář - Czech</source>
+        <translation type="unfinished">Petr Kovář - Tschechisch</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="226"/>
-        <source>Angelo Gemmi - Italian</source>
-        <translation type="unfinished"></translation>
+        <source>Stefan Birkner - German</source>
+        <translation type="unfinished">Stefan Birkner - Deutsch</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="233"/>
-        <source>Masahiro Kitagawa - Japanese</source>
-        <translation type="unfinished"></translation>
+        <source>Angelo Gemmi - Italian</source>
+        <translation type="unfinished">Angelo Gemmi - Italienisch</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="240"/>
-        <source>Patrick Pascal - French</source>
-        <translation type="unfinished"></translation>
+        <source>Masahiro Kitagawa - Japanese</source>
+        <translation type="unfinished">Masahiro Kitagawa - Japanisch</translation>
     </message>
-    <message utf8="true">
+    <message>
         <location filename="../ui/AboutDialog.ui" line="247"/>
-        <source>Daniel Koć - Polish</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/AboutDialog.ui" line="254"/>
-        <source>Joseph Artsimovich - Russian</source>
-        <translation type="unfinished"></translation>
+        <source>Patrick Pascal - French</source>
+        <translation type="unfinished">Patrick Pascal - Französisch</translation>
     </message>
     <message utf8="true">
-        <location filename="../ui/AboutDialog.ui" line="261"/>
-        <source>Marián Hvolka - Slovak</source>
-        <translation type="unfinished"></translation>
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+        <source>Daniel Koć - Polish</source>
+        <translation type="unfinished">Daniel Koć - Polnisch</translation>
     </message>
     <message>
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+        <source>Joseph Artsimovich - Russian</source>
+        <translation type="unfinished">Joseph Artsimovich - Russisch</translation>
+    </message>
+    <message utf8="true">
         <location filename="../ui/AboutDialog.ui" line="268"/>
-        <source>Flavio Benelli - Spanish</source>
-        <translation type="unfinished"></translation>
+        <source>Marián Hvolka - Slovak</source>
+        <translation type="unfinished">Marián Hvolka - Slowakisch</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="275"/>
-        <source>Davidson Wang - Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <source>Flavio Benelli - Spanish</source>
+        <translation type="unfinished">Flavio Benelli - Spanisch</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="282"/>
-        <source>Yuri Chornoivan - Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <source>Davidson Wang - Traditional Chinese</source>
+        <translation type="unfinished">Davidson Wang - Chinesisch (Langzeichen)</translation>
     </message>
     <message>
-        <location filename="../ui/AboutDialog.ui" line="309"/>
+        <location filename="../ui/AboutDialog.ui" line="289"/>
+        <source>Yuri Chornoivan - Ukrainian</source>
+        <translation type="unfinished">Yuri Chornoivan - Ukrainisch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="316"/>
         <source>denver 22</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">denver 22</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="190"/>
@@ -158,7 +163,7 @@ Robert B. - Dewarping-Algorithmus.
 Andrey Bergman - Einstellen der Systemauslastung.</translation>
     </message>
     <message>
-        <location filename="../ui/AboutDialog.ui" line="294"/>
+        <location filename="../ui/AboutDialog.ui" line="301"/>
         <source>Documentation</source>
         <translation>Dokumentation</translation>
     </message>
@@ -171,7 +176,7 @@ phaedrus
 Taxman</translation>
     </message>
     <message>
-        <location filename="../ui/AboutDialog.ui" line="350"/>
+        <location filename="../ui/AboutDialog.ui" line="357"/>
         <source>License</source>
         <translation>Lizenz</translation>
     </message>
@@ -207,7 +212,7 @@ Taxman</translation>
     <message>
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="26"/>
         <source>This page only (already applied)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">nur diese Seite (schon angewandt)</translation>
     </message>
     <message>
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="36"/>
@@ -270,35 +275,43 @@ zur Auswahl mehrerer Seiten.</translation>
 <context>
     <name>ErrorWidget</name>
     <message>
+        <location filename="../ui/ErrorWidget.ui" line="14"/>
         <source>Form</source>
-        <translation type="obsolete">Projekt auswählen</translation>
+        <translation type="unfinished">Projekt auswählen</translation>
     </message>
 </context>
 <context>
     <name>FixDpiDialog</name>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="241"/>
         <source>Need Fixing</source>
-        <translation type="obsolete">Korrektur notwendig</translation>
+        <translation type="unfinished">Korrektur notwendig</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="242"/>
+        <location filename="../FixDpiDialog.cpp" line="707"/>
         <source>All Pages</source>
-        <translation type="obsolete">Alles Seiten</translation>
+        <translation type="unfinished">Alles Seiten</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="476"/>
         <source>DPI is too large and most likely wrong.</source>
-        <translation type="obsolete">Dpi sind zu groß und sehr wahrscheinlich falsch.</translation>
+        <translation type="unfinished">Dpi sind zu groß und sehr wahrscheinlich falsch.</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="479"/>
         <source>DPI is too small. Even if it&apos;s correct, you are not going to get acceptable results with it.</source>
-        <translation type="obsolete">Dpi sind zu niedrig. Sogar wenn sie richtig sind, werden Sie damit kein annehmbares Ergebnis erhalten.</translation>
+        <translation type="unfinished">Dpi sind zu niedrig. Sogar wenn sie richtig sind, werden Sie damit kein annehmbares Ergebnis erhalten.</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="482"/>
         <source>DPI is too small for this pixel size. Such combination would probably lead to out of memory errors.</source>
-        <translation type="obsolete">Dpi sind zu niedrig für diese Pixelgröße. Ein solche Kombination führt wahrscheinlich zu Zuwenig-Speicher-Fehlern.</translation>
+        <translation type="unfinished">Dpi sind zu niedrig für diese Pixelgröße. Ein solche Kombination führt wahrscheinlich zu Zuwenig-Speicher-Fehlern.</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="733"/>
         <source>%1 (page %2)</source>
-        <translation type="obsolete">%1 (Seite %2)</translation>
+        <translation type="unfinished">%1 (Seite %2)</translation>
     </message>
     <message>
         <location filename="../ui/FixDpiDialog.ui" line="13"/>
@@ -374,8 +387,9 @@ zur Auswahl mehrerer Seiten.</translation>
 <context>
     <name>ImageViewBase</name>
     <message>
+        <location filename="../ImageViewBase.cpp" line="211"/>
         <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
-        <translation type="obsolete">Verwenden Sie das Mausrad oder +/- zum Zoomen.</translation>
+        <translation type="unfinished">Verwenden Sie das Mausrad oder +/- zum Zoomen.</translation>
     </message>
 </context>
 <context>
@@ -399,10 +413,16 @@ zur Auswahl mehrerer Seiten.</translation>
 <context>
     <name>LoadFileTask</name>
     <message>
+        <location filename="../LoadFileTask.cpp" line="157"/>
         <source>The following file could not be loaded:
 %1</source>
-        <translation type="obsolete">Die folgende Datei konnte nicht geladen werden:
+        <translation type="unfinished">Die folgende Datei konnte nicht geladen werden:
 %1</translation>
+    </message>
+    <message>
+        <location filename="../LoadFileTask.cpp" line="160"/>
+        <source>The following file doesn&apos;t exist:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Use the &lt;a href=&quot;#relink&quot;&gt;Relinking Tool&lt;/a&gt; to locate it.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -410,99 +430,135 @@ zur Auswahl mehrerer Seiten.</translation>
     <message>
         <location filename="../ui/LoadFilesStatusDialog.ui" line="14"/>
         <source>Some files failed to load</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Manche Dateien konnten nicht geladen werden</translation>
     </message>
     <message>
         <location filename="../ui/LoadFilesStatusDialog.ui" line="27"/>
         <source>Loaded successfully: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Erfolgreich geladen: %1</translation>
     </message>
     <message>
         <location filename="../ui/LoadFilesStatusDialog.ui" line="87"/>
         <source>Failed to load: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nicht geladen: %1</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
         <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
         <source>Save Project</source>
         <translation>Projekt speichern</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="564"/>
         <source>Save this project?</source>
-        <translation type="obsolete">Dieses Projekt speichern?</translation>
+        <translation type="unfinished">Dieses Projekt speichern?</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1001"/>
         <source>Insert before ...</source>
-        <translation type="obsolete">Davor einfügen ...</translation>
+        <translation type="unfinished">Davor einfügen ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1004"/>
         <source>Insert after ...</source>
-        <translation type="obsolete">Danach einfügen ...</translation>
+        <translation type="unfinished">Danach einfügen ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1010"/>
         <source>Remove from project ...</source>
-        <translation type="obsolete">Aus dem Projekt entfernen ...</translation>
+        <translation type="unfinished">Aus dem Projekt entfernen ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1031"/>
         <source>Insert here ...</source>
-        <translation type="obsolete">Hier einfügen ...</translation>
+        <translation type="unfinished">Hier einfügen ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1369"/>
+        <location filename="../MainWindow.cpp" line="1437"/>
         <source>Scan Tailor Projects</source>
-        <translation type="obsolete">Scan-Tailor-Projekte</translation>
+        <translation type="unfinished">Scan-Tailor-Projekte</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1436"/>
         <source>Open Project</source>
-        <translation type="obsolete">Projekt öffnen</translation>
+        <translation type="unfinished">Projekt öffnen</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1454"/>
+        <location filename="../MainWindow.cpp" line="1463"/>
+        <location filename="../MainWindow.cpp" line="1777"/>
+        <location filename="../MainWindow.cpp" line="1808"/>
         <source>Error</source>
-        <translation type="obsolete">Fehler</translation>
+        <translation type="unfinished">Fehler</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1455"/>
         <source>Unable to open the project file.</source>
-        <translation type="obsolete">Die Projektdatei kann nicht geöffnet werden.</translation>
+        <translation type="unfinished">Die Projektdatei kann nicht geöffnet werden.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1464"/>
         <source>The project file is broken.</source>
-        <translation type="obsolete">Die Projektdatei ist beschädigt.</translation>
+        <translation type="unfinished">Die Projektdatei ist beschädigt.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1673"/>
         <source>Output is not yet possible, as the final size of pages is not yet known.
 To determine it, run batch processing at &quot;Select Content&quot; or &quot;Margins&quot;.</source>
-        <translation type="obsolete">Ausgabe ist noch nicht möglich, da die schlußendliche Größe der Seiten noch nicht bekannt ist.
+        <translation type="unfinished">Ausgabe ist noch nicht möglich, da die schlußendliche Größe der Seiten noch nicht bekannt ist.
 Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt auswählen“ oder „Stege (Ränder)“.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1706"/>
         <source>Unnamed</source>
-        <translation type="obsolete">Unbenannt</translation>
+        <translation type="unfinished">Unbenannt</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1711"/>
+        <source>%2 - Scan Tailor %3 [%1bit]</source>
+        <translation type="unfinished">%2 - Scan Tailor %3 [%1bit]</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1860"/>
+        <source>Files to insert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1915"/>
+        <source>Skip failed files</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 - Scan Tailor %2</source>
         <translation type="obsolete">%1 - Scan Tailor %2</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1778"/>
+        <location filename="../MainWindow.cpp" line="1809"/>
         <source>Error saving the project file!</source>
-        <translation type="obsolete">Beim Speichern der Projektdatei ist ein Fehler aufgetreten!</translation>
+        <translation type="unfinished">Beim Speichern der Projektdatei ist ein Fehler aufgetreten!</translation>
     </message>
     <message>
         <source>File to insert</source>
         <translation type="obsolete">Einzufügende Datei</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1866"/>
         <source>Images not in project (%1)</source>
-        <translation type="obsolete">Bilder befinden sich nicht im Projekt (%1)</translation>
+        <translation type="unfinished">Bilder befinden sich nicht im Projekt (%1)</translation>
     </message>
     <message>
         <source>Error opening the image file.</source>
         <translation type="obsolete">Beim Öffnen der Bilddatei ist ein Fehler aufgetreten.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1962"/>
         <source>Remove</source>
-        <translation type="obsolete">Entfernen</translation>
+        <translation type="unfinished">Entfernen</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="20"/>
@@ -546,7 +602,7 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
     <message>
         <location filename="../ui/MainWindow.ui" line="235"/>
         <source>Ctrl+S</source>
-        <translation>Strg+S</translation>
+        <translation type="unfinished">Ctrl+S</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="240"/>
@@ -562,7 +618,7 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
     <message>
         <location filename="../ui/MainWindow.ui" line="248"/>
         <source>PgDown</source>
-        <translation>BildAb</translation>
+        <translation type="unfinished">PgDown</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="256"/>
@@ -573,7 +629,7 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
     <message>
         <location filename="../ui/MainWindow.ui" line="259"/>
         <source>PgUp</source>
-        <translation>BildAuf</translation>
+        <translation type="unfinished">PgUp</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="267"/>
@@ -583,7 +639,7 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
     <message>
         <location filename="../ui/MainWindow.ui" line="270"/>
         <source>Ctrl+N</source>
-        <translation>Strg+N</translation>
+        <translation type="unfinished">Ctrl+N</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="275"/>
@@ -593,7 +649,7 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
     <message>
         <location filename="../ui/MainWindow.ui" line="278"/>
         <source>Ctrl+O</source>
-        <translation>Strg+Q</translation>
+        <translation type="unfinished">Ctrl+O</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="286"/>
@@ -613,7 +669,7 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
     <message>
         <location filename="../ui/MainWindow.ui" line="308"/>
         <source>Ctrl+W</source>
-        <translation>Strg+W</translation>
+        <translation type="unfinished">Ctrl+W</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="313"/>
@@ -623,7 +679,7 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
     <message>
         <location filename="../ui/MainWindow.ui" line="316"/>
         <source>Ctrl+Q</source>
-        <translation>Strg+Q</translation>
+        <translation type="unfinished">Ctrl+Q</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="326"/>
@@ -653,7 +709,7 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
     <message>
         <location filename="../ui/MainWindow.ui" line="347"/>
         <source>Fix DPI ...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DPI korrigieren ...</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="352"/>
@@ -661,8 +717,9 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="492"/>
         <source>Stop batch processing</source>
-        <translation type="obsolete">Stapelverarbeitung beenden</translation>
+        <translation type="unfinished">Stapelverarbeitung beenden</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="321"/>
@@ -725,7 +782,7 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translatorcomment>Alle geraden oder ungeraden Seiten, abhängig davon, ob die aktuelle Seite gerade oder ungerade ist.</translatorcomment>
-        <translation>alle anderen Seiten</translation>
+        <translation type="unfinished">jede zweite Seite</translation>
     </message>
     <message>
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="101"/>
@@ -747,7 +804,7 @@ zur Auswahl mehrerer Seiten.</translation>
     <message>
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="176"/>
         <source>Every other selected page</source>
-        <translation>alle anderen ausgewählten Seiten</translation>
+        <translation type="unfinished">jede zweite ausgewählte Seite</translation>
     </message>
 </context>
 <context>
@@ -877,6 +934,21 @@ zur Auswahl mehrerer Seiten.</translation>
         <source>Please note that while Scan Tailor tries to catch out-of-memory situations and give you the opportunity to save your project, it&apos;s not always possible. This time it succeeded, but the next time it might just crash.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="88"/>
+        <source>Scan Tailor Projects</source>
+        <translation type="unfinished">Scan-Tailor-Projekte</translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="123"/>
+        <source>Error</source>
+        <translation type="unfinished">Fehler</translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="124"/>
+        <source>Error saving the project file!</source>
+        <translation type="unfinished">Beim Speichern der Projektdatei ist ein Fehler aufgetreten!</translation>
+    </message>
 </context>
 <context>
     <name>OutputApplyColorsDialog</name>
@@ -947,7 +1019,7 @@ zur Auswahl mehrerer Seiten.</translation>
     <message>
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="59"/>
         <source>Scope</source>
-        <translation>Anwenden auf</translation>
+        <translation type="unfinished">Geltungsbereich</translation>
     </message>
     <message>
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="65"/>
@@ -1143,7 +1215,7 @@ zur Auswahl mehrerer Seiten.</translation>
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
-        <translation type="unfinished">alle anderen Seiten</translation>
+        <translation type="unfinished">jede zweite Seite</translation>
     </message>
     <message>
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="89"/>
@@ -1165,7 +1237,7 @@ zur Auswahl mehrerer Seiten.</translation>
     <message>
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="164"/>
         <source>Every other selected page</source>
-        <translation type="unfinished">alle anderen ausgewählten Seiten</translation>
+        <translation type="unfinished">jede zweite ausgewählte Seite</translation>
     </message>
 </context>
 <context>
@@ -1365,51 +1437,67 @@ Ebene subtrahieren</translation>
     <name>ProjectFilesDialog</name>
     <message>
         <location filename="../ui/ProjectFilesDialog.ui" line="20"/>
+        <location filename="../ProjectFilesDialog.cpp" line="334"/>
         <source>Input Directory</source>
         <translation>Eingabeverzeichnis</translation>
     </message>
     <message>
         <location filename="../ui/ProjectFilesDialog.ui" line="43"/>
+        <location filename="../ProjectFilesDialog.cpp" line="354"/>
         <source>Output Directory</source>
         <translation>Ausgabeverzeichnis</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="526"/>
+        <location filename="../ProjectFilesDialog.cpp" line="534"/>
+        <location filename="../ProjectFilesDialog.cpp" line="543"/>
+        <location filename="../ProjectFilesDialog.cpp" line="565"/>
+        <location filename="../ProjectFilesDialog.cpp" line="574"/>
+        <location filename="../ProjectFilesDialog.cpp" line="647"/>
         <source>Error</source>
-        <translation type="obsolete">Fehler</translation>
+        <translation type="unfinished">Fehler</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="526"/>
         <source>No files in project!</source>
-        <translation type="obsolete">Es sind keine Dateien im Projekt!</translation>
+        <translation type="unfinished">Es sind keine Dateien im Projekt!</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="535"/>
         <source>Input directory is not set or doesn&apos;t exist.</source>
-        <translation type="obsolete">Das Eingabeverzeichnis wurde nicht angegeben oder es existiert nicht.</translation>
+        <translation type="unfinished">Das Eingabeverzeichnis wurde nicht angegeben oder es existiert nicht.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="544"/>
         <source>Input and output directories can&apos;t be the same.</source>
-        <translation type="obsolete">Ein- und Ausgabeverzeichnis dürfen nicht übereinstimmen.</translation>
+        <translation type="unfinished">Ein- und Ausgabeverzeichnis dürfen nicht übereinstimmen.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="554"/>
         <source>Create Directory?</source>
-        <translation type="obsolete">Verzeichnis erstellen?</translation>
+        <translation type="unfinished">Verzeichnis erstellen?</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="555"/>
         <source>Output directory doesn&apos;t exist.  Create it?</source>
-        <translation type="obsolete">Das Ausgabeverzeichnis existiert nicht. Soll es erstellt werden?</translation>
+        <translation type="unfinished">Das Ausgabeverzeichnis existiert nicht. Soll es erstellt werden?</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="566"/>
         <source>Unable to create output directory.</source>
-        <translation type="obsolete">Ausgabeverzeichnis kann nicht erstellt werden.</translation>
+        <translation type="unfinished">Ausgabeverzeichnis kann nicht erstellt werden.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="575"/>
         <source>Output directory is not set or doesn&apos;t exist.</source>
-        <translation type="obsolete">Das Ausgabeverzeichnis wurde nicht angegeben oder es existiert nicht.</translation>
+        <translation type="unfinished">Das Ausgabeverzeichnis wurde nicht angegeben oder es existiert nicht.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="647"/>
         <source>Some of the files failed to load.
 Either we don&apos;t support their format, or they are broken.
 You should remove them from the project.</source>
-        <translation type="obsolete">Einige der Dateien konnten nicht geladen werden.
+        <translation type="unfinished">Einige der Dateien konnten nicht geladen werden.
 Entweder wird ihr Format nicht unterstützt oder sie sind beschädigt.
 Sie sollten sie aus dem Projekt entfernen.</translation>
     </message>
@@ -1486,12 +1574,14 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ProjectOpeningContext</name>
     <message>
+        <location filename="../ProjectOpeningContext.cpp" line="51"/>
         <source>Error</source>
-        <translation type="obsolete">Fehler</translation>
+        <translation type="unfinished">Fehler</translation>
     </message>
     <message>
+        <location filename="../ProjectOpeningContext.cpp" line="52"/>
         <source>Unable to interpret the project file.</source>
-        <translation type="obsolete">Die Projektdatei kann nicht ausgewertet werden.</translation>
+        <translation type="unfinished">Die Projektdatei kann nicht ausgewertet werden.</translation>
     </message>
 </context>
 <context>
@@ -1510,6 +1600,21 @@ p, li { white-space: pre-wrap; }
         <location filename="../ui/RelinkingDialog.ui" line="100"/>
         <source>...</source>
         <translation type="unfinished">...</translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="95"/>
+        <source>Substitution File for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="102"/>
+        <source>Substitution Directory for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="130"/>
+        <source>This change would merge several files into one.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1546,7 +1651,7 @@ Eingabedatei erhalten bleibt.</translation>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
         <source>This page only (already applied)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">nur diese Seiten (schon angewandt)</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
@@ -1562,7 +1667,7 @@ Eingabedatei erhalten bleibt.</translation>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="71"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
-        <translation type="unfinished">alle anderen Seiten</translation>
+        <translation type="unfinished">jede zweite Seite</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="101"/>
@@ -1584,7 +1689,7 @@ zur Auswahl mehrerer Seiten.</translation>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="176"/>
         <source>Every other selected page</source>
-        <translation type="unfinished">alle anderen ausgewählten Seiten</translation>
+        <translation type="unfinished">jede zweite ausgewählte Seite</translation>
     </message>
 </context>
 <context>
@@ -1612,7 +1717,7 @@ zur Auswahl mehrerer Seiten.</translation>
     <message>
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="83"/>
         <source>Scope</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Geltungsbereich</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="104"/>
@@ -1623,12 +1728,14 @@ zur Auswahl mehrerer Seiten.</translation>
 <context>
     <name>SettingsDialog</name>
     <message>
+        <location filename="../SettingsDialog.cpp" line="36"/>
         <source>Compiled without OpenGL support.</source>
-        <translation type="obsolete">Ohne OpenGL-Unterstützung kompiliert.</translation>
+        <translation type="unfinished">Ohne OpenGL-Unterstützung kompiliert.</translation>
     </message>
     <message>
+        <location filename="../SettingsDialog.cpp" line="41"/>
         <source>Your hardware / driver don&apos;t provide the necessary features.</source>
-        <translation type="obsolete">Ihre Hardware bzw. ihr Treiber verfügt nicht über die notwendigen Eigenschaften.</translation>
+        <translation type="unfinished">Ihre Hardware bzw. ihr Treiber verfügt nicht über die notwendigen Eigenschaften.</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="14"/>
@@ -1638,15 +1745,16 @@ zur Auswahl mehrerer Seiten.</translation>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="20"/>
         <source>Use 3D acceleration for user interface</source>
-        <translation>3D-Beschleunigung für die 
+        <translation>3D-Beschleunigung für die
 Benutzeroberläche verwenden</translation>
     </message>
 </context>
 <context>
     <name>StageListView</name>
     <message>
+        <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
-        <translation type="obsolete">Stapelverarbeitung starten</translation>
+        <translation type="unfinished">Stapelverarbeitung starten</translation>
     </message>
 </context>
 <context>
@@ -1668,19 +1776,22 @@ Benutzeroberläche verwenden</translation>
         <translation>...</translation>
     </message>
     <message>
+        <location filename="../SystemLoadWidget.cpp" line="98"/>
         <source>Minimal</source>
-        <translation type="obsolete">Minimal</translation>
+        <translation type="unfinished">Minimal</translation>
     </message>
     <message>
+        <location filename="../SystemLoadWidget.cpp" line="100"/>
         <source>Normal</source>
-        <translation type="obsolete">Normal</translation>
+        <translation type="unfinished">Normal</translation>
     </message>
 </context>
 <context>
     <name>ThumbnailSequence</name>
     <message>
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
         <source>%1 (page %2)</source>
-        <translation type="obsolete">%1 (Seite %2)</translation>
+        <translation type="unfinished">%1 (Seite %2)</translation>
     </message>
 </context>
 <context>
@@ -1897,37 +2008,37 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>output::Task::UiUpdater</name>
     <message>
-        <location filename="../filters/output/Task.cpp" line="506"/>
+        <location filename="../filters/output/Task.cpp" line="512"/>
         <source>Picture zones are only available in Mixed mode.</source>
         <translation>Bildbereiche stehen nur im Gemischten Modus zur Verfügung.</translation>
     </message>
     <message>
-        <location filename="../filters/output/Task.cpp" line="558"/>
+        <location filename="../filters/output/Task.cpp" line="564"/>
         <source>Despeckling can&apos;t be done in Color / Grayscale mode.</source>
         <translation>Despeckling kann im Farb-/Graustufenmodes nicht durchgeführt werden.</translation>
     </message>
     <message>
-        <location filename="../filters/output/Task.cpp" line="575"/>
+        <location filename="../filters/output/Task.cpp" line="581"/>
         <source>Output</source>
         <translation>Ausgabe</translation>
     </message>
     <message>
-        <location filename="../filters/output/Task.cpp" line="576"/>
+        <location filename="../filters/output/Task.cpp" line="582"/>
         <source>Picture Zones</source>
         <translation>Bildbereiche</translation>
     </message>
     <message>
-        <location filename="../filters/output/Task.cpp" line="577"/>
+        <location filename="../filters/output/Task.cpp" line="583"/>
         <source>Fill Zones</source>
         <translation>Bereiche füllen</translation>
     </message>
     <message>
-        <location filename="../filters/output/Task.cpp" line="578"/>
+        <location filename="../filters/output/Task.cpp" line="584"/>
         <source>Dewarping</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../filters/output/Task.cpp" line="579"/>
+        <location filename="../filters/output/Task.cpp" line="585"/>
         <source>Despeckling</source>
         <translation>Despeckling</translation>
     </message>
@@ -1974,12 +2085,12 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>page_layout::OptionsWidget</name>
     <message>
-        <location filename="../filters/page_layout/OptionsWidget.cpp" line="310"/>
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
         <source>Apply Margins</source>
         <translation>Ränder übernehmen</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/OptionsWidget.cpp" line="325"/>
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
         <source>Apply Alignment</source>
         <translation>Ausrichtung übernehmen</translation>
     </message>
