@@ -5,3 +5,25 @@ CMakeFiles
 build/
 *~
 *.swp
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+.vimprj/
+*.patch
+ScanTailor.config
+ScanTailor.creator
+ScanTailor.creator.user
+ScanTailor.files
+ScanTailor.includes
+build-*/
+samples/
+
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff

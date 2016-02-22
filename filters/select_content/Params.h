@@ -21,6 +21,7 @@
 
 #include "Dependencies.h"
 #include "AutoManualMode.h"
+#include "Margins.h"
 #include <QRectF>
 #include <QSizeF>
 #include <cmath>
@@ -39,6 +40,15 @@ public:
 	
 	Params(QRectF const& rect, QSizeF const& size_mm,
 		Dependencies const& deps, AutoManualMode mode, bool contentDetect=true, bool pageDetect=false, bool fineTuning=false);
+<<<<<<< HEAD
+	
+	Params(QRectF const& rect, QSizeF const& size_mm,
+		Dependencies const& deps, AutoManualMode mode, bool contentDetect, bool pageDetect, bool fineTuning);
+	
+	Params(QRectF const& rect, QSizeF const& size_mm,
+		Dependencies const& deps, AutoManualMode mode, bool contentDetect, bool pageDetect, bool fineTuning);
+=======
+>>>>>>> pod/tiff
 	
 	Params(Dependencies const& deps);
 	
@@ -47,6 +57,7 @@ public:
 	~Params();
 	
 	QRectF const& contentRect() const { return m_contentRect; }
+	QRectF const& pageRect() const { return m_pageRect; }
 
 	QSizeF const& contentSizeMM() const { return m_contentSizeMM; }
 	
@@ -56,12 +67,39 @@ public:
 
 	double deviation() const { return m_deviation; }
 	void setDeviation(double d) { m_deviation = d; }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height()); }
+=======
+	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height() / 4); }
+>>>>>>> origin/enhanced
+=======
+	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height() / 4); }
+>>>>>>> origin/enhanced
+=======
+	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height()); }
+>>>>>>> pod/tiff
 	bool isDeviant(double std, double max_dev) { return (max_dev*std) < fabs(m_deviation); }
 
 	bool isContentDetectionEnabled() const { return m_contentDetect; };
 	bool isPageDetectionEnabled() const { return m_pageDetect; };
 	bool isFineTuningEnabled() const { return m_fineTuneCorners; };
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+    Margins pageBorders() const { return m_pageBorders; };
+    void setPageBorders(Margins borders) { m_pageBorders = borders; };
+>>>>>>> origin/enhanced
+=======
+    
+    Margins pageBorders() const { return m_pageBorders; };
+    void setPageBorders(Margins borders) { m_pageBorders = borders; };
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
 	void setMode(AutoManualMode const& mode) { m_mode = mode; };
 	void setContentRect(QRectF const& rect) { m_contentRect = rect; };
@@ -76,6 +114,17 @@ public:
 private:
 	QRectF m_contentRect;
 	QRectF m_pageRect;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    Margins m_pageBorders;
+>>>>>>> origin/enhanced
+=======
+    Margins m_pageBorders;
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	QSizeF m_contentSizeMM;
 	Dependencies m_deps;
 	AutoManualMode m_mode;

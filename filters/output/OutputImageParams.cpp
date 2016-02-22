@@ -42,11 +42,44 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -65,6 +98,23 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	DespeckleLevel const despeckle_level,
 	PictureShape const picture_shape)
@@ -74,6 +124,41 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> pod/tiff
+=======
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> origin/enhanced
+=======
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> pod/tiff
 >>>>>>> master
 :	m_size(out_image_size),
 	m_contentRect(content_rect),
@@ -85,11 +170,44 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -104,6 +222,23 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	m_pictureShape(picture_shape),
 >>>>>>> scantailor/tiff
@@ -112,6 +247,36 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	m_pictureShape(picture_shape),
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	m_pictureShape(picture_shape),
+>>>>>>> pod/tiff
+=======
+	m_pictureShape(picture_shape),
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	m_pictureShape(picture_shape),
+>>>>>>> origin/enhanced
+=======
+	m_pictureShape(picture_shape),
+>>>>>>> pod/tiff
 >>>>>>> master
 	m_distortionModel(distortion_model),
 	m_depthPerception(depth_perception),
@@ -192,11 +357,44 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -217,6 +415,23 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	if (m_pictureShape != other.m_pictureShape) {
 		return false;
@@ -227,6 +442,46 @@ OutputImageParams::matches(OutputImageParams const& other) const
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> pod/tiff
+=======
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> origin/enhanced
+=======
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> pod/tiff
 >>>>>>> master
 
 	if (m_dewarpingMode != other.m_dewarpingMode) {

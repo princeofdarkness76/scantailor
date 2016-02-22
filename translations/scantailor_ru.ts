@@ -4,9 +4,8 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../ui/AboutDialog.ui" line="14"/>
         <source>About Scan Tailor</source>
-        <translation>О программе Scan Tailor</translation>
+        <translation type="obsolete">О программе Scan Tailor</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="27"/>
@@ -16,6 +15,11 @@
     <message>
         <source>Scan Tailor is an interactive post-processing tool for scanned pages. It performs operations such as page splitting, skew correction, adding/removing margins, and others. You give it raw scans, and you get pages ready to be printed or assembled into a PDF or DJVU file.  Scanning and optical character recogrnition is out of scope of this project.</source>
         <translation type="obsolete">Scan Tailor - это интерактивный инструмент для пост-обработки сканированных страниц. Он делает такие операции как разрезание страниц, компенсация наклона, добавление/удаление полей, и другие. Вы даете ему необработанные сканы, а в результате получаете страницы, готовые для печати или сборки в PDF или DJVU файл. Сканирование и оптическое распознавание символов не входят в задачи проекта.</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="14"/>
+        <source>About Scan Tailor &quot;Enhanced&quot;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="33"/>
@@ -70,12 +74,27 @@
         <translation>Petr Kovář - Версия для командной строки.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="222"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="205"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
         <source>Neco Torquato - Brazilian Portuguese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="229"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+>>>>>>> origin/enhanced
         <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
         <translation></translation>
     </message>
@@ -85,62 +104,158 @@
         <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="243"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+>>>>>>> origin/enhanced
         <source>Petr Kovář - Czech</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="250"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+>>>>>>> origin/enhanced
         <source>Stefan Birkner - German</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="257"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+>>>>>>> origin/enhanced
         <source>Angelo Gemmi - Italian</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="264"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> origin/enhanced
         <source>Masahiro Kitagawa - Japanese</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="271"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> origin/enhanced
         <source>Patrick Pascal - French</source>
         <translation></translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="278"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> origin/enhanced
         <source>Daniel Koć - Polish</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="285"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> origin/enhanced
         <source>Joseph Artsimovich - Russian</source>
         <translation></translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="292"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> origin/enhanced
         <source>Marián Hvolka - Slovak</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="299"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> origin/enhanced
         <source>Flavio Benelli - Spanish</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="306"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+>>>>>>> origin/enhanced
         <source>Davidson Wang - Traditional Chinese</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="313"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="289"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="289"/>
+>>>>>>> origin/enhanced
         <source>Yuri Chornoivan - Ukrainian</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="340"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+>>>>>>> origin/enhanced
         <source>denver 22</source>
         <translation></translation>
     </message>
@@ -181,12 +296,28 @@ Andrey Bergman - Регулировка загрузки системы.
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="325"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> origin/enhanced
         <source>Documentation</source>
         <translation>Документация</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="381"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> origin/enhanced
         <source>License</source>
         <translation>Лицензия</translation>
     </message>
@@ -235,14 +366,36 @@ Andrey Bergman - Регулировка загрузки системы.
         <translation>К этой странице и всем последующим</translation>
     </message>
     <message>
-        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="59"/>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="50"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="57"/>
+        <source>Every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished">К каждой второй странице</translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="67"/>
         <source>Selected pages</source>
         <translation>К выбранным страницам</translation>
     </message>
     <message>
-        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="92"/>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="97"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Используйте Ctrl+Клик / Shift+Клик для выбора группы страниц.</translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="106"/>
+        <source>Every other selected page</source>
+        <translation type="unfinished">К каждой второй выбранной странице</translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="136"/>
+        <source>The current page will be included.</source>
+        <translation type="unfinished">Текущая страница будет включена в список.</translation>
     </message>
 </context>
 <context>
@@ -628,8 +781,16 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
         <translation type="unfinished">Ошибка при сохранении файла!</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="233"/>
         <location filename="../MainWindow.cpp" line="622"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="276"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="276"/>
+>>>>>>> origin/enhanced
         <source>Save Project</source>
         <translation>Сохранить проект</translation>
     </message>
@@ -661,17 +822,30 @@ First you need to process all of them with the &quot;Page Layout&quot; filter.</
         <translation></translation>
     </message>
     <message>
-        <location filename="../ui/MainWindow.ui" line="130"/>
+        <location filename="../ui/MainWindow.ui" line="107"/>
+        <source>Thumbnails</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="128"/>
         <source>Keep current page in view.</source>
         <translation>Держать текущую страницу в поле зрения.</translation>
     </message>
     <message>
-        <location filename="../ui/MainWindow.ui" line="156"/>
+        <location filename="../ui/MainWindow.ui" line="166"/>
         <source>Use Home, End, PgUp (or Q), PgDown (or W) to navigate between pages.</source>
         <translation>Используйте Home, End, PgUp (или Q), PgDown (или W) для навигации по страницам.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="211"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> origin/enhanced
         <source>Help</source>
         <translation>Помощь</translation>
     </message>
@@ -680,74 +854,197 @@ First you need to process all of them with the &quot;Page Layout&quot; filter.</
         <translation type="obsolete">Режим отладки</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="228"/>
+=======
+=======
+>>>>>>> origin/enhanced
+        <location filename="../ui/MainWindow.ui" line="199"/>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="271"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
         <source>Debug Mode</source>
         <translation>Режим отладки</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="236"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="279"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="279"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+S</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="241"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="284"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="284"/>
+>>>>>>> origin/enhanced
         <source>Save Project As ...</source>
         <translation>Сохранить проект как ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="246"/>
         <location filename="../ui/MainWindow.ui" line="295"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+>>>>>>> origin/enhanced
         <source>Next Page</source>
         <translation>Следующая страница</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="249"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> origin/enhanced
         <source>PgDown</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="257"/>
         <location filename="../ui/MainWindow.ui" line="284"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> origin/enhanced
         <source>Previous Page</source>
         <translation>Предыдущая страница</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="260"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> origin/enhanced
         <source>PgUp</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="327"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> origin/enhanced
         <source>First Page</source>
         <translation>Первый страница</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="330"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> origin/enhanced
         <source>Home</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="335"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> origin/enhanced
         <source>Last Page</source>
         <translation>Последняя страница</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="338"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> origin/enhanced
         <source>End</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="343"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> origin/enhanced
         <source>About</source>
         <translation>О программе</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="348"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+>>>>>>> origin/enhanced
         <source>Fix DPI ...</source>
         <translation>Исправить DPI ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="353"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="396"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="396"/>
+>>>>>>> origin/enhanced
         <source>Relinking ...</source>
         <translation>Пути в проекте ...</translation>
     </message>
@@ -765,12 +1062,20 @@ First you need to process all of them with the &quot;Page Layout&quot; filter.</
         <translation type="obsolete">Остановить пакетную обработку</translation>
     </message>
     <message>
-        <location filename="../ui/MainWindow.ui" line="185"/>
+        <location filename="../ui/MainWindow.ui" line="65"/>
         <source>Tools</source>
         <translation>Инструменты</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="197"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> origin/enhanced
         <source>File</source>
         <translation>Файл</translation>
     </message>
@@ -903,22 +1208,54 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="268"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> origin/enhanced
         <source>New Project ...</source>
         <translation>Новый проект ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="271"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+N</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> origin/enhanced
         <source>Open Project ...</source>
         <translation>Открыть проект ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="279"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+O</source>
         <translation></translation>
     </message>
@@ -927,32 +1264,80 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation type="obsolete">Страницы можно листать с помощью PgUp и PgDown, а также Q и W.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="287"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> origin/enhanced
         <source>Q</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="298"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> origin/enhanced
         <source>W</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="306"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> origin/enhanced
         <source>Close Project</source>
         <translation>Закрыть проект</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="309"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+W</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="314"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> origin/enhanced
         <source>Quit</source>
         <translation>Выход</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="317"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+Q</source>
         <translation></translation>
     </message>
@@ -974,7 +1359,15 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation type="unfinished">Остановить пакетную обработку</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="322"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="365"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="365"/>
+>>>>>>> origin/enhanced
         <source>Settings ...</source>
         <translation>Настройки ...</translation>
     </message>
@@ -1050,28 +1443,33 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
     </message>
     <message>
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="71"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="93"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation>К каждой второй странице</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="101"/>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="206"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="181"/>
         <source>The current page will be included.</source>
         <translation>Текущая страница будет включена в список.</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="125"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="100"/>
         <source>Selected pages</source>
         <translation>К выбранным страницам</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="155"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="130"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Используйте Ctrl+Клик / Shift+Клик для выбора группы страниц.</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="176"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="151"/>
         <source>Every other selected page</source>
         <translation>К каждой второй выбранной странице</translation>
     </message>
@@ -1403,27 +1801,73 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
     </message>
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="78"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="504"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> origin/enhanced
         <source>Change ...</source>
         <translation>Изменить ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="348"/>
         <source>Picture Shape</source>
         <translation type="unfinished">Форма картинок</translation>
     </message>
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="446"/>
+=======
+=======
+>>>>>>> origin/enhanced
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
+        <source>Picture Shape</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
         <source>Dewarping</source>
         <translation>Распрямление строк</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="529"/>
+=======
+=======
+>>>>>>> origin/enhanced
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="785"/>
+        <source>Tiff Compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
         <source>Depth perception</source>
         <translation>Восприятие глубины</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="618"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+>>>>>>> origin/enhanced
         <source>No despeckling</source>
         <translation>Не удалять пятна</translation>
     </message>
@@ -1432,29 +1876,73 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation type="obsolete">Устранение геометрических искажений</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="594"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> origin/enhanced
         <source>Despeckling</source>
         <translation>Удаление пятен</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="643"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> origin/enhanced
         <source>Cautious despeckling</source>
         <translation>Осторожное удаление пятен</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="646"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="672"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="698"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> origin/enhanced
         <source>...</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="669"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> origin/enhanced
         <source>Normal despeckling</source>
         <translation>Обычное удаление пятен</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="695"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> origin/enhanced
         <source>Aggressive despeckling</source>
         <translation>Агрессивное удаление пятен</translation>
     </message>
@@ -1475,9 +1963,21 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation type="obsolete">Черно-белый порог</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="421"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="569"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="751"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+>>>>>>> origin/enhanced
         <source>Apply To ...</source>
         <translation>Применить к ...</translation>
     </message>
@@ -1539,28 +2039,33 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
     </message>
     <message>
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="69"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation>К каждой второй странице</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="89"/>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="194"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="169"/>
         <source>The current page will be included.</source>
         <translation>Текущая страница будет включена в список.</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="110"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="85"/>
         <source>Selected pages</source>
         <translation>К выбранным страницам</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="143"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="118"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Используйте Ctrl+Клик / Shift+Клик для выбора группы страниц.</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="164"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="139"/>
         <source>Every other selected page</source>
         <translation>К каждой второй выбранной странице</translation>
     </message>
@@ -1578,63 +2083,86 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation>Поля</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="42"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="44"/>
         <source>Millimeters (mm)</source>
         <translation>Миллиметры (mm)</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="47"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="49"/>
         <source>Inches (in)</source>
         <translation>Дюймы (in)</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="87"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="91"/>
         <source>Top</source>
         <translation>Сверху</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="100"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="161"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="338"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="361"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="384"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="407"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="430"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="456"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="479"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="502"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="525"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="104"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="165"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="378"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="401"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="424"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="447"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="470"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="496"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="519"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="542"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="565"/>
         <source>...</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="121"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="125"/>
         <source>Bottom</source>
         <translation>Снизу</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="138"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="142"/>
         <source>Left</source>
         <translation>Слева</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="185"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="189"/>
         <source>Right</source>
         <translation>Справа</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="244"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="580"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="248"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="620"/>
         <source>Apply To ...</source>
         <translation>Применить к ...</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="269"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="273"/>
         <source>Alignment</source>
         <translation>Выравнивание</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="293"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="303"/>
+        <source>Auto</source>
+        <comment>auto</comment>
+        <translation type="unfinished">Автоматически</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="308"/>
+        <source>Manual</source>
+        <comment>manual</comment>
+        <translation type="unfinished">Вручную</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="313"/>
+        <source>Original</source>
+        <comment>original</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="321"/>
+        <source>Auto Margins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="331"/>
         <source>Match size with other pages</source>
         <translation>Выровнять размеры
 с другими страницами</translation>
@@ -1684,51 +2212,76 @@ p, li { white-space: pre-wrap; }
         <translation>Разрезание страниц</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="63"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="65"/>
         <source>Mode</source>
         <translation>Тип разреза</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="69"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="71"/>
         <source>Auto</source>
         <translation>Автоматически</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="79"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="81"/>
         <source>Manual</source>
         <translation>Вручную</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="89"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="91"/>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="97"/>
+        <source>Apply cut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="122"/>
         <source>Scope</source>
         <translation>Применить</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="217"/>
+        <source>Every other selected page</source>
+        <translation type="unfinished">К каждой второй выбранной странице</translation>
     </message>
     <message>
         <source>This page only (already applied)</source>
         <translation type="obsolete">Только к этой странице (уже применено)</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="112"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="145"/>
         <source>This page and the following ones</source>
         <translation>К этой странице и всем последующим</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="152"/>
+        <source>This page and the following every other page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="159"/>
+        <source>Every other page</source>
+        <translation type="unfinished">К каждой второй странице</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="175"/>
         <source>Selected pages</source>
         <translation>К выбранным страницам</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="161"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="208"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Используйте Ctrl+Клик / Shift+Клик для выбора группы страниц.</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="95"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
         <source>This page only</source>
         <translation>Только к этой странице</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="105"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="138"/>
         <source>All pages</source>
         <translation>Ко всем страницам</translation>
     </message>
@@ -2034,48 +2587,63 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="23"/>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
+        <source>Apply content box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
         <source>Apply to</source>
         <translation>Применить</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="45"/>
         <source>This page only (already applied)</source>
         <translation>Только к этой странице (уже применено)</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="55"/>
         <source>All pages</source>
         <translation>Ко всем страницам</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="46"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="62"/>
         <source>This page and the following ones</source>
         <translation>К этой странице и всем последующим</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="71"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="87"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="109"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation>К каждой второй странице</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="101"/>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="206"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="197"/>
         <source>The current page will be included.</source>
         <translation>Текущая страница будет включена в список.</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="125"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="116"/>
         <source>Selected pages</source>
         <translation>К выбранным страницам</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="155"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="146"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Используйте Ctrl+Клик / Shift+Клик для выбора группы страниц.</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="176"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="167"/>
         <source>Every other selected page</source>
         <translation>К каждой второй выбранной странице</translation>
     </message>
@@ -2083,33 +2651,80 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>SelectContentOptionsWidget</name>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="13"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="14"/>
         <source>Form</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="19"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="159"/>
         <source>Content Box</source>
         <translation>Полезная область</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="38"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="56"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="191"/>
         <source>Auto</source>
         <translation>Автоматически</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="54"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="20"/>
+        <source>Page Box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="28"/>
+        <source>Shift with corners while they are in black. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="31"/>
+        <source>Fine Tune Page Corners</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="40"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="178"/>
+        <source>Disable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="73"/>
+        <source>Borders in MM</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="96"/>
+        <source>Left</source>
+        <translation type="unfinished">Слева</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="106"/>
+        <source>Top</source>
+        <translation type="unfinished">Сверху</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="116"/>
+        <source>Right</source>
+        <translation type="unfinished">Справа</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="126"/>
+        <source>Bottom</source>
+        <translation type="unfinished">Снизу</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="207"/>
         <source>Manual</source>
         <translation>Вручную</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="83"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="236"/>
         <source>Scope</source>
         <translation>Применить
 </translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="104"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="257"/>
         <source>Apply to ...</source>
         <translation>Применить к ...</translation>
     </message>
@@ -2157,6 +2772,52 @@ p, li { white-space: pre-wrap; }
         <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
         <translation type="unfinished">Запустить пакетную обработку</translation>
+    </message>
+</context>
+<context>
+    <name>StartBatchProcessingDialog</name>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="26"/>
+        <source>Batch Process</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="33"/>
+        <source>All pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
+        <source>Start from selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>StartBatchProcessingDialog</name>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="26"/>
+        <source>Batch Process</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="33"/>
+        <source>All pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
+        <source>Start from selected</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2351,9 +3012,8 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">Страница %1 (текущая страница) должна быть внутри диапазона.</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ApplyDialog.cpp" line="53"/>
         <source>Can&apos;t do: more than one group is selected.</source>
-        <translation>Невозможно: выбрано несколько групп страниц.</translation>
+        <translation type="obsolete">Невозможно: выбрано несколько групп страниц.</translation>
     </message>
 </context>
 <context>
@@ -2413,7 +3073,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>output::Filter</name>
     <message>
-        <location filename="../filters/output/Filter.cpp" line="63"/>
+        <location filename="../filters/output/Filter.cpp" line="64"/>
         <source>Output</source>
         <translation>Вывод</translation>
     </message>
@@ -2421,7 +3081,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>output::OptionsWidget</name>
     <message>
-        <location filename="../filters/output/OptionsWidget.cpp" line="63"/>
+        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
         <source>Black and White</source>
         <translation>Черно-белый</translation>
     </message>
@@ -2430,16 +3090,18 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">Двухтоновый</translation>
     </message>
     <message>
-        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
+        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
         <source>Color / Grayscale</source>
         <translation>Цветной / Серый</translation>
     </message>
     <message>
-        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
+        <location filename="../filters/output/OptionsWidget.cpp" line="66"/>
         <source>Mixed</source>
         <translation>Смешанный</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
         <source>Free</source>
         <translation type="unfinished">Свободная</translation>
@@ -2465,26 +3127,101 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="445"/>
+=======
+=======
+>>>>>>> origin/enhanced
+        <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
+        <source>Free</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
+        <source>Rectangular</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="71"/>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="72"/>
+        <source>LZW</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="73"/>
+        <source>Deflate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="74"/>
+        <source>Packbits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="75"/>
+        <source>JPEG</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="442"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
         <source>Apply Despeckling Level</source>
         <translation>Применить уровень удаления пятен</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="530"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+>>>>>>> origin/enhanced
         <source>Apply Depth Perception</source>
         <translation>Применить восприятие глубины</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="728"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+>>>>>>> origin/enhanced
         <source>Off</source>
         <translation>Отключено</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="731"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> origin/enhanced
         <source>Auto</source>
         <translation>Автоматически</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="734"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+>>>>>>> origin/enhanced
         <source>Manual</source>
         <translation>Вручную</translation>
     </message>
@@ -2557,37 +3294,93 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>output::Task::UiUpdater</name>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="604"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> origin/enhanced
         <source>Picture zones are only available in Mixed mode.</source>
         <translation>Зоны картинок доступны только в режиме &quot;Смешанный&quot;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="656"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> origin/enhanced
         <source>Despeckling can&apos;t be done in Color / Grayscale mode.</source>
         <translation>Удаление пятен не делается в режиме &quot;Цветной / Серый&quot;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="673"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> origin/enhanced
         <source>Output</source>
         <translation>Вывод</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="674"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> origin/enhanced
         <source>Picture Zones</source>
         <translation>Зоны картинок</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="675"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> origin/enhanced
         <source>Fill Zones</source>
         <translation>Зоны заливки</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="676"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> origin/enhanced
         <source>Dewarping</source>
         <translation>Распрямление строк</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="677"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> origin/enhanced
         <source>Despeckling</source>
         <translation>Удаление пятен</translation>
     </message>
@@ -2595,9 +3388,8 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>page_layout::ApplyDialog</name>
     <message>
-        <location filename="../filters/page_layout/ApplyDialog.cpp" line="51"/>
         <source>Can&apos;t do: more than one group is selected.</source>
-        <translation>Невозможно: выбрано несколько групп страниц.</translation>
+        <translation type="obsolete">Невозможно: выбрано несколько групп страниц.</translation>
     </message>
 </context>
 <context>
@@ -2630,7 +3422,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>page_layout::ImageView</name>
     <message>
-        <location filename="../filters/page_layout/ImageView.cpp" line="76"/>
+        <location filename="../filters/page_layout/ImageView.cpp" line="78"/>
         <source>Resize margins by dragging any of the solid lines.</source>
         <translation>Меняйте размеры полей, перетаскивая хоть внешние, хоть внутренние сплошные линии.</translation>
     </message>
@@ -2638,12 +3430,28 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>page_layout::OptionsWidget</name>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+>>>>>>> origin/enhanced
         <source>Apply Margins</source>
         <translation>Применить поля</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+>>>>>>> origin/enhanced
         <source>Apply Alignment</source>
         <translation>Применить выравнивание</translation>
     </message>
@@ -2699,13 +3507,13 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="116"/>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="208"/>
-        <location filename="../filters/page_split/OptionsWidget.cpp" line="301"/>
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="289"/>
         <source>Set manually</source>
         <translation>Установлено вручную</translation>
     </message>
     <message>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="165"/>
-        <location filename="../filters/page_split/OptionsWidget.cpp" line="298"/>
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="286"/>
         <source>Auto detected</source>
         <translation>Определено автоматически</translation>
     </message>
@@ -2721,9 +3529,8 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>select_content::ApplyDialog</name>
     <message>
-        <location filename="../filters/select_content/ApplyDialog.cpp" line="53"/>
         <source>Can&apos;t do: more than one group is selected.</source>
-        <translation>Невозможно: выбрано несколько групп страниц.</translation>
+        <translation type="obsolete">Невозможно: выбрано несколько групп страниц.</translation>
     </message>
 </context>
 <context>
@@ -2752,22 +3559,22 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>select_content::ImageView</name>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="107"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
         <source>Create Content Box</source>
         <translation>Создать полезную область</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="109"/>
         <source>Remove Content Box</source>
         <translation>Убрать полезную область</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="58"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="59"/>
         <source>Use the context menu to enable / disable the content box.</source>
         <translation>Используйте контекстное меню для включения / отключения полезной области.</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="61"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="62"/>
         <source>Drag lines or corners to resize the content box.</source>
         <translation>Перетаскивайте линии или углы, чтобы изменить размеры полезной области.</translation>
     </message>

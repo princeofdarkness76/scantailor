@@ -58,11 +58,44 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -79,6 +112,23 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
 >>>>>>> scantailor/tiff
@@ -87,6 +137,36 @@ public:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
+>>>>>>> pod/tiff
+=======
+		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
+>>>>>>> origin/enhanced
+=======
+		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
+>>>>>>> pod/tiff
 >>>>>>> master
 	
 //begin of modified by monday2000
@@ -163,11 +243,44 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -185,6 +298,23 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	/** Shape of the pictures in image */
 	PictureShape m_pictureShape;
@@ -194,6 +324,41 @@ private:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	/** Shape of the pictures in image */
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	/** Shape of the pictures in image */
+	PictureShape m_pictureShape;
+>>>>>>> pod/tiff
+=======
+	/** Shape of the pictures in image */
+	PictureShape m_pictureShape;
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	/** Shape of the pictures in image */
+	PictureShape m_pictureShape;
+>>>>>>> origin/enhanced
+=======
+	/** Shape of the pictures in image */
+	PictureShape m_pictureShape;
+>>>>>>> pod/tiff
 >>>>>>> master
 
 	/** Two curves and two lines connecting their endpoints.  Used for dewarping. */

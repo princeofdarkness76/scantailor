@@ -37,11 +37,44 @@ namespace output
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -58,6 +91,23 @@ namespace output
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
 >>>>>>> scantailor/tiff
@@ -66,6 +116,36 @@ namespace output
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
+>>>>>>> pod/tiff
+=======
+	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
+>>>>>>> origin/enhanced
+=======
+	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
+>>>>>>> pod/tiff
 >>>>>>> master
 
 class Params
@@ -87,10 +167,41 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -103,6 +214,23 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> scantailor/tiff
 =======
@@ -110,6 +238,27 @@ public:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 >>>>>>> master
 
 	PictureShape pictureShape() const { return m_pictureShape; }
@@ -120,6 +269,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 =======
@@ -130,7 +280,63 @@ public:
 >>>>>>> master
 >>>>>>> scantailor/tiff
 =======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 >>>>>>> scantailor/tiff
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+>>>>>>> scantailor/tiff
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	void setColorParams(ColorParams const& params) { m_colorParams = params; }
 
 	DewarpingMode const& dewarpingMode() const { return m_dewarpingMode; }
@@ -164,11 +370,44 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 
 	Dpi m_dpi;
@@ -181,6 +420,23 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
@@ -189,6 +445,36 @@ private:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	PictureShape m_pictureShape;
+>>>>>>> pod/tiff
+=======
+	PictureShape m_pictureShape;
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	PictureShape m_pictureShape;
+>>>>>>> origin/enhanced
+=======
+	PictureShape m_pictureShape;
+>>>>>>> pod/tiff
 >>>>>>> master
 	dewarping::DistortionModel m_distortionModel;
 	DepthPerception m_depthPerception;

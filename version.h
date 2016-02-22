@@ -25,11 +25,44 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Export_Subscans
@@ -49,6 +82,23 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 #define VERSION __DATE__
 #define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
@@ -58,6 +108,41 @@
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+#define VERSION __DATE__
+#define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+#define VERSION __DATE__
+#define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
+>>>>>>> pod/tiff
+=======
+#define VERSION __DATE__
+#define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+#define VERSION __DATE__
+#define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
+>>>>>>> origin/enhanced
+=======
+#define VERSION __DATE__
+#define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
+>>>>>>> pod/tiff
 >>>>>>> master
 
 #endif

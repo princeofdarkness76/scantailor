@@ -153,6 +153,13 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 		it->second.setPictureShape(picture_shape);
 	}
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 //end of modified by monday2000
 
 void
@@ -189,6 +196,23 @@ void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 {
 	QMutexLocker const locker(&m_mutex);
@@ -209,6 +233,41 @@ void
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+void
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+
+void
+>>>>>>> pod/tiff
+=======
+
+void
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+
+void
+>>>>>>> origin/enhanced
+=======
+
+void
+>>>>>>> pod/tiff
 >>>>>>> master
 Settings::setDpi(PageId const& page_id, Dpi const& dpi)
 {

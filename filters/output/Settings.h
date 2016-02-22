@@ -65,6 +65,21 @@ public:
 	void setColorParams(PageId const& page_id, ColorParams const& prms);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
@@ -79,6 +94,23 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 >>>>>>> scantailor/tiff
 =======
 
@@ -88,9 +120,49 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+>>>>>>> master
+>>>>>>> scantailor/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+>>>>>>> pod/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+>>>>>>> origin/enhanced
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+>>>>>>> origin/enhanced
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+>>>>>>> pod/tiff
 	void setDpi(PageId const& page_id, Dpi const& dpi);
 
 	void setDewarpingMode(PageId const& page_id, DewarpingMode const& mode);

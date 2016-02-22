@@ -69,11 +69,44 @@ font-weight: bold;</string>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
           <string notr="true">Scan Tailor Featured</string>
 =======
@@ -85,6 +118,23 @@ font-weight: bold;</string>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
           <string notr="true">Scan Tailor "Enhanced"</string>
 >>>>>>> scantailor/tiff
@@ -93,6 +143,36 @@ font-weight: bold;</string>
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+          <string notr="true">Scan Tailor "Enhanced"</string>
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+          <string notr="true">Scan Tailor "Enhanced"</string>
+>>>>>>> pod/tiff
+=======
+          <string notr="true">Scan Tailor "Enhanced"</string>
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+          <string notr="true">Scan Tailor "Enhanced"</string>
+>>>>>>> origin/enhanced
+=======
+          <string notr="true">Scan Tailor "Enhanced"</string>
+>>>>>>> pod/tiff
 >>>>>>> master
          </property>
          <property name="alignment">

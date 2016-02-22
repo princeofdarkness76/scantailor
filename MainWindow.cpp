@@ -16,8 +16,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include "CommandLine.h"
 #include "MainWindow.h"
-#include "MainWindow.h.moc"
+#include "MainWindow.moc"
 #include "NewOpenProjectPanel.h"
 #include "RecentProjects.h"
 #include "WorkerThread.h"
@@ -65,6 +66,7 @@
 #include "OutOfMemoryHandler.h"
 #include "OutOfMemoryDialog.h"
 #include "QtSignalForwarder.h"
+#include "StartBatchProcessingDialog.h"
 #include "filters/fix_orientation/Filter.h"
 #include "filters/fix_orientation/Task.h"
 #include "filters/fix_orientation/CacheDrivenTask.h"
@@ -89,6 +91,7 @@
 #include "ui_AboutDialog.h"
 #include "ui_RemovePagesDialog.h"
 #include "ui_BatchProcessingLowerPanel.h"
+#include "ui_StartBatchProcessingDialog.h"
 #include "config.h"
 #include "version.h"
 #ifndef Q_MOC_RUN
@@ -215,6 +218,13 @@ MainWindow::MainWindow()
 	addAction(actionPrevPage);
 	addAction(actionPrevPageQ);
 	addAction(actionNextPageW);
+	
+	addAction(actionSwitchFilter1);
+	addAction(actionSwitchFilter2);
+	addAction(actionSwitchFilter3);
+	addAction(actionSwitchFilter4);
+	addAction(actionSwitchFilter5);
+	addAction(actionSwitchFilter6);
 
 	// Should be enough to save a project.
 	OutOfMemoryHandler::instance().allocateEmergencyMemory(3*1024*1024);
@@ -230,6 +240,13 @@ MainWindow::MainWindow()
 		&OutOfMemoryHandler::instance(),
 		SIGNAL(outOfMemory()), SLOT(handleOutOfMemorySituation())
 	);
+	
+	connect(actionSwitchFilter1, SIGNAL(triggered(bool)), SLOT(switchFilter1()));
+	connect(actionSwitchFilter2, SIGNAL(triggered(bool)), SLOT(switchFilter2()));
+	connect(actionSwitchFilter3, SIGNAL(triggered(bool)), SLOT(switchFilter3()));
+	connect(actionSwitchFilter4, SIGNAL(triggered(bool)), SLOT(switchFilter4()));
+	connect(actionSwitchFilter5, SIGNAL(triggered(bool)), SLOT(switchFilter5()));
+	connect(actionSwitchFilter6, SIGNAL(triggered(bool)), SLOT(switchFilter6()));
 	
 	connect(
 		filterList->selectionModel(),
@@ -556,6 +573,16 @@ MainWindow::setupThumbView()
 	
 	thumbView->setBackgroundBrush(palette().color(QPalette::Window));
 	m_ptrThumbSequence->attachView(thumbView);
+    
+    thumbView->installEventFilter(this);
+}
+
+bool MainWindow::eventFilter(QObject *obj, QEvent *ev)
+{
+    if (obj == thumbView && ev->type() == QEvent::Resize) {
+        emit invalidateAllThumbnails();
+    }
+    return false;
 }
 
 void
@@ -1176,6 +1203,7 @@ MainWindow::thumbViewScrolled()
 	} else {
 		focusButton->setChecked(false);
 	}
+    emit invalidateAllThumbnails();
 }
 
 void
@@ -1229,6 +1257,36 @@ MainWindow::filterSelectionChanged(QItemSelection const& selected)
 	updateMainArea();
 }
 
+void MainWindow::switchFilter1()
+{
+	filterList->selectRow(0);
+}
+
+void MainWindow::switchFilter2()
+{
+	filterList->selectRow(1);
+}
+
+void MainWindow::switchFilter3()
+{
+	filterList->selectRow(2);
+}
+
+void MainWindow::switchFilter4()
+{
+	filterList->selectRow(3);
+}
+
+void MainWindow::switchFilter5()
+{
+	filterList->selectRow(4);
+}
+
+void MainWindow::switchFilter6()
+{
+	filterList->selectRow(5);
+}
+
 void
 MainWindow::pageOrderingChanged(int idx)
 {
@@ -1270,7 +1328,18 @@ MainWindow::startBatchProcessing()
 			: ProcessingTaskQueue::SEQUENTIAL_ORDER
 		)
 	);
-	PageInfo page(m_ptrThumbSequence->selectionLeader());
+
+	StartBatchProcessingDialog dialog(this);
+	
+	dialog.show();
+	if (! dialog.exec()) {
+        return;
+	}
+
+    bool processAll = dialog.isAllPagesChecked();
+    
+	PageInfo start_page = processAll ? m_ptrThumbSequence->firstPage() : m_ptrThumbSequence->selectionLeader();
+	PageInfo page = start_page;
 	for (; !page.isNull(); page = m_ptrThumbSequence->nextPage(page.id())) {
 		m_ptrBatchQueue->addProcessingTask(
 			page, createCompositeTask(page, m_curFilter, /*batch=*/true, m_debug)
@@ -2265,9 +2334,13 @@ void
 MainWindow::updateWindowTitle()
 {
 	QString project_name;
+    CommandLine cli = CommandLine::get();
+    
 	if (m_projectFile.isEmpty()) {
 		project_name = tr("Unnamed");
-	} else {
+    } else if (cli.hasWindowTitle()) {
+        project_name = cli.getWindowTitle();
+    } else {
 		project_name = QFileInfo(m_projectFile).baseName();
 	}
 	QString const version(QString::fromUtf8(VERSION));
@@ -2277,11 +2350,44 @@ MainWindow::updateWindowTitle()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 	//setWindowTitle(tr("%2 - Scan Tailor %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
@@ -2296,6 +2402,23 @@ MainWindow::updateWindowTitle()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
 >>>>>>> scantailor/tiff
@@ -2304,6 +2427,36 @@ MainWindow::updateWindowTitle()
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
+>>>>>>> pod/tiff
+=======
+	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
+>>>>>>> origin/enhanced
+=======
+	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
+>>>>>>> pod/tiff
 >>>>>>> master
 }
 
@@ -2336,7 +2489,7 @@ MainWindow::closeProjectInteractive()
 	QFileInfo const project_file(m_projectFile);
 	QFileInfo const backup_file(
 		project_file.absoluteDir(),
-		QString::fromAscii("Backup.")+project_file.fileName()
+		QLatin1String("Backup.")+project_file.fileName()
 	);
 	QString const backup_file_path(backup_file.absoluteFilePath());
 	
@@ -2480,8 +2633,6 @@ MainWindow::showInsertFileDialog(BeforeOrAfter before_or_after, ImageId const& e
 	// so to be safe, remove duplicates.
 	files.erase(std::unique(files.begin(), files.end()), files.end());
 	
-	using namespace boost::lambda;
-	
 	std::vector<ImageFileInfo> new_files;
 	std::vector<QString> loaded_files;
 	std::vector<QString> failed_files; // Those we failed to read metadata from.
@@ -2492,8 +2643,9 @@ MainWindow::showInsertFileDialog(BeforeOrAfter before_or_after, ImageId const& e
 		ImageFileInfo image_file_info(file_info, std::vector<ImageMetadata>());
 
 		ImageMetadataLoader::Status const status = ImageMetadataLoader::load(
-			files.at(i), bind(&std::vector<ImageMetadata>::push_back,
-			boost::ref(image_file_info.imageInfo()), _1)
+			files.at(i), [&](ImageMetadata const& metadata) {
+				image_file_info.imageInfo().push_back(metadata);
+			}
 		);
 
 		if (status == ImageMetadataLoader::LOADED) {
@@ -2515,8 +2667,8 @@ MainWindow::showInsertFileDialog(BeforeOrAfter before_or_after, ImageId const& e
 	}
 
 	// Check if there is at least one DPI that's not OK.
-	if (std::find_if(new_files.begin(), new_files.end(), !bind(&ImageFileInfo::isDpiOK, _1)) != new_files.end()) {
-
+	auto dpi_ok_pred = [](ImageFileInfo const& info) { return info.isDpiOK(); };
+	if (std::find_if(new_files.begin(), new_files.end(), dpi_ok_pred) != new_files.end()) {
 		std::auto_ptr<FixDpiDialog> dpi_dialog(new FixDpiDialog(new_files, this));
 		dpi_dialog->setWindowModality(Qt::WindowModal);
 		if (dpi_dialog->exec() != QDialog::Accepted) {
