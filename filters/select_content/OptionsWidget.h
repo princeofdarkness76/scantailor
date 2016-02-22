@@ -74,6 +74,10 @@ public:
 		void setPageDetection(bool detect);
 		void setFineTuneCorners(bool fine_tune);
 		
+        void setPageBorders(double left, double top, double right, double bottom);
+        void setPageBorders(Margins const& borders) { m_borders = borders; };
+        Margins pageBorders() const { return m_borders; }
+        
 		AutoManualMode mode() const;
 	private:
 		QRectF m_contentRect; // In virtual image coordinates.
@@ -84,6 +88,10 @@ public:
 		bool m_contentDetection;
 		bool m_pageDetection;
 		bool m_fineTuneCorners;
+<<<<<<< HEAD
+=======
+        Margins m_borders;
+>>>>>>> origin/enhanced
 	};
 	
 	OptionsWidget(IntrusivePtr<Settings> const& settings,
@@ -99,13 +107,23 @@ public slots:
 private slots:
 	void showApplyToDialog();
 
-	void applySelection(std::set<PageId> const& pages);
+	void applySelection(std::set<PageId> const& pages, bool apply_content_box);
 
 	void modeChanged(bool auto_mode);
+<<<<<<< HEAD
+=======
+	void autoMode();
+	void manualMode();
+>>>>>>> origin/enhanced
 	void fineTuningChanged(bool checked);
 	void contentDetectionDisabled(void);
 	void pageDetectionDisabled(void);
 	void pageDetectionEnabled(void);
+<<<<<<< HEAD
+=======
+    
+    void borderChanged();
+>>>>>>> origin/enhanced
 
 private:
 	void updateModeIndication(AutoManualMode const mode);

@@ -138,12 +138,15 @@ public:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151,12 +154,15 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -177,6 +183,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -184,6 +191,10 @@ public:
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -194,6 +205,7 @@ public:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
@@ -204,6 +216,16 @@ public:
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> pod/tiff
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 	
 	QSize outputImageSize() const;
 	
@@ -236,12 +258,15 @@ private:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,12 +274,15 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -276,6 +304,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -283,6 +312,10 @@ private:
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -293,6 +326,7 @@ private:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
@@ -303,6 +337,16 @@ private:
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> pod/tiff
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 
 	QImage processAsIs(
 		FilterData const& input, TaskStatus const& status,
@@ -329,12 +373,15 @@ private:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,12 +389,15 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -368,6 +418,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -375,6 +426,10 @@ private:
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -385,6 +440,7 @@ private:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
@@ -395,6 +451,16 @@ private:
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> pod/tiff
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 
 	QImage processWithDewarping(
 		TaskStatus const& status, FilterData const& input,
@@ -419,12 +485,15 @@ private:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -432,12 +501,15 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -471,6 +543,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -478,6 +551,10 @@ private:
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -488,6 +565,7 @@ private:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
@@ -498,6 +576,16 @@ private:
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> pod/tiff
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 	
 	void setupTrivialDistortionModel(dewarping::DistortionModel& distortion_model) const;
 

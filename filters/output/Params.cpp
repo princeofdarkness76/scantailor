@@ -21,6 +21,7 @@
 #include "BlackWhiteOptions.h"
 #include "XmlMarshaller.h"
 #include "XmlUnmarshaller.h"
+#include "CommandLine.h"
 #include <QDomDocument>
 #include <QDomElement>
 #include <QByteArray>
@@ -30,8 +31,10 @@ namespace output
 {
 
 Params::Params()
+<<<<<<< HEAD
 :	m_dpi(600, 600),
 	m_despeckleLevel(DESPECKLE_CAUTIOUS),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +48,10 @@ Params::Params()
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,12 +59,15 @@ Params::Params()
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -74,6 +84,7 @@ Params::Params()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -81,6 +92,10 @@ Params::Params()
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -91,6 +106,7 @@ Params::Params()
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	m_pictureShape(FREE_SHAPE)
@@ -101,6 +117,18 @@ Params::Params()
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	m_pictureShape(FREE_SHAPE)
+>>>>>>> pod/tiff
+=======
+:	m_dpi(CommandLine::get().getDefaultOutputDpi()),
+	m_despeckleLevel(DESPECKLE_CAUTIOUS),
+	m_pictureShape(FREE_SHAPE)
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 {
 }
 
@@ -116,12 +144,15 @@ Params::Params(QDomElement const& el)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,12 +160,15 @@ Params::Params(QDomElement const& el)
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -155,6 +189,7 @@ Params::Params(QDomElement const& el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -162,6 +197,10 @@ Params::Params(QDomElement const& el)
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -173,6 +212,7 @@ Params::Params(QDomElement const& el)
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
@@ -184,6 +224,18 @@ Params::Params(QDomElement const& el)
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
+	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
+>>>>>>> pod/tiff
+=======
+	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
+	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 {
 	QDomElement const cp(el.namedItem("color-params").toElement());
 	m_colorParams.setColorMode(parseColorMode(cp.attribute("colorMode")));
@@ -211,12 +263,15 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,12 +279,15 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -246,6 +304,7 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -253,6 +312,10 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -263,6 +326,7 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	el.setAttribute("pictureShape", (int)m_pictureShape);
@@ -273,6 +337,16 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	el.setAttribute("pictureShape", (int)m_pictureShape);
+>>>>>>> pod/tiff
+=======
+	el.setAttribute("pictureShape", (int)m_pictureShape);
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 	el.setAttribute("depthPerception", m_depthPerception.toString());
 	el.setAttribute("dewarpingMode", m_dewarpingMode.toString());
 	el.setAttribute("despeckleLevel", despeckleLevelToString(m_despeckleLevel));
@@ -309,7 +383,7 @@ Params::parseColorMode(QString const& str)
 	} else if (str == "mixed") {
 		return ColorParams::MIXED;
 	} else {
-		return ColorParams::BLACK_AND_WHITE;
+		return ColorParams::DefaultColorMode();
 	}
 }
 

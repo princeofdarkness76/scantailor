@@ -94,12 +94,15 @@ CacheDrivenTask::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,12 +110,15 @@ CacheDrivenTask::process(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -130,6 +136,7 @@ CacheDrivenTask::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -137,6 +144,10 @@ CacheDrivenTask::process(
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -147,6 +158,7 @@ CacheDrivenTask::process(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
@@ -157,6 +169,16 @@ CacheDrivenTask::process(
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> pod/tiff
+=======
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 			);
 
 			if (!stored_output_params->outputImageParams().matches(new_output_image_params)) {

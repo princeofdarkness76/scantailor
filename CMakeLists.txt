@@ -46,8 +46,12 @@ ENDIF()
 MACRO (TODAY RESULT)
     IF (WIN32)
         EXECUTE_PROCESS(COMMAND "date" "/T" OUTPUT_VARIABLE ${RESULT})
+<<<<<<< HEAD
         string(REGEX REPLACE "(..)/(..)/..(..).*" "\\3\\2\\1"
 ${RESULT} ${${RESULT}})
+=======
+        #string(REGEX REPLACE "(..)/(..)/..(..).*" "\\3\\2\\1" ${RESULT} ${${RESULT}})
+>>>>>>> origin/enhanced
     ELSEIF(UNIX)
         EXECUTE_PROCESS(COMMAND "date" "+%Y%m%d" OUTPUT_VARIABLE ${RESULT})
 		string(REGEX REPLACE "(\\d\\d\\d\\d)(\\d\\d)(\\d\\d).*" "\\1\\2\\3" ${RESULT} ${${RESULT}})
@@ -540,6 +544,7 @@ SET(
 	ExportDialog.cpp ExportDialog.h
 	FixDpiDialog.cpp FixDpiDialog.h
 	LoadFilesStatusDialog.cpp LoadFilesStatusDialog.h
+	StartBatchProcessingDialog.cpp StartBatchProcessingDialog.h
 	ProjectCreationContext.cpp ProjectCreationContext.h
 	ProjectOpeningContext.cpp ProjectOpeningContext.h
 	OutOfMemoryDialog.cpp OutOfMemoryDialog.h

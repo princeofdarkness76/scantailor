@@ -70,12 +70,15 @@ font-weight: bold;</string>
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,12 +86,15 @@ font-weight: bold;</string>
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -102,6 +108,7 @@ font-weight: bold;</string>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -109,6 +116,10 @@ font-weight: bold;</string>
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -119,6 +130,7 @@ font-weight: bold;</string>
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           <string notr="true">Scan Tailor "Enhanced"</string>
@@ -129,6 +141,16 @@ font-weight: bold;</string>
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+          <string notr="true">Scan Tailor "Enhanced"</string>
+>>>>>>> pod/tiff
+=======
+          <string notr="true">Scan Tailor "Enhanced"</string>
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
          </property>
          <property name="alignment">
           <set>Qt::AlignBottom|Qt::AlignHCenter</set>

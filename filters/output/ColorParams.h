@@ -33,12 +33,13 @@ class ColorParams
 public:
 	enum ColorMode { BLACK_AND_WHITE, COLOR_GRAYSCALE, MIXED };
 	
-	ColorParams(): m_colorMode(BLACK_AND_WHITE) {}
-	
+	ColorParams();	
 	ColorParams(QDomElement const& el);
 	
 	QDomElement toXml(QDomDocument& doc, QString const& name) const;
 	
+	static ColorMode DefaultColorMode();
+    
 	ColorMode colorMode() const { return m_colorMode; }
 	
 	void setColorMode(ColorMode mode) { m_colorMode = mode; }
@@ -57,7 +58,8 @@ public:
 	
 	void setBlackWhiteOptions(BlackWhiteOptions const& opt) {
 		m_bwOptions = opt;
-	}
+    }
+    
 private:
 	static ColorMode parseColorMode(QString const& str);
 	

@@ -28,14 +28,22 @@
 #include <cmath>
 #include <iostream>
 
+#include <cmath>
+#include <iostream>
+
 namespace deskew
 {
 
 Settings::Settings() :
     m_avg(0.0),
+<<<<<<< HEAD
     m_sigma(0.0),
 	m_maxDeviation(1.0)
+=======
+    m_sigma(0.0)
+>>>>>>> origin/enhanced
 {
+    m_maxDeviation = CommandLine::get().getSkewDeviation();
 }
 
 Settings::~Settings()

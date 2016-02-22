@@ -192,6 +192,7 @@ ConsoleBatch::process()
 {
 	CommandLine const& cli = CommandLine::get();
 
+	// get first filter id
 	int startFilterIdx = m_ptrStages->fixOrientationFilterIdx();
 	if (cli.hasStartFilterIdx()) {
 		unsigned int sf = cli.getStartFilterIdx();
@@ -200,6 +201,7 @@ ConsoleBatch::process()
 		startFilterIdx = sf;
 	}
 
+	// get last filter id
 	int endFilterIdx = m_ptrStages->outputFilterIdx();
 	if (cli.hasEndFilterIdx()) {
 		unsigned int ef = cli.getEndFilterIdx();
@@ -207,24 +209,42 @@ ConsoleBatch::process()
 			throw std::runtime_error("End filter out of range");
 		endFilterIdx = ef;
 	}
-
+    
+	// run filters
 	for (int j=startFilterIdx; j<=endFilterIdx; j++) {
 		if (cli.isVerbose())
 			std::cout << "Filter: " << (j+1) << "\n";
 
+		// process pages
 		PageSequence page_sequence = m_ptrPages->toPageSequence(PAGE_VIEW);
-		setupFilter(j, page_sequence.selectAll());
+ 		setupFilter(j, page_sequence.selectAll());
 		for (unsigned i=0; i<page_sequence.numPages(); i++) {
 			PageInfo page = page_sequence.pageAt(i);
 			if (cli.isVerbose())
 				std::cout << "\tProcessing: " << page.imageId().filePath().toAscii().constData() << "\n";
 			BackgroundTaskPtr bgTask = createCompositeTask(page, j);
 			(*bgTask)();
+<<<<<<< HEAD
         }
     }
     for (int j=0; j<=endFilterIdx; j++) {
 		m_ptrStages->filterAt(j)->updateStatistics();
     }
+=======
+		}
+	}
+    
+	// setup rest filters with params from cli
+	for (int j=endFilterIdx+1; j<= m_ptrStages->count(); j++) {
+		PageSequence page_sequence = m_ptrPages->toPageSequence(PAGE_VIEW);
+		setupFilter(j, page_sequence.selectAll());
+	}
+    
+	// update statistics for executed filters
+	for (int j=0; j<=endFilterIdx; j++) {
+		m_ptrStages->filterAt(j)->updateStatistics();
+	}
+>>>>>>> origin/enhanced
 }
 
 
@@ -336,6 +356,7 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 
 	for (std::set<PageId>::iterator i=allPages.begin(); i!=allPages.end(); i++) {
 		PageId page = *i;
+<<<<<<< HEAD
 	    select_content::Dependencies deps;
 
         select_content::Params params(deps);
@@ -348,11 +369,26 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 		// SELECT CONTENT FILTER
 		if (cli.hasContentRect()) {
             params.setContentRect(cli.getContentRect());
+=======
+		select_content::Dependencies deps;
+
+		select_content::Params params(deps);
+		std::auto_ptr<select_content::Params> old_params = select_content->getSettings()->getPageParams(page);
+
+		if (old_params.get()) {
+			params = *old_params;
+		}
+
+		// SELECT CONTENT FILTER
+		if (cli.hasContentRect()) {
+			params.setContentRect(cli.getContentRect());
+>>>>>>> origin/enhanced
 			//QRectF rect(cli.getContentRect());
 			//QSizeF size_mm(rect.width(), rect.height());
 			//select_content::Params params(rect, size_mm, deps, MODE_MANUAL);
 		}
 
+<<<<<<< HEAD
         params.setContentDetect(cli.isContentDetectionEnabled());
         params.setPageDetect(cli.isPageDetectionEnabled());
         params.setFineTuneCorners(cli.isFineTuningEnabled());
@@ -362,7 +398,25 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 
 	if (cli.hasContentDeviation()) {
 		select_content->getSettings()->setMaxDeviation(cli.getContentDeviation());
+=======
+		params.setContentDetect(cli.isContentDetectionEnabled());
+		params.setPageDetect(cli.isPageDetectionEnabled());
+		params.setFineTuneCorners(cli.isFineTuningEnabled());
+        if (cli.hasPageBorders())
+			params.setPageBorders(cli.getPageBorders());
+
+		select_content->getSettings()->setPageParams(page, params);
+>>>>>>> origin/enhanced
 	}
+
+	if (cli.hasContentDeviation())
+		select_content->getSettings()->setMaxDeviation(cli.getContentDeviation());
+
+	if (cli.hasPageDetectionBox())
+		select_content->getSettings()->setPageDetectionBox(cli.getPageDetectionBox());
+
+	if (cli.hasPageDetectionTolerance())
+		select_content->getSettings()->setPageDetectionTolerance(cli.getPageDetectionTolerance());
 }
 
 
@@ -439,12 +493,15 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -452,12 +509,15 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -481,6 +541,7 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -488,6 +549,10 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -500,6 +565,7 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		if (cli.hasPictureShape()) {
@@ -512,6 +578,20 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+		if (cli.hasPictureShape()) {
+			params.setPictureShape(cli.getPictureShape());
+		}
+>>>>>>> pod/tiff
+=======
+		if (cli.hasPictureShape()) {
+			params.setPictureShape(cli.getPictureShape());
+		}
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 
 		output::ColorParams colorParams = params.colorParams();
 		if (cli.hasColorMode())
@@ -531,7 +611,7 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 			bwo.setThresholdAdjustment(cli.getThreshold());
 			colorParams.setBlackWhiteOptions(bwo);
 		}
-
+        
 		params.setColorParams(colorParams);
 
 		if (cli.hasDespeckle())

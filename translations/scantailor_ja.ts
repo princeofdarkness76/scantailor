@@ -4,9 +4,8 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../ui/AboutDialog.ui" line="14"/>
         <source>About Scan Tailor</source>
-        <translation>Scan Tailor について</translation>
+        <translation type="obsolete">Scan Tailor について</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="27"/>
@@ -16,6 +15,11 @@
     <message>
         <source>Scan Tailor is an interactive post-processing tool for scanned pages. It performs operations such as page splitting, skew correction, adding/removing margins, and others. You give it raw scans, and you get pages ready to be printed or assembled into a PDF or DJVU file.  Scanning and optical character recogrnition is out of scope of this project.</source>
         <translation type="obsolete">Scan Tailor はスキャンされたページを対話的にポストプロセッシングするツールです。ページ分割・傾き補正・余白の追加／除去などの操作ができます。スキャンされた生データから、印刷したり PDF や DJVU ファイルにまとめたりするのに向いたページを作ることができます。スキャン処理および光学文字認識はこのプロジェクトの対象範囲外です。</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="14"/>
+        <source>About Scan Tailor &quot;Enhanced&quot;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="33"/>
@@ -68,12 +72,20 @@
         <translation>Petr Kovář - コマンドラインインタフェース</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="222"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="205"/>
+>>>>>>> origin/enhanced
         <source>Neco Torquato - Brazilian Portuguese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="229"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+>>>>>>> origin/enhanced
         <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
         <translation>Svetoslav Sashkov, Mandor - ブルガリア語</translation>
     </message>
@@ -83,62 +95,110 @@
         <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="243"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+>>>>>>> origin/enhanced
         <source>Petr Kovář - Czech</source>
         <translation>Petr Kovář - チェコ語</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="250"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+>>>>>>> origin/enhanced
         <source>Stefan Birkner - German</source>
         <translation>Stefan Birkner - ドイツ語</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="257"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+>>>>>>> origin/enhanced
         <source>Angelo Gemmi - Italian</source>
         <translation>Angelo Gemmi - イタリア語</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="264"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> origin/enhanced
         <source>Masahiro Kitagawa - Japanese</source>
         <translation>北川雅裕 - 日本語</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="271"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> origin/enhanced
         <source>Patrick Pascal - French</source>
         <translation>Patrick Pascal - フランス語</translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="278"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> origin/enhanced
         <source>Daniel Koć - Polish</source>
         <translation>Daniel Koć - ポーランド語</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="285"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> origin/enhanced
         <source>Joseph Artsimovich - Russian</source>
         <translation>Joseph Artsimovich - ロシア語</translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="292"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> origin/enhanced
         <source>Marián Hvolka - Slovak</source>
         <translation>Marián Hvolka - スロバキア語</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="299"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> origin/enhanced
         <source>Flavio Benelli - Spanish</source>
         <translation>Flavio Benelli - スペイン語</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="306"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+>>>>>>> origin/enhanced
         <source>Davidson Wang - Traditional Chinese</source>
         <translation>Davidson Wang - 繁体字中国語</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="313"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="289"/>
+>>>>>>> origin/enhanced
         <source>Yuri Chornoivan - Ukrainian</source>
         <translation>Yuri Chornoivan - ウクライナ語</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="340"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+>>>>>>> origin/enhanced
         <source>denver 22</source>
         <translation>denver 22</translation>
     </message>
@@ -236,12 +296,20 @@ Andrey Bergman - システム負荷調整
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="325"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> origin/enhanced
         <source>Documentation</source>
         <translation>ドキュメント化</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="381"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> origin/enhanced
         <source>License</source>
         <translation>ライセンス</translation>
     </message>
@@ -290,14 +358,36 @@ Andrey Bergman - システム負荷調整
         <translation>このページ以降</translation>
     </message>
     <message>
-        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="59"/>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="50"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="57"/>
+        <source>Every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished">1ページおき</translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="67"/>
         <source>Selected pages</source>
         <translation>選択されたページ</translation>
     </message>
     <message>
-        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="92"/>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="97"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Ctrl+クリック や Shift+クリック で複数ページを選択できます。</translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="106"/>
+        <source>Every other selected page</source>
+        <translation type="unfinished">選択されたページで1ページおき</translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="136"/>
+        <source>The current page will be included.</source>
+        <translation type="unfinished">現在のページは含まれます。</translation>
     </message>
 </context>
 <context>
@@ -653,8 +743,12 @@ Andrey Bergman - システム負荷調整
         <translation type="obsolete">終了時にビープ音を鳴らす</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="233"/>
         <location filename="../MainWindow.cpp" line="622"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="276"/>
+>>>>>>> origin/enhanced
         <source>Save Project</source>
         <translation>プロジェクトを保存する</translation>
     </message>
@@ -830,7 +924,12 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation>メインウインドウ</translation>
     </message>
     <message>
-        <location filename="../ui/MainWindow.ui" line="130"/>
+        <location filename="../ui/MainWindow.ui" line="107"/>
+        <source>Thumbnails</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="128"/>
         <source>Keep current page in view.</source>
         <translation>現在のページを常に表示します。</translation>
     </message>
@@ -839,22 +938,30 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation type="obsolete">PgUp, PgDown または Q, W キーでページを移れます。</translation>
     </message>
     <message>
-        <location filename="../ui/MainWindow.ui" line="156"/>
+        <location filename="../ui/MainWindow.ui" line="166"/>
         <source>Use Home, End, PgUp (or Q), PgDown (or W) to navigate between pages.</source>
         <translation>Home, End, PgUp（または Q）, PgDown（または W）キーでページを移れます。</translation>
     </message>
     <message>
-        <location filename="../ui/MainWindow.ui" line="185"/>
+        <location filename="../ui/MainWindow.ui" line="65"/>
         <source>Tools</source>
         <translation>ツール</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="197"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> origin/enhanced
         <source>File</source>
         <translation>ファイル</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="211"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> origin/enhanced
         <source>Help</source>
         <translation>ヘルプ</translation>
     </message>
@@ -863,124 +970,227 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation type="obsolete">デバッグ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="228"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="199"/>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="271"/>
+>>>>>>> origin/enhanced
         <source>Debug Mode</source>
         <translation>デバッグモード</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="236"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="279"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+S</source>
         <translation>Ctrl+S</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="241"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="284"/>
+>>>>>>> origin/enhanced
         <source>Save Project As ...</source>
         <translation>プロジェクトを別名で保存…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="246"/>
         <location filename="../ui/MainWindow.ui" line="295"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+>>>>>>> origin/enhanced
         <source>Next Page</source>
         <translation>次ページ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="249"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> origin/enhanced
         <source>PgDown</source>
         <translation>PgDown</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="257"/>
         <location filename="../ui/MainWindow.ui" line="284"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> origin/enhanced
         <source>Previous Page</source>
         <translation>前ページ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="260"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> origin/enhanced
         <source>PgUp</source>
         <translation>PgUp</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="268"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> origin/enhanced
         <source>New Project ...</source>
         <translation>新規プロジェクト...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="271"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+N</source>
         <translation>Ctrl+N</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> origin/enhanced
         <source>Open Project ...</source>
         <translation>プロジェクトを開く...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="279"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+O</source>
         <translation>Ctrl+O</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="287"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> origin/enhanced
         <source>Q</source>
         <translation>Q</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="298"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> origin/enhanced
         <source>W</source>
         <translation>W</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="306"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> origin/enhanced
         <source>Close Project</source>
         <translation>プロジェクトを閉じる…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="309"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+W</source>
         <translation>Ctrl+W</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="314"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> origin/enhanced
         <source>Quit</source>
         <translation>終了</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="317"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+Q</source>
         <translation>Ctrl+Q</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="327"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> origin/enhanced
         <source>First Page</source>
         <translation>最初のページ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="330"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> origin/enhanced
         <source>Home</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="335"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> origin/enhanced
         <source>Last Page</source>
         <translation>最後のページ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="338"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> origin/enhanced
         <source>End</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="343"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> origin/enhanced
         <source>About</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="348"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+>>>>>>> origin/enhanced
         <source>Fix DPI ...</source>
         <translation>DPI を訂正...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="353"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="396"/>
+>>>>>>> origin/enhanced
         <source>Relinking ...</source>
         <translation>再リンク...</translation>
     </message>
@@ -995,7 +1205,11 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation type="unfinished">一括処理を停止</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="322"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="365"/>
+>>>>>>> origin/enhanced
         <source>Settings ...</source>
         <translation>設定...</translation>
     </message>
@@ -1052,28 +1266,33 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
     </message>
     <message>
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="71"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="93"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation>1ページおき</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="101"/>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="206"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="181"/>
         <source>The current page will be included.</source>
         <translation>現在のページは含まれます。</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="125"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="100"/>
         <source>Selected pages</source>
         <translation>選択されたページ</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="155"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="130"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Ctrl+クリック や Shift+クリック で複数ページを選択できます。</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="176"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="151"/>
         <source>Every other selected page</source>
         <translation>選択されたページで1ページおき</translation>
     </message>
@@ -1379,7 +1598,11 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
     </message>
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="78"/>
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="504"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> origin/enhanced
         <source>Change ...</source>
         <translation>変更...</translation>
     </message>
@@ -1399,22 +1622,43 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation>照明を均一化する</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="348"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
+>>>>>>> origin/enhanced
         <source>Picture Shape</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="446"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+>>>>>>> origin/enhanced
         <source>Dewarping</source>
         <translation>歪み補正</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="529"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="785"/>
+        <source>Tiff Compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
+>>>>>>> origin/enhanced
         <source>Depth perception</source>
         <translation>距離感</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="618"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+>>>>>>> origin/enhanced
         <source>No despeckling</source>
         <translation>スペックル除去なし</translation>
     </message>
@@ -1423,36 +1667,64 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation type="obsolete">歪み補正</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="421"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="569"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="751"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+>>>>>>> origin/enhanced
         <source>Apply To ...</source>
         <translation>適用先...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="594"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> origin/enhanced
         <source>Despeckling</source>
         <translation>スペックル除去</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="643"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> origin/enhanced
         <source>Cautious despeckling</source>
         <translation>控えめなスペックル除去</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="646"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="672"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="698"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> origin/enhanced
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="669"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> origin/enhanced
         <source>Normal despeckling</source>
         <translation>標準的なスペックル除去</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="695"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> origin/enhanced
         <source>Aggressive despeckling</source>
         <translation>積極的なスペックル除去</translation>
     </message>
@@ -1495,28 +1767,33 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
     </message>
     <message>
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="69"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation>1ページおき</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="89"/>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="194"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="169"/>
         <source>The current page will be included.</source>
         <translation>現在のページは含まれます。</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="110"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="85"/>
         <source>Selected pages</source>
         <translation>選択されたページ</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="143"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="118"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Ctrl+クリック や Shift+クリック で複数ページを選択できます。</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="164"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="139"/>
         <source>Every other selected page</source>
         <translation>選択されたページで1ページおき</translation>
     </message>
@@ -1534,63 +1811,86 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation>余白</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="42"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="44"/>
         <source>Millimeters (mm)</source>
         <translation>ミリメートル (mm)</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="47"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="49"/>
         <source>Inches (in)</source>
         <translation>インチ (in)</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="87"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="91"/>
         <source>Top</source>
         <translation>上</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="100"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="161"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="338"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="361"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="384"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="407"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="430"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="456"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="479"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="502"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="525"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="104"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="165"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="378"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="401"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="424"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="447"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="470"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="496"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="519"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="542"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="565"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="121"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="125"/>
         <source>Bottom</source>
         <translation>下</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="138"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="142"/>
         <source>Left</source>
         <translation>左</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="185"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="189"/>
         <source>Right</source>
         <translation>右</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="244"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="580"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="248"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="620"/>
         <source>Apply To ...</source>
         <translation>適用先...</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="269"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="273"/>
         <source>Alignment</source>
         <translation>位置合わせ</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="293"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="303"/>
+        <source>Auto</source>
+        <comment>auto</comment>
+        <translation type="unfinished">自動</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="308"/>
+        <source>Manual</source>
+        <comment>manual</comment>
+        <translation type="unfinished">手動</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="313"/>
+        <source>Original</source>
+        <comment>original</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="321"/>
+        <source>Auto Margins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="331"/>
         <source>Match size with other pages</source>
         <translation>サイズを他のページに合わせる</translation>
     </message>
@@ -1623,47 +1923,72 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation>ページを分割</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="63"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="65"/>
         <source>Mode</source>
         <translation>モード</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="69"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="71"/>
         <source>Auto</source>
         <translation>自動</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="79"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="81"/>
         <source>Manual</source>
         <translation>手動</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="89"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="91"/>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="97"/>
+        <source>Apply cut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="122"/>
         <source>Scope</source>
         <translation>適用範囲</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="95"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
         <source>This page only</source>
         <translation>このページのみ</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="112"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="145"/>
         <source>This page and the following ones</source>
         <translation>このページ以降</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="152"/>
+        <source>This page and the following every other page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="159"/>
+        <source>Every other page</source>
+        <translation type="unfinished">1ページおき</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="175"/>
         <source>Selected pages</source>
         <translation>選択されたページ</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="161"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="208"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Ctrl+クリック や Shift+クリック で複数ページを選択できます。</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="105"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="217"/>
+        <source>Every other selected page</source>
+        <translation type="unfinished">選択されたページで1ページおき</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="138"/>
         <source>All pages</source>
         <translation>全ページ</translation>
     </message>
@@ -1963,48 +2288,63 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="23"/>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
+        <source>Apply content box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
         <source>Apply to</source>
         <translation>適用先...</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="45"/>
         <source>This page only (already applied)</source>
         <translation>このページのみ（適用済）</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="55"/>
         <source>All pages</source>
         <translation>全ページ</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="46"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="62"/>
         <source>This page and the following ones</source>
         <translation>このページ以降</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="71"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="87"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="109"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation>1ページおき</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="101"/>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="206"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="197"/>
         <source>The current page will be included.</source>
         <translation>現在のページは含まれます。</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="125"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="116"/>
         <source>Selected pages</source>
         <translation>選択されたページ</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="155"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="146"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Ctrl+クリック や Shift+クリック で複数ページを選択できます。</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="176"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="167"/>
         <source>Every other selected page</source>
         <translation>選択されたページで1ページおき</translation>
     </message>
@@ -2012,32 +2352,79 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>SelectContentOptionsWidget</name>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="13"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="14"/>
         <source>Form</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="19"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="159"/>
         <source>Content Box</source>
         <translation>版面</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="38"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="56"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="191"/>
         <source>Auto</source>
         <translation>自動</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="54"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="20"/>
+        <source>Page Box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="28"/>
+        <source>Shift with corners while they are in black. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="31"/>
+        <source>Fine Tune Page Corners</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="40"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="178"/>
+        <source>Disable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="73"/>
+        <source>Borders in MM</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="96"/>
+        <source>Left</source>
+        <translation type="unfinished">左</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="106"/>
+        <source>Top</source>
+        <translation type="unfinished">上</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="116"/>
+        <source>Right</source>
+        <translation type="unfinished">右</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="126"/>
+        <source>Bottom</source>
+        <translation type="unfinished">下</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="207"/>
         <source>Manual</source>
         <translation>手動</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="83"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="236"/>
         <source>Scope</source>
         <translation>適用範囲</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="104"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="257"/>
         <source>Apply to ...</source>
         <translation>適用先...</translation>
     </message>
@@ -2081,6 +2468,29 @@ p, li { white-space: pre-wrap; }
         <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
         <translation type="unfinished">一括処理を開始</translation>
+    </message>
+</context>
+<context>
+    <name>StartBatchProcessingDialog</name>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="26"/>
+        <source>Batch Process</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="33"/>
+        <source>All pages</source>
+        <translation type="unfinished">全ページ</translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
+        <source>Start from selected</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2263,9 +2673,8 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>fix_orientation::ApplyDialog</name>
     <message>
-        <location filename="../filters/fix_orientation/ApplyDialog.cpp" line="53"/>
         <source>Can&apos;t do: more than one group is selected.</source>
-        <translation>実行できません：複数のグループが選択されています。</translation>
+        <translation type="obsolete">実行できません：複数のグループが選択されています。</translation>
     </message>
 </context>
 <context>
@@ -2324,7 +2733,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>output::Filter</name>
     <message>
-        <location filename="../filters/output/Filter.cpp" line="63"/>
+        <location filename="../filters/output/Filter.cpp" line="64"/>
         <source>Output</source>
         <translation>出力</translation>
     </message>
@@ -2332,62 +2741,114 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>output::OptionsWidget</name>
     <message>
-        <location filename="../filters/output/OptionsWidget.cpp" line="63"/>
+        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
         <source>Black and White</source>
         <translation>白黒</translation>
     </message>
     <message>
-        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
+        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
         <source>Color / Grayscale</source>
         <translation>カラー／グレースケール</translation>
     </message>
     <message>
-        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
+        <location filename="../filters/output/OptionsWidget.cpp" line="66"/>
         <source>Mixed</source>
         <translation>ミックス</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
+>>>>>>> origin/enhanced
         <source>Free</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="70"/>
         <source>Surrounded</source>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
+        <source>Rectangular</source>
+>>>>>>> origin/enhanced
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="71"/>
+<<<<<<< HEAD
         <source>Quadro</source>
+=======
+        <source>None</source>
+>>>>>>> origin/enhanced
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="72"/>
+<<<<<<< HEAD
         <source>Picture Shape</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="445"/>
+=======
+        <source>LZW</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="73"/>
+        <source>Deflate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="74"/>
+        <source>Packbits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="75"/>
+        <source>JPEG</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="442"/>
+>>>>>>> origin/enhanced
         <source>Apply Despeckling Level</source>
         <translation>スペックル除去レベルを適用する</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="530"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+>>>>>>> origin/enhanced
         <source>Apply Depth Perception</source>
         <translation>遠近感を適用</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="728"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+>>>>>>> origin/enhanced
         <source>Off</source>
         <translation>オフ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="731"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> origin/enhanced
         <source>Auto</source>
         <translation>自動</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="734"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+>>>>>>> origin/enhanced
         <source>Manual</source>
         <translation>手動</translation>
     </message>
@@ -2400,37 +2861,65 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>output::Task::UiUpdater</name>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="604"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> origin/enhanced
         <source>Picture zones are only available in Mixed mode.</source>
         <translation>画像領域はミックスモードでのみ有効です。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="656"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> origin/enhanced
         <source>Despeckling can&apos;t be done in Color / Grayscale mode.</source>
         <translation>スペックル除去はカラー／グレースケールモードでは無効です。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="673"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> origin/enhanced
         <source>Output</source>
         <translation>出力</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="674"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> origin/enhanced
         <source>Picture Zones</source>
         <translation>画像領域</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="675"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> origin/enhanced
         <source>Fill Zones</source>
         <translation>塗り潰し領域</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="676"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> origin/enhanced
         <source>Dewarping</source>
         <translation>歪み補正</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="677"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> origin/enhanced
         <source>Despeckling</source>
         <translation>スペックル除去</translation>
     </message>
@@ -2438,9 +2927,8 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>page_layout::ApplyDialog</name>
     <message>
-        <location filename="../filters/page_layout/ApplyDialog.cpp" line="51"/>
         <source>Can&apos;t do: more than one group is selected.</source>
-        <translation>実行できません：複数のグループが選択されています。</translation>
+        <translation type="obsolete">実行できません：複数のグループが選択されています。</translation>
     </message>
 </context>
 <context>
@@ -2473,7 +2961,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>page_layout::ImageView</name>
     <message>
-        <location filename="../filters/page_layout/ImageView.cpp" line="76"/>
+        <location filename="../filters/page_layout/ImageView.cpp" line="78"/>
         <source>Resize margins by dragging any of the solid lines.</source>
         <translation>余白の幅を変えるには実線のどれかをドラッグします。</translation>
     </message>
@@ -2481,12 +2969,20 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>page_layout::OptionsWidget</name>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+>>>>>>> origin/enhanced
         <source>Apply Margins</source>
         <translation>余白を適用する</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+>>>>>>> origin/enhanced
         <source>Apply Alignment</source>
         <translation>位置合わせを適用する</translation>
     </message>
@@ -2522,13 +3018,13 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="116"/>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="208"/>
-        <location filename="../filters/page_split/OptionsWidget.cpp" line="301"/>
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="289"/>
         <source>Set manually</source>
         <translation>手動設定</translation>
     </message>
     <message>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="165"/>
-        <location filename="../filters/page_split/OptionsWidget.cpp" line="298"/>
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="286"/>
         <source>Auto detected</source>
         <translation>自動検出</translation>
     </message>
@@ -2544,9 +3040,8 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>select_content::ApplyDialog</name>
     <message>
-        <location filename="../filters/select_content/ApplyDialog.cpp" line="53"/>
         <source>Can&apos;t do: more than one group is selected.</source>
-        <translation>実行できません：複数のグループが選択されています。</translation>
+        <translation type="obsolete">実行できません：複数のグループが選択されています。</translation>
     </message>
 </context>
 <context>
@@ -2575,22 +3070,22 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>select_content::ImageView</name>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="58"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="59"/>
         <source>Use the context menu to enable / disable the content box.</source>
         <translation>コンテキストメニュー（右クリック）から版面の有効／無効を切り替えられます。</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="61"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="62"/>
         <source>Drag lines or corners to resize the content box.</source>
         <translation>線またはコーナーをドラッグすると版面の大きさを変えられます。</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="107"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
         <source>Create Content Box</source>
         <translation>版面の作成</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="109"/>
         <source>Remove Content Box</source>
         <translation>版面を取り除く</translation>
     </message>

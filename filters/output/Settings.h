@@ -68,10 +68,13 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 //begin of modified by monday2000
 //Picture_Shape
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
@@ -86,6 +89,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -93,6 +97,10 @@ public:
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
@@ -104,6 +112,7 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
@@ -116,9 +125,21 @@ public:
 =======
 >>>>>>> pod/homebrew-formulae
 =======
+>>>>>>> pod/scantailor-filters.h
+=======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 >>>>>>> scantailor/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+>>>>>>> pod/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+>>>>>>> origin/enhanced
 	void setDpi(PageId const& page_id, Dpi const& dpi);
 
 	void setDewarpingMode(PageId const& page_id, DewarpingMode const& mode);

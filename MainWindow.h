@@ -98,11 +98,16 @@ public:
 
 	std::set<PageId> selectedPages() const;
 	
+<<<<<<< HEAD
 	std::vector<PageRange> selectedRanges() const;
 //begin of modified by monday2000
 	QImage m_orig_fore_subscan;	
 //end of modified by monday2000
+=======
+    std::vector<PageRange> selectedRanges() const;
+>>>>>>> origin/enhanced
 protected:
+    bool eventFilter(QObject *obj, QEvent *ev);
 	virtual void closeEvent(QCloseEvent* event);
 	
 	virtual void timerEvent(QTimerEvent* event);
@@ -151,6 +156,12 @@ private slots:
 	void thumbViewScrolled();
 
 	void filterSelectionChanged(QItemSelection const& selected);
+	void switchFilter1();
+	void switchFilter2();
+	void switchFilter3();
+	void switchFilter4();
+	void switchFilter5();
+	void switchFilter6();
 
 	void pageOrderingChanged(int idx);
 	

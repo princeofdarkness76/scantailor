@@ -43,12 +43,15 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,12 +59,15 @@ OutputImageParams::OutputImageParams(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -82,6 +88,7 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -89,6 +96,10 @@ OutputImageParams::OutputImageParams(
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -100,6 +111,7 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	DespeckleLevel const despeckle_level,
@@ -111,6 +123,18 @@ OutputImageParams::OutputImageParams(
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> pod/tiff
+=======
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 :	m_size(out_image_size),
 	m_contentRect(content_rect),
 	m_dpi(dpi),
@@ -122,12 +146,15 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,12 +162,15 @@ OutputImageParams::OutputImageParams(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -157,6 +187,7 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -164,6 +195,10 @@ OutputImageParams::OutputImageParams(
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -174,6 +209,7 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	m_pictureShape(picture_shape),
@@ -184,6 +220,16 @@ OutputImageParams::OutputImageParams(
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	m_pictureShape(picture_shape),
+>>>>>>> pod/tiff
+=======
+	m_pictureShape(picture_shape),
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 	m_distortionModel(distortion_model),
 	m_depthPerception(depth_perception),
 	m_dewarpingMode(dewarping_mode),
@@ -264,12 +310,15 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,12 +326,15 @@ OutputImageParams::matches(OutputImageParams const& other) const
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -305,6 +357,7 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -312,6 +365,10 @@ OutputImageParams::matches(OutputImageParams const& other) const
 =======
 <<<<<<< HEAD
 >>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -324,6 +381,7 @@ OutputImageParams::matches(OutputImageParams const& other) const
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	if (m_pictureShape != other.m_pictureShape) {
@@ -336,6 +394,20 @@ OutputImageParams::matches(OutputImageParams const& other) const
 >>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> pod/tiff
+=======
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
 
 	if (m_dewarpingMode != other.m_dewarpingMode) {
 		return false;

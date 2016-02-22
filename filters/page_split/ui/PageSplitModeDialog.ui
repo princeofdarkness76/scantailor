@@ -9,14 +9,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>320</width>
-    <height>331</height>
+    <width>331</width>
+    <height>398</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Split Pages</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_3">
+  <layout class="QVBoxLayout" name="verticalLayout_4">
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
@@ -38,7 +38,7 @@
         <enum>QFrame::StyledPanel</enum>
        </property>
        <property name="pixmap">
-        <pixmap resource="../../../resources/resources.qrc">:/icons/layout_type_auto.png</pixmap>
+        <pixmap>:/icons/layout_type_auto.png</pixmap>
        </property>
       </widget>
      </item>
@@ -58,30 +58,63 @@
     </layout>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBox">
-     <property name="title">
-      <string>Mode</string>
-     </property>
-     <layout class="QVBoxLayout">
-      <item>
-       <widget class="QRadioButton" name="modeAuto">
-        <property name="text">
-         <string>Auto</string>
-        </property>
-        <property name="checked">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QRadioButton" name="modeManual">
-        <property name="text">
-         <string>Manual</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>Mode</string>
+       </property>
+       <layout class="QVBoxLayout">
+        <item>
+         <widget class="QRadioButton" name="modeAuto">
+          <property name="text">
+           <string>Auto</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="modeManual">
+          <property name="text">
+           <string>Manual</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="optionsBox">
+       <property name="title">
+        <string>Options</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QCheckBox" name="applyCutOption">
+          <property name="text">
+           <string>Apply cut</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
    </item>
    <item>
     <widget class="QGroupBox" name="groupBox_2">
@@ -110,6 +143,20 @@
        <widget class="QRadioButton" name="thisPageAndFollowersRB">
         <property name="text">
          <string>This page and the following ones</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="thisEveryOtherRB">
+        <property name="text">
+         <string>This page and the following every other page</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="everyOtherRB">
+        <property name="text">
+         <string>Every other page</string>
         </property>
        </widget>
       </item>
@@ -164,6 +211,13 @@
            </item>
           </layout>
          </item>
+         <item>
+          <widget class="QRadioButton" name="everyOtherSelectedRB">
+           <property name="text">
+            <string>Every other selected page</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </widget>
       </item>
@@ -195,10 +249,7 @@
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="../../../resources/resources.qrc"/>
-  <include location="../../../resources/resources.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>
