@@ -229,6 +229,9 @@ CommandLine::setup()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -245,9 +248,12 @@ CommandLine::setup()
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	m_pictureShape = fetchPictureShape();
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -340,6 +346,9 @@ CommandLine::printHelp()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -356,9 +365,12 @@ CommandLine::printHelp()
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -485,6 +497,7 @@ CommandLine::fetchPictureShape()
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 output::PictureShape
 CommandLine::fetchPictureShape()
 {
@@ -497,6 +510,8 @@ CommandLine::fetchPictureShape()
 }
 
 
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======

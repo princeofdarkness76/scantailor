@@ -188,6 +188,7 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 void
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 {
 	QMutexLocker const locker(&m_mutex);
@@ -203,6 +204,8 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 }
 
 void
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
