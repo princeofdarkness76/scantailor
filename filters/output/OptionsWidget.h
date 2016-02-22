@@ -92,8 +92,11 @@ private slots:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -106,14 +109,20 @@ private slots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
 =======
 >>>>>>> master
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
@@ -125,6 +134,9 @@ private slots:
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -139,8 +151,11 @@ private slots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 =======
@@ -168,6 +183,9 @@ private slots:
 =======
 
 	void pictureShapeChanged(int idx);
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 
@@ -178,8 +196,11 @@ private slots:
 	
 	void tiffCompressionChanged(int idx);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/tiff
 	
 	void tiffCompressionChanged(int idx);
@@ -197,6 +218,9 @@ private slots:
 	void tiffCompressionChanged(int idx);
 >>>>>>> pod/tiff
 >>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	
 	void tiffCompressionChanged(int idx);
@@ -206,8 +230,11 @@ private slots:
 =======
 >>>>>>> master
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -221,6 +248,9 @@ private slots:
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	
 	void tiffCompressionChanged(int idx);
@@ -287,8 +317,11 @@ private:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -301,14 +334,20 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
 =======
 >>>>>>> master
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
@@ -320,6 +359,9 @@ private:
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -334,8 +376,11 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 =======
@@ -350,6 +395,9 @@ private:
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 	PictureShape m_pictureShape;
@@ -360,10 +408,13 @@ private:
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 	PictureShape m_pictureShape;
@@ -390,6 +441,9 @@ private:
 =======
 	PictureShape m_pictureShape;
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;

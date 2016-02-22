@@ -72,8 +72,11 @@ font-weight: bold;</string>
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -86,14 +89,20 @@ font-weight: bold;</string>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
 =======
 >>>>>>> master
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
@@ -105,6 +114,9 @@ font-weight: bold;</string>
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
           <string notr="true">Scan Tailor Featured</string>
 =======
@@ -116,8 +128,11 @@ font-weight: bold;</string>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 =======
@@ -132,6 +147,9 @@ font-weight: bold;</string>
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
           <string notr="true">Scan Tailor "Enhanced"</string>
@@ -142,10 +160,13 @@ font-weight: bold;</string>
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
           <string notr="true">Scan Tailor "Enhanced"</string>
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
           <string notr="true">Scan Tailor "Enhanced"</string>
@@ -172,6 +193,9 @@ font-weight: bold;</string>
 =======
           <string notr="true">Scan Tailor "Enhanced"</string>
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
          </property>
          <property name="alignment">

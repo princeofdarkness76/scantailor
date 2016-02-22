@@ -15,8 +15,11 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -29,14 +32,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
 =======
 >>>>>>> master
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
@@ -48,6 +57,9 @@
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
     <width>228</width>
     <height>735</height>
@@ -62,8 +74,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 =======
@@ -78,6 +93,9 @@
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
     <width>269</width>
@@ -89,11 +107,14 @@
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     <width>269</width>
     <height>789</height>
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
     <width>269</width>
@@ -125,6 +146,9 @@
     <width>269</width>
     <height>789</height>
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
    </rect>
   </property>
@@ -444,8 +468,11 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -458,14 +485,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
 =======
 >>>>>>> master
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
@@ -477,6 +510,9 @@
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
         <layout class="QVBoxLayout" name="verticalLayout_10">
          <property name="spacing">
@@ -497,8 +533,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 =======
@@ -513,6 +552,9 @@
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
         <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -523,10 +565,13 @@
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
         <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -553,6 +598,9 @@
 =======
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_14">
@@ -579,8 +627,11 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -593,14 +644,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
 =======
 >>>>>>> master
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
@@ -612,6 +669,9 @@
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
             <widget class="QLabel" name="labePictureShape">
 =======
@@ -623,8 +683,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 =======
@@ -639,6 +702,9 @@
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
             <widget class="QLabel" name="label">
@@ -649,10 +715,13 @@
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             <widget class="QLabel" name="label">
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
             <widget class="QLabel" name="label">
@@ -679,6 +748,9 @@
 =======
             <widget class="QLabel" name="label">
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
              <property name="text">
               <string>Picture Shape</string>
@@ -1114,25 +1186,23 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
-=======
->>>>>>> scantailor/tiff
-=======
->>>>>>> scantailor/tiff
-=======
-=======
-=======
->>>>>>> scantailor/tiff
->>>>>>> master
-=======
-=======
-=======
->>>>>>> scantailor/tiff
->>>>>>> master
-=======
->>>>>>> scantailor/tiff
-=======
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
+=======
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+=======
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/homebrew-formulae
@@ -1151,9 +1221,58 @@
 <<<<<<< HEAD
 =======
 >>>>>>> scantailor/tiff
+>>>>>>> master
 =======
 >>>>>>> scantailor/tiff
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+=======
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> master
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1209,6 +1328,34 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+=======
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
@@ -1226,6 +1373,9 @@
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
     <widget class="QWidget" name="pictureShapeOptions_2" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_10">
@@ -1309,6 +1459,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 =======
@@ -1321,6 +1472,8 @@
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1333,6 +1486,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 =======
@@ -1344,6 +1498,18 @@
 >>>>>>> master
 >>>>>>> scantailor/tiff
 =======
+=======
+>>>>>>> scantailor/tiff
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 >>>>>>> pod/filters.coo
 =======
 =======

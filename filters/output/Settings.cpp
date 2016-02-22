@@ -155,13 +155,19 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //end of modified by monday2000
 
@@ -199,8 +205,11 @@ void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 =======
@@ -215,6 +224,9 @@ void
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 {
@@ -237,11 +249,14 @@ void
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 void
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -273,6 +288,9 @@ void
 
 void
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 Settings::setDpi(PageId const& page_id, Dpi const& dpi)
 {
