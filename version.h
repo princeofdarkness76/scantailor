@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,5 +66,9 @@
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+#define VERSION __DATE__
+#define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
+>>>>>>> pod/tiff
 
 #endif

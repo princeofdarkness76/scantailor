@@ -206,6 +206,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +241,8 @@ public:
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/tiff
 
 	void rectangularizeAreas(BWColor content_color = BLACK);
 	

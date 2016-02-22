@@ -311,6 +311,7 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -354,11 +355,15 @@ OutputGenerator::process(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
 {
 	QImage image(
 		processImpl(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -410,6 +415,9 @@ OutputGenerator::process(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/tiff
 		)
 	);
 	assert(!image.isNull());
@@ -605,6 +613,7 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -648,6 +657,9 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
 {
 	RenderParams const render_params(m_colorParams);
 
@@ -692,6 +704,7 @@ OutputGenerator::processImpl(
 		return processWithDewarping(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -742,6 +755,9 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/tiff
 		);
 	} else if (!render_params.whiteMargins()) {
 		return processAsIs(
@@ -750,6 +766,7 @@ OutputGenerator::processImpl(
 	} else {
 		return processWithoutDewarping(
 			status, input, picture_zones, fill_zones,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -799,6 +816,9 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/tiff
 		);
 	}
 }
@@ -870,6 +890,7 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -913,6 +934,9 @@ OutputGenerator::processWithoutDewarping(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
 {
 	RenderParams const render_params(m_colorParams);
 	
@@ -1068,6 +1092,7 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1143,10 +1168,13 @@ OutputGenerator::processWithoutDewarping(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/tiff
 
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			bw_mask.rectangularizeAreas(WHITE);
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1166,6 +1194,8 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> pod/tiff
 
 		if (dbg) {
 			dbg->add(bw_mask, "bw_mask");
@@ -1328,6 +1358,7 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1371,6 +1402,9 @@ OutputGenerator::processWithDewarping(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
 {
 	QSize const target_size(m_outRect.size().expandedTo(QSize(1, 1)));
 	if (m_outRect.isEmpty()) {
@@ -1543,6 +1577,7 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1628,6 +1663,11 @@ OutputGenerator::processWithDewarping(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> pod/tiff
 
 		status.throwIfCancelled();
 

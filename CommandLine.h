@@ -92,6 +92,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,6 +130,9 @@ public:
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+	bool hasPictureShape() const { return contains("picture-shape"); }
+>>>>>>> pod/tiff
 	bool hasWhiteMargins() const { return contains("white-margins"); }
 	bool hasNormalizeIllumination() const { return contains("normalize-illumination"); }
 	bool hasThreshold() const { return contains("threshold"); }
@@ -141,6 +145,7 @@ public:
 	page_split::LayoutType getLayout() const { return m_layoutType; }
 	Qt::LayoutDirection getLayoutDirection() const { return m_layoutDirection; }
 	output::ColorParams::ColorMode getColorMode() const { return m_colorMode; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,6 +186,9 @@ public:
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+	output::PictureShape getPictureShape() const { return m_pictureShape; }
+>>>>>>> pod/tiff
 	Dpi getInputDpi() const { return m_dpi; }
 	Dpi getOutputDpi() const { return m_outputDpi; }
 	Margins getMargins() const { return m_margins; }
@@ -229,6 +237,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,6 +275,9 @@ private:
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+	output::PictureShape m_pictureShape;
+>>>>>>> pod/tiff
 	Dpi m_dpi;
 	Dpi m_outputDpi;
 	Margins m_margins;
@@ -290,6 +302,7 @@ private:
 	void setup();
 	page_split::LayoutType fetchLayoutType();
 	output::ColorParams::ColorMode fetchColorMode();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -330,6 +343,9 @@ private:
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+	output::PictureShape fetchPictureShape();
+>>>>>>> pod/tiff
 	Qt::LayoutDirection fetchLayoutDirection();
 	Dpi fetchDpi(QString oname="dpi");
 	Margins fetchMargins();

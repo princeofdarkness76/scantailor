@@ -435,6 +435,7 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,6 +482,11 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+		if (cli.hasPictureShape()) {
+			params.setPictureShape(cli.getPictureShape());
+		}
+>>>>>>> pod/tiff
 
 		output::ColorParams colorParams = params.colorParams();
 		if (cli.hasColorMode())

@@ -55,6 +55,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,6 +95,9 @@ public:
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
+>>>>>>> pod/tiff
 	
 //begin of modified by monday2000
 //Picture_Shape_Bug	
@@ -166,6 +170,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +212,10 @@ private:
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+=======
+	/** Shape of the pictures in image */
+	PictureShape m_pictureShape;
+>>>>>>> pod/tiff
 
 	/** Two curves and two lines connecting their endpoints.  Used for dewarping. */
 	dewarping::DistortionModel m_distortionModel;
