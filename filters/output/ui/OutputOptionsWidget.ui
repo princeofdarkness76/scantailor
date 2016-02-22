@@ -7,8 +7,13 @@
     <x>0</x>
     <y>0</y>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <width>228</width>
     <height>735</height>
+=======
+    <width>269</width>
+    <height>789</height>
+>>>>>>> scantailor/tiff
 =======
     <width>269</width>
     <height>789</height>
@@ -323,6 +328,7 @@
       <item>
        <widget class="QWidget" name="pictureShapeOptions" native="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <layout class="QVBoxLayout" name="verticalLayout_10">
          <property name="spacing">
           <number>3</number>
@@ -333,6 +339,9 @@
          <property name="bottomMargin">
           <number>3</number>
          </property>
+=======
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> scantailor/tiff
 =======
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> scantailor/tiff
@@ -353,7 +362,11 @@
            </item>
            <item>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <widget class="QLabel" name="labePictureShape">
+=======
+            <widget class="QLabel" name="label">
+>>>>>>> scantailor/tiff
 =======
             <widget class="QLabel" name="label">
 >>>>>>> scantailor/tiff
@@ -785,7 +798,10 @@
    </item>
    <item>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> scantailor/tiff
     <widget class="QWidget" name="pictureShapeOptions_2" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_10">
       <item>
@@ -862,6 +878,9 @@
     </widget>
    </item>
    <item>
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
 >>>>>>> scantailor/tiff
     <spacer name="verticalSpacer">
      <property name="orientation">

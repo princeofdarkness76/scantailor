@@ -88,11 +88,15 @@ CacheDrivenTask::process(
 				new_xform, params.outputDpi(), params.colorParams(),
 				params.dewarpingMode(), params.distortionModel(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 				params.depthPerception(), params.despeckleLevel()
 //begin of modified by monday2000
 //Picture_Shape
                 , params.pictureShape()
 //end of modified by monday2000
+=======
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> scantailor/tiff
 =======
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff

@@ -84,6 +84,7 @@ private slots:
 
 	void colorModeChanged(int idx);
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	void pictureShapeChanged(int idx);
@@ -91,6 +92,12 @@ private slots:
 =======
 
 	void pictureShapeChanged(int idx);
+=======
+
+	void pictureShapeChanged(int idx);
+	
+	void tiffCompressionChanged(int idx);
+>>>>>>> scantailor/tiff
 	
 	void tiffCompressionChanged(int idx);
 	
@@ -145,10 +152,14 @@ private:
 	Dpi m_outputDpi;
 	ColorParams m_colorParams;
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	PictureShape m_pictureShape;
 //end of modified by monday2000
+=======
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
 =======
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff

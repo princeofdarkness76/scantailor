@@ -225,10 +225,14 @@ CommandLine::setup()
 	m_layoutDirection = fetchLayoutDirection();
 	m_colorMode = fetchColorMode();
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	m_pictureShape = fetchPictureShape();
 //end of modified by monday2000
+=======
+	m_pictureShape = fetchPictureShape();
+>>>>>>> scantailor/tiff
 =======
 	m_pictureShape = fetchPictureShape();
 >>>>>>> scantailor/tiff
@@ -316,10 +320,14 @@ CommandLine::printHelp()
 	std::cout << "\t\t--output-dpi-y=<number>" << "\n";
 	std::cout << "\t--color-mode=<black_and_white|color_grayscale|mixed>\n\t\t\t\t\t\t-- default: black_and_white" << "\n";
 <<<<<<< HEAD
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << std::endl;
 //end of modified by monday2000
+=======
+	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
+>>>>>>> scantailor/tiff
 =======
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> scantailor/tiff
@@ -418,6 +426,18 @@ CommandLine::fetchPictureShape()
 	return output::FREE_SHAPE;
 }
 //end of modified by monday2000
+
+output::PictureShape
+CommandLine::fetchPictureShape()
+{
+	QString ps = m_options["picture-shape"].toLower();
+	
+	if (ps == "rectangular")
+		return output::RECTANGULAR_SHAPE;
+
+	return output::FREE_SHAPE;
+}
+
 
 output::PictureShape
 CommandLine::fetchPictureShape()
