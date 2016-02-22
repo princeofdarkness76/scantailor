@@ -69,6 +69,7 @@ public:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false) { CommandLine::parseCli(argv); }
 =======
 	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false), m_defaultNull(false) { CommandLine::parseCli(argv); }
@@ -76,6 +77,9 @@ public:
 =======
 	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false), m_defaultNull(false) { CommandLine::parseCli(argv); }
 >>>>>>> origin/enhanced
+=======
+	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false) { CommandLine::parseCli(argv); }
+>>>>>>> pod/tiff
 
 	bool isGui() const { return m_gui; }
 	bool isVerbose() const { return contains("verbose"); }
@@ -90,6 +94,9 @@ public:
 	bool isPageDetectionEnabled() const { return contains("enable-page-detection"); };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
 	bool isFineTuningEnabled() const { return contains("enable-fine-tuning"); };
 	bool isAutoMarginsEnabled() const { return contains("enable-auto-margins"); };
 
@@ -126,6 +133,7 @@ public:
 	bool hasContentRect() const { return contains("content-box"); }
 	bool hasContentDeviation() const { return contains("content-deviation"); }
 	bool hasColorMode() const { return contains("color-mode"); }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,11 +247,15 @@ public:
 >>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> origin/enhanced
+=======
+	bool hasPictureShape() const { return contains("picture-shape"); }
+>>>>>>> pod/tiff
 	bool hasWhiteMargins() const { return contains("white-margins"); }
 	bool hasNormalizeIllumination() const { return contains("normalize-illumination"); }
 	bool hasThreshold() const { return contains("threshold") && !m_options["threshold"].isEmpty(); }
 	bool hasDespeckle() const { return contains("despeckle") && !m_options["despeckle"].isEmpty(); }
 	bool hasDewarping() const { return contains("dewarping"); }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	bool hasMatchLayoutTolerance() const { return contains("match-layout-tolerance"); }
@@ -266,10 +278,16 @@ public:
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+	bool hasMatchLayoutTolerance() const { return contains("match-layout-tolerance"); }
+	bool hasDepthPerception() const { return contains("depth-perception"); }
+	bool hasTiffCompression() const { return contains("tiff-compression"); }
+>>>>>>> pod/tiff
 
 	page_split::LayoutType getLayout() const { return m_layoutType; }
 	Qt::LayoutDirection getLayoutDirection() const { return m_layoutDirection; }
 	output::ColorParams::ColorMode getColorMode() const { return m_colorMode; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +385,9 @@ public:
 	output::ColorParams::ColorMode getDefaultColorMode() const { return m_defaultColorMode; }
 	output::PictureShape getPictureShape() const { return m_pictureShape; }
 >>>>>>> origin/enhanced
+=======
+	output::PictureShape getPictureShape() const { return m_pictureShape; }
+>>>>>>> pod/tiff
 	Dpi getInputDpi() const { return m_dpi; }
 	Dpi getOutputDpi() const { return m_outputDpi; }
     Dpi getDefaultOutputDpi() const { return m_defaultOutputDpi; }
@@ -382,12 +403,15 @@ public:
 	double getDeskewAngle() const { return m_deskewAngle; }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	AutoManualMode getDeskewMode() const { return m_deskewMode; }
 >>>>>>> origin/enhanced
 =======
 	AutoManualMode getDeskewMode() const { return m_deskewMode; }
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	double getSkewDeviation() const { return m_skewDeviation; }
 	int getStartFilterIdx() const { return m_startFilterIdx; }
 	int getEndFilterIdx() const { return m_endFilterIdx; }
@@ -396,6 +420,7 @@ public:
 	output::DepthPerception getDepthPerception() const { return m_depthPerception; }
 	float getMatchLayoutTolerance() const { return m_matchLayoutTolerance; }
 	int getTiffCompression() const { return m_compression; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -410,6 +435,8 @@ public:
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
 	bool help() { return m_options.contains("help"); }
 	void printHelp();
@@ -448,6 +475,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,6 +567,9 @@ private:
 	output::ColorParams::ColorMode m_defaultColorMode;
 	output::PictureShape m_pictureShape;
 >>>>>>> origin/enhanced
+=======
+	output::PictureShape m_pictureShape;
+>>>>>>> pod/tiff
 	Dpi m_dpi;
 	Dpi m_outputDpi;
     Dpi m_defaultOutputDpi;
@@ -554,12 +585,15 @@ private:
 	double m_deskewAngle;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	AutoManualMode m_deskewMode;
 >>>>>>> origin/enhanced
 =======
 	AutoManualMode m_deskewMode;
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	double m_skewDeviation;
 	int m_startFilterIdx;
 	int m_endFilterIdx;
@@ -574,6 +608,7 @@ private:
 	void setup();
 	page_split::LayoutType fetchLayoutType();
 	output::ColorParams::ColorMode fetchColorMode();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,6 +706,9 @@ private:
 	output::ColorParams::ColorMode fetchDefaultColorMode();
 	output::PictureShape fetchPictureShape();
 >>>>>>> origin/enhanced
+=======
+	output::PictureShape fetchPictureShape();
+>>>>>>> pod/tiff
 	Qt::LayoutDirection fetchLayoutDirection();
 	Dpi fetchDpi(QString oname="dpi");
 	Margins fetchMargins(QString base="margins", Margins def=Margins(10.0, 5.0, 10.0, 5.0));
@@ -685,12 +723,15 @@ private:
 	double fetchDeskewAngle();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	AutoManualMode fetchDeskewMode();
 >>>>>>> origin/enhanced
 =======
 	AutoManualMode fetchDeskewMode();
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	double fetchSkewDeviation();
 	int fetchStartFilterIdx();
 	int fetchEndFilterIdx();
@@ -699,6 +740,7 @@ private:
 	output::DepthPerception fetchDepthPerception();
 	float fetchMatchLayoutTolerance();
 	int fetchCompression() const;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -713,6 +755,8 @@ private:
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 };
 
 #endif

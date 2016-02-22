@@ -23,12 +23,15 @@
 #include "imageproc/BinaryThreshold.h"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include "Margins.h"
 >>>>>>> origin/enhanced
 =======
 #include "Margins.h"
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
 #include <Qt>
 
@@ -40,6 +43,7 @@ class QRect;
 class QRectF;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class QSizeF;
 class QSize;
@@ -48,6 +52,8 @@ class QSize;
 class QSizeF;
 class QSize;
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
 namespace imageproc
 {
@@ -63,6 +69,9 @@ public:
 	static QRectF findPageBox(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
 		TaskStatus const& status, FilterData const& data, bool fine_tune=false,
 		DebugImages* dbg = 0);
 private:
@@ -70,6 +79,7 @@ private:
 	static int detectEdge(QImage const& img, int start, int end, int inc, int mid, Qt::Orientation orient);
 	static void fineTuneCorners(QImage const& img, QRect &rect);
 	static void fineTuneCorner(QImage const& img, int &x, int &y, int inc_x, int inc_y);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/enhanced
@@ -83,6 +93,8 @@ private:
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 };
 
 } // namespace select_content

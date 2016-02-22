@@ -27,6 +27,7 @@ class QString;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class CommandLine;
 
@@ -35,6 +36,8 @@ class CommandLine;
 class CommandLine;
 
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 namespace page_layout
 {
 
@@ -57,6 +60,7 @@ public:
 	
 	Alignment(Vertical vert, Horizontal hor)
 	: m_vert(vert), m_hor(hor), m_isNull(false), m_tolerance(DEFAULT_TOLERANCE), m_autoMargins(false) {}
+<<<<<<< HEAD
 =======
 	Alignment();
     
@@ -67,6 +71,8 @@ public:
     
     Alignment(Vertical vert, Horizontal hor);
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	
 	Alignment(QDomElement const& el);
 	

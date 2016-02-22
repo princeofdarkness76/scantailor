@@ -101,6 +101,9 @@ Task::process(TaskStatus const& status, FilterData const& data)
 	Params new_params(deps);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
 	if (params.get() && !params->dependencies().matches(deps) && (params->mode() == MODE_AUTO || params->isPageDetectionEnabled())) {
 		new_params.setMode(params->mode());
 		new_params.setPageDetect(params->isPageDetectionEnabled());
@@ -108,6 +111,7 @@ Task::process(TaskStatus const& status, FilterData const& data)
 		new_params.setContentDetect(params->isContentDetectionEnabled());
 	} else if (params.get()) {
 	    new_params = *params;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/enhanced
@@ -132,6 +136,8 @@ Task::process(TaskStatus const& status, FilterData const& data)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	}
 	else
 	{
@@ -141,11 +147,15 @@ create_new_content:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
 	QRectF page_rect(data.xform().resultingRect());
 	if (new_params.isPageDetectionEnabled()) {
 		page_rect = PageFinder::findPageBox(status, data, new_params.isFineTuningEnabled(), m_ptrDbg.get());
 	}
 	new_params.setPageRect(page_rect);
+<<<<<<< HEAD
 
 	QRectF content_rect(page_rect);
 	if (new_params.isContentDetectionEnabled() && new_params.mode() == MODE_AUTO) {
@@ -279,6 +289,14 @@ create_new_content:
 	} else if (params.get() && new_params.isContentDetectionEnabled() && new_params.mode() == MODE_MANUAL) {
 		std::cout << "params->contentRect()" << std::endl;
 		content_rect = params->contentRect();
+=======
+
+	QRectF content_rect(page_rect);
+	if (new_params.isContentDetectionEnabled() && new_params.mode() == MODE_AUTO) {
+		content_rect = ContentBoxFinder::findContentBox(status, data, page_rect, m_ptrDbg.get());
+	} else if (params.get() && new_params.mode() == MODE_MANUAL) {
+		content_rect = new_params.contentRect();
+>>>>>>> pod/tiff
 	}
 	new_params.setContentRect(content_rect);
 
@@ -289,14 +307,21 @@ create_new_content:
 	ui_data.setContentDetection(new_params.isContentDetectionEnabled());
 	ui_data.setPageDetection(new_params.isPageDetectionEnabled());
 	ui_data.setFineTuneCorners(new_params.isFineTuningEnabled());
+<<<<<<< HEAD
     ui_data.setPageBorders(new_params.pageBorders());
+=======
+>>>>>>> pod/tiff
 
 	new_params.setContentSizeMM(ui_data.contentSizeMM());
 
 	new_params.computeDeviation(m_ptrSettings->avg());
 	m_ptrSettings->setPageParams(m_pageId, new_params);
+<<<<<<< HEAD
 */
 >>>>>>> origin/enhanced
+=======
+
+>>>>>>> pod/tiff
 	/*
 	if (params.get()) {
 		ui_data.setContentRect(params->contentRect());
@@ -344,6 +369,7 @@ create_new_content:
 			status, FilterData(data, data.xform()),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			page_rect, ui_data.contentRect()
 =======
 			ui_data.pageRect(), ui_data.contentRect()
@@ -351,6 +377,9 @@ create_new_content:
 =======
 			ui_data.pageRect(), ui_data.contentRect()
 >>>>>>> origin/enhanced
+=======
+			page_rect, ui_data.contentRect()
+>>>>>>> pod/tiff
 		);
 	} else {
 		return FilterResultPtr(

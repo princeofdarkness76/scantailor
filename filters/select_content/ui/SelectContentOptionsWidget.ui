@@ -8,6 +8,7 @@
     <y>0</y>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <width>236</width>
     <height>294</height>
 =======
@@ -18,11 +19,16 @@
     <width>292</width>
     <height>361</height>
 >>>>>>> origin/enhanced
+=======
+    <width>236</width>
+    <height>294</height>
+>>>>>>> pod/tiff
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -32,11 +38,15 @@
 =======
   <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> origin/enhanced
+=======
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+>>>>>>> pod/tiff
    <item>
     <widget class="QGroupBox" name="groupBox_2">
      <property name="title">
       <string>Page Box</string>
      </property>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      <layout class="QHBoxLayout" name="horizontalLayout">
@@ -46,6 +56,9 @@
 =======
      <layout class="QVBoxLayout" name="verticalLayout_3">
 >>>>>>> origin/enhanced
+=======
+     <layout class="QHBoxLayout" name="horizontalLayout">
+>>>>>>> pod/tiff
       <item>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
@@ -93,6 +106,7 @@
         </item>
        </layout>
       </item>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -185,6 +199,8 @@
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
      </layout>
     </widget>
    </item>

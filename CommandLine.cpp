@@ -75,12 +75,15 @@ CommandLine::parseCli(QStringList const& argv)
 	opts << "enable-fine-tuning";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	opts << "force-disable-page-detection";
 >>>>>>> origin/enhanced
 =======
 	opts << "force-disable-page-detection";
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	opts << "content-detection";
 	opts << "content-box";
 	opts << "content-deviation";
@@ -90,6 +93,7 @@ CommandLine::parseCli(QStringList const& argv)
 	opts << "margins-right";
 	opts << "margins-top";
 	opts << "margins-bottom";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	opts << "match-layout";
@@ -109,6 +113,10 @@ CommandLine::parseCli(QStringList const& argv)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+	opts << "match-layout";
+	opts << "match-layout-tolerance";
+>>>>>>> pod/tiff
 	opts << "alignment";
 	opts << "alignment-vertical";
 	opts << "alignment-horizontal";
@@ -130,6 +138,7 @@ CommandLine::parseCli(QStringList const& argv)
 	opts << "end-filter";
 	opts << "output-project";
 	opts << "tiff-compression";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -156,6 +165,8 @@ CommandLine::parseCli(QStringList const& argv)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
 	QMap<QString, QString> shortMap;
 	shortMap["h"] = "help";
@@ -282,6 +293,7 @@ CommandLine::setup()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,6 +385,9 @@ CommandLine::setup()
 	m_defaultColorMode = fetchDefaultColorMode();
 	m_pictureShape = fetchPictureShape();
 >>>>>>> origin/enhanced
+=======
+	m_pictureShape = fetchPictureShape();
+>>>>>>> pod/tiff
 	m_dpi = fetchDpi();
 	m_outputDpi = fetchDpi("output-dpi");
     m_defaultOutputDpi = fetchDpi("default-output-dpi");
@@ -388,18 +403,22 @@ CommandLine::setup()
 	m_deskewAngle = fetchDeskewAngle();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	m_deskewMode = fetchDeskewMode();
 >>>>>>> origin/enhanced
 =======
 	m_deskewMode = fetchDeskewMode();
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	m_skewDeviation = fetchSkewDeviation();
 	m_startFilterIdx = fetchStartFilterIdx();
 	m_endFilterIdx = fetchEndFilterIdx();
 	m_matchLayoutTolerance = fetchMatchLayoutTolerance();
 	m_dewarpingMode = fetchDewarpingMode();
 	m_compression = fetchCompression();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -433,6 +452,8 @@ CommandLine::setup()
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 }
 
 
@@ -502,6 +523,7 @@ CommandLine::printHelp()
 	std::cout << "\t\t--output-dpi-x=<number>" << "\n";
 	std::cout << "\t\t--output-dpi-y=<number>" << "\n";
 	std::cout << "\t--color-mode=<black_and_white|color_grayscale|mixed>\n\t\t\t\t\t\t-- default: black_and_white" << "\n";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -592,6 +614,9 @@ CommandLine::printHelp()
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> pod/tiff
 >>>>>>> pod/scantailor-filters.h
+=======
+	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
+>>>>>>> pod/tiff
 	std::cout << "\t--white-margins\t\t\t\t-- default: false" << "\n";
 	std::cout << "\t--normalize-illumination\t\t-- default: false" << "\n";
 	std::cout << "\t--threshold=<n>\t\t\t\t-- n<0 thinner, n>0 thicker; default: 0" << "\n";
@@ -959,10 +984,22 @@ CommandLine::fetchPictureShape()
 	if (ps == "rectangular")
 		return output::RECTANGULAR_SHAPE;
 
+<<<<<<< HEAD
+=======
+output::PictureShape
+CommandLine::fetchPictureShape()
+{
+	QString ps = m_options["picture-shape"].toLower();
+	
+	if (ps == "rectangular")
+		return output::RECTANGULAR_SHAPE;
+
+>>>>>>> pod/tiff
 	return output::FREE_SHAPE;
 }
 
 
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
@@ -973,6 +1010,8 @@ CommandLine::fetchPictureShape()
 =======
 >>>>>>> pod/tiff
 >>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> pod/tiff
 Margins
 CommandLine::fetchMargins(QString base, Margins def)
 {
@@ -1041,6 +1080,7 @@ CommandLine::fetchAlignment()
 	if (m_options.contains("match-layout")) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if (m_options["match-layout"] == "false") alignment.setNull(true);
 		if (m_options["match-layout"] == "true") alignment.setNull(false);
 =======
@@ -1056,6 +1096,10 @@ CommandLine::fetchAlignment()
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+		if (m_options["match-layout"] == "false") alignment.setNull(true);
+		if (m_options["match-layout"] == "true") alignment.setNull(false);
+>>>>>>> pod/tiff
 	}
 
 	if (m_options.contains("alignment-tolerance")) {
@@ -1221,6 +1265,7 @@ CommandLine::fetchSkewDeviation()
 	return m_options["skew-deviation"].toDouble();
 }
 
+<<<<<<< HEAD
 AutoManualMode CommandLine::fetchDeskewMode()
 {
 	if (!hasDeskew())
@@ -1253,6 +1298,8 @@ CommandLine::fetchSkewDeviation()
 	return m_options["skew-deviation"].toDouble();
 }
 
+=======
+>>>>>>> pod/tiff
 int
 CommandLine::fetchStartFilterIdx()
 {
@@ -1308,6 +1355,7 @@ CommandLine::fetchMatchLayoutTolerance()
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 float
 CommandLine::fetchMatchLayoutTolerance()
@@ -1331,6 +1379,8 @@ CommandLine::fetchMatchLayoutTolerance()
 }
 
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
 bool
 CommandLine::hasMargins(QString base) const
@@ -1468,6 +1518,7 @@ CommandLine::fetchCompression() const
 	    return COMPRESSION_PACKBITS;
 	
 	std::cout << "Unknown compression" << std::endl;
+<<<<<<< HEAD
     throw("Unknown compression");
 }
 
@@ -1543,5 +1594,7 @@ CommandLine::fetchCompression() const
 	    return COMPRESSION_PACKBITS;
 	
 	std::cout << "Unknown compression" << std::endl;
+=======
+>>>>>>> pod/tiff
 	throw("Unknown compression");
 }

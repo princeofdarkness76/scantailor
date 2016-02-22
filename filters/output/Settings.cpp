@@ -156,6 +156,7 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> pod/scantailor-filters.h
@@ -257,6 +258,10 @@ void
 
 void
 >>>>>>> origin/enhanced
+=======
+
+void
+>>>>>>> pod/tiff
 Settings::setDpi(PageId const& page_id, Dpi const& dpi)
 {
 	QMutexLocker const locker(&m_mutex);

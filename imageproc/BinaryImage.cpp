@@ -570,6 +570,7 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -657,6 +658,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 
 >>>>>>> origin/enhanced
+=======
+
+>>>>>>> pod/tiff
 void
 BinaryImage::rectangularizeAreas(BWColor content_color)
 {
@@ -744,6 +748,7 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 	}
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1020,6 +1025,8 @@ BinaryImage::getPixel(int x, int y)
 >>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
 uint32_t*
 BinaryImage::data()

@@ -93,6 +93,7 @@ CacheDrivenTask::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +184,9 @@ CacheDrivenTask::process(
 =======
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> origin/enhanced
+=======
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> pod/tiff
 			);
 
 			if (!stored_output_params->outputImageParams().matches(new_output_image_params)) {

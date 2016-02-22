@@ -28,6 +28,7 @@
 #include <cmath>
 #include <iostream>
 
+<<<<<<< HEAD
 #include <cmath>
 #include <iostream>
 #include "CommandLine.h" 
@@ -36,12 +37,15 @@
 #include <iostream>
 #include "CommandLine.h" 
 
+=======
+>>>>>>> pod/tiff
 namespace select_content
 {
 
 Settings::Settings() :
     m_avg(0.0),
     m_sigma(0.0),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	m_maxDeviation(1.0)
@@ -53,6 +57,9 @@ Settings::Settings() :
     m_pageDetectionBox(0.0, 0.0),
     m_pageDetectionTolerance(0.1)
 >>>>>>> origin/enhanced
+=======
+	m_maxDeviation(1.0)
+>>>>>>> pod/tiff
 {
     m_maxDeviation = CommandLine::get().getContentDeviation();
 }

@@ -28,10 +28,13 @@
 
 #include <iostream>
 
+<<<<<<< HEAD
 #include <iostream>
 
 #include <iostream>
 
+=======
+>>>>>>> pod/tiff
 namespace select_content
 {
 
@@ -47,6 +50,7 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 <<<<<<< HEAD
 	connect(autoBtn, SIGNAL(toggled(bool)), this, SLOT(modeChanged(bool)));
+<<<<<<< HEAD
 =======
 	connect(autoBtn, SIGNAL(pressed()), this, SLOT(autoMode()));
 	connect(manualBtn, SIGNAL(pressed()), this, SLOT(manualMode()));
@@ -55,11 +59,14 @@ OptionsWidget::OptionsWidget(
 	connect(autoBtn, SIGNAL(pressed()), this, SLOT(autoMode()));
 	connect(manualBtn, SIGNAL(pressed()), this, SLOT(manualMode()));
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	connect(disableBtn, SIGNAL(pressed()), this, SLOT(contentDetectionDisabled()));
 	connect(pageDetectAutoBtn, SIGNAL(pressed()), this, SLOT(pageDetectionEnabled()));
 	connect(pageDetectDisableBtn, SIGNAL(pressed()), this, SLOT(pageDetectionDisabled()));
 	connect(applyToBtn, SIGNAL(clicked()), this, SLOT(showApplyToDialog()));
 	connect(fineTuneBtn, SIGNAL(toggled(bool)), this, SLOT(fineTuningChanged(bool)));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -74,6 +81,8 @@ OptionsWidget::OptionsWidget(
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 }
 
 OptionsWidget::~OptionsWidget()
@@ -126,12 +135,15 @@ OptionsWidget::manualContentRectSet(QRectF const& content_rect)
 	m_uiData.setContentDetection(true);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     m_uiData.setPageDetection(false);
 >>>>>>> origin/enhanced
 =======
     m_uiData.setPageDetection(false);
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	updateModeIndication(MODE_MANUAL);
 	commitCurrentParams();
 	
@@ -147,6 +159,7 @@ OptionsWidget::modeChanged(bool const auto_mode)
 	if (m_ignoreAutoManualToggle) {
 		return;
 	}
+<<<<<<< HEAD
 =======
 	//if (m_ignoreAutoManualToggle) {
 	//	return;
@@ -157,6 +170,8 @@ OptionsWidget::modeChanged(bool const auto_mode)
 	//	return;
 	//}
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
 	if (auto_mode) {
 		//m_ptrSettings->clearPageParams(m_pageId);
@@ -196,6 +211,9 @@ OptionsWidget::fineTuningChanged(bool checked)
 void
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
 OptionsWidget::fineTuningChanged(bool checked)
 {
 	m_uiData.setFineTuneCorners(checked);
@@ -206,10 +224,13 @@ OptionsWidget::fineTuningChanged(bool checked)
 }
 
 void
+<<<<<<< HEAD
 =======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 OptionsWidget::contentDetectionDisabled(void)
 {
 	bool old = m_ignoreAutoManualToggle;
@@ -244,6 +265,7 @@ OptionsWidget::pageDetectionEnabled(void)
 	commitCurrentParams();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	emit reloadRequested();
 =======
 =======
@@ -260,6 +282,9 @@ void OptionsWidget::borderChanged()
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+	emit reloadRequested();
+>>>>>>> pod/tiff
 }
 
 void
@@ -281,6 +306,7 @@ OptionsWidget::updateModeIndication(AutoManualMode const mode)
 			manualBtn->setChecked(true);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             pageDetectDisableBtn->setChecked(true);
             pageDetectAutoBtn->setChecked(false);
@@ -289,6 +315,8 @@ OptionsWidget::updateModeIndication(AutoManualMode const mode)
             pageDetectDisableBtn->setChecked(true);
             pageDetectAutoBtn->setChecked(false);
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 		}
 	}
 }
@@ -298,6 +326,7 @@ OptionsWidget::commitCurrentParams()
 {
 	Params params(
 		m_uiData.contentRect(), m_uiData.contentSizeMM(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		m_uiData.dependencies(), m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
@@ -316,6 +345,10 @@ OptionsWidget::commitCurrentParams()
 	params.setPageRect(m_uiData.pageRect());
     params.setPageBorders(m_uiData.pageBorders());
 >>>>>>> origin/enhanced
+=======
+		m_uiData.dependencies(), m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
+	);
+>>>>>>> pod/tiff
 	params.computeDeviation(m_ptrSettings->avg());
 	m_ptrSettings->setPageParams(m_pageId, params);
 }
@@ -346,6 +379,7 @@ OptionsWidget::applySelection(std::set<PageId> const& pages, bool apply_content_
 		m_uiData.contentRect(), m_uiData.contentSizeMM(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		m_uiData.dependencies(), m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
 =======
 		deps, m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
@@ -353,6 +387,9 @@ OptionsWidget::applySelection(std::set<PageId> const& pages, bool apply_content_
 =======
 		deps, m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
 >>>>>>> origin/enhanced
+=======
+		m_uiData.dependencies(), m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
+>>>>>>> pod/tiff
 	);
 
 	BOOST_FOREACH(PageId const& page_id, pages) {
@@ -382,6 +419,7 @@ OptionsWidget::UiData::UiData()
 	m_pageDetection(false),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_fineTuneCorners(false)
 =======
 	m_fineTuneCorners(false),
@@ -391,6 +429,9 @@ OptionsWidget::UiData::UiData()
 	m_fineTuneCorners(false),
     m_borders(0,0,0,0)
 >>>>>>> origin/enhanced
+=======
+	m_fineTuneCorners(false)
+>>>>>>> pod/tiff
 {
 }
 
@@ -475,6 +516,7 @@ OptionsWidget::UiData::setFineTuneCorners(bool fine_tune)
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_fineTuneCorners = fine_tune;
 =======
 =======
@@ -492,6 +534,9 @@ void OptionsWidget::UiData::setPageBorders(double left, double top, double right
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+	m_fineTuneCorners = fine_tune;
+>>>>>>> pod/tiff
 }
 
 

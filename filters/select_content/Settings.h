@@ -56,6 +56,7 @@ public:
 	void setMaxDeviation(double md) { m_maxDeviation = md; }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/enhanced
@@ -69,6 +70,8 @@ public:
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
     double avg() const { return m_avg; };
     void setAvg(double a) { m_avg = a; };
@@ -85,6 +88,7 @@ private:
 	double m_maxDeviation;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     QSizeF m_pageDetectionBox;
     double m_pageDetectionTolerance;
@@ -93,6 +97,8 @@ private:
     QSizeF m_pageDetectionBox;
     double m_pageDetectionTolerance;
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 };
 
 } // namespace select_content
