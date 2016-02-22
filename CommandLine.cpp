@@ -1177,6 +1177,7 @@ CommandLine::fetchContentRect()
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	std::cout << "invalid --content-box=" << m_options.value("content-box").toAscii().constData() << "\n";
 =======
 	std::cout << "invalid --content-box=" << m_options["content-box"].toAscii().constData() << std::endl;
@@ -1184,6 +1185,9 @@ CommandLine::fetchContentRect()
 =======
 	std::cout << "invalid --content-box=" << m_options["content-box"].toAscii().constData() << std::endl;
 >>>>>>> origin/enhanced
+=======
+	std::cout << "invalid --content-box=" << m_options["content-box"].toLocal8Bit().constData() << "\n";
+>>>>>>> origin/qt5
 	exit(1);
 }
 
@@ -1215,6 +1219,7 @@ CommandLine::fetchOrientation()
 	} else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		std::cout << "Wrong orientation " << m_options.value("orientation").toAscii().constData() << "\n";
 =======
 		std::cout << "Wrong orientation " << m_options["orientation"].toAscii().constData() << std::endl;
@@ -1222,6 +1227,9 @@ CommandLine::fetchOrientation()
 =======
 		std::cout << "Wrong orientation " << m_options["orientation"].toAscii().constData() << std::endl;
 >>>>>>> origin/enhanced
+=======
+		std::cout << "Wrong orientation " << m_options["orientation"].toLocal8Bit().constData() << "\n";
+>>>>>>> origin/qt5
 		exit(1);
 	}
 

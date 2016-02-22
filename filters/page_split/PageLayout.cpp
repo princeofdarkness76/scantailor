@@ -436,7 +436,7 @@ PageLayout::typeToString(Type const type)
 			break;
 	}
 	
-	return QString::fromAscii(str);
+	return QString::fromLocal8Bit(str);
 }
 
 /**
