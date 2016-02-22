@@ -54,7 +54,11 @@
     <message>
         <location filename="../ui/AboutDialog.ui" line="205"/>
         <source>Neco Torquato - Brazilian Portuguese</source>
+<<<<<<< HEAD
         <translation></translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> scantailor/master
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="212"/>
@@ -117,11 +121,14 @@
         <translation>Přispěli</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="14"/>
         <source>About Scan Tailor &quot;Enhanced&quot;</source>
         <translation>O programu Scan Tailor &quot;Enhanced&quot;</translation>
     </message>
     <message>
+=======
+>>>>>>> scantailor/master
         <location filename="../ui/AboutDialog.ui" line="289"/>
         <source>Yuri Chornoivan - Ukrainian</source>
         <translation></translation>
@@ -309,6 +316,14 @@ English or Russian please.</source>
     </message>
 </context>
 <context>
+    <name>ErrorWidget</name>
+    <message>
+        <location filename="../ui/ErrorWidget.ui" line="14"/>
+        <source>Form</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FixDpiDialog</name>
     <message>
         <location filename="../ui/FixDpiDialog.ui" line="13"/>
@@ -346,28 +361,35 @@ English or Russian please.</source>
         <translation>Použít</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="241"/>
         <source>Need Fixing</source>
-        <translation type="obsolete">Nutná oprava</translation>
+        <translation type="unfinished">Nutná oprava</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="242"/>
+        <location filename="../FixDpiDialog.cpp" line="707"/>
         <source>All Pages</source>
-        <translation type="obsolete">Všechny strany</translation>
+        <translation type="unfinished">Všechny strany</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="476"/>
         <source>DPI is too large and most likely wrong.</source>
-        <translation type="obsolete">DPI je příliš vysoké a pravděpodobně špatně</translation>
+        <translation type="unfinished">DPI je příliš vysoké a pravděpodobně špatně</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="479"/>
         <source>DPI is too small. Even if it&apos;s correct, you are not going to get acceptable results with it.</source>
-        <translation type="obsolete">DPI je příliš nízké. Ikdyž může být správné, dostanete neakceptovatelný výsledek.</translation>
+        <translation type="unfinished">DPI je příliš nízké. Ikdyž může být správné, dostanete neakceptovatelný výsledek.</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="482"/>
         <source>DPI is too small for this pixel size. Such combination would probably lead to out of memory errors.</source>
-        <translation type="obsolete">DPI je příliš nízké vzhledem k počtu pixelů a povede pravděpodobně k problémům s nedostatkem paměti.</translation>
+        <translation type="unfinished">DPI je příliš nízké vzhledem k počtu pixelů a povede pravděpodobně k problémům s nedostatkem paměti.</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="733"/>
         <source>%1 (page %2)</source>
-        <translation type="obsolete">%1 (strana %2)</translation>
+        <translation type="unfinished">%1 (strana %2)</translation>
     </message>
 </context>
 <context>
@@ -404,8 +426,9 @@ English or Russian please.</source>
 <context>
     <name>ImageViewBase</name>
     <message>
+        <location filename="../ImageViewBase.cpp" line="211"/>
         <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
-        <translation type="obsolete">Pro přiblížení použijte kolečko myši nebo klávesy + resp. -. Při zvětšení je možné stránkou tažením posouvat.</translation>
+        <translation type="unfinished">Pro přiblížení použijte kolečko myši nebo klávesy + resp. -. Při zvětšení je možné stránkou tažením posouvat.</translation>
     </message>
 </context>
 <context>
@@ -429,9 +452,15 @@ English or Russian please.</source>
 <context>
     <name>LoadFileTask</name>
     <message>
+        <location filename="../LoadFileTask.cpp" line="157"/>
         <source>The following file could not be loaded:
 %1</source>
-        <translation type="obsolete">Tento soubor nemohl být nahrán:</translation>
+        <translation type="unfinished">Tento soubor nemohl být nahrán:</translation>
+    </message>
+    <message>
+        <location filename="../LoadFileTask.cpp" line="160"/>
+        <source>The following file doesn&apos;t exist:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Use the &lt;a href=&quot;#relink&quot;&gt;Relinking Tool&lt;/a&gt; to locate it.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -504,7 +533,12 @@ English or Russian please.</source>
         <translation>Ladící mód</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
+>>>>>>> scantailor/master
         <source>Save Project</source>
         <translation>Uložit projekt</translation>
     </message>
@@ -631,78 +665,114 @@ English or Russian please.</source>
         <translation>Opravit cesty ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="492"/>
         <source>Stop batch processing</source>
-        <translation type="obsolete">Zastavit dávkové zpracování</translation>
+        <translation type="unfinished">Zastavit dávkové zpracování</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="564"/>
         <source>Save this project?</source>
-        <translation type="obsolete">Uložit projekt?</translation>
+        <translation type="unfinished">Uložit projekt?</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1001"/>
         <source>Insert before ...</source>
-        <translation type="obsolete">Vložit před ...</translation>
+        <translation type="unfinished">Vložit před ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1004"/>
         <source>Insert after ...</source>
-        <translation type="obsolete">Vložit za ...</translation>
+        <translation type="unfinished">Vložit za ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1010"/>
         <source>Remove from project ...</source>
-        <translation type="obsolete">Odstranit z projektu</translation>
+        <translation type="unfinished">Odstranit z projektu</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1031"/>
         <source>Insert here ...</source>
-        <translation type="obsolete">Vložit sem ...</translation>
+        <translation type="unfinished">Vložit sem ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1369"/>
+        <location filename="../MainWindow.cpp" line="1437"/>
         <source>Scan Tailor Projects</source>
-        <translation type="obsolete">Seznam projektů</translation>
+        <translation type="unfinished">Seznam projektů</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1436"/>
         <source>Open Project</source>
-        <translation type="obsolete">Otevřít projekt</translation>
+        <translation type="unfinished">Otevřít projekt</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1454"/>
+        <location filename="../MainWindow.cpp" line="1463"/>
+        <location filename="../MainWindow.cpp" line="1777"/>
+        <location filename="../MainWindow.cpp" line="1808"/>
         <source>Error</source>
-        <translation type="obsolete">Chyba</translation>
+        <translation type="unfinished">Chyba</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1455"/>
         <source>Unable to open the project file.</source>
-        <translation type="obsolete">Nelze otevřít soubor s projektem.</translation>
+        <translation type="unfinished">Nelze otevřít soubor s projektem.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1464"/>
         <source>The project file is broken.</source>
-        <translation type="obsolete">Soubor s projektem je poškozen.</translation>
+        <translation type="unfinished">Soubor s projektem je poškozen.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1673"/>
         <source>Output is not yet possible, as the final size of pages is not yet known.
 To determine it, run batch processing at &quot;Select Content&quot; or &quot;Margins&quot;.</source>
-        <translation type="obsolete">Výstup zatim není možný, protože ještě není známa konečná velikost stránek.
+        <translation type="unfinished">Výstup zatim není možný, protože ještě není známa konečná velikost stránek.
 Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat Obsah&quot; nebo &quot;Okraje&quot;.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1706"/>
         <source>Unnamed</source>
-        <translation type="obsolete">Nepojmenovaný</translation>
+        <translation type="unfinished">Nepojmenovaný</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1711"/>
+        <source>%2 - Scan Tailor %3 [%1bit]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1778"/>
+        <location filename="../MainWindow.cpp" line="1809"/>
         <source>Error saving the project file!</source>
-        <translation type="obsolete">Chyba při ukládání souboru s projektem!</translation>
+        <translation type="unfinished">Chyba při ukládání souboru s projektem!</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1860"/>
+        <source>Files to insert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1915"/>
+        <source>Skip failed files</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File to insert</source>
         <translation type="obsolete">Soubor pro vložení</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1866"/>
         <source>Images not in project (%1)</source>
-        <translation type="obsolete">Obrázky, které nejsou v projektu (%1)</translation>
+        <translation type="unfinished">Obrázky, které nejsou v projektu (%1)</translation>
     </message>
     <message>
         <source>Error opening the image file.</source>
         <translation type="obsolete">Chyba při otevírání souboru s obrázkem.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1962"/>
         <source>Remove</source>
-        <translation type="obsolete">Vyjmout</translation>
+        <translation type="unfinished">Vyjmout</translation>
     </message>
 </context>
 <context>
@@ -914,6 +984,21 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
         <location filename="../ui/OutOfMemoryDialog.ui" line="453"/>
         <source>Please note that while Scan Tailor tries to catch out-of-memory situations and give you the opportunity to save your project, it&apos;s not always possible. This time it succeeded, but the next time it might just crash.</source>
         <translation>Vemte, prosím, na vědomí, že Scan Tailor vám dává příležitost uložit rozdělaný projekt při nedostatku paměti, což není vždy možné. Jednou se to může podařit a podruhé může jen spadnout.</translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="88"/>
+        <source>Scan Tailor Projects</source>
+        <translation type="unfinished">Seznam projektů</translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="123"/>
+        <source>Error</source>
+        <translation type="unfinished">Chyba</translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="124"/>
+        <source>Error saving the project file!</source>
+        <translation type="unfinished">Chyba při ukládání souboru s projektem!</translation>
     </message>
 </context>
 <context>
@@ -1458,6 +1543,7 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
     </message>
     <message>
         <location filename="../ui/ProjectFilesDialog.ui" line="20"/>
+        <location filename="../ProjectFilesDialog.cpp" line="334"/>
         <source>Input Directory</source>
         <translation>Vstupní adresář</translation>
     </message>
@@ -1469,6 +1555,7 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
     </message>
     <message>
         <location filename="../ui/ProjectFilesDialog.ui" line="43"/>
+        <location filename="../ProjectFilesDialog.cpp" line="354"/>
         <source>Output Directory</source>
         <translation>Výstupní adresář</translation>
     </message>
@@ -1525,42 +1612,56 @@ p, li { white-space: pre-wrap; }
         <translation>Opravit DPI, ikdyž vypadají OK</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="526"/>
+        <location filename="../ProjectFilesDialog.cpp" line="534"/>
+        <location filename="../ProjectFilesDialog.cpp" line="543"/>
+        <location filename="../ProjectFilesDialog.cpp" line="565"/>
+        <location filename="../ProjectFilesDialog.cpp" line="574"/>
+        <location filename="../ProjectFilesDialog.cpp" line="647"/>
         <source>Error</source>
-        <translation type="obsolete">Chyba</translation>
+        <translation type="unfinished">Chyba</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="526"/>
         <source>No files in project!</source>
-        <translation type="obsolete">Projekt nemá žádné soubory!</translation>
+        <translation type="unfinished">Projekt nemá žádné soubory!</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="535"/>
         <source>Input directory is not set or doesn&apos;t exist.</source>
-        <translation type="obsolete">Vstupní adresář není nastaven nebo neexistuje.</translation>
+        <translation type="unfinished">Vstupní adresář není nastaven nebo neexistuje.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="544"/>
         <source>Input and output directories can&apos;t be the same.</source>
-        <translation type="obsolete">Vstupní a výstupní adresáře musejí být různé.</translation>
+        <translation type="unfinished">Vstupní a výstupní adresáře musejí být různé.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="554"/>
         <source>Create Directory?</source>
-        <translation type="obsolete">Vytvořit adresář?</translation>
+        <translation type="unfinished">Vytvořit adresář?</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="555"/>
         <source>Output directory doesn&apos;t exist.  Create it?</source>
-        <translation type="obsolete">Výstupní adresář neexistuje. Vytvořit?</translation>
+        <translation type="unfinished">Výstupní adresář neexistuje. Vytvořit?</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="566"/>
         <source>Unable to create output directory.</source>
-        <translation type="obsolete">Nelze vytvořit výstupní adresář.</translation>
+        <translation type="unfinished">Nelze vytvořit výstupní adresář.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="575"/>
         <source>Output directory is not set or doesn&apos;t exist.</source>
-        <translation type="obsolete">Výstupní adresář není nastaven nebo neexistuje.</translation>
+        <translation type="unfinished">Výstupní adresář není nastaven nebo neexistuje.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="647"/>
         <source>Some of the files failed to load.
 Either we don&apos;t support their format, or they are broken.
 You should remove them from the project.</source>
-        <translation type="obsolete">Některé soubory se nepodařilo nahrát.
+        <translation type="unfinished">Některé soubory se nepodařilo nahrát.
 Buď nepodporujeme jejich formát, nebo jsou poškozeny.
 Vyjměte je z projektu.</translation>
     </message>
@@ -1568,12 +1669,14 @@ Vyjměte je z projektu.</translation>
 <context>
     <name>ProjectOpeningContext</name>
     <message>
+        <location filename="../ProjectOpeningContext.cpp" line="51"/>
         <source>Error</source>
-        <translation type="obsolete">Chyba</translation>
+        <translation type="unfinished">Chyba</translation>
     </message>
     <message>
+        <location filename="../ProjectOpeningContext.cpp" line="52"/>
         <source>Unable to interpret the project file.</source>
-        <translation type="obsolete">Chyba při čtení souboru s projektem.</translation>
+        <translation type="unfinished">Chyba při čtení souboru s projektem.</translation>
     </message>
 </context>
 <context>
@@ -1592,6 +1695,21 @@ Vyjměte je z projektu.</translation>
         <location filename="../ui/RelinkingDialog.ui" line="100"/>
         <source>...</source>
         <translation></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="95"/>
+        <source>Substitution File for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="102"/>
+        <source>Substitution Directory for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="130"/>
+        <source>This change would merge several files into one.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1775,19 +1893,22 @@ Vyjměte je z projektu.</translation>
         <translation>Používat 3D akceleraci pro uživatelské rozhraní</translation>
     </message>
     <message>
+        <location filename="../SettingsDialog.cpp" line="36"/>
         <source>Compiled without OpenGL support.</source>
-        <translation type="obsolete">Zkompilováno bez podpory OpenGL</translation>
+        <translation type="unfinished">Zkompilováno bez podpory OpenGL</translation>
     </message>
     <message>
+        <location filename="../SettingsDialog.cpp" line="41"/>
         <source>Your hardware / driver don&apos;t provide the necessary features.</source>
-        <translation type="obsolete">Vaše zařízení nemá potřebné vlastnosti.</translation>
+        <translation type="unfinished">Vaše zařízení nemá potřebné vlastnosti.</translation>
     </message>
 </context>
 <context>
     <name>StageListView</name>
     <message>
+        <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
-        <translation type="obsolete">Spustit dávkové zpracování</translation>
+        <translation type="unfinished">Spustit dávkové zpracování</translation>
     </message>
 </context>
 <context>
@@ -1832,19 +1953,22 @@ Vyjměte je z projektu.</translation>
         <translation></translation>
     </message>
     <message>
+        <location filename="../SystemLoadWidget.cpp" line="98"/>
         <source>Minimal</source>
-        <translation type="obsolete">Minimálně</translation>
+        <translation type="unfinished">Minimálně</translation>
     </message>
     <message>
+        <location filename="../SystemLoadWidget.cpp" line="100"/>
         <source>Normal</source>
-        <translation type="obsolete">Normálně</translation>
+        <translation type="unfinished">Normálně</translation>
     </message>
 </context>
 <context>
     <name>ThumbnailSequence</name>
     <message>
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
         <source>%1 (page %2)</source>
-        <translation type="obsolete">%1 (strana %2)</translation>
+        <translation type="unfinished">%1 (strana %2)</translation>
     </message>
 </context>
 <context>
@@ -2171,12 +2295,20 @@ Vyjměte je z projektu.</translation>
 <context>
     <name>page_layout::OptionsWidget</name>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
         <source>Apply Margins</source>
         <translation>Aplikovat okraje</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
         <source>Apply Alignment</source>
         <translation>Aplikovat zarovnání</translation>
     </message>

@@ -295,30 +295,45 @@ Taxman</translation>
     </message>
 </context>
 <context>
+    <name>ErrorWidget</name>
+    <message>
+        <location filename="../ui/ErrorWidget.ui" line="14"/>
+        <source>Form</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FixDpiDialog</name>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="241"/>
         <source>Need Fixing</source>
-        <translation type="obsolete">需要修正</translation>
+        <translation type="unfinished">需要修正</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="242"/>
+        <location filename="../FixDpiDialog.cpp" line="707"/>
         <source>All Pages</source>
-        <translation type="obsolete">所有頁面</translation>
+        <translation type="unfinished">所有頁面</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="476"/>
         <source>DPI is too large and most likely wrong.</source>
-        <translation type="obsolete">最有可能的狀況是DPI太大了.</translation>
+        <translation type="unfinished">最有可能的狀況是DPI太大了.</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="479"/>
         <source>DPI is too small. Even if it&apos;s correct, you are not going to get acceptable results with it.</source>
-        <translation type="obsolete">DPI太小. 即使數值是正確的,你也不見得會接受這樣的結果.</translation>
+        <translation type="unfinished">DPI太小. 即使數值是正確的,你也不見得會接受這樣的結果.</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="482"/>
         <source>DPI is too small for this pixel size. Such combination would probably lead to out of memory errors.</source>
-        <translation type="obsolete">對於這樣的尺寸來說DPI過小. 這樣的組合可能會導致記憶體溢位錯誤.</translation>
+        <translation type="unfinished">對於這樣的尺寸來說DPI過小. 這樣的組合可能會導致記憶體溢位錯誤.</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="733"/>
         <source>%1 (page %2)</source>
-        <translation type="obsolete">%1 (第 %2 頁)</translation>
+        <translation type="unfinished">%1 (第 %2 頁)</translation>
     </message>
     <message>
         <location filename="../ui/FixDpiDialog.ui" line="13"/>
@@ -390,8 +405,9 @@ Taxman</translation>
 <context>
     <name>ImageViewBase</name>
     <message>
+        <location filename="../ImageViewBase.cpp" line="211"/>
         <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
-        <translation type="obsolete">使用滑鼠滾輪或+/-鍵來縮放. 縮放後可對圖片進行拖曳移動.</translation>
+        <translation type="unfinished">使用滑鼠滾輪或+/-鍵來縮放. 縮放後可對圖片進行拖曳移動.</translation>
     </message>
 </context>
 <context>
@@ -415,10 +431,16 @@ Taxman</translation>
 <context>
     <name>LoadFileTask</name>
     <message>
+        <location filename="../LoadFileTask.cpp" line="157"/>
         <source>The following file could not be loaded:
 %1</source>
-        <translation type="obsolete">無法載入下列檔案:
+        <translation type="unfinished">無法載入下列檔案:
 %1</translation>
+    </message>
+    <message>
+        <location filename="../LoadFileTask.cpp" line="160"/>
+        <source>The following file doesn&apos;t exist:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Use the &lt;a href=&quot;#relink&quot;&gt;Relinking Tool&lt;/a&gt; to locate it.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -442,79 +464,119 @@ Taxman</translation>
 <context>
     <name>MainWindow</name>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
+>>>>>>> scantailor/master
         <source>Save Project</source>
         <translation>儲存專案</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="564"/>
         <source>Save this project?</source>
-        <translation type="obsolete">是否要儲存此專案?</translation>
+        <translation type="unfinished">是否要儲存此專案?</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1001"/>
         <source>Insert before ...</source>
-        <translation type="obsolete">插入在此之前...</translation>
+        <translation type="unfinished">插入在此之前...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1004"/>
         <source>Insert after ...</source>
-        <translation type="obsolete">插入在此之後...</translation>
+        <translation type="unfinished">插入在此之後...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1010"/>
         <source>Remove from project ...</source>
-        <translation type="obsolete">從專案中移除...</translation>
+        <translation type="unfinished">從專案中移除...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1031"/>
         <source>Insert here ...</source>
-        <translation type="obsolete">在此插入...</translation>
+        <translation type="unfinished">在此插入...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1369"/>
+        <location filename="../MainWindow.cpp" line="1437"/>
         <source>Scan Tailor Projects</source>
-        <translation type="obsolete">Scan Tailor 專案</translation>
+        <translation type="unfinished">Scan Tailor 專案</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1436"/>
         <source>Open Project</source>
-        <translation type="obsolete">開啟專案</translation>
+        <translation type="unfinished">開啟專案</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1454"/>
+        <location filename="../MainWindow.cpp" line="1463"/>
+        <location filename="../MainWindow.cpp" line="1777"/>
+        <location filename="../MainWindow.cpp" line="1808"/>
         <source>Error</source>
-        <translation type="obsolete">錯誤</translation>
+        <translation type="unfinished">錯誤</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1455"/>
         <source>Unable to open the project file.</source>
-        <translation type="obsolete">無法開啟專案檔.</translation>
+        <translation type="unfinished">無法開啟專案檔.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1464"/>
         <source>The project file is broken.</source>
-        <translation type="obsolete">專案檔已毀損.</translation>
+        <translation type="unfinished">專案檔已毀損.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1673"/>
         <source>Output is not yet possible, as the final size of pages is not yet known.
 To determine it, run batch processing at &quot;Select Content&quot; or &quot;Margins&quot;.</source>
-        <translation type="obsolete">目前無法輸出,因為沒有指定輸出的頁面範圍.
+        <translation type="unfinished">目前無法輸出,因為沒有指定輸出的頁面範圍.
 請使用批次處理中的&quot;內容選擇&quot;或&quot;邊界&quot;項目來偵測與指定範圍.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1706"/>
         <source>Unnamed</source>
-        <translation type="obsolete">未命名</translation>
+        <translation type="unfinished">未命名</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1711"/>
+        <source>%2 - Scan Tailor %3 [%1bit]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1778"/>
+        <location filename="../MainWindow.cpp" line="1809"/>
         <source>Error saving the project file!</source>
-        <translation type="obsolete">儲存時發生錯誤!</translation>
+        <translation type="unfinished">儲存時發生錯誤!</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1860"/>
+        <source>Files to insert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1915"/>
+        <source>Skip failed files</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File to insert</source>
         <translation type="obsolete">插入檔案</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1866"/>
         <source>Images not in project (%1)</source>
-        <translation type="obsolete">專案外的圖片 (%1)</translation>
+        <translation type="unfinished">專案外的圖片 (%1)</translation>
     </message>
     <message>
         <source>Error opening the image file.</source>
         <translation type="obsolete">開啟影像時發生錯誤.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1962"/>
         <source>Remove</source>
-        <translation type="obsolete">移除</translation>
+        <translation type="unfinished">移除</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="20"/>
@@ -683,8 +745,9 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="492"/>
         <source>Stop batch processing</source>
-        <translation type="obsolete">停止批次處理</translation>
+        <translation type="unfinished">停止批次處理</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="365"/>
@@ -902,6 +965,21 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
         <location filename="../ui/OutOfMemoryDialog.ui" line="453"/>
         <source>Please note that while Scan Tailor tries to catch out-of-memory situations and give you the opportunity to save your project, it&apos;s not always possible. This time it succeeded, but the next time it might just crash.</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="88"/>
+        <source>Scan Tailor Projects</source>
+        <translation type="unfinished">Scan Tailor 專案</translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="123"/>
+        <source>Error</source>
+        <translation type="unfinished">錯誤</translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="124"/>
+        <source>Error saving the project file!</source>
+        <translation type="unfinished">儲存時發生錯誤!</translation>
     </message>
 </context>
 <context>
@@ -1445,51 +1523,67 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
     <name>ProjectFilesDialog</name>
     <message>
         <location filename="../ui/ProjectFilesDialog.ui" line="20"/>
+        <location filename="../ProjectFilesDialog.cpp" line="334"/>
         <source>Input Directory</source>
         <translation>輸入目錄</translation>
     </message>
     <message>
         <location filename="../ui/ProjectFilesDialog.ui" line="43"/>
+        <location filename="../ProjectFilesDialog.cpp" line="354"/>
         <source>Output Directory</source>
         <translation>輸出目錄</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="526"/>
+        <location filename="../ProjectFilesDialog.cpp" line="534"/>
+        <location filename="../ProjectFilesDialog.cpp" line="543"/>
+        <location filename="../ProjectFilesDialog.cpp" line="565"/>
+        <location filename="../ProjectFilesDialog.cpp" line="574"/>
+        <location filename="../ProjectFilesDialog.cpp" line="647"/>
         <source>Error</source>
-        <translation type="obsolete">錯誤</translation>
+        <translation type="unfinished">錯誤</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="526"/>
         <source>No files in project!</source>
-        <translation type="obsolete">專案中無任何檔案!</translation>
+        <translation type="unfinished">專案中無任何檔案!</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="535"/>
         <source>Input directory is not set or doesn&apos;t exist.</source>
-        <translation type="obsolete">沒有設定輸入目錄或指定的目錄不存在.</translation>
+        <translation type="unfinished">沒有設定輸入目錄或指定的目錄不存在.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="544"/>
         <source>Input and output directories can&apos;t be the same.</source>
-        <translation type="obsolete">輸入與輸出目錄不得相同.</translation>
+        <translation type="unfinished">輸入與輸出目錄不得相同.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="554"/>
         <source>Create Directory?</source>
-        <translation type="obsolete">建立目錄?</translation>
+        <translation type="unfinished">建立目錄?</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="555"/>
         <source>Output directory doesn&apos;t exist.  Create it?</source>
-        <translation type="obsolete">輸出目錄不存在. 是否要建立?</translation>
+        <translation type="unfinished">輸出目錄不存在. 是否要建立?</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="566"/>
         <source>Unable to create output directory.</source>
-        <translation type="obsolete">無法建立輸出目錄.</translation>
+        <translation type="unfinished">無法建立輸出目錄.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="575"/>
         <source>Output directory is not set or doesn&apos;t exist.</source>
-        <translation type="obsolete">沒有設定輸出目錄或指定的目錄不存在.</translation>
+        <translation type="unfinished">沒有設定輸出目錄或指定的目錄不存在.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="647"/>
         <source>Some of the files failed to load.
 Either we don&apos;t support their format, or they are broken.
 You should remove them from the project.</source>
-        <translation type="obsolete">某些檔案載入失敗.
+        <translation type="unfinished">某些檔案載入失敗.
 可能是不被支援的檔案類型或是檔案損壞.
 您必須從專案中移除那些檔案.</translation>
     </message>
@@ -1566,12 +1660,14 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ProjectOpeningContext</name>
     <message>
+        <location filename="../ProjectOpeningContext.cpp" line="51"/>
         <source>Error</source>
-        <translation type="obsolete">錯誤</translation>
+        <translation type="unfinished">錯誤</translation>
     </message>
     <message>
+        <location filename="../ProjectOpeningContext.cpp" line="52"/>
         <source>Unable to interpret the project file.</source>
-        <translation type="obsolete">無法解讀專案檔.</translation>
+        <translation type="unfinished">無法解讀專案檔.</translation>
     </message>
 </context>
 <context>
@@ -1589,6 +1685,21 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../ui/RelinkingDialog.ui" line="100"/>
         <source>...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="95"/>
+        <source>Substitution File for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="102"/>
+        <source>Substitution Directory for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="130"/>
+        <source>This change would merge several files into one.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1763,12 +1874,14 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>SettingsDialog</name>
     <message>
+        <location filename="../SettingsDialog.cpp" line="36"/>
         <source>Compiled without OpenGL support.</source>
-        <translation type="obsolete">沒有支援OpenGL的編譯.</translation>
+        <translation type="unfinished">沒有支援OpenGL的編譯.</translation>
     </message>
     <message>
+        <location filename="../SettingsDialog.cpp" line="41"/>
         <source>Your hardware / driver don&apos;t provide the necessary features.</source>
-        <translation type="obsolete">您的硬體/驅動程式沒有支援所需要的功能.</translation>
+        <translation type="unfinished">您的硬體/驅動程式沒有支援所需要的功能.</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="14"/>
@@ -1784,8 +1897,9 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>StageListView</name>
     <message>
+        <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
-        <translation type="obsolete">開始批次處理程序</translation>
+        <translation type="unfinished">開始批次處理程序</translation>
     </message>
 </context>
 <context>
@@ -1830,19 +1944,22 @@ p, li { white-space: pre-wrap; }
         <translation></translation>
     </message>
     <message>
+        <location filename="../SystemLoadWidget.cpp" line="98"/>
         <source>Minimal</source>
-        <translation type="obsolete">最小</translation>
+        <translation type="unfinished">最小</translation>
     </message>
     <message>
+        <location filename="../SystemLoadWidget.cpp" line="100"/>
         <source>Normal</source>
-        <translation type="obsolete">普通</translation>
+        <translation type="unfinished">普通</translation>
     </message>
 </context>
 <context>
     <name>ThumbnailSequence</name>
     <message>
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
         <source>%1 (page %2)</source>
-        <translation type="obsolete">%1 (第 %2 頁)</translation>
+        <translation type="unfinished">%1 (第 %2 頁)</translation>
     </message>
 </context>
 <context>
@@ -2169,12 +2286,20 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>page_layout::OptionsWidget</name>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
         <source>Apply Margins</source>
         <translation>套用邊距設定</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
         <source>Apply Alignment</source>
         <translation>套用對齊設定</translation>
     </message>

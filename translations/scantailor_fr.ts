@@ -300,8 +300,9 @@ Taxman</translation>
 <context>
     <name>ErrorWidget</name>
     <message>
+        <location filename="../ui/ErrorWidget.ui" line="14"/>
         <source>Form</source>
-        <translation type="obsolete">Form</translation>
+        <translation type="unfinished">Form</translation>
     </message>
     <message>
         <source>ImageLabel</source>
@@ -315,28 +316,35 @@ Taxman</translation>
 <context>
     <name>FixDpiDialog</name>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="241"/>
         <source>Need Fixing</source>
-        <translation type="obsolete">Réglage Nécessaire</translation>
+        <translation type="unfinished">Réglage Nécessaire</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="242"/>
+        <location filename="../FixDpiDialog.cpp" line="707"/>
         <source>All Pages</source>
-        <translation type="obsolete">Toutes les pages</translation>
+        <translation type="unfinished">Toutes les pages</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="476"/>
         <source>DPI is too large and most likely wrong.</source>
-        <translation type="obsolete">DPI trop élevé et probablement mauvais.</translation>
+        <translation type="unfinished">DPI trop élevé et probablement mauvais.</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="479"/>
         <source>DPI is too small. Even if it&apos;s correct, you are not going to get acceptable results with it.</source>
-        <translation type="obsolete">DPI top faible. Même si c&apos;est correcte, vous n&apos;allez pas obtenir un résultat satisfaisant.</translation>
+        <translation type="unfinished">DPI top faible. Même si c&apos;est correcte, vous n&apos;allez pas obtenir un résultat satisfaisant.</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="482"/>
         <source>DPI is too small for this pixel size. Such combination would probably lead to out of memory errors.</source>
-        <translation type="obsolete">DPI trop faible pour cette taille de pixel. Une telle combinaison va probablement aboutir à des erreurs de mémoire.</translation>
+        <translation type="unfinished">DPI trop faible pour cette taille de pixel. Une telle combinaison va probablement aboutir à des erreurs de mémoire.</translation>
     </message>
     <message>
+        <location filename="../FixDpiDialog.cpp" line="733"/>
         <source>%1 (page %2)</source>
-        <translation type="obsolete">%1 (page %2)</translation>
+        <translation type="unfinished">%1 (page %2)</translation>
     </message>
     <message>
         <location filename="../ui/FixDpiDialog.ui" line="13"/>
@@ -412,8 +420,9 @@ Taxman</translation>
 <context>
     <name>ImageViewBase</name>
     <message>
+        <location filename="../ImageViewBase.cpp" line="211"/>
         <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
-        <translation type="obsolete">Utilisez la molette de la souris ou + / - pour zoomer. Une fois le zoom effectué, vous pourrez glisser-déplacer l&apos;image.</translation>
+        <translation type="unfinished">Utilisez la molette de la souris ou + / - pour zoomer. Une fois le zoom effectué, vous pourrez glisser-déplacer l&apos;image.</translation>
     </message>
 </context>
 <context>
@@ -437,10 +446,16 @@ Taxman</translation>
 <context>
     <name>LoadFileTask</name>
     <message>
+        <location filename="../LoadFileTask.cpp" line="157"/>
         <source>The following file could not be loaded:
 %1</source>
-        <translation type="obsolete">Le fichier suivant ne peut être chargé:
+        <translation type="unfinished">Le fichier suivant ne peut être chargé:
 %1</translation>
+    </message>
+    <message>
+        <location filename="../LoadFileTask.cpp" line="160"/>
+        <source>The following file doesn&apos;t exist:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Use the &lt;a href=&quot;#relink&quot;&gt;Relinking Tool&lt;/a&gt; to locate it.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -464,75 +479,119 @@ Taxman</translation>
 <context>
     <name>MainWindow</name>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
+>>>>>>> scantailor/master
         <source>Save Project</source>
         <translation>Sauvegarder le Projet</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="564"/>
         <source>Save this project?</source>
-        <translation type="obsolete">Sauvegarder ce projet ?</translation>
+        <translation type="unfinished">Sauvegarder ce projet ?</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1001"/>
         <source>Insert before ...</source>
-        <translation type="obsolete">Insérer avant ...</translation>
+        <translation type="unfinished">Insérer avant ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1004"/>
         <source>Insert after ...</source>
-        <translation type="obsolete">Insérer après ...</translation>
+        <translation type="unfinished">Insérer après ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1010"/>
         <source>Remove from project ...</source>
-        <translation type="obsolete">Retirer du projet ...</translation>
+        <translation type="unfinished">Retirer du projet ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1031"/>
         <source>Insert here ...</source>
-        <translation type="obsolete">Insérer ici ...</translation>
+        <translation type="unfinished">Insérer ici ...</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1369"/>
+        <location filename="../MainWindow.cpp" line="1437"/>
         <source>Scan Tailor Projects</source>
-        <translation type="obsolete">Projets Scan Tailor</translation>
+        <translation type="unfinished">Projets Scan Tailor</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1436"/>
         <source>Open Project</source>
-        <translation type="obsolete">Ouvrir un projet</translation>
+        <translation type="unfinished">Ouvrir un projet</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1454"/>
+        <location filename="../MainWindow.cpp" line="1463"/>
+        <location filename="../MainWindow.cpp" line="1777"/>
+        <location filename="../MainWindow.cpp" line="1808"/>
         <source>Error</source>
-        <translation type="obsolete">Erreur</translation>
+        <translation type="unfinished">Erreur</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1455"/>
         <source>Unable to open the project file.</source>
-        <translation type="obsolete">Impossible d&apos;ouvrir le.fichier du projet.</translation>
+        <translation type="unfinished">Impossible d&apos;ouvrir le.fichier du projet.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1464"/>
         <source>The project file is broken.</source>
-        <translation type="obsolete">Le fichier du projet est endommagé.</translation>
+        <translation type="unfinished">Le fichier du projet est endommagé.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1673"/>
         <source>Output is not yet possible, as the final size of pages is not yet known.
 To determine it, run batch processing at &quot;Select Content&quot; or &quot;Margins&quot;.</source>
-        <translation type="obsolete">La sortie n&apos;est pas encore possible, car la taille final des pages n&apos;est pas connue.
+        <translation type="unfinished">La sortie n&apos;est pas encore possible, car la taille final des pages n&apos;est pas connue.
 Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;Sélectionner le contenu&quot; ou &quot;Marges&quot;.</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1706"/>
         <source>Unnamed</source>
-        <translation type="obsolete">Sans Nom</translation>
+        <translation type="unfinished">Sans Nom</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1711"/>
+        <source>%2 - Scan Tailor %3 [%1bit]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1860"/>
+        <source>Files to insert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1915"/>
+        <source>Skip failed files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1962"/>
+        <source>Remove</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 - Scan Tailor %2</source>
         <translation type="obsolete">%1 - Scan Tailor %2</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1778"/>
+        <location filename="../MainWindow.cpp" line="1809"/>
         <source>Error saving the project file!</source>
-        <translation type="obsolete">Erreur lors de la sauvegarde du fichier du projet !</translation>
+        <translation type="unfinished">Erreur lors de la sauvegarde du fichier du projet !</translation>
     </message>
     <message>
         <source>File to insert</source>
         <translation type="obsolete">Fichier à insérer</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="1866"/>
         <source>Images not in project (%1)</source>
-        <translation type="obsolete">Images non présente dans le projet (%1)</translation>
+        <translation type="unfinished">Images non présente dans le projet (%1)</translation>
     </message>
     <message>
         <source>Error opening the image file.</source>
@@ -705,8 +764,9 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="492"/>
         <source>Stop batch processing</source>
-        <translation type="obsolete">Arrêter le traitement</translation>
+        <translation type="unfinished">Arrêter le traitement</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="365"/>
@@ -924,6 +984,21 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
         <location filename="../ui/OutOfMemoryDialog.ui" line="453"/>
         <source>Please note that while Scan Tailor tries to catch out-of-memory situations and give you the opportunity to save your project, it&apos;s not always possible. This time it succeeded, but the next time it might just crash.</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="88"/>
+        <source>Scan Tailor Projects</source>
+        <translation type="unfinished">Projets Scan Tailor</translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="123"/>
+        <source>Error</source>
+        <translation type="unfinished">Erreur</translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="124"/>
+        <source>Error saving the project file!</source>
+        <translation type="unfinished">Erreur lors de la sauvegarde du fichier du projet !</translation>
     </message>
 </context>
 <context>
@@ -1467,51 +1542,67 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     <name>ProjectFilesDialog</name>
     <message>
         <location filename="../ui/ProjectFilesDialog.ui" line="20"/>
+        <location filename="../ProjectFilesDialog.cpp" line="334"/>
         <source>Input Directory</source>
         <translation>Répertoire d&apos;entrée</translation>
     </message>
     <message>
         <location filename="../ui/ProjectFilesDialog.ui" line="43"/>
+        <location filename="../ProjectFilesDialog.cpp" line="354"/>
         <source>Output Directory</source>
         <translation>Répertoire de sortie</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="526"/>
+        <location filename="../ProjectFilesDialog.cpp" line="534"/>
+        <location filename="../ProjectFilesDialog.cpp" line="543"/>
+        <location filename="../ProjectFilesDialog.cpp" line="565"/>
+        <location filename="../ProjectFilesDialog.cpp" line="574"/>
+        <location filename="../ProjectFilesDialog.cpp" line="647"/>
         <source>Error</source>
-        <translation type="obsolete">Erreur</translation>
+        <translation type="unfinished">Erreur</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="526"/>
         <source>No files in project!</source>
-        <translation type="obsolete">Aucun fichier dans le projet !</translation>
+        <translation type="unfinished">Aucun fichier dans le projet !</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="535"/>
         <source>Input directory is not set or doesn&apos;t exist.</source>
-        <translation type="obsolete">Le répertoire d&apos;entrée n&apos;est pas défini ou n&apos;existe pas.</translation>
+        <translation type="unfinished">Le répertoire d&apos;entrée n&apos;est pas défini ou n&apos;existe pas.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="544"/>
         <source>Input and output directories can&apos;t be the same.</source>
-        <translation type="obsolete">Le répertoire d&apos;entrée et de sortie ne peuvent être le même.</translation>
+        <translation type="unfinished">Le répertoire d&apos;entrée et de sortie ne peuvent être le même.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="554"/>
         <source>Create Directory?</source>
-        <translation type="obsolete">Créer un Dossier ?</translation>
+        <translation type="unfinished">Créer un Dossier ?</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="555"/>
         <source>Output directory doesn&apos;t exist.  Create it?</source>
-        <translation type="obsolete">Le répertoire de sortie n&apos;existe pas. Le créer ?</translation>
+        <translation type="unfinished">Le répertoire de sortie n&apos;existe pas. Le créer ?</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="566"/>
         <source>Unable to create output directory.</source>
-        <translation type="obsolete">Impossible de créer le répertoire de sortie.</translation>
+        <translation type="unfinished">Impossible de créer le répertoire de sortie.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="575"/>
         <source>Output directory is not set or doesn&apos;t exist.</source>
-        <translation type="obsolete">Le répertoire de sortie n&apos;est pas défini ou n&apos;existe pas.</translation>
+        <translation type="unfinished">Le répertoire de sortie n&apos;est pas défini ou n&apos;existe pas.</translation>
     </message>
     <message>
+        <location filename="../ProjectFilesDialog.cpp" line="647"/>
         <source>Some of the files failed to load.
 Either we don&apos;t support their format, or they are broken.
 You should remove them from the project.</source>
-        <translation type="obsolete">L&apos;importation de certains fichiers a échouée.
+        <translation type="unfinished">L&apos;importation de certains fichiers a échouée.
 Soit leurs formats n&apos;est pas supporté soit ils sont corrompus.
 Vous devrier les retirer du projet.</translation>
     </message>
@@ -1588,12 +1679,14 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ProjectOpeningContext</name>
     <message>
+        <location filename="../ProjectOpeningContext.cpp" line="51"/>
         <source>Error</source>
-        <translation type="obsolete">Erreur</translation>
+        <translation type="unfinished">Erreur</translation>
     </message>
     <message>
+        <location filename="../ProjectOpeningContext.cpp" line="52"/>
         <source>Unable to interpret the project file.</source>
-        <translation type="obsolete">Impossible d&apos;interprêter le fichier projet.</translation>
+        <translation type="unfinished">Impossible d&apos;interprêter le fichier projet.</translation>
     </message>
 </context>
 <context>
@@ -1612,6 +1705,21 @@ p, li { white-space: pre-wrap; }
         <location filename="../ui/RelinkingDialog.ui" line="100"/>
         <source>...</source>
         <translation type="unfinished">...</translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="95"/>
+        <source>Substitution File for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="102"/>
+        <source>Substitution Directory for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="130"/>
+        <source>This change would merge several files into one.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1785,12 +1893,14 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>SettingsDialog</name>
     <message>
+        <location filename="../SettingsDialog.cpp" line="36"/>
         <source>Compiled without OpenGL support.</source>
-        <translation type="obsolete">Compilé sans le support OpenGL.</translation>
+        <translation type="unfinished">Compilé sans le support OpenGL.</translation>
     </message>
     <message>
+        <location filename="../SettingsDialog.cpp" line="41"/>
         <source>Your hardware / driver don&apos;t provide the necessary features.</source>
-        <translation type="obsolete">Votre matériel / driver n&apos;a pas les caractéristiques requises.</translation>
+        <translation type="unfinished">Votre matériel / driver n&apos;a pas les caractéristiques requises.</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="14"/>
@@ -1806,8 +1916,9 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>StageListView</name>
     <message>
+        <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
-        <translation type="obsolete">Lancer le traitement automatique</translation>
+        <translation type="unfinished">Lancer le traitement automatique</translation>
     </message>
 </context>
 <context>
@@ -1852,19 +1963,22 @@ p, li { white-space: pre-wrap; }
         <translation>...</translation>
     </message>
     <message>
+        <location filename="../SystemLoadWidget.cpp" line="98"/>
         <source>Minimal</source>
-        <translation type="obsolete">Minimal</translation>
+        <translation type="unfinished">Minimal</translation>
     </message>
     <message>
+        <location filename="../SystemLoadWidget.cpp" line="100"/>
         <source>Normal</source>
-        <translation type="obsolete">Normal</translation>
+        <translation type="unfinished">Normal</translation>
     </message>
 </context>
 <context>
     <name>ThumbnailSequence</name>
     <message>
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
         <source>%1 (page %2)</source>
-        <translation type="obsolete">%1 (page %2)</translation>
+        <translation type="unfinished">%1 (page %2)</translation>
     </message>
 </context>
 <context>
@@ -2191,12 +2305,20 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>page_layout::OptionsWidget</name>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
         <source>Apply Margins</source>
         <translation>Appliquer les Marges</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
         <source>Apply Alignment</source>
         <translation>Appliquer l&apos;Alignement</translation>
     </message>
