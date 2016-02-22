@@ -21,15 +21,46 @@
 #include <QDomElement>
 #include <QString>
 
+#include "CommandLine.h"
+
 namespace page_layout
 {
 
+    
+Alignment::Alignment()
+	: m_vert(VCENTER), m_hor(HCENTER), m_tolerance(DEFAULT_TOLERANCE), m_autoMargins(false)
+{
+    CommandLine cli = CommandLine::get();
+    m_isNull = cli.getDefaultNull(); 
+}
+    
+Alignment::Alignment(Vertical vert, Horizontal hor)
+	: m_vert(vert), m_hor(hor), m_tolerance(DEFAULT_TOLERANCE), m_autoMargins(false)
+{
+    CommandLine cli = CommandLine::get();
+    m_isNull = cli.getDefaultNull(); 
+}
+
 Alignment::Alignment(QDomElement const& el)
 {
+    CommandLine cli = CommandLine::get();
+    m_isNull = cli.getDefaultNull(); 
+    
 	QString const vert(el.attribute("vert"));
 	QString const hor(el.attribute("hor"));
 	m_isNull = el.attribute("null").toInt() != 0;
 	m_tolerance = el.attribute("tolerance", QString::number(DEFAULT_TOLERANCE)).toDouble();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	m_autoMargins = el.attribute("autoMargins") == "true" ? true: false;
+>>>>>>> origin/enhanced
+=======
+	m_autoMargins = el.attribute("autoMargins") == "true" ? true: false;
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	
 	if (vert == "top") {
 		m_vert = TOP;
@@ -98,10 +129,21 @@ Alignment::toXml(QDomDocument& doc, QString const& name) const
 	}
 	
 	QDomElement el(doc.createElement(name));
-	el.setAttribute("vert", QString::fromAscii(vert));
-	el.setAttribute("hor", QString::fromAscii(hor));
+	el.setAttribute("vert", QString::fromUtf8(vert));
+	el.setAttribute("hor", QString::fromUtf8(hor));
 	el.setAttribute("null", m_isNull ? 1 : 0);
 	el.setAttribute("tolerance", QString::number(m_tolerance));
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	el.setAttribute("autoMargins", m_autoMargins ? "true" : "false");
+>>>>>>> origin/enhanced
+=======
+	el.setAttribute("autoMargins", m_autoMargins ? "true" : "false");
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	return el;
 }
 

@@ -93,9 +93,42 @@ CacheDrivenTask::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 				params.depthPerception(), params.despeckleLevel()
 //begin of modified by monday2000
@@ -110,6 +143,24 @@ CacheDrivenTask::process(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
@@ -118,8 +169,38 @@ CacheDrivenTask::process(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> pod/tiff
+=======
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> origin/enhanced
+=======
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> pod/tiff
+>>>>>>> master
 			);
 
 			if (!stored_output_params->outputImageParams().matches(new_output_image_params)) {

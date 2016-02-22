@@ -4,9 +4,8 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../ui/AboutDialog.ui" line="14"/>
         <source>About Scan Tailor</source>
-        <translation>Über Scan Tailor</translation>
+        <translation type="obsolete">Über Scan Tailor</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="27"/>
@@ -16,6 +15,11 @@
     <message>
         <source>Scan Tailor is an interactive post-processing tool for scanned pages. It performs operations such as page splitting, skew correction, adding/removing margins, and others. You give it raw scans, and you get pages ready to be printed or assembled into a PDF or DJVU file.  Scanning and optical character recogrnition is out of scope of this project.</source>
         <translation type="obsolete">Scan Tailor ist ein interaktives Werkzeug zur Bildnachverarbeitung gescannter Seiten. Es führt Operationen wie das Aufteilen von Seiten, Ausrichten, Hinzufügen/Entfernen von Stegen (Rändern), usw. durch. Sie übergeben dem Programm unbearbeitete Scans und erhalten Seiten zurück, die zum Drucken oder Zusammensetzen einer PDF- oder DJVU-Datei aufbereitet sind. Das Scannen selbst und Texterkennung (OCR) liegen außerhalb des Rahmens dieses Projekts.</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="14"/>
+        <source>About Scan Tailor &quot;Enhanced&quot;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="33"/>
@@ -68,12 +72,24 @@
         <translation type="unfinished">Petr Kovář - Kommandozeileninterface.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="222"/>
         <source>Neco Torquato - Brazilian Portuguese</source>
         <translation type="unfinished">Neco Torquato - Brasilianisches Portugiesisch</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="229"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="205"/>
+        <source>Neco Torquato - Brazilian Portuguese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
         <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
         <translation type="unfinished">Svetoslav Sashkov, Mandor - Bulgarisch</translation>
     </message>
@@ -83,62 +99,158 @@
         <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="243"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+>>>>>>> origin/enhanced
         <source>Petr Kovář - Czech</source>
         <translation type="unfinished">Petr Kovář - Tschechisch</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="250"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+>>>>>>> origin/enhanced
         <source>Stefan Birkner - German</source>
         <translation type="unfinished">Stefan Birkner - Deutsch</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="257"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+>>>>>>> origin/enhanced
         <source>Angelo Gemmi - Italian</source>
         <translation type="unfinished">Angelo Gemmi - Italienisch</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="264"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> origin/enhanced
         <source>Masahiro Kitagawa - Japanese</source>
         <translation type="unfinished">Masahiro Kitagawa - Japanisch</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="271"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> origin/enhanced
         <source>Patrick Pascal - French</source>
         <translation type="unfinished">Patrick Pascal - Französisch</translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="278"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> origin/enhanced
         <source>Daniel Koć - Polish</source>
         <translation type="unfinished">Daniel Koć - Polnisch</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="285"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> origin/enhanced
         <source>Joseph Artsimovich - Russian</source>
         <translation type="unfinished">Joseph Artsimovich - Russisch</translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="292"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> origin/enhanced
         <source>Marián Hvolka - Slovak</source>
         <translation type="unfinished">Marián Hvolka - Slowakisch</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="299"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> origin/enhanced
         <source>Flavio Benelli - Spanish</source>
         <translation type="unfinished">Flavio Benelli - Spanisch</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="306"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+>>>>>>> origin/enhanced
         <source>Davidson Wang - Traditional Chinese</source>
         <translation type="unfinished">Davidson Wang - Chinesisch (Langzeichen)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="313"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="289"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="289"/>
+>>>>>>> origin/enhanced
         <source>Yuri Chornoivan - Ukrainian</source>
         <translation type="unfinished">Yuri Chornoivan - Ukrainisch</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="340"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+>>>>>>> origin/enhanced
         <source>denver 22</source>
         <translation type="unfinished">denver 22</translation>
     </message>
@@ -178,7 +290,15 @@ Robert B. - Dewarping-Algorithmus.
 Andrey Bergman - Einstellen der Systemauslastung.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="325"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> origin/enhanced
         <source>Documentation</source>
         <translation>Dokumentation</translation>
     </message>
@@ -191,7 +311,15 @@ phaedrus
 Taxman</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="381"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> origin/enhanced
         <source>License</source>
         <translation>Lizenz</translation>
     </message>
@@ -240,15 +368,37 @@ Taxman</translation>
         <translation type="unfinished">diese und die folgenden Seiten</translation>
     </message>
     <message>
-        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="59"/>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="50"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="57"/>
+        <source>Every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished">alle anderen Seiten</translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="67"/>
         <source>Selected pages</source>
         <translation type="unfinished">ausgewählte Seiten</translation>
     </message>
     <message>
-        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="92"/>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="97"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation type="unfinished">Verwenden Sie Strg+Mausklick/Shift+Mausklick
 zur Auswahl mehrerer Seiten.</translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="106"/>
+        <source>Every other selected page</source>
+        <translation type="unfinished">alle anderen ausgewählten Seiten</translation>
+    </message>
+    <message>
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="136"/>
+        <source>The current page will be included.</source>
+        <translation type="unfinished">Die aktuelle Seite mit eingeschlossen.</translation>
     </message>
 </context>
 <context>
@@ -592,8 +742,16 @@ zur Auswahl mehrerer Seiten.</translation>
 <context>
     <name>MainWindow</name>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="233"/>
         <location filename="../MainWindow.cpp" line="622"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="276"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="276"/>
+>>>>>>> origin/enhanced
         <source>Save Project</source>
         <translation>Projekt speichern</translation>
     </message>
@@ -755,27 +913,48 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
         <translation>Hauptfenster</translation>
     </message>
     <message>
-        <location filename="../ui/MainWindow.ui" line="130"/>
+        <location filename="../ui/MainWindow.ui" line="107"/>
+        <source>Thumbnails</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="128"/>
         <source>Keep current page in view.</source>
         <translation>Aktuelle Seite in der Anzeige belassen.</translation>
     </message>
     <message>
-        <location filename="../ui/MainWindow.ui" line="156"/>
+        <location filename="../ui/MainWindow.ui" line="166"/>
         <source>Use Home, End, PgUp (or Q), PgDown (or W) to navigate between pages.</source>
         <translation>Verwenden Sie Pos1, Ende, BildAuf (oder Q), BildAb (oder W) um zwischen den Seiten umzuschalten.</translation>
     </message>
     <message>
-        <location filename="../ui/MainWindow.ui" line="185"/>
+        <location filename="../ui/MainWindow.ui" line="65"/>
         <source>Tools</source>
         <translation>Werkzeuge</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="197"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> origin/enhanced
         <source>File</source>
         <translation>Datei</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="211"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> origin/enhanced
         <source>Help</source>
         <translation>Hilfe</translation>
     </message>
@@ -784,124 +963,327 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
         <translation type="obsolete">Debuggen</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="228"/>
+=======
+=======
+>>>>>>> origin/enhanced
+        <location filename="../ui/MainWindow.ui" line="199"/>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="271"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
         <source>Debug Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="236"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="279"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="279"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+S</source>
         <translation type="unfinished">Ctrl+S</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="241"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="284"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="284"/>
+>>>>>>> origin/enhanced
         <source>Save Project As ...</source>
         <translation>Projekt speichern unter ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="246"/>
         <location filename="../ui/MainWindow.ui" line="295"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+>>>>>>> origin/enhanced
         <source>Next Page</source>
         <translation>Nächste Seite</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="249"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> origin/enhanced
         <source>PgDown</source>
         <translation type="unfinished">PgDown</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="257"/>
         <location filename="../ui/MainWindow.ui" line="284"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> origin/enhanced
         <source>Previous Page</source>
         <translation>Vorherige Seite</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="260"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> origin/enhanced
         <source>PgUp</source>
         <translation type="unfinished">PgUp</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="268"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> origin/enhanced
         <source>New Project ...</source>
         <translation>Neues Projekt ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="271"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+N</source>
         <translation type="unfinished">Ctrl+N</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> origin/enhanced
         <source>Open Project ...</source>
         <translation>Projekt öffnen ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="279"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+O</source>
         <translation type="unfinished">Ctrl+O</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="287"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> origin/enhanced
         <source>Q</source>
         <translation>Q</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="298"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> origin/enhanced
         <source>W</source>
         <translation>W</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="306"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> origin/enhanced
         <source>Close Project</source>
         <translation>Projekt schließen</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="309"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+W</source>
         <translation type="unfinished">Ctrl+W</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="314"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> origin/enhanced
         <source>Quit</source>
         <translation>Beenden</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="317"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> origin/enhanced
         <source>Ctrl+Q</source>
         <translation type="unfinished">Ctrl+Q</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="327"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> origin/enhanced
         <source>First Page</source>
         <translation>Erste Seite</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="330"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> origin/enhanced
         <source>Home</source>
         <translation>Pos1</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="335"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> origin/enhanced
         <source>Last Page</source>
         <translation>Letzte Seite</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="338"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> origin/enhanced
         <source>End</source>
         <translation>Ende</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="343"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> origin/enhanced
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="348"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+>>>>>>> origin/enhanced
         <source>Fix DPI ...</source>
         <translation type="unfinished">DPI korrigieren ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="353"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="396"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="396"/>
+>>>>>>> origin/enhanced
         <source>Relinking ...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -916,7 +1298,15 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
         <translation type="unfinished">Stapelverarbeitung beenden</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="322"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="365"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="365"/>
+>>>>>>> origin/enhanced
         <source>Settings ...</source>
         <translation>Einstellungen ...</translation>
     </message>
@@ -973,30 +1363,35 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
     </message>
     <message>
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="71"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="93"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translatorcomment>Alle geraden oder ungeraden Seiten, abhängig davon, ob die aktuelle Seite gerade oder ungerade ist.</translatorcomment>
         <translation type="unfinished">jede zweite Seite</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="101"/>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="206"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="181"/>
         <source>The current page will be included.</source>
         <translation>Die aktuelle Seite mit eingeschlossen.</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="125"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="100"/>
         <source>Selected pages</source>
         <translation>ausgewählte Seiten</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="155"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="130"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Verwenden Sie Strg+Mausklick/Shift+Mausklick
 zur Auswahl mehrerer Seiten.</translation>
     </message>
     <message>
-        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="176"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="151"/>
         <source>Every other selected page</source>
         <translation type="unfinished">jede zweite ausgewählte Seite</translation>
     </message>
@@ -1305,7 +1700,15 @@ zur Auswahl mehrerer Seiten.</translation>
     </message>
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="78"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="504"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> origin/enhanced
         <source>Change ...</source>
         <translation>Ändern ...</translation>
     </message>
@@ -1325,22 +1728,61 @@ zur Auswahl mehrerer Seiten.</translation>
         <translation>Helligkeit angleichen</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="348"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
+>>>>>>> origin/enhanced
         <source>Picture Shape</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="446"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+>>>>>>> origin/enhanced
         <source>Dewarping</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="529"/>
+=======
+=======
+>>>>>>> origin/enhanced
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="785"/>
+        <source>Tiff Compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
         <source>Depth perception</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="618"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+>>>>>>> origin/enhanced
         <source>No despeckling</source>
         <translation>Kein Despeckling</translation>
     </message>
@@ -1349,36 +1791,92 @@ zur Auswahl mehrerer Seiten.</translation>
         <translation type="obsolete">Dewarp</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="421"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="569"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="751"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+>>>>>>> origin/enhanced
         <source>Apply To ...</source>
         <translation>Anwenden auf ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="594"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> origin/enhanced
         <source>Despeckling</source>
         <translation>Despeckling</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="643"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> origin/enhanced
         <source>Cautious despeckling</source>
         <translation>Behutsames Despeckling</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="646"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="672"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="698"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> origin/enhanced
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="669"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> origin/enhanced
         <source>Normal despeckling</source>
         <translation>Normales Despeckling</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="695"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> origin/enhanced
         <source>Aggressive despeckling</source>
         <translation>Offensives Despeckling</translation>
     </message>
@@ -1417,29 +1915,34 @@ zur Auswahl mehrerer Seiten.</translation>
     </message>
     <message>
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="69"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation type="unfinished">jede zweite Seite</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="89"/>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="194"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="169"/>
         <source>The current page will be included.</source>
         <translation type="unfinished">Die aktuelle Seite mit eingeschlossen.</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="110"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="85"/>
         <source>Selected pages</source>
         <translation>ausgewählte Seiten</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="143"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="118"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Verwenden Sie Strg+Mausklick/Shift+Mausklick
 zur Auswahl mehrerer Seiten.</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="164"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="139"/>
         <source>Every other selected page</source>
         <translation type="unfinished">jede zweite ausgewählte Seite</translation>
     </message>
@@ -1457,63 +1960,86 @@ zur Auswahl mehrerer Seiten.</translation>
         <translation>Stege (Ränder)</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="42"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="44"/>
         <source>Millimeters (mm)</source>
         <translation>Millimeter (mm)</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="47"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="49"/>
         <source>Inches (in)</source>
         <translation>Inch (in)</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="87"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="91"/>
         <source>Top</source>
         <translation>Oben</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="100"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="161"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="338"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="361"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="384"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="407"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="430"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="456"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="479"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="502"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="525"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="104"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="165"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="378"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="401"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="424"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="447"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="470"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="496"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="519"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="542"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="565"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="121"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="125"/>
         <source>Bottom</source>
         <translation>Unten</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="138"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="142"/>
         <source>Left</source>
         <translation>Links</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="185"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="189"/>
         <source>Right</source>
         <translation>Rechts</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="244"/>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="580"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="248"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="620"/>
         <source>Apply To ...</source>
         <translation>Anwenden auf ...</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="269"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="273"/>
         <source>Alignment</source>
         <translation>Ausrichtung</translation>
     </message>
     <message>
-        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="293"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="303"/>
+        <source>Auto</source>
+        <comment>auto</comment>
+        <translation type="unfinished">Automatisch</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="308"/>
+        <source>Manual</source>
+        <comment>manual</comment>
+        <translation type="unfinished">Manuell</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="313"/>
+        <source>Original</source>
+        <comment>original</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="321"/>
+        <source>Auto Margins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="331"/>
         <source>Match size with other pages</source>
         <translation>Größe an andere Seiten
 anpassen</translation>
@@ -1527,48 +2053,73 @@ anpassen</translation>
         <translation>Seiten aufteilen</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="63"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="65"/>
         <source>Mode</source>
         <translation>Methode</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="69"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="71"/>
         <source>Auto</source>
         <translation>Automatisch</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="79"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="81"/>
         <source>Manual</source>
         <translation>Manuell</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="89"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="91"/>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="97"/>
+        <source>Apply cut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="122"/>
         <source>Scope</source>
         <translation>Geltungsbereich</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="95"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
         <source>This page only</source>
         <translation>nur diese Seite</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="112"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="145"/>
         <source>This page and the following ones</source>
         <translation>diese und die folgenden Seiten</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="152"/>
+        <source>This page and the following every other page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="159"/>
+        <source>Every other page</source>
+        <translation type="unfinished">alle anderen Seiten</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="175"/>
         <source>Selected pages</source>
         <translation>ausgewählte Seiten</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="161"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="208"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Verwenden Sie Strg+Mausklick/Shift+Mausklick
 zur Auswahl mehrerer Seiten.</translation>
     </message>
     <message>
-        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="105"/>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="217"/>
+        <source>Every other selected page</source>
+        <translation type="unfinished">alle anderen ausgewählten Seiten</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="138"/>
         <source>All pages</source>
         <translation>alle Seiten</translation>
     </message>
@@ -1849,49 +2400,84 @@ Eingabedatei erhalten bleibt.</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="23"/>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
+        <source>Apply content box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
         <source>Apply to</source>
         <translation type="unfinished">Anwenden auf</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="45"/>
         <source>This page only (already applied)</source>
         <translation type="unfinished">nur diese Seiten (schon angewandt)</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
+        <source>Apply content box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
+        <source>Apply to</source>
+        <translation type="unfinished">Anwenden auf</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="45"/>
+        <source>This page only (already applied)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+>>>>>>> origin/enhanced
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="55"/>
         <source>All pages</source>
         <translation type="unfinished">alle Seiten</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="46"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="62"/>
         <source>This page and the following ones</source>
         <translation type="unfinished">diese und die folgenden Seiten</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="71"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="87"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="109"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation type="unfinished">jede zweite Seite</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="101"/>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="206"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="197"/>
         <source>The current page will be included.</source>
         <translation type="unfinished">Die aktuelle Seite mit eingeschlossen.</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="125"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="116"/>
         <source>Selected pages</source>
         <translation type="unfinished">ausgewählte Seiten</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="155"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="146"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation type="unfinished">Verwenden Sie Strg+Mausklick/Shift+Mausklick
 zur Auswahl mehrerer Seiten.</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="176"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="167"/>
         <source>Every other selected page</source>
         <translation type="unfinished">jede zweite ausgewählte Seite</translation>
     </message>
@@ -1899,32 +2485,79 @@ zur Auswahl mehrerer Seiten.</translation>
 <context>
     <name>SelectContentOptionsWidget</name>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="13"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="14"/>
         <source>Form</source>
         <translation type="unfinished">Projekt auswählen</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="19"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="159"/>
         <source>Content Box</source>
         <translation>Content-Box</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="38"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="56"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="191"/>
         <source>Auto</source>
         <translation>Automatisch</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="54"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="20"/>
+        <source>Page Box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="28"/>
+        <source>Shift with corners while they are in black. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="31"/>
+        <source>Fine Tune Page Corners</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="40"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="178"/>
+        <source>Disable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="73"/>
+        <source>Borders in MM</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="96"/>
+        <source>Left</source>
+        <translation type="unfinished">Links</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="106"/>
+        <source>Top</source>
+        <translation type="unfinished">Oben</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="116"/>
+        <source>Right</source>
+        <translation type="unfinished">Rechts</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="126"/>
+        <source>Bottom</source>
+        <translation type="unfinished">Unten</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="207"/>
         <source>Manual</source>
         <translation>Manuell</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="83"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="236"/>
         <source>Scope</source>
         <translation type="unfinished">Geltungsbereich</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="104"/>
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="257"/>
         <source>Apply to ...</source>
         <translation type="unfinished">Anwenden auf ...</translation>
     </message>
@@ -1969,6 +2602,52 @@ Benutzeroberläche verwenden</translation>
         <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
         <translation type="unfinished">Stapelverarbeitung starten</translation>
+    </message>
+</context>
+<context>
+    <name>StartBatchProcessingDialog</name>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="26"/>
+        <source>Batch Process</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="33"/>
+        <source>All pages</source>
+        <translation type="unfinished">alle Seiten</translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
+        <source>Start from selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>StartBatchProcessingDialog</name>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="26"/>
+        <source>Batch Process</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="33"/>
+        <source>All pages</source>
+        <translation type="unfinished">alle Seiten</translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
+        <source>Start from selected</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2132,9 +2811,8 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>fix_orientation::ApplyDialog</name>
     <message>
-        <location filename="../filters/fix_orientation/ApplyDialog.cpp" line="53"/>
         <source>Can&apos;t do: more than one group is selected.</source>
-        <translation type="unfinished">Ausführung nicht möglich, da mehr als eine Gruppe ausgewählt ist.</translation>
+        <translation type="obsolete">Ausführung nicht möglich, da mehr als eine Gruppe ausgewählt ist.</translation>
     </message>
 </context>
 <context>
@@ -2186,7 +2864,7 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>output::Filter</name>
     <message>
-        <location filename="../filters/output/Filter.cpp" line="63"/>
+        <location filename="../filters/output/Filter.cpp" line="64"/>
         <source>Output</source>
         <translation>Ausgabe</translation>
     </message>
@@ -2194,62 +2872,149 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>output::OptionsWidget</name>
     <message>
-        <location filename="../filters/output/OptionsWidget.cpp" line="63"/>
+        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
         <source>Black and White</source>
         <translation>Schwarzweiß</translation>
     </message>
     <message>
-        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
+        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
         <source>Color / Grayscale</source>
         <translation>Farbe/Graustufen</translation>
     </message>
     <message>
-        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
+        <location filename="../filters/output/OptionsWidget.cpp" line="66"/>
         <source>Mixed</source>
         <translation>Gemischt</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
+>>>>>>> origin/enhanced
         <source>Free</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="70"/>
         <source>Surrounded</source>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
+        <source>Rectangular</source>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
+        <source>Rectangular</source>
+>>>>>>> origin/enhanced
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="71"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <source>Quadro</source>
+=======
+        <source>None</source>
+>>>>>>> origin/enhanced
+=======
+        <source>None</source>
+>>>>>>> origin/enhanced
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="72"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <source>Picture Shape</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="445"/>
+=======
+=======
+>>>>>>> origin/enhanced
+        <source>LZW</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="73"/>
+        <source>Deflate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="74"/>
+        <source>Packbits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="75"/>
+        <source>JPEG</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../filters/output/OptionsWidget.cpp" line="442"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
         <source>Apply Despeckling Level</source>
         <translation>Despeckling-Grad anwenden</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="530"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+>>>>>>> origin/enhanced
         <source>Apply Depth Perception</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="728"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+>>>>>>> origin/enhanced
         <source>Off</source>
         <translation type="unfinished">Aus</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="731"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> origin/enhanced
         <source>Auto</source>
         <translation type="unfinished">Automatisch</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="734"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+>>>>>>> origin/enhanced
         <source>Manual</source>
         <translation type="unfinished">Manuell</translation>
     </message>
@@ -2262,37 +3027,93 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>output::Task::UiUpdater</name>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="604"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> origin/enhanced
         <source>Picture zones are only available in Mixed mode.</source>
         <translation>Bildbereiche stehen nur im Gemischten Modus zur Verfügung.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="656"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> origin/enhanced
         <source>Despeckling can&apos;t be done in Color / Grayscale mode.</source>
         <translation>Despeckling kann im Farb-/Graustufenmodes nicht durchgeführt werden.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="673"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> origin/enhanced
         <source>Output</source>
         <translation>Ausgabe</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="674"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> origin/enhanced
         <source>Picture Zones</source>
         <translation>Bildbereiche</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="675"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> origin/enhanced
         <source>Fill Zones</source>
         <translation>Bereiche füllen</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="676"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> origin/enhanced
         <source>Dewarping</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="677"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> origin/enhanced
         <source>Despeckling</source>
         <translation>Despeckling</translation>
     </message>
@@ -2300,9 +3121,8 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>page_layout::ApplyDialog</name>
     <message>
-        <location filename="../filters/page_layout/ApplyDialog.cpp" line="51"/>
         <source>Can&apos;t do: more than one group is selected.</source>
-        <translation type="unfinished">Ausführung nicht möglich, da mehr als eine Gruppe ausgewählt ist.</translation>
+        <translation type="obsolete">Ausführung nicht möglich, da mehr als eine Gruppe ausgewählt ist.</translation>
     </message>
 </context>
 <context>
@@ -2331,7 +3151,7 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>page_layout::ImageView</name>
     <message>
-        <location filename="../filters/page_layout/ImageView.cpp" line="76"/>
+        <location filename="../filters/page_layout/ImageView.cpp" line="78"/>
         <source>Resize margins by dragging any of the solid lines.</source>
         <translation>Verändern Sie die Größe der Stege indem Sie eine der durchgehenden Linien ziehen.</translation>
     </message>
@@ -2339,12 +3159,28 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>page_layout::OptionsWidget</name>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+>>>>>>> origin/enhanced
         <source>Apply Margins</source>
         <translation>Ränder übernehmen</translation>
     </message>
     <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+>>>>>>> origin/enhanced
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+>>>>>>> origin/enhanced
         <source>Apply Alignment</source>
         <translation>Ausrichtung übernehmen</translation>
     </message>
@@ -2380,13 +3216,13 @@ Benutzeroberläche verwenden</translation>
     <message>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="116"/>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="208"/>
-        <location filename="../filters/page_split/OptionsWidget.cpp" line="301"/>
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="289"/>
         <source>Set manually</source>
         <translation>Manuell setzen</translation>
     </message>
     <message>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="165"/>
-        <location filename="../filters/page_split/OptionsWidget.cpp" line="298"/>
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="286"/>
         <source>Auto detected</source>
         <translation>Automatisch erkennen</translation>
     </message>
@@ -2402,9 +3238,8 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>select_content::ApplyDialog</name>
     <message>
-        <location filename="../filters/select_content/ApplyDialog.cpp" line="53"/>
         <source>Can&apos;t do: more than one group is selected.</source>
-        <translation type="unfinished">Ausführung nicht möglich, da mehr als eine Gruppe ausgewählt ist.</translation>
+        <translation type="obsolete">Ausführung nicht möglich, da mehr als eine Gruppe ausgewählt ist.</translation>
     </message>
 </context>
 <context>
@@ -2433,22 +3268,22 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>select_content::ImageView</name>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="58"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="59"/>
         <source>Use the context menu to enable / disable the content box.</source>
         <translation>Verwenden Sie das Kontextmenü, um die Content-Box zu aktivieren/deaktivieren.</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="61"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="62"/>
         <source>Drag lines or corners to resize the content box.</source>
         <translation>Ziehen Sie an den Kanten oder Ecken um die Größe der Content-Box zu ändern.</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="107"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
         <source>Create Content Box</source>
         <translation>Content-Box erzeugen</translation>
     </message>
     <message>
-        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
+        <location filename="../filters/select_content/ImageView.cpp" line="109"/>
         <source>Remove Content Box</source>
         <translation>Context-Box entfernen</translation>
     </message>

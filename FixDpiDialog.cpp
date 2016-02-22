@@ -17,7 +17,7 @@
 */
 
 #include "FixDpiDialog.h"
-#include "FixDpiDialog.h.moc"
+#include "FixDpiDialog.moc"
 #include <QAbstractItemModel>
 #include <QSortFilterProxyModel>
 #include <QModelIndex>
@@ -341,11 +341,12 @@ FixDpiDialog::dpiValueChanged()
 		return;
 	}
 	
+	
 	if (metadata.isDpiOK()) {
 		applyBtn->setEnabled(true);
 		return;
 	}
-	
+		
 	applyBtn->setEnabled(false);
 }
 

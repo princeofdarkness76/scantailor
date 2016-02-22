@@ -16,6 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include "CommandLine.h"
 #include "Task.h"
 #include "Filter.h"
 #include "OptionsWidget.h"
@@ -169,7 +170,23 @@ Task::process(
 	status.throwIfCancelled();
 
 	Params params(m_ptrSettings->getParams(m_pageId));
-	RenderParams const render_params(params.colorParams());
+	CommandLine const& cli = CommandLine::get();
+
+	if (cli.hasTiffForceKeepColorSpace()) {
+		ColorParams colorParams = params.colorParams();
+		switch (data.origImage().format()) {
+			case QImage::Format_Mono:
+			case QImage::Format_MonoLSB:
+				colorParams.setColorMode(ColorParams::BLACK_AND_WHITE);
+				break;
+			default:
+				colorParams.setColorMode(ColorParams::COLOR_GRAYSCALE);
+				break;
+		}
+		params.setColorParams(colorParams);
+	}
+
+	RenderParams render_params(params.colorParams());
 	QString const out_file_path(m_outFileNameGen.filePathFor(m_pageId));
 	QFileInfo const out_file_info(out_file_path);
 
@@ -207,9 +224,42 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -224,6 +274,24 @@ Task::process(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
@@ -232,8 +300,38 @@ Task::process(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> pod/tiff
+=======
+		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> origin/enhanced
+=======
+		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> pod/tiff
+>>>>>>> master
 	);
 
 //begin of modified by monday2000
@@ -422,9 +520,42 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 			m_ptrDbg.get()
 //begin of modified by monday2000
@@ -441,6 +572,24 @@ Task::process(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 			m_ptrDbg.get(), params.pictureShape()
 >>>>>>> scantailor/tiff
@@ -449,8 +598,38 @@ Task::process(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 			m_ptrDbg.get(), params.pictureShape()
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+			m_ptrDbg.get(), params.pictureShape()
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+			m_ptrDbg.get(), params.pictureShape()
+>>>>>>> pod/tiff
+=======
+			m_ptrDbg.get(), params.pictureShape()
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+			m_ptrDbg.get(), params.pictureShape()
+>>>>>>> origin/enhanced
+=======
+			m_ptrDbg.get(), params.pictureShape()
+>>>>>>> pod/tiff
+>>>>>>> master
 		);
 
 		if ((params.dewarpingMode() == DewarpingMode::AUTO && distortion_model.isValid())

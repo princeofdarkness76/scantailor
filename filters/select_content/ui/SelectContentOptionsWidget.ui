@@ -6,20 +6,59 @@
    <rect>
     <x>0</x>
     <y>0</y>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     <width>236</width>
     <height>294</height>
+=======
+    <width>292</width>
+    <height>361</height>
+>>>>>>> origin/enhanced
+=======
+    <width>292</width>
+    <height>361</height>
+>>>>>>> origin/enhanced
+=======
+    <width>236</width>
+    <height>294</height>
+>>>>>>> pod/tiff
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   <layout class="QVBoxLayout" name="verticalLayout_2">
+=======
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> origin/enhanced
+=======
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> origin/enhanced
+=======
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+>>>>>>> pod/tiff
    <item>
     <widget class="QGroupBox" name="groupBox_2">
      <property name="title">
       <string>Page Box</string>
      </property>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
      <layout class="QHBoxLayout" name="horizontalLayout">
+=======
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+>>>>>>> origin/enhanced
+=======
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+>>>>>>> origin/enhanced
+=======
+     <layout class="QHBoxLayout" name="horizontalLayout">
+>>>>>>> pod/tiff
       <item>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
@@ -67,6 +106,101 @@
         </item>
        </layout>
       </item>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="title">
+         <string>Borders in MM</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>Left</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QDoubleSpinBox" name="leftBorder"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>Top</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QDoubleSpinBox" name="topBorder"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>Right</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QDoubleSpinBox" name="rightBorder"/>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>Bottom</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QDoubleSpinBox" name="bottomBorder"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
      </layout>
     </widget>
    </item>
@@ -208,8 +342,16 @@
    </item>
   </layout>
  </widget>
+<<<<<<< HEAD
+<<<<<<< HEAD
  <resources>
   <include location="../../../resources/resources.qrc"/>
  </resources>
+=======
+ <resources/>
+>>>>>>> origin/enhanced
+=======
+ <resources/>
+>>>>>>> origin/enhanced
  <connections/>
 </ui>

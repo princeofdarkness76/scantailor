@@ -16,6 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include "CommandLine.h"
 #include "OutputGenerator.h"
 #include "ImageTransformation.h"
 #include "FilterData.h"
@@ -314,9 +315,42 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -336,6 +370,24 @@ OutputGenerator::process(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
@@ -344,8 +396,38 @@ OutputGenerator::process(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
+>>>>>>> master
 {
 	QImage image(
 		processImpl(
@@ -357,9 +439,42 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
@@ -384,6 +499,24 @@ OutputGenerator::process(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
@@ -392,8 +525,38 @@ OutputGenerator::process(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/tiff
+>>>>>>> master
 		)
 	);
 	assert(!image.isNull());
@@ -592,9 +755,42 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -614,6 +810,24 @@ OutputGenerator::processImpl(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
@@ -622,8 +836,38 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
+>>>>>>> master
 {
 	RenderParams const render_params(m_colorParams);
 
@@ -674,9 +918,42 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
@@ -700,6 +977,24 @@ OutputGenerator::processImpl(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
@@ -708,8 +1003,38 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/tiff
+>>>>>>> master
 		);
 	} else if (!render_params.whiteMargins()) {
 		return processAsIs(
@@ -724,9 +1049,42 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
@@ -749,6 +1107,24 @@ OutputGenerator::processImpl(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
@@ -757,8 +1133,38 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/tiff
+>>>>>>> master
 		);
 	}
 }
@@ -779,8 +1185,9 @@ OutputGenerator::processAsIs(
 	QColor const bg_color(dominant_gray, dominant_gray, dominant_gray);
 	
 	QImage out;
+	CommandLine const& cli = CommandLine::get();
 
-	if (input.origImage().allGray()) {
+	if (input.origImage().allGray() && !cli.hasTiffForceKeepColorSpace()) {
 		if (m_outRect.isEmpty()) {
 			QImage image(1, 1, QImage::Format_Indexed8);
 			image.setColorTable(createGrayscalePalette());
@@ -833,9 +1240,42 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -855,6 +1295,24 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
@@ -863,8 +1321,38 @@ OutputGenerator::processWithoutDewarping(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
+>>>>>>> master
 {
 	RenderParams const render_params(m_colorParams);
 	
@@ -1023,9 +1511,42 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -1078,6 +1599,24 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> scantailor/tiff
 =======
@@ -1085,7 +1624,32 @@ OutputGenerator::processWithoutDewarping(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			bw_mask.rectangularizeAreas(WHITE);
@@ -1095,17 +1659,60 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 >>>>>>> scantailor/tiff
 =======
 =======
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+>>>>>>> master
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
 =======
->>>>>>> scantailor/tiff
+>>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
 		if (dbg) {
 			dbg->add(bw_mask, "bw_mask");
@@ -1271,9 +1878,42 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -1293,6 +1933,24 @@ OutputGenerator::processWithDewarping(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
@@ -1301,8 +1959,38 @@ OutputGenerator::processWithDewarping(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> pod/tiff
+>>>>>>> master
 {
 	QSize const target_size(m_outRect.size().expandedTo(QSize(1, 1)));
 	if (m_outRect.isEmpty()) {
@@ -1478,9 +2166,42 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -1540,6 +2261,24 @@ OutputGenerator::processWithDewarping(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			warped_bw_mask.rectangularizeAreas(WHITE);
@@ -1550,10 +2289,49 @@ OutputGenerator::processWithDewarping(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			warped_bw_mask.rectangularizeAreas(WHITE);
 		}
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> pod/tiff
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> origin/enhanced
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> pod/tiff
+>>>>>>> master
 
 		status.throwIfCancelled();
 

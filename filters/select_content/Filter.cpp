@@ -122,6 +122,21 @@ Filter::saveSettings(
 	filter_el.setAttribute("average", m_ptrSettings->avg());
 	filter_el.setAttribute("sigma", m_ptrSettings->std());
 	filter_el.setAttribute("maxDeviation", m_ptrSettings->maxDeviation());
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	filter_el.setAttribute("pageDetectionBoxWidth", m_ptrSettings->pageDetectionBox().width());
+	filter_el.setAttribute("pageDetectionBoxHeight", m_ptrSettings->pageDetectionBox().height());
+	filter_el.setAttribute("pageDetectionTolerance", m_ptrSettings->pageDetectionTolerance());
+>>>>>>> origin/enhanced
+=======
+	filter_el.setAttribute("pageDetectionBoxWidth", m_ptrSettings->pageDetectionBox().width());
+	filter_el.setAttribute("pageDetectionBoxHeight", m_ptrSettings->pageDetectionBox().height());
+	filter_el.setAttribute("pageDetectionTolerance", m_ptrSettings->pageDetectionTolerance());
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
 	writer.enumPages(
 		bind(
@@ -155,6 +170,17 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 {
 	m_ptrSettings->clear();
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    CommandLine cli = CommandLine::get();
+>>>>>>> origin/enhanced
+=======
+    CommandLine cli = CommandLine::get();
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 
 	QDomElement const filter_el(
 		filters_el.namedItem("select-content").toElement()
@@ -162,7 +188,33 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 
 	m_ptrSettings->setAvg(filter_el.attribute("average").toDouble());
 	m_ptrSettings->setStd(filter_el.attribute("sigma").toDouble());
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 	m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
+=======
+=======
+>>>>>>> origin/enhanced
+    
+    if (cli.hasContentDeviation()) {
+        m_ptrSettings->setMaxDeviation(cli.getContentDeviation());
+    } else {
+	    m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", QString::number(cli.getContentDeviation())).toDouble());
+    }
+	
+	QSizeF box(0.0, 0.0);
+	box.setWidth(filter_el.attribute("pageDetectionBoxWidth", "0.0").toDouble());
+	box.setHeight(filter_el.attribute("pageDetectionBoxHeight", "0.0").toDouble());
+	m_ptrSettings->setPageDetectionBox(box);
+	
+	m_ptrSettings->setPageDetectionTolerance(filter_el.attribute("pageDetectionTolerance", "0.1").toDouble());
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+	m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
+>>>>>>> pod/tiff
 
 	QString const page_tag_name("page");
 	QDomNode node(filter_el.firstChild());

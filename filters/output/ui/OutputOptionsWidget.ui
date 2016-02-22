@@ -12,9 +12,42 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
     <width>228</width>
     <height>735</height>
@@ -28,6 +61,24 @@
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
     <width>269</width>
     <height>789</height>
@@ -37,9 +88,44 @@
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
     <width>269</width>
     <height>789</height>
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <width>269</width>
+    <height>789</height>
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+    <width>269</width>
+    <height>789</height>
+>>>>>>> pod/tiff
+=======
+    <width>269</width>
+    <height>789</height>
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+    <width>269</width>
+    <height>789</height>
+>>>>>>> origin/enhanced
+=======
+    <width>269</width>
+    <height>789</height>
+>>>>>>> pod/tiff
+>>>>>>> master
    </rect>
   </property>
   <property name="windowTitle">
@@ -355,9 +441,42 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
         <layout class="QVBoxLayout" name="verticalLayout_10">
          <property name="spacing">
@@ -377,6 +496,24 @@
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> scantailor/tiff
@@ -385,8 +522,38 @@
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> pod/tiff
+=======
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> origin/enhanced
+=======
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> pod/tiff
+>>>>>>> master
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_14">
            <item>
@@ -409,9 +576,42 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
             <widget class="QLabel" name="labePictureShape">
 =======
@@ -422,6 +622,24 @@
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
             <widget class="QLabel" name="label">
 >>>>>>> scantailor/tiff
@@ -430,8 +648,38 @@
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
             <widget class="QLabel" name="label">
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <widget class="QLabel" name="label">
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+            <widget class="QLabel" name="label">
+>>>>>>> pod/tiff
+=======
+            <widget class="QLabel" name="label">
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+            <widget class="QLabel" name="label">
+>>>>>>> origin/enhanced
+=======
+            <widget class="QLabel" name="label">
+>>>>>>> pod/tiff
+>>>>>>> master
              <property name="text">
               <string>Picture Shape</string>
              </property>
@@ -865,6 +1113,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> scantailor/tiff
@@ -882,6 +1131,102 @@
 >>>>>>> master
 =======
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+=======
+=======
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
     <widget class="QWidget" name="pictureShapeOptions_2" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_10">
       <item>
@@ -963,6 +1308,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 =======
@@ -973,7 +1319,63 @@
 =======
 >>>>>>> scantailor/tiff
 =======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+>>>>>>> scantailor/tiff
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>

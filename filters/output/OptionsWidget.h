@@ -89,9 +89,42 @@ private slots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -105,6 +138,37 @@ private slots:
 	void pictureShapeChanged(int idx);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+	void pictureShapeChanged(int idx);
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+<<<<<<< HEAD
+=======
+
+	void pictureShapeChanged(int idx);
+>>>>>>> pod/scantailor-filters.h
+=======
+
+	void pictureShapeChanged(int idx);
+>>>>>>> master
 =======
 
 	void pictureShapeChanged(int idx);
@@ -113,13 +177,50 @@ private slots:
 	void pictureShapeChanged(int idx);
 	
 	void tiffCompressionChanged(int idx);
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> pod/tiff
+	
+	void tiffCompressionChanged(int idx);
+>>>>>>> origin/enhanced
+	
+	void tiffCompressionChanged(int idx);
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> origin/enhanced
+	
+	void tiffCompressionChanged(int idx);
+>>>>>>> pod/tiff
+>>>>>>> pod/scantailor-filters.h
+>>>>>>> master
 	
 	void tiffCompressionChanged(int idx);
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 	
 	void tiffCompressionChanged(int idx);
@@ -183,9 +284,42 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -199,6 +333,24 @@ private:
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
@@ -207,8 +359,38 @@ private:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	PictureShape m_pictureShape;
+>>>>>>> pod/tiff
+=======
+	PictureShape m_pictureShape;
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	PictureShape m_pictureShape;
+>>>>>>> origin/enhanced
+=======
+	PictureShape m_pictureShape;
+>>>>>>> pod/tiff
+>>>>>>> master
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;
 	DespeckleLevel m_despeckleLevel;
