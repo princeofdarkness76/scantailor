@@ -67,6 +67,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation type="unfinished"></translation>
 =======
         <translation type="unfinished">Neco Torquato - Brasilianisches Portugiesisch</translation>
@@ -107,6 +108,36 @@
         <translation type="unfinished">Masahiro Kitagawa - Japanisch</translation>
     </message>
     <message>
+=======
+        <translation type="unfinished">Neco Torquato - Brasilianisches Portugiesisch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+        <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
+        <translation type="unfinished">Svetoslav Sashkov, Mandor - Bulgarisch</translation>
+    </message>
+    <message utf8="true">
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+        <source>Petr Kovář - Czech</source>
+        <translation type="unfinished">Petr Kovář - Tschechisch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+        <source>Stefan Birkner - German</source>
+        <translation type="unfinished">Stefan Birkner - Deutsch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+        <source>Angelo Gemmi - Italian</source>
+        <translation type="unfinished">Angelo Gemmi - Italienisch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+        <source>Masahiro Kitagawa - Japanese</source>
+        <translation type="unfinished">Masahiro Kitagawa - Japanisch</translation>
+    </message>
+    <message>
+>>>>>>> scantailor/master
 =======
         <translation type="unfinished">Neco Torquato - Brasilianisches Portugiesisch</translation>
     </message>
@@ -524,6 +555,9 @@ zur Auswahl mehrerer Seiten.</translation>
         <location filename="../MainWindow.cpp" line="564"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -1811,8 +1845,13 @@ Eingabedatei erhalten bleibt.</translation>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>Apply content box</source>
         <translation type="unfinished"></translation>
+=======
+        <source>This page only (already applied)</source>
+        <translation type="unfinished">nur diese Seiten (schon angewandt)</translation>
+>>>>>>> scantailor/master
 =======
         <source>This page only (already applied)</source>
         <translation type="unfinished">nur diese Seiten (schon angewandt)</translation>
@@ -1988,6 +2027,7 @@ Benutzeroberläche verwenden</translation>
         <translation type="unfinished">Stapelverarbeitung starten</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -2011,6 +2051,8 @@ Benutzeroberläche verwenden</translation>
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======
@@ -2381,7 +2423,11 @@ Benutzeroberläche verwenden</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
@@ -2398,7 +2444,11 @@ Benutzeroberläche verwenden</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master

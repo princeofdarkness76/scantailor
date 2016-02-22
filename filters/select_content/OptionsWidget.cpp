@@ -27,8 +27,11 @@
 #endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #include <iostream>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======

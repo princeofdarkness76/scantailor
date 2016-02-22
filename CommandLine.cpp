@@ -220,9 +220,12 @@ CommandLine::parseCli(QStringList const& argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	for (int i=0; i<params.size(); i++) { std::cout << params[i].toAscii().constData() << "=" << m_options[params[i]].toAscii().constData() << std::endl; }
 	std::cout << "Images: " << CommandLine::m_images.size() << std::endl;
 =======
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======
@@ -454,6 +457,7 @@ CommandLine::fetchColorMode()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if (! hasColorMode())
 		return output::ColorParams::BLACK_AND_WHITE;
 	
@@ -483,6 +487,9 @@ CommandLine::fetchDefaultColorMode()
 		return output::ColorParams::BLACK_AND_WHITE;
 	
 	QString cm = m_options["default-color-mode"].toLower();
+=======
+	QString cm = m_options.value("color-mode").toLower();
+>>>>>>> scantailor/master
 	
 	if (cm == "color_grayscale")
 		return output::ColorParams::COLOR_GRAYSCALE;
@@ -520,6 +527,9 @@ CommandLine::fetchMargins(QString base, Margins def)
 		double m = m_options.value("margins").toDouble();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -558,6 +568,9 @@ CommandLine::fetchMargins(QString base, Margins def)
 		margins.setBottom(m_options.value("margins-bottom").toFloat());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -627,8 +640,13 @@ CommandLine::fetchContentDetection()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if (hasContentDetection()) {
 		QString cm = m_options["content-detection"].toLower();
+=======
+	if (m_options.value("content-detection") != "") {
+		QString cm = m_options.value("content-detection").toLower();
+>>>>>>> scantailor/master
 =======
 	if (m_options.value("content-detection") != "") {
 		QString cm = m_options.value("content-detection").toLower();
@@ -665,7 +683,11 @@ CommandLine::fetchContentRect()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	std::cout << "invalid --content-box=" << m_options["content-box"].toAscii().constData() << std::endl;
+=======
+	std::cout << "invalid --content-box=" << m_options.value("content-box").toAscii().constData() << "\n";
+>>>>>>> scantailor/master
 =======
 	std::cout << "invalid --content-box=" << m_options.value("content-box").toAscii().constData() << "\n";
 >>>>>>> scantailor/master
@@ -707,7 +729,11 @@ CommandLine::fetchOrientation()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		std::cout << "Wrong orientation " << m_options["orientation"].toAscii().constData() << std::endl;
+=======
+		std::cout << "Wrong orientation " << m_options.value("orientation").toAscii().constData() << "\n";
+>>>>>>> scantailor/master
 =======
 		std::cout << "Wrong orientation " << m_options.value("orientation").toAscii().constData() << "\n";
 >>>>>>> scantailor/master
@@ -751,6 +777,7 @@ CommandLine::fetchDeskewAngle()
 	return m_options.value("rotate").toDouble();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 AutoManualMode CommandLine::fetchDeskewMode()
@@ -767,6 +794,8 @@ CommandLine::fetchSkewDeviation()
 		return 5.0;
 
 	return m_options["skew-deviation"].toDouble();
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======

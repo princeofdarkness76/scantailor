@@ -484,6 +484,9 @@ Taxman</translation>
         <location filename="../MainWindow.cpp" line="564"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -575,6 +578,7 @@ Per determinarla, avvia l&apos;elaborazione automatica a &quot; o &quot; Conform
         <translation type="unfinished">Senza nome</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1711"/>
@@ -582,6 +586,18 @@ Per determinarla, avvia l&apos;elaborazione automatica a &quot; o &quot; Conform
         <translation type="unfinished"></translation>
     </message>
     <message>
+=======
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1711"/>
+        <source>%2 - Scan Tailor %3 [%1bit]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
 =======
     </message>
     <message>
@@ -592,13 +608,6 @@ Per determinarla, avvia l&apos;elaborazione automatica a &quot; o &quot; Conform
     <message>
 >>>>>>> scantailor/master
 =======
-    </message>
-    <message>
-        <location filename="../MainWindow.cpp" line="1711"/>
-        <source>%2 - Scan Tailor %3 [%1bit]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
 >>>>>>> scantailor/master
         <location filename="../MainWindow.cpp" line="1778"/>
         <location filename="../MainWindow.cpp" line="1809"/>
@@ -2009,6 +2018,7 @@ text-indent:0px;&quot;&gt;Rimuovi i file selezionati dal progetto.&lt;/p&gt;&lt;
         <translation type="unfinished">Lancia elaborazione automatica</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -2032,6 +2042,8 @@ text-indent:0px;&quot;&gt;Rimuovi i file selezionati dal progetto.&lt;/p&gt;&lt;
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======
@@ -2425,7 +2437,11 @@ text-indent:0px;&quot;&gt;Rimuovi i file selezionati dal progetto.&lt;/p&gt;&lt;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
@@ -2442,7 +2458,11 @@ text-indent:0px;&quot;&gt;Rimuovi i file selezionati dal progetto.&lt;/p&gt;&lt;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master
