@@ -228,6 +228,9 @@ CommandLine::setup()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 //begin of modified by monday2000
@@ -241,9 +244,12 @@ CommandLine::setup()
 	m_pictureShape = fetchPictureShape();
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	m_pictureShape = fetchPictureShape();
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 	m_dpi = fetchDpi();
@@ -333,6 +339,9 @@ CommandLine::printHelp()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 //begin of modified by monday2000
@@ -346,9 +355,12 @@ CommandLine::printHelp()
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 	std::cout << "\t--white-margins\t\t\t\t-- default: false" << "\n";
@@ -472,6 +484,7 @@ CommandLine::fetchPictureShape()
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 output::PictureShape
 CommandLine::fetchPictureShape()
 {
@@ -484,6 +497,8 @@ CommandLine::fetchPictureShape()
 }
 
 
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 Margins

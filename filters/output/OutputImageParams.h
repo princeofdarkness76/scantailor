@@ -56,6 +56,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 //begin of modified by monday2000
@@ -71,9 +74,12 @@ public:
 		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 	
@@ -149,6 +155,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 //begin of modified by monday2000
@@ -165,10 +174,13 @@ private:
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	/** Shape of the pictures in image */
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 
