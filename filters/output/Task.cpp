@@ -227,8 +227,11 @@ Task::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -241,6 +244,7 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
@@ -250,6 +254,12 @@ Task::process(
 =======
 >>>>>>> master
 =======
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +272,9 @@ Task::process(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -280,7 +293,10 @@ Task::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -293,6 +309,9 @@ Task::process(
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
@@ -303,9 +322,12 @@ Task::process(
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
@@ -332,6 +354,9 @@ Task::process(
 =======
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	);
 
@@ -524,8 +549,11 @@ Task::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -538,6 +566,7 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
@@ -547,6 +576,12 @@ Task::process(
 =======
 >>>>>>> master
 =======
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -559,6 +594,9 @@ Task::process(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 			m_ptrDbg.get()
 //begin of modified by monday2000
@@ -579,7 +617,10 @@ Task::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -592,6 +633,9 @@ Task::process(
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 			m_ptrDbg.get(), params.pictureShape()
@@ -602,9 +646,12 @@ Task::process(
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 			m_ptrDbg.get(), params.pictureShape()
@@ -631,6 +678,9 @@ Task::process(
 =======
 			m_ptrDbg.get(), params.pictureShape()
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 		);
 

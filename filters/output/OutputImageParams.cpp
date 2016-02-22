@@ -45,8 +45,11 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -59,6 +62,7 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
@@ -68,6 +72,12 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 =======
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +90,9 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -101,7 +114,10 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -114,6 +130,9 @@ OutputImageParams::OutputImageParams(
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 	DespeckleLevel const despeckle_level,
@@ -125,9 +144,12 @@ OutputImageParams::OutputImageParams(
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 	DespeckleLevel const despeckle_level,
@@ -159,6 +181,9 @@ OutputImageParams::OutputImageParams(
 	DespeckleLevel const despeckle_level,
 	PictureShape const picture_shape)
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 :	m_size(out_image_size),
 	m_contentRect(content_rect),
@@ -173,8 +198,11 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -187,6 +215,7 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
@@ -196,6 +225,12 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 =======
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,6 +243,9 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -225,7 +263,10 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -238,6 +279,9 @@ OutputImageParams::OutputImageParams(
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 	m_pictureShape(picture_shape),
@@ -248,9 +292,12 @@ OutputImageParams::OutputImageParams(
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 	m_pictureShape(picture_shape),
@@ -277,6 +324,9 @@ OutputImageParams::OutputImageParams(
 =======
 	m_pictureShape(picture_shape),
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	m_distortionModel(distortion_model),
 	m_depthPerception(depth_perception),
@@ -360,8 +410,11 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -374,6 +427,7 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
@@ -383,6 +437,12 @@ OutputImageParams::matches(OutputImageParams const& other) const
 =======
 >>>>>>> master
 =======
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +455,9 @@ OutputImageParams::matches(OutputImageParams const& other) const
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -418,7 +481,10 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -431,6 +497,9 @@ OutputImageParams::matches(OutputImageParams const& other) const
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 	if (m_pictureShape != other.m_pictureShape) {
@@ -443,9 +512,12 @@ OutputImageParams::matches(OutputImageParams const& other) const
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 	if (m_pictureShape != other.m_pictureShape) {
@@ -482,6 +554,9 @@ OutputImageParams::matches(OutputImageParams const& other) const
 		return false;
 	}
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 
 	if (m_dewarpingMode != other.m_dewarpingMode) {

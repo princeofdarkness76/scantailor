@@ -573,8 +573,11 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -587,6 +590,7 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
@@ -596,6 +600,12 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 >>>>>>> master
 =======
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -608,6 +618,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -623,7 +636,10 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -636,6 +652,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 
@@ -646,9 +665,12 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -675,6 +697,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 void
 BinaryImage::rectangularizeAreas(BWColor content_color)
@@ -772,8 +797,11 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -786,6 +814,7 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
@@ -795,6 +824,12 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 =======
 >>>>>>> master
 =======
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -807,6 +842,9 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 void
 BinaryImage::rectangularizeAreasQuadro(BWColor content_color, std::vector<QRect>& areas)
@@ -1010,7 +1048,10 @@ BinaryImage::getPixel(int x, int y)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -1023,6 +1064,9 @@ BinaryImage::getPixel(int x, int y)
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> scantailor/tiff
@@ -1032,9 +1076,12 @@ BinaryImage::getPixel(int x, int y)
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
@@ -1056,6 +1103,9 @@ BinaryImage::getPixel(int x, int y)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 
 uint32_t*

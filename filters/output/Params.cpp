@@ -46,7 +46,10 @@ Params::Params()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -59,6 +62,7 @@ Params::Params()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
@@ -68,6 +72,12 @@ Params::Params()
 =======
 >>>>>>> master
 =======
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +90,9 @@ Params::Params()
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -97,7 +110,10 @@ Params::Params()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -110,6 +126,9 @@ Params::Params()
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 	m_pictureShape(FREE_SHAPE)
@@ -120,9 +139,12 @@ Params::Params()
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 	m_pictureShape(FREE_SHAPE)
@@ -153,6 +175,9 @@ Params::Params()
 =======
 	m_pictureShape(FREE_SHAPE)
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 {
 }
@@ -171,8 +196,11 @@ Params::Params(QDomElement const& el)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -185,6 +213,7 @@ Params::Params(QDomElement const& el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
@@ -194,6 +223,12 @@ Params::Params(QDomElement const& el)
 =======
 >>>>>>> master
 =======
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +241,9 @@ Params::Params(QDomElement const& el)
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -227,7 +265,10 @@ Params::Params(QDomElement const& el)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -240,6 +281,9 @@ Params::Params(QDomElement const& el)
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
@@ -251,9 +295,12 @@ Params::Params(QDomElement const& el)
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
@@ -285,6 +332,9 @@ Params::Params(QDomElement const& el)
 	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
 	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 {
 	QDomElement const cp(el.namedItem("color-params").toElement());
@@ -315,8 +365,11 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -329,6 +382,7 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
@@ -338,6 +392,12 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 =======
 >>>>>>> master
 =======
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -350,6 +410,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -367,7 +430,10 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -380,6 +446,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 	el.setAttribute("pictureShape", (int)m_pictureShape);
@@ -390,9 +459,12 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 	el.setAttribute("pictureShape", (int)m_pictureShape);
@@ -419,6 +491,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 =======
 	el.setAttribute("pictureShape", (int)m_pictureShape);
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	el.setAttribute("depthPerception", m_depthPerception.toString());
 	el.setAttribute("dewarpingMode", m_dewarpingMode.toString());

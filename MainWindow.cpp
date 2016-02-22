@@ -2353,8 +2353,11 @@ MainWindow::updateWindowTitle()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -2367,6 +2370,7 @@ MainWindow::updateWindowTitle()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2376,6 +2380,12 @@ MainWindow::updateWindowTitle()
 =======
 >>>>>>> master
 =======
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2388,6 +2398,9 @@ MainWindow::updateWindowTitle()
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 	//setWindowTitle(tr("%2 - Scan Tailor %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
@@ -2405,7 +2418,10 @@ MainWindow::updateWindowTitle()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -2418,6 +2434,9 @@ MainWindow::updateWindowTitle()
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
@@ -2428,9 +2447,12 @@ MainWindow::updateWindowTitle()
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
@@ -2457,6 +2479,9 @@ MainWindow::updateWindowTitle()
 =======
 	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 }
 

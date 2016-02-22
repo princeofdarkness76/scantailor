@@ -66,8 +66,11 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,6 +82,9 @@ public:
 >>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -88,6 +94,7 @@ public:
 
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
@@ -144,6 +151,55 @@ public:
 >>>>>>> master
 >>>>>>> scantailor/tiff
 =======
+=======
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
 
