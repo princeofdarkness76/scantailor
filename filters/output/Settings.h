@@ -68,11 +68,14 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,6 +86,9 @@ public:
 =======
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -95,6 +101,7 @@ public:
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
@@ -181,6 +188,58 @@ public:
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
 
 =======
+>>>>>>> master
+=======
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+>>>>>>> scantailor/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
 >>>>>>> master
 >>>>>>> pod/tiff
 =======

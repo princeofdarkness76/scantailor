@@ -31,10 +31,13 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -46,6 +49,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -55,11 +61,14 @@
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -71,6 +80,9 @@
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -95,10 +107,13 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -112,6 +127,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -126,6 +144,7 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define VERSION __DATE__
 #define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
 >>>>>>> scantailor/tiff
@@ -134,6 +153,8 @@
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 #define VERSION __DATE__
 #define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
@@ -165,6 +186,9 @@
 #define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master

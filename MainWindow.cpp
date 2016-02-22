@@ -2356,10 +2356,13 @@ MainWindow::updateWindowTitle()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -2371,6 +2374,9 @@ MainWindow::updateWindowTitle()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2380,11 +2386,14 @@ MainWindow::updateWindowTitle()
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -2396,6 +2405,9 @@ MainWindow::updateWindowTitle()
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2415,10 +2427,13 @@ MainWindow::updateWindowTitle()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -2432,6 +2447,9 @@ MainWindow::updateWindowTitle()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2445,6 +2463,7 @@ MainWindow::updateWindowTitle()
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
 >>>>>>> scantailor/tiff
 =======
@@ -2452,6 +2471,8 @@ MainWindow::updateWindowTitle()
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
 >>>>>>> scantailor/tiff
@@ -2478,6 +2499,9 @@ MainWindow::updateWindowTitle()
 	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master

@@ -99,10 +99,13 @@ CacheDrivenTask::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -114,6 +117,9 @@ CacheDrivenTask::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -123,11 +129,14 @@ CacheDrivenTask::process(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -139,6 +148,9 @@ CacheDrivenTask::process(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -159,10 +171,13 @@ CacheDrivenTask::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -176,6 +191,9 @@ CacheDrivenTask::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -189,6 +207,7 @@ CacheDrivenTask::process(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
 =======
@@ -196,6 +215,8 @@ CacheDrivenTask::process(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
@@ -222,6 +243,9 @@ CacheDrivenTask::process(
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master

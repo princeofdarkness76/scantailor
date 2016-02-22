@@ -156,16 +156,22 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -208,10 +214,13 @@ void
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -225,6 +234,9 @@ void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -250,6 +262,7 @@ void
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 void
 >>>>>>> scantailor/tiff
@@ -258,6 +271,8 @@ void
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 
 void
@@ -289,6 +304,9 @@ void
 void
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master

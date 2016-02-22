@@ -230,10 +230,13 @@ Task::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -245,6 +248,9 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -254,11 +260,14 @@ Task::process(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -270,6 +279,9 @@ Task::process(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -290,10 +302,13 @@ Task::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -307,6 +322,9 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -320,6 +338,7 @@ Task::process(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
 =======
@@ -327,6 +346,8 @@ Task::process(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
@@ -353,6 +374,9 @@ Task::process(
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -550,10 +574,13 @@ Task::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -565,6 +592,9 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -574,11 +604,14 @@ Task::process(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -590,6 +623,9 @@ Task::process(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -612,10 +648,13 @@ Task::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -629,6 +668,9 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -642,6 +684,7 @@ Task::process(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			m_ptrDbg.get(), params.pictureShape()
 >>>>>>> scantailor/tiff
 =======
@@ -649,6 +692,8 @@ Task::process(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 			m_ptrDbg.get(), params.pictureShape()
 >>>>>>> scantailor/tiff
@@ -675,6 +720,9 @@ Task::process(
 			m_ptrDbg.get(), params.pictureShape()
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master

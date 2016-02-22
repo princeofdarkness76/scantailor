@@ -48,10 +48,13 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -63,6 +66,9 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -72,11 +78,14 @@ OutputImageParams::OutputImageParams(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -88,6 +97,9 @@ OutputImageParams::OutputImageParams(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -111,10 +123,13 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -128,6 +143,9 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -142,6 +160,7 @@ OutputImageParams::OutputImageParams(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	DespeckleLevel const despeckle_level,
 	PictureShape const picture_shape)
 >>>>>>> scantailor/tiff
@@ -150,6 +169,8 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	DespeckleLevel const despeckle_level,
 	PictureShape const picture_shape)
@@ -181,6 +202,9 @@ OutputImageParams::OutputImageParams(
 	PictureShape const picture_shape)
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -200,10 +224,13 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -215,6 +242,9 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -224,11 +254,14 @@ OutputImageParams::OutputImageParams(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -240,6 +273,9 @@ OutputImageParams::OutputImageParams(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -259,10 +295,13 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -276,6 +315,9 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -289,6 +331,7 @@ OutputImageParams::OutputImageParams(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_pictureShape(picture_shape),
 >>>>>>> scantailor/tiff
 =======
@@ -296,6 +339,8 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	m_pictureShape(picture_shape),
 >>>>>>> scantailor/tiff
@@ -322,6 +367,9 @@ OutputImageParams::OutputImageParams(
 	m_pictureShape(picture_shape),
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -410,10 +458,13 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -425,6 +476,9 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -434,11 +488,14 @@ OutputImageParams::matches(OutputImageParams const& other) const
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -450,6 +507,9 @@ OutputImageParams::matches(OutputImageParams const& other) const
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -475,10 +535,13 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -492,6 +555,9 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -507,6 +573,7 @@ OutputImageParams::matches(OutputImageParams const& other) const
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -514,6 +581,9 @@ OutputImageParams::matches(OutputImageParams const& other) const
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 <<<<<<< HEAD
 >>>>>>> master
 	if (m_pictureShape != other.m_pictureShape) {
@@ -522,7 +592,10 @@ OutputImageParams::matches(OutputImageParams const& other) const
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> pod/filters.coo
@@ -556,6 +629,9 @@ OutputImageParams::matches(OutputImageParams const& other) const
 	}
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master

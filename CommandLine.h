@@ -70,6 +70,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false) { CommandLine::parseCli(argv); }
 =======
 	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false), m_defaultNull(false) { CommandLine::parseCli(argv); }
@@ -79,6 +80,17 @@ public:
 >>>>>>> origin/enhanced
 =======
 	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false) { CommandLine::parseCli(argv); }
+=======
+	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false) { CommandLine::parseCli(argv); }
+=======
+	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false), m_defaultNull(false) { CommandLine::parseCli(argv); }
+>>>>>>> origin/enhanced
+=======
+	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false), m_defaultNull(false) { CommandLine::parseCli(argv); }
+>>>>>>> origin/enhanced
+=======
+	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false) { CommandLine::parseCli(argv); }
+>>>>>>> master
 >>>>>>> pod/tiff
 
 	bool isGui() const { return m_gui; }
@@ -145,7 +157,10 @@ public:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -161,6 +176,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -170,11 +188,14 @@ public:
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -186,6 +207,9 @@ public:
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -205,10 +229,13 @@ public:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -222,6 +249,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -235,6 +265,7 @@ public:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	bool hasPictureShape() const { return contains("picture-shape"); }
 >>>>>>> scantailor/tiff
 =======
@@ -242,6 +273,8 @@ public:
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	bool hasPictureShape() const { return contains("picture-shape"); }
 >>>>>>> scantailor/tiff
@@ -285,6 +318,9 @@ public:
 	bool hasPictureShape() const { return contains("picture-shape"); }
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -337,10 +373,13 @@ public:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -352,6 +391,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -361,11 +403,14 @@ public:
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -377,6 +422,9 @@ public:
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -396,10 +444,13 @@ public:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -413,6 +464,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -426,6 +480,7 @@ public:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	output::PictureShape getPictureShape() const { return m_pictureShape; }
 >>>>>>> scantailor/tiff
 =======
@@ -433,6 +488,8 @@ public:
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	output::PictureShape getPictureShape() const { return m_pictureShape; }
 >>>>>>> scantailor/tiff
@@ -461,6 +518,9 @@ public:
 	output::PictureShape getPictureShape() const { return m_pictureShape; }
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -557,10 +617,13 @@ private:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -572,6 +635,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -581,11 +647,14 @@ private:
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -597,6 +666,9 @@ private:
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -616,10 +688,13 @@ private:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -633,6 +708,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -646,6 +724,7 @@ private:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	output::PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
 =======
@@ -653,6 +732,8 @@ private:
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	output::PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
@@ -681,6 +762,9 @@ private:
 	output::PictureShape m_pictureShape;
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -734,10 +818,13 @@ private:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -749,6 +836,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -758,11 +848,14 @@ private:
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -774,6 +867,9 @@ private:
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -793,10 +889,13 @@ private:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -810,6 +909,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -823,6 +925,7 @@ private:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	output::PictureShape fetchPictureShape();
 >>>>>>> scantailor/tiff
 =======
@@ -830,6 +933,8 @@ private:
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	output::PictureShape fetchPictureShape();
 >>>>>>> scantailor/tiff
@@ -858,6 +963,9 @@ private:
 	output::PictureShape fetchPictureShape();
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master

@@ -531,10 +531,13 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -546,6 +549,9 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -555,11 +561,14 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -571,6 +580,9 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -597,10 +609,13 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -614,6 +629,9 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -629,6 +647,7 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -636,6 +655,9 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 <<<<<<< HEAD
 >>>>>>> master
 		if (cli.hasPictureShape()) {
@@ -644,7 +666,10 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> pod/filters.coo
@@ -678,6 +703,9 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 		}
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master

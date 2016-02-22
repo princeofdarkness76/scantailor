@@ -47,7 +47,10 @@ Params::Params()
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -63,6 +66,9 @@ Params::Params()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -72,11 +78,14 @@ Params::Params()
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -88,6 +97,9 @@ Params::Params()
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -107,10 +119,13 @@ Params::Params()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -124,6 +139,9 @@ Params::Params()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -137,6 +155,7 @@ Params::Params()
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_pictureShape(FREE_SHAPE)
 >>>>>>> scantailor/tiff
 =======
@@ -144,6 +163,8 @@ Params::Params()
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	m_pictureShape(FREE_SHAPE)
 >>>>>>> scantailor/tiff
@@ -174,6 +195,9 @@ Params::Params()
 	m_pictureShape(FREE_SHAPE)
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -197,10 +221,13 @@ Params::Params(QDomElement const& el)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -212,6 +239,9 @@ Params::Params(QDomElement const& el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -221,11 +251,14 @@ Params::Params(QDomElement const& el)
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -237,6 +270,9 @@ Params::Params(QDomElement const& el)
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -260,10 +296,13 @@ Params::Params(QDomElement const& el)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -277,6 +316,9 @@ Params::Params(QDomElement const& el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -291,6 +333,7 @@ Params::Params(QDomElement const& el)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
 	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
 >>>>>>> scantailor/tiff
@@ -299,6 +342,8 @@ Params::Params(QDomElement const& el)
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
 	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
@@ -330,6 +375,9 @@ Params::Params(QDomElement const& el)
 	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -365,10 +413,13 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -380,6 +431,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -389,11 +443,14 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -405,6 +462,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -424,10 +484,13 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -441,6 +504,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -454,6 +520,7 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	el.setAttribute("pictureShape", (int)m_pictureShape);
 >>>>>>> scantailor/tiff
 =======
@@ -461,6 +528,8 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	el.setAttribute("pictureShape", (int)m_pictureShape);
 >>>>>>> scantailor/tiff
@@ -487,6 +556,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 	el.setAttribute("pictureShape", (int)m_pictureShape);
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master

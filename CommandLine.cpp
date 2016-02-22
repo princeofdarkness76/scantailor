@@ -299,10 +299,13 @@ CommandLine::setup()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -314,6 +317,9 @@ CommandLine::setup()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -323,11 +329,14 @@ CommandLine::setup()
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -339,6 +348,9 @@ CommandLine::setup()
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -358,10 +370,13 @@ CommandLine::setup()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -375,6 +390,9 @@ CommandLine::setup()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -388,6 +406,7 @@ CommandLine::setup()
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_pictureShape = fetchPictureShape();
 >>>>>>> scantailor/tiff
 =======
@@ -395,6 +414,8 @@ CommandLine::setup()
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	m_pictureShape = fetchPictureShape();
 >>>>>>> scantailor/tiff
@@ -423,6 +444,9 @@ CommandLine::setup()
 	m_pictureShape = fetchPictureShape();
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -573,7 +597,10 @@ CommandLine::printHelp()
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -589,6 +616,9 @@ CommandLine::printHelp()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -598,11 +628,14 @@ CommandLine::printHelp()
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -614,6 +647,9 @@ CommandLine::printHelp()
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -633,10 +669,13 @@ CommandLine::printHelp()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -650,6 +689,9 @@ CommandLine::printHelp()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -663,6 +705,7 @@ CommandLine::printHelp()
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> scantailor/tiff
 =======
@@ -670,6 +713,8 @@ CommandLine::printHelp()
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> scantailor/tiff
@@ -690,6 +735,9 @@ CommandLine::printHelp()
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -915,6 +963,8 @@ CommandLine::fetchDefaultColorMode()
 }
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 
 output::PictureShape
@@ -1055,6 +1105,130 @@ CommandLine::fetchDefaultColorMode()
 
 output::PictureShape
 CommandLine::fetchPictureShape()
+{
+<<<<<<< HEAD
+	QString ps = m_options["picture-shape"].toLower();
+	
+	if (ps == "rectangular")
+		return output::RECTANGULAR_SHAPE;
+
+	return output::FREE_SHAPE;
+}
+
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+output::PictureShape
+CommandLine::fetchPictureShape()
+{
+=======
+	if (! hasPictureShape())
+		return output::FREE_SHAPE;
+	
+>>>>>>> origin/enhanced
+	QString ps = m_options["picture-shape"].toLower();
+	
+	if (ps == "rectangular")
+		return output::RECTANGULAR_SHAPE;
+
+	return output::FREE_SHAPE;
+}
+
+
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+output::PictureShape
+CommandLine::fetchPictureShape()
+{
+	QString ps = m_options["picture-shape"].toLower();
+	
+	if (ps == "rectangular")
+		return output::RECTANGULAR_SHAPE;
+
+	return output::FREE_SHAPE;
+}
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+<<<<<<< HEAD
+<<<<<<< HEAD
+output::PictureShape
+CommandLine::fetchPictureShape()
+{
+	QString ps = m_options["picture-shape"].toLower();
+	
+	if (ps == "rectangular")
+		return output::RECTANGULAR_SHAPE;
+
+	return output::FREE_SHAPE;
+}
+>>>>>>> master
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+output::PictureShape
+CommandLine::fetchPictureShape()
+{
+<<<<<<< HEAD
+	QString ps = m_options["picture-shape"].toLower();
+	
+	if (ps == "rectangular")
+		return output::RECTANGULAR_SHAPE;
+
+	return output::FREE_SHAPE;
+}
+
+output::ColorParams::ColorMode
+CommandLine::fetchDefaultColorMode()
+{
+	if (! hasDefaultColorMode())
+		return output::ColorParams::BLACK_AND_WHITE;
+	
+	QString cm = m_options["default-color-mode"].toLower();
+	
+	if (cm == "color_grayscale")
+		return output::ColorParams::COLOR_GRAYSCALE;
+	else if (cm == "mixed")
+		return output::ColorParams::MIXED;
+
+	return output::ColorParams::BLACK_AND_WHITE;
+}
+
+output::PictureShape
+CommandLine::fetchPictureShape()
 <<<<<<< HEAD
 {
 	QString ps = m_options["picture-shape"].toLower();
@@ -1063,6 +1237,8 @@ CommandLine::fetchPictureShape()
 		return output::RECTANGULAR_SHAPE;
 =======
 {
+=======
+>>>>>>> master
 	if (! hasPictureShape())
 		return output::FREE_SHAPE;
 	
@@ -1154,6 +1330,7 @@ CommandLine::fetchMargins(QString base, Margins def)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
 >>>>>>> master
 
 	return output::FREE_SHAPE;
@@ -1400,11 +1577,14 @@ CommandLine::fetchMargins(QString base, Margins def)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> master
 
 	return margins;
 }
 
 
+<<<<<<< HEAD
 page_layout::Alignment
 CommandLine::fetchAlignment()
 {
@@ -1412,6 +1592,8 @@ CommandLine::fetchAlignment()
 
 =======
 
+=======
+>>>>>>> master
 page_layout::Alignment
 CommandLine::fetchAlignment()
 {

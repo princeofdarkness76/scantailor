@@ -321,10 +321,13 @@ OutputGenerator::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -336,6 +339,9 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -345,11 +351,14 @@ OutputGenerator::process(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -361,6 +370,9 @@ OutputGenerator::process(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -386,10 +398,13 @@ OutputGenerator::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -403,6 +418,9 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -416,6 +434,7 @@ OutputGenerator::process(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 =======
@@ -423,6 +442,8 @@ OutputGenerator::process(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
@@ -449,6 +470,9 @@ OutputGenerator::process(
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -469,10 +493,13 @@ OutputGenerator::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -484,6 +511,9 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -493,11 +523,14 @@ OutputGenerator::process(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -509,6 +542,9 @@ OutputGenerator::process(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -539,10 +575,13 @@ OutputGenerator::process(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -556,6 +595,9 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -569,6 +611,7 @@ OutputGenerator::process(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
 =======
@@ -576,6 +619,8 @@ OutputGenerator::process(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
@@ -602,6 +647,9 @@ OutputGenerator::process(
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -809,10 +857,13 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -824,6 +875,9 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -833,11 +887,14 @@ OutputGenerator::processImpl(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -849,6 +906,9 @@ OutputGenerator::processImpl(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -874,10 +934,13 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -891,6 +954,9 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -904,6 +970,7 @@ OutputGenerator::processImpl(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 =======
@@ -911,6 +978,8 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
@@ -937,6 +1006,9 @@ OutputGenerator::processImpl(
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -996,10 +1068,13 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -1011,6 +1086,9 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1020,11 +1098,14 @@ OutputGenerator::processImpl(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -1036,6 +1117,9 @@ OutputGenerator::processImpl(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1065,10 +1149,13 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -1082,6 +1169,9 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1095,6 +1185,7 @@ OutputGenerator::processImpl(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
 =======
@@ -1102,6 +1193,8 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
@@ -1128,6 +1221,9 @@ OutputGenerator::processImpl(
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1146,6 +1242,7 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1193,6 +1290,45 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 >>>>>>> master
 =======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
@@ -1219,10 +1355,13 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -1236,6 +1375,9 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1249,6 +1391,7 @@ OutputGenerator::processImpl(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
 =======
@@ -1256,6 +1399,8 @@ OutputGenerator::processImpl(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
@@ -1282,6 +1427,9 @@ OutputGenerator::processImpl(
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1366,10 +1514,13 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -1381,6 +1532,9 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1390,11 +1544,14 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -1406,6 +1563,9 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1431,10 +1591,13 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -1448,6 +1611,9 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1461,6 +1627,7 @@ OutputGenerator::processWithoutDewarping(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 =======
@@ -1468,6 +1635,8 @@ OutputGenerator::processWithoutDewarping(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
@@ -1494,6 +1663,9 @@ OutputGenerator::processWithoutDewarping(
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1661,10 +1833,13 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -1676,6 +1851,9 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1685,11 +1863,14 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -1701,6 +1882,9 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1759,10 +1943,13 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -1776,6 +1963,9 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1788,12 +1978,15 @@ OutputGenerator::processWithoutDewarping(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
@@ -1815,6 +2008,9 @@ OutputGenerator::processWithoutDewarping(
 =======
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1833,10 +2029,13 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -1848,6 +2047,9 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1857,6 +2059,7 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
@@ -1883,6 +2086,8 @@ OutputGenerator::processWithoutDewarping(
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
@@ -1898,6 +2103,9 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+>>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> pod/tiff
@@ -2078,10 +2286,13 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -2093,6 +2304,9 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2102,11 +2316,14 @@ OutputGenerator::processWithDewarping(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -2118,6 +2335,9 @@ OutputGenerator::processWithDewarping(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2143,10 +2363,13 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -2160,6 +2383,9 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2173,6 +2399,7 @@ OutputGenerator::processWithDewarping(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
 =======
@@ -2180,6 +2407,8 @@ OutputGenerator::processWithDewarping(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
@@ -2206,6 +2435,9 @@ OutputGenerator::processWithDewarping(
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2390,10 +2622,13 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -2405,6 +2640,9 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2414,11 +2652,14 @@ OutputGenerator::processWithDewarping(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -2430,6 +2671,9 @@ OutputGenerator::processWithDewarping(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2495,10 +2739,13 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -2512,6 +2759,9 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2527,6 +2777,7 @@ OutputGenerator::processWithDewarping(
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2534,6 +2785,9 @@ OutputGenerator::processWithDewarping(
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 <<<<<<< HEAD
 >>>>>>> master
 		if (picture_shape == RECTANGULAR_SHAPE) {
@@ -2542,7 +2796,10 @@ OutputGenerator::processWithDewarping(
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> pod/filters.coo
@@ -2576,6 +2833,9 @@ OutputGenerator::processWithDewarping(
 		}
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master

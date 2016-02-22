@@ -97,10 +97,13 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -112,6 +115,9 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -123,6 +129,7 @@ OptionsWidget::OptionsWidget(
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 =======
@@ -130,6 +137,8 @@ OptionsWidget::OptionsWidget(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
@@ -143,11 +152,18 @@ OptionsWidget::OptionsWidget(
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
 =======
+=======
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 =======
 >>>>>>> scantailor/tiff
 =======
@@ -210,6 +226,7 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		pictureShapeSelector, SIGNAL(currentIndexChanged(int)),
 		this, SLOT(pictureShapeChanged(int))
 	);
@@ -222,6 +239,8 @@ OptionsWidget::OptionsWidget(
 >>>>>>> master
 <<<<<<< HEAD
 =======
+>>>>>>> master
+=======
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -252,6 +271,9 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -262,6 +284,7 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -273,6 +296,8 @@ OptionsWidget::OptionsWidget(
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
@@ -332,6 +357,9 @@ OptionsWidget::OptionsWidget(
 =======
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -431,10 +459,13 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -446,6 +477,9 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -455,11 +489,14 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -471,6 +508,9 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -490,10 +530,13 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -507,6 +550,9 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -520,6 +566,7 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_pictureShape = params.pictureShape();
 >>>>>>> scantailor/tiff
 =======
@@ -527,6 +574,8 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	m_pictureShape = params.pictureShape();
 >>>>>>> scantailor/tiff
@@ -553,6 +602,9 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 	m_pictureShape = params.pictureShape();
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -638,8 +690,11 @@ void
 OptionsWidget::pictureShapeChanged(int const idx)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
+{
+=======
 {
 	m_pictureShape = (PictureShape)(pictureShapeSelector->itemData(idx).toInt());
 	m_ptrSettings->setPictureShape(m_pageId, m_pictureShape);
@@ -648,19 +703,60 @@ OptionsWidget::pictureShapeChanged(int const idx)
 
 void
 <<<<<<< HEAD
+OptionsWidget::tiffCompressionChanged(int idx)
+{
+    int compression = tiffCompression->itemData(idx).toInt();
+    m_ptrSettings->setTiffCompression(compression);
+}
+
+void
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+OptionsWidget::pictureShapeChanged(int const idx)
+{
+>>>>>>> master
+	m_pictureShape = (PictureShape)(pictureShapeSelector->itemData(idx).toInt());
+	m_ptrSettings->setPictureShape(m_pageId, m_pictureShape);
+	emit reloadRequested();
+}
+
+void
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 OptionsWidget::tiffCompressionChanged(int idx)
 {
     int compression = tiffCompression->itemData(idx).toInt();
     m_ptrSettings->setTiffCompression(compression);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 }
 
 void
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 OptionsWidget::pictureShapeChanged(int const idx)
 {
 	m_pictureShape = (PictureShape)(pictureShapeSelector->itemData(idx).toInt());
@@ -677,15 +773,187 @@ OptionsWidget::tiffCompressionChanged(int idx)
 
 void
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+OptionsWidget::pictureShapeChanged(int const idx)
+{
+	m_pictureShape = (PictureShape)(pictureShapeSelector->itemData(idx).toInt());
+	m_ptrSettings->setPictureShape(m_pageId, m_pictureShape);
+<<<<<<< HEAD
+=======
+	emit reloadRequested();
+}
+
+void
+OptionsWidget::tiffCompressionChanged(int idx)
+{
+    int compression = tiffCompression->itemData(idx).toInt();
+    m_ptrSettings->setTiffCompression(compression);
+}
+
+void
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+OptionsWidget::pictureShapeChanged(int const idx)
+{
+	m_pictureShape = (PictureShape)(pictureShapeSelector->itemData(idx).toInt());
+	m_ptrSettings->setPictureShape(m_pageId, m_pictureShape);
+	emit reloadRequested();
+}
+=======
+>>>>>>> origin/enhanced
+
+void
+OptionsWidget::tiffCompressionChanged(int idx)
+{
+    int compression = tiffCompression->itemData(idx).toInt();
+    m_ptrSettings->setTiffCompression(compression);
+}
+
+void
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> origin/enhanced
 =======
 OptionsWidget::pictureShapeChanged(int const idx)
 {
 	m_pictureShape = (PictureShape)(pictureShapeSelector->itemData(idx).toInt());
 	m_ptrSettings->setPictureShape(m_pageId, m_pictureShape);
+	emit reloadRequested();
+}
+
+void
+OptionsWidget::tiffCompressionChanged(int idx)
+{
+    int compression = tiffCompression->itemData(idx).toInt();
+    m_ptrSettings->setTiffCompression(compression);
+}
+
+void
+>>>>>>> pod/tiff
+OptionsWidget::whiteMarginsToggled(bool const checked)
+{
+	ColorGrayscaleOptions opt(m_colorParams.colorGrayscaleOptions());
+	opt.setWhiteMargins(checked);
+	if (!checked) {
+		opt.setNormalizeIllumination(false);
+		equalizeIlluminationCB->setChecked(false);
+	}
+	m_colorParams.setColorGrayscaleOptions(opt);
+	m_ptrSettings->setColorParams(m_pageId, m_colorParams);
+	equalizeIlluminationCB->setEnabled(checked);
+	emit reloadRequested();
+}
+
+void
+OptionsWidget::equalizeIlluminationToggled(bool const checked)
+{
+	ColorGrayscaleOptions opt(m_colorParams.colorGrayscaleOptions());
+	opt.setNormalizeIllumination(checked);
+	m_colorParams.setColorGrayscaleOptions(opt);
+	m_ptrSettings->setColorParams(m_pageId, m_colorParams);
+	emit reloadRequested();
+}
+
+void
+OptionsWidget::setLighterThreshold()
+{
+	thresholdSlider->setValue(thresholdSlider->value() - 1);
+}
+
+void
+OptionsWidget::setDarkerThreshold()
+{
+	thresholdSlider->setValue(thresholdSlider->value() + 1);
+}
+
+void
+OptionsWidget::setNeutralThreshold()
+{
+	thresholdSlider->setValue(0);
+}
+
+void
+OptionsWidget::bwThresholdChanged()
+{
+	int const value = thresholdSlider->value();
+	QString const tooltip_text(QString::number(value));
+	thresholdSlider->setToolTip(tooltip_text);
+	
+	thresholLabel->setText(QString::number(value));
+	
+	if (m_ignoreThresholdChanges) {
+		return;
+	}
+	
+	// Show the tooltip immediately.
+	QPoint const center(thresholdSlider->rect().center());
+	QPoint tooltip_pos(thresholdSlider->mapFromGlobal(QCursor::pos()));
+	tooltip_pos.setY(center.y());
+	tooltip_pos.setX(qBound(0, tooltip_pos.x(), thresholdSlider->width()));
+	tooltip_pos = thresholdSlider->mapToGlobal(tooltip_pos);
+	QToolTip::showText(tooltip_pos, tooltip_text, thresholdSlider);
+	
+	if (thresholdSlider->isSliderDown()) {
+		// Wait for it to be released.
+		// We could have just disabled tracking, but in that case we wouldn't
+		// be able to show tooltips with a precise value.
+		return;
+	}
+
+	BlackWhiteOptions opt(m_colorParams.blackWhiteOptions());
+	if (opt.thresholdAdjustment() == value) {
+		// Didn't change.
+		return;
+	}
+
+	opt.setThresholdAdjustment(value);
+	m_colorParams.setBlackWhiteOptions(opt);
+	m_ptrSettings->setColorParams(m_pageId, m_colorParams);
+>>>>>>> master
 	emit reloadRequested();
 }
 
@@ -711,11 +979,25 @@ void
 <<<<<<< HEAD
 OptionsWidget::tiffCompressionChanged(int idx)
 {
+<<<<<<< HEAD
     int compression = tiffCompression->itemData(idx).toInt();
     m_ptrSettings->setTiffCompression(compression);
+=======
+	BOOST_FOREACH(PageId const& page_id, pages) {
+		m_ptrSettings->setDpi(page_id, dpi);
+	}
+	emit invalidateAllThumbnails();
+	
+	if (pages.find(m_pageId) != pages.end()) {
+		m_outputDpi = dpi;
+		updateDpiDisplay();
+		emit reloadRequested();
+	}
+>>>>>>> master
 }
 
 void
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -726,6 +1008,113 @@ OptionsWidget::pictureShapeChanged(int const idx)
 	m_pictureShape = (PictureShape)(pictureShapeSelector->itemData(idx).toInt());
 	m_ptrSettings->setPictureShape(m_pageId, m_pictureShape);
 	emit reloadRequested();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+//begin of modified by monday2000
+//Picture_Shape
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+//end of modified by monday2000
+=======
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> scantailor/tiff
+=======
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> scantailor/tiff
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> pod/tiff
+>>>>>>> pod/scantailor-filters.h
+=======
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> pod/tiff
+		emit invalidateThumbnail(page_id);
+=======
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> origin/enhanced
+=======
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> origin/enhanced
+	}
+	emit invalidateAllThumbnails();
+	
+	if (pages.find(m_pageId) != pages.end()) {
+		emit reloadRequested();
+	}
+>>>>>>> master
 }
 
 void
@@ -814,7 +1203,20 @@ OptionsWidget::pictureShapeChanged(int const idx)
 >>>>>>> origin/enhanced
 
 void
+<<<<<<< HEAD
 =======
+=======
+OptionsWidget::applyDespeckleConfirmed(std::set<PageId> const& pages)
+{
+	BOOST_FOREACH(PageId const& page_id, pages) {
+		m_ptrSettings->setDespeckleLevel(page_id, m_despeckleLevel);
+	}
+	emit invalidateAllThumbnails();
+	
+	if (pages.find(m_pageId) != pages.end()) {
+		emit reloadRequested();
+	}
+>>>>>>> master
 }
 
 void
@@ -833,8 +1235,49 @@ OptionsWidget::pictureShapeChanged(int const idx)
 void
 OptionsWidget::tiffCompressionChanged(int idx)
 {
+<<<<<<< HEAD
     int compression = tiffCompression->itemData(idx).toInt();
     m_ptrSettings->setTiffCompression(compression);
+=======
+	BOOST_FOREACH(PageId const& page_id, pages) {
+		m_ptrSettings->setDewarpingMode(page_id, mode);
+	}
+	emit invalidateAllThumbnails();
+	
+	if (pages.find(m_pageId) != pages.end()) {
+		if (m_dewarpingMode != mode) {
+			m_dewarpingMode = mode;
+			
+			// We reload when we switch to auto dewarping, even if we've just
+			// switched to manual, as we don't store the auto-generated distortion model.
+			// We also have to reload if we are currently on the "Fill Zones" tab,
+			// as it makes use of original <-> dewarped coordinate mapping,
+			// which is too hard to update without reloading.  For consistency,
+			// we reload not just on TAB_FILL_ZONES but on all tabs except TAB_DEWARPING.
+			// PS: the static original <-> dewarped mappings are constructed
+			// in Task::UiUpdater::updateUI().  Look for "new DewarpingPointMapper" there.
+			if (mode == DewarpingMode::AUTO || m_lastTab != TAB_DEWARPING
+//begin of modified by monday2000
+//Marginal_Dewarping
+				|| mode == DewarpingMode::MARGINAL
+//end of modified by monday2000
+				) {
+				// Switch to the Output tab after reloading.
+				m_lastTab = TAB_OUTPUT; 
+
+				// These depend on the value of m_lastTab.
+				updateDpiDisplay();
+				updateColorsDisplay();
+				updateDewarpingDisplay();
+
+				emit reloadRequested();
+			} else {
+				// This one we have to call anyway, as it depends on m_dewarpingMode.
+				updateDewarpingDisplay();
+			}
+		}
+	}
+>>>>>>> master
 }
 
 void
@@ -860,8 +1303,19 @@ void
 >>>>>>> master
 OptionsWidget::tiffCompressionChanged(int idx)
 {
+<<<<<<< HEAD
     int compression = tiffCompression->itemData(idx).toInt();
     m_ptrSettings->setTiffCompression(compression);
+=======
+	BOOST_FOREACH(PageId const& page_id, pages) {
+		m_ptrSettings->setDepthPerception(page_id, m_depthPerception);
+	}
+	emit invalidateAllThumbnails();
+	
+	if (pages.find(m_pageId) != pages.end()) {
+		emit reloadRequested();
+	}
+>>>>>>> master
 }
 <<<<<<< HEAD
 
@@ -959,9 +1413,20 @@ void
 <<<<<<< HEAD
 OptionsWidget::pictureShapeChanged(int const idx)
 {
+<<<<<<< HEAD
 	m_pictureShape = (PictureShape)(pictureShapeSelector->itemData(idx).toInt());
 	m_ptrSettings->setPictureShape(m_pageId, m_pictureShape);
 	emit reloadRequested();
+=======
+	if (m_outputDpi.horizontal() != m_outputDpi.vertical()) {
+		dpiLabel->setText(
+			QString::fromLatin1("%1 x %2")
+			.arg(m_outputDpi.horizontal()).arg(m_outputDpi.vertical())
+		);
+	} else {
+		dpiLabel->setText(QString::number(m_outputDpi.horizontal()));
+	}
+>>>>>>> master
 }
 
 void
@@ -972,6 +1437,7 @@ OptionsWidget::tiffCompressionChanged(int idx)
 }
 
 void
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1233,14 +1699,56 @@ OptionsWidget::applyColorsConfirmed(std::set<PageId> const& pages)
 =======
 		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
 >>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> master
+=======
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+//begin of modified by monday2000
+//Picture_Shape
+	bool picture_shape_visible = false;
+//end of modified by monday2000
+=======
+	bool picture_shape_visible = false;
+>>>>>>> scantailor/tiff
+=======
+	bool picture_shape_visible = false;
+>>>>>>> scantailor/tiff
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1255,12 +1763,8 @@ OptionsWidget::applyColorsConfirmed(std::set<PageId> const& pages)
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
 =======
->>>>>>> master
-=======
-		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+	bool picture_shape_visible = false;
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> master
@@ -1269,20 +1773,112 @@ OptionsWidget::applyColorsConfirmed(std::set<PageId> const& pages)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
->>>>>>> scantailor/tiff
-=======
 <<<<<<< HEAD
-=======
->>>>>>> master
-<<<<<<< HEAD
-<<<<<<< HEAD
-		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+	bool picture_shape_visible = false;
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
 =======
 >>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+	bool picture_shape_visible = false;
+>>>>>>> pod/tiff
+=======
+	bool picture_shape_visible = false;
+>>>>>>> origin/enhanced
+>>>>>>> pod/scantailor-filters.h
+=======
+	bool picture_shape_visible = false;
+>>>>>>> origin/enhanced
+=======
+	bool picture_shape_visible = false;
+>>>>>>> pod/tiff
+	switch (color_mode) {
+		case ColorParams::BLACK_AND_WHITE:
+			bw_options_visible = true;
+			break;
+		case ColorParams::COLOR_GRAYSCALE:
+			color_grayscale_options_visible = true;
+			break;
+		case ColorParams::MIXED:
+			bw_options_visible = true;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> scantailor/tiff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+<<<<<<< HEAD
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
@@ -1768,6 +2364,13 @@ OptionsWidget::updateColorsDisplay()
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 			picture_shape_visible = true;
@@ -1784,10 +2387,13 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -1801,6 +2407,9 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1814,6 +2423,7 @@ OptionsWidget::updateColorsDisplay()
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			picture_shape_visible = true;
 >>>>>>> scantailor/tiff
 =======
@@ -1821,6 +2431,8 @@ OptionsWidget::updateColorsDisplay()
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 			picture_shape_visible = true;
 >>>>>>> scantailor/tiff
@@ -1847,6 +2459,9 @@ OptionsWidget::updateColorsDisplay()
 			picture_shape_visible = true;
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1871,6 +2486,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1918,6 +2534,45 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 >>>>>>> master
 =======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> master
+>>>>>>> pod/filters.cpp
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -1934,6 +2589,7 @@ OptionsWidget::updateColorsDisplay()
 =======
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
 	pictureShapeOptions->setVisible(picture_shape_visible);
 	bwOptions->setVisible(bw_options_visible);
 	despecklePanel->setVisible(bw_options_visible && m_lastTab != TAB_DEWARPING);
@@ -2012,6 +2668,67 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+=======
+	pictureShapeOptions->setVisible(picture_shape_visible);
+	bwOptions->setVisible(bw_options_visible);
+	despecklePanel->setVisible(bw_options_visible && m_lastTab != TAB_DEWARPING);
+
+>>>>>>> scantailor/tiff
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/tiff
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> pod/tiff
+	pictureShapeOptions->setVisible(picture_shape_visible);
+	bwOptions->setVisible(bw_options_visible);
+	despecklePanel->setVisible(bw_options_visible && m_lastTab != TAB_DEWARPING);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+>>>>>>> scantailor/tiff
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+	pictureShapeOptions->setVisible(picture_shape_visible);
+	bwOptions->setVisible(bw_options_visible);
+	despecklePanel->setVisible(bw_options_visible && m_lastTab != TAB_DEWARPING);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+<<<<<<< HEAD
+>>>>>>> master
 =======
 =======
 	pictureShapeOptions->setVisible(picture_shape_visible);
@@ -2087,6 +2804,9 @@ OptionsWidget::updateColorsDisplay()
 =======
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2106,10 +2826,13 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 =======
@@ -2121,6 +2844,9 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2130,11 +2856,14 @@ OptionsWidget::updateColorsDisplay()
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
@@ -2146,6 +2875,9 @@ OptionsWidget::updateColorsDisplay()
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2166,10 +2898,13 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -2183,6 +2918,9 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -2198,6 +2936,7 @@ OptionsWidget::updateColorsDisplay()
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2205,6 +2944,9 @@ OptionsWidget::updateColorsDisplay()
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 <<<<<<< HEAD
 >>>>>>> master
 	
@@ -2213,7 +2955,10 @@ OptionsWidget::updateColorsDisplay()
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> pod/filters.coo
@@ -2247,6 +2992,9 @@ OptionsWidget::updateColorsDisplay()
 	tiffCompression->setCurrentIndex(compression_idx);
 >>>>>>> pod/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
