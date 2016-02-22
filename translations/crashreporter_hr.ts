@@ -5,6 +5,7 @@
     <name>CrashReportDialog</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="71"/>
         <source>This file contains the internal state of the program when it crashed</source>
         <translation>Ova datoteka sadrži unutarnje stanje programa kada se srušio</translation>
@@ -17,11 +18,14 @@
     <message>
 =======
 >>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="105"/>
         <source>Sending ...</source>
         <translation>Slanje...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="136"/>
         <source>Unexpected response (code %1) from dispatcher</source>
@@ -32,6 +36,8 @@
         <source>Unexpected response from dispatcher</source>
         <translation>Neočekivani odgovor od strane primatelja</translation>
 =======
+=======
+>>>>>>> scantailor/master
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="14"/>
         <source>Crash Report</source>
         <translation>Izvješće o rušenju</translation>
@@ -40,6 +46,9 @@
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="20"/>
         <source>Scan Tailor crashed.  That&apos;s usually caused by errors in the software.  You can help us find and fix the problem by submitting this crash report.</source>
         <translation>Scan Tailor se srušio. To je obično uzrokovano greškama u programu. Možete nam pomoći pronaći i riješiti problem slanjem ovog izvješće.</translation>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
     </message>
     <message>
@@ -48,6 +57,7 @@
         <translation>Neočekivani odgovor (kod %1) od strane primatelja</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="227"/>
         <source>Successfully sent</source>
@@ -68,6 +78,8 @@
         <source>Information to be sent</source>
         <translation>Informacije koje će se poslati</translation>
 =======
+=======
+>>>>>>> scantailor/master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="77"/>
         <source>Dump file</source>
         <translation>Dump datoteka</translation>
@@ -76,6 +88,9 @@
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="81"/>
         <source>Email [optional]</source>
         <translation>e-pošta [po izboru]</translation>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
     </message>
     <message>
@@ -87,7 +102,10 @@ Engleski ili ruski molim.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> scantailor/master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="136"/>
         <source>Unexpected response (code %1) from dispatcher</source>
         <translation>Neočekivani odgovor (kod %1) od strane primatelja</translation>
@@ -103,6 +121,9 @@ Engleski ili ruski molim.</translation>
         <translation>Informacije koje će se poslati</translation>
     </message>
     <message>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="71"/>
         <source>If you are willing to provide further assistance to developers to help fix this problem, please provide your email address.</source>
@@ -110,10 +131,13 @@ Engleski ili ruski molim.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="81"/>
         <source>Email [optional]</source>
         <translation>e-pošta [po izboru]</translation>
 =======
+=======
+>>>>>>> scantailor/master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="71"/>
         <source>This file contains the internal state of the program when it crashed</source>
         <translation>Ova datoteka sadrži unutarnje stanje programa kada se srušio</translation>
@@ -122,6 +146,9 @@ Engleski ili ruski molim.</translation>
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="227"/>
         <source>Successfully sent</source>
         <translation>Uspješno poslano</translation>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
     </message>
 </context>

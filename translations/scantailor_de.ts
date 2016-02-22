@@ -65,6 +65,7 @@
         <location filename="../ui/AboutDialog.ui" line="205"/>
         <source>Neco Torquato - Brazilian Portuguese</source>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation type="unfinished"></translation>
 =======
         <translation type="unfinished">Neco Torquato - Brasilianisches Portugiesisch</translation>
@@ -75,6 +76,15 @@
         <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
         <translation type="unfinished">Svetoslav Sashkov, Mandor - Bulgarisch</translation>
     </message>
+=======
+        <translation type="unfinished">Neco Torquato - Brasilianisches Portugiesisch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+        <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
+        <translation type="unfinished">Svetoslav Sashkov, Mandor - Bulgarisch</translation>
+    </message>
+>>>>>>> scantailor/master
     <message utf8="true">
         <location filename="../ui/AboutDialog.ui" line="219"/>
         <source>Petr Kovář - Czech</source>
@@ -481,6 +491,9 @@ zur Auswahl mehrerer Seiten.</translation>
 =======
         <location filename="../ui/MainWindow.ui" line="232"/>
         <location filename="../MainWindow.cpp" line="564"/>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
         <source>Save Project</source>
         <translation>Projekt speichern</translation>
@@ -1762,8 +1775,13 @@ Eingabedatei erhalten bleibt.</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
+<<<<<<< HEAD
         <source>Apply content box</source>
         <translation type="unfinished"></translation>
+=======
+        <source>This page only (already applied)</source>
+        <translation type="unfinished">nur diese Seiten (schon angewandt)</translation>
+>>>>>>> scantailor/master
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
@@ -1929,6 +1947,7 @@ Benutzeroberläche verwenden</translation>
         <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
         <translation type="unfinished">Stapelverarbeitung starten</translation>
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -1952,6 +1971,8 @@ Benutzeroberläche verwenden</translation>
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
     </message>
 </context>
 <context>
@@ -2316,7 +2337,11 @@ Benutzeroberläche verwenden</translation>
     <name>page_layout::OptionsWidget</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
@@ -2325,7 +2350,11 @@ Benutzeroberläche verwenden</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master

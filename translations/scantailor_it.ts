@@ -482,6 +482,9 @@ Taxman</translation>
 =======
         <location filename="../ui/MainWindow.ui" line="232"/>
         <location filename="../MainWindow.cpp" line="564"/>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
         <source>Save Project</source>
         <translation>Salva progetto</translation>
@@ -567,6 +570,7 @@ Per determinarla, avvia l&apos;elaborazione automatica a &quot; o &quot; Conform
         <location filename="../MainWindow.cpp" line="1706"/>
         <source>Unnamed</source>
         <translation type="unfinished">Senza nome</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1711"/>
@@ -574,6 +578,15 @@ Per determinarla, avvia l&apos;elaborazione automatica a &quot; o &quot; Conform
         <translation type="unfinished"></translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1711"/>
+        <source>%2 - Scan Tailor %3 [%1bit]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+>>>>>>> scantailor/master
         <location filename="../MainWindow.cpp" line="1778"/>
         <location filename="../MainWindow.cpp" line="1809"/>
         <source>Error saving the project file!</source>
@@ -1981,6 +1994,7 @@ text-indent:0px;&quot;&gt;Rimuovi i file selezionati dal progetto.&lt;/p&gt;&lt;
         <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
         <translation type="unfinished">Lancia elaborazione automatica</translation>
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -2004,6 +2018,8 @@ text-indent:0px;&quot;&gt;Rimuovi i file selezionati dal progetto.&lt;/p&gt;&lt;
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
     </message>
 </context>
 <context>
@@ -2391,7 +2407,11 @@ text-indent:0px;&quot;&gt;Rimuovi i file selezionati dal progetto.&lt;/p&gt;&lt;
     <name>page_layout::OptionsWidget</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
@@ -2400,7 +2420,11 @@ text-indent:0px;&quot;&gt;Rimuovi i file selezionati dal progetto.&lt;/p&gt;&lt;
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master

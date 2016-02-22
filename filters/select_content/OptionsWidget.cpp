@@ -25,8 +25,11 @@
 #ifndef Q_MOC_RUN
 #include <boost/foreach.hpp>
 #endif
+<<<<<<< HEAD
 
 #include <iostream>
+=======
+>>>>>>> scantailor/master
 
 namespace select_content
 {

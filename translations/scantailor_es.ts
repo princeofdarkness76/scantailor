@@ -190,12 +190,15 @@
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="43"/>
         <source>This page and the following ones</source>
         <translation>Esta página y las siguientes</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="50"/>
         <source>This page and the following every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
     </message>
     <message>
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="57"/>
@@ -212,6 +215,7 @@
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="97"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Usar Ctrl+Clic / Shift+Clic para seleccionar múltiples páginas.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="106"/>
@@ -222,6 +226,8 @@
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="136"/>
         <source>The current page will be included.</source>
         <translation type="unfinished">La pagina actual sera inluida.</translation>
+=======
+>>>>>>> scantailor/master
     </message>
 </context>
 <context>
@@ -451,6 +457,9 @@
 =======
         <location filename="../ui/MainWindow.ui" line="232"/>
         <location filename="../MainWindow.cpp" line="564"/>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
         <source>Save Project</source>
         <translation>Guardar Proyecto</translation>
@@ -1139,11 +1148,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="176"/>
         <source>Equalize illumination</source>
         <translation>Emparejar iluminación</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
         <source>Picture Shape</source>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
     </message>
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
@@ -1880,6 +1892,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
         <translation type="unfinished">Comenzar procesado de archivo por lotes</translation>
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -1903,6 +1916,8 @@ p, li { white-space: pre-wrap; }
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
     </message>
 </context>
 <context>
@@ -2053,7 +2068,11 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Can&apos;t do: more than one group is selected.</source>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation type="obsolete">No se puede: has seleccionado mas de un grupo.</translation>
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
 =======
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 >>>>>>> scantailor/master
@@ -2234,7 +2253,11 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Can&apos;t do: more than one group is selected.</source>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation type="obsolete">No se puede:has seleccionado mas de un grupo.</translation>
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
 =======
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 >>>>>>> scantailor/master
@@ -2275,7 +2298,11 @@ p, li { white-space: pre-wrap; }
     <name>page_layout::OptionsWidget</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
@@ -2284,7 +2311,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master
@@ -2347,7 +2378,11 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Can&apos;t do: more than one group is selected.</source>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation type="obsolete">No se puede:has seleccionado mas de un grupo.</translation>
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
 =======
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 >>>>>>> scantailor/master
