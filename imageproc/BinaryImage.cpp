@@ -16,6 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <boost/foreach.hpp>
 #include "BinaryImage.h"
 #include "ByteOrder.h"
 #include "BitOps.h"
@@ -26,6 +27,7 @@
 #include <memory>
 #include <stdexcept>
 #include <algorithm>
+#include <iostream>
 #include <stddef.h>
 #include <stdlib.h>
 #include <string.h>
@@ -562,8 +564,12 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 	return QRect(left, top, w - right - left, bottom - top + 1);
 }
 
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
+=======
+
+>>>>>>> scantailor/tiff
 void
 BinaryImage::rectangularizeAreas(BWColor content_color)
 {
@@ -651,6 +657,7 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 	}
 }
 
+<<<<<<< HEAD
 void
 BinaryImage::rectangularizeAreasQuadro(BWColor content_color, std::vector<QRect>& areas)
 {
@@ -843,6 +850,8 @@ BinaryImage::getPixel(int x, int y)
 }
 
 //end of modified by monday2000
+=======
+>>>>>>> scantailor/tiff
 
 uint32_t*
 BinaryImage::data()

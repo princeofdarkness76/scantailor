@@ -21,6 +21,7 @@
 #include <cstdlib>
 #include <assert.h>
 #include <iostream>
+#include <tiff.h>
 
 #include <QDir>
 #include <QMap>
@@ -52,7 +53,7 @@ CommandLine::set(CommandLine const& cl)
 }
 
 
-void
+bool
 CommandLine::parseCli(QStringList const& argv)
 {
 	QRegExp rx("^--([^=]+)=(.*)$");
@@ -60,6 +61,51 @@ CommandLine::parseCli(QStringList const& argv)
 	QRegExp rx_short("^-([^=]+)=(.*)$");
 	QRegExp rx_short_switch("^-([^=]+)$");
 	QRegExp rx_project(".*\\.ScanTailor$", Qt::CaseInsensitive);
+
+	QList<QString> opts;
+	opts << "help";
+	opts << "verbose";
+	opts << "layout";
+	opts << "layout-direction";
+	opts << "orientation";
+	opts << "rotate";
+	opts << "deskew";
+	opts << "skew-deviation";
+	opts << "disable-content-detection";
+	opts << "enable-page-detection";
+	opts << "enable-fine-tuning";
+	opts << "content-detection";
+	opts << "content-box";
+	opts << "content-deviation";
+	opts << "enable-auto-margins";
+	opts << "margins";
+	opts << "margins-left";
+	opts << "margins-right";
+	opts << "margins-top";
+	opts << "margins-bottom";
+	opts << "match-layout";
+	opts << "match-layout-tolerance";
+	opts << "alignment";
+	opts << "alignment-vertical";
+	opts << "alignment-horizontal";
+	opts << "alignment-tolerance";
+	opts << "dpi";
+	opts << "output-dpi";
+	opts << "dpi-x";
+	opts << "dpi-y";
+	opts << "output-dpi-x";
+	opts << "output-dpi-y";
+	opts << "color-mode";
+	opts << "white-margins";
+	opts << "normalize-illumination";
+	opts << "threshold";
+	opts << "despeckle";
+	opts << "dewarping";
+	opts << "depth-perception";
+	opts << "start-filter";
+	opts << "end-filter";
+	opts << "output-project";
+	opts << "tiff-compression";
 
 	QMap<QString, QString> shortMap;
 	shortMap["h"] = "help";
@@ -76,17 +122,38 @@ CommandLine::parseCli(QStringList const& argv)
 #endif
 		if (rx.exactMatch(argv[i])) {
 			// option with a value
-			m_options[rx.cap(1)] = rx.cap(2);
+			QString key = rx.cap(1);
+			if (! opts.contains(key)) {
+				m_error = true;
+				std::cout << "Unknown option '" << key.toStdString() << "'" << std::endl;
+				continue;
+			}
+			m_options[key] = rx.cap(2);
 		} else if (rx_switch.exactMatch(argv[i])) {
 			// option without value
-			m_options[rx_switch.cap(1)] = "true";
+			QString key = rx_switch.cap(1);
+			if (! opts.contains(key)) {
+				m_error = true;
+				std::cout << "Unknown switch '" << key.toStdString() << "'" << std::endl;
+				continue;
+			}
+			m_options[key] = "true";
 		} else if (rx_short.exactMatch(argv[i])) {
 			// option with a value
 			QString key = shortMap[rx_short.cap(1)];
+			if (key == "") {
+				std::cout << "Unknown option: '" << rx_short.cap(1).toStdString() << "'" << std::endl;
+				m_error = true;
+				continue;
+			}
 			m_options[key] = rx_short.cap(2);
 		} else if (rx_short_switch.exactMatch(argv[i])) {
 			QString key = shortMap[rx_short_switch.cap(1)];
-			if (key == "") continue;
+			if (key == "") {
+				std::cout << "Unknown switch: '" << rx_short_switch.cap(1).toStdString() << "'" << std::endl;
+				m_error = true;
+				continue;
+			}
 			m_options[key] = "true";
 		} else if (rx_project.exactMatch(argv[i])) {
 			// project file
@@ -130,6 +197,8 @@ CommandLine::parseCli(QStringList const& argv)
 	for (int i=0; i<params.size(); i++) { std::cout << params[i].toAscii().constData() << "=" << m_options.value(params[i]).toAscii().constData() << "\n"; }
 	std::cout << "Images: " << CommandLine::m_images.size() << "\n";
 #endif
+
+	return m_error;
 }
 
 void
@@ -155,21 +224,30 @@ CommandLine::setup()
 	m_layoutType = fetchLayoutType();
 	m_layoutDirection = fetchLayoutDirection();
 	m_colorMode = fetchColorMode();
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	m_pictureShape = fetchPictureShape();
 //end of modified by monday2000
+=======
+	m_pictureShape = fetchPictureShape();
+>>>>>>> scantailor/tiff
 	m_dpi = fetchDpi();
 	m_outputDpi = fetchDpi("output-dpi");
 	m_margins = fetchMargins();
 	m_alignment = fetchAlignment();
 	m_contentDetection = fetchContentDetection();
 	m_contentRect = fetchContentRect();
+	m_contentDeviation = fetchContentDeviation();
 	m_orientation = fetchOrientation();
 	m_threshold = fetchThreshold();
 	m_deskewAngle = fetchDeskewAngle();
+	m_skewDeviation = fetchSkewDeviation();
 	m_startFilterIdx = fetchStartFilterIdx();
 	m_endFilterIdx = fetchEndFilterIdx();
+	m_matchLayoutTolerance = fetchMatchLayoutTolerance();
+	m_dewarpingMode = fetchDewarpingMode();
+	m_compression = fetchCompression();
 }
 
 
@@ -209,18 +287,27 @@ CommandLine::printHelp()
 	std::cout << "\t--orientation=<left|right|upsidedown|none>\n\t\t\t\t\t\t-- default: none" << "\n";
 	std::cout << "\t--rotate=<0.0...360.0>\t\t\t-- it also sets deskew to manual mode" << "\n";
 	std::cout << "\t--deskew=<auto|manual>\t\t\t-- default: auto" << "\n";
+	std::cout << "\t--skew-deviation=<0.0...)\t\t\t-- default: 1.0; pages with bigger skew deviation will be painted in red" << "\n";
+	std::cout << "\t--disable-content-detection\t\t\t-- default: enabled" << "\n";
+	std::cout << "\t--enable-page-detection\t\t\t-- default: disabled" << "\n";
+	std::cout << "\t--enable-fine-tuning\t\t\t-- default: disabled; if page detection enabled it moves edges while corners are in black" << "\n";
 	std::cout << "\t--content-detection=<cautious|normal|aggressive>\n\t\t\t\t\t\t-- default: normal" << "\n";
+	std::cout << "\t--content-deviation=<0.0...)\t\t\t-- default: 2.0; pages with bigger content deviation will be painted in red" << "\n";
 	std::cout << "\t--content-box=<<left_offset>x<top_offset>:<width>x<height>>" << "\n";
 	std::cout << "\t\t\t\t\t\t-- if set the content detection is se to manual mode" << "\n";
 	std::cout << "\t\t\t\t\t\t   example: --content-box=100x100:1500x2500" << "\n";
+	std::cout << "\t--enable-auto-margins\t\t\t-- sets the margins to original ones (based on detected page or image size)" << "\n";
 	std::cout << "\t--margins=<number>\t\t\t-- sets left, top, right and bottom margins to same number." << "\n";
 	std::cout << "\t\t--margins-left=<number>" << "\n";
 	std::cout << "\t\t--margins-right=<number>" << "\n";
 	std::cout << "\t\t--margins-top=<number>" << "\n";
 	std::cout << "\t\t--margins-bottom=<number>" << "\n";
-	std::cout << "\t--alignment=center\t\t\t-- sets vertical and horizontal alignment to center" << "\n";
-	std::cout << "\t\t--alignment-vertical=<top|center|bottom>" << "\n";
-	std::cout << "\t\t--alignment-horizontal=<left|center|right>" << "\n";
+	std::cout << "\t--match-layout=<true|false>\t\t-- default: true" << "\n";
+	std::cout << "\t--match-layout-tolerance=<0.0...)\t-- default: off" << "\n";
+	std::cout << "\t--alignment=<center|original|auto>\t-- sets vertical to original and horizontal to center" << "\n";
+	std::cout << "\t\t--alignment-vertical=<top|center|bottom|original>" << "\n";
+	std::cout << "\t\t--alignment-horizontal=<left|center|right|original>" << "\n";
+	std::cout << "\t--alignment-tolerance=<float>\t\t-- sets tolerance for auto alignment" << "\n";
 	std::cout << "\t--dpi=<number>\t\t\t\t-- sets x and y dpi. default: 600" << "\n";
 	std::cout << "\t\t--dpi-x=<number>" << "\n";
 	std::cout << "\t\t--dpi-y=<number>" << "\n";
@@ -228,10 +315,14 @@ CommandLine::printHelp()
 	std::cout << "\t\t--output-dpi-x=<number>" << "\n";
 	std::cout << "\t\t--output-dpi-y=<number>" << "\n";
 	std::cout << "\t--color-mode=<black_and_white|color_grayscale|mixed>\n\t\t\t\t\t\t-- default: black_and_white" << "\n";
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << std::endl;
 //end of modified by monday2000
+=======
+	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
+>>>>>>> scantailor/tiff
 	std::cout << "\t--white-margins\t\t\t\t-- default: false" << "\n";
 	std::cout << "\t--normalize-illumination\t\t-- default: false" << "\n";
 	std::cout << "\t--threshold=<n>\t\t\t\t-- n<0 thinner, n>0 thicker; default: 0" << "\n";
@@ -241,6 +332,7 @@ CommandLine::printHelp()
 	std::cout << "\t--start-filter=<1...6>\t\t\t-- default: 4" << "\n";
 	std::cout << "\t--end-filter=<1...6>\t\t\t-- default: 6" << "\n";
 	std::cout << "\t--output-project=, -o=<project_name>" << "\n";
+	std::cout << "\t--tiff-compression=<lzw|deflate|packbits|jpeg|none>\t-- default: lzw" << "\n";
 	std::cout << "\n";
 }
 
@@ -327,6 +419,18 @@ CommandLine::fetchPictureShape()
 }
 //end of modified by monday2000
 
+output::PictureShape
+CommandLine::fetchPictureShape()
+{
+	QString ps = m_options["picture-shape"].toLower();
+	
+	if (ps == "rectangular")
+		return output::RECTANGULAR_SHAPE;
+
+	return output::FREE_SHAPE;
+}
+
+
 Margins
 CommandLine::fetchMargins()
 {
@@ -357,8 +461,22 @@ CommandLine::fetchAlignment()
 {
 	page_layout::Alignment alignment(page_layout::Alignment::TOP, page_layout::Alignment::HCENTER);
 
+	if (m_options.contains("match-layout")) {
+		if (m_options["match-layout"] == "false") alignment.setNull(true);
+		if (m_options["match-layout"] == "true") alignment.setNull(false);
+	}
+
+	if (m_options.contains("alignment-tolerance")) {
+		alignment.setTolerance(m_options["alignment-tolerance"].toFloat());
+	}
+
 	if (m_options.contains("alignment")) {
-		alignment.setVertical(page_layout::Alignment::VCENTER);
+		if (m_options["alignment"] == "original")
+			alignment.setVertical(page_layout::Alignment::VORIGINAL);
+		else if (m_options["alignment"] == "auto")
+			alignment.setVertical(page_layout::Alignment::VAUTO);
+		else
+			alignment.setVertical(page_layout::Alignment::VCENTER);
 		alignment.setHorizontal(page_layout::Alignment::HCENTER);
 	}
 
@@ -367,6 +485,8 @@ CommandLine::fetchAlignment()
 		if (a == "top") alignment.setVertical(page_layout::Alignment::TOP);
 		if (a == "center") alignment.setVertical(page_layout::Alignment::VCENTER);
 		if (a == "bottom") alignment.setVertical(page_layout::Alignment::BOTTOM);
+		if (a == "original") alignment.setVertical(page_layout::Alignment::VORIGINAL);
+		if (a == "auto") alignment.setVertical(page_layout::Alignment::VAUTO);
 	}
 
 	if (m_options.contains("alignment-horizontal")) {
@@ -374,7 +494,11 @@ CommandLine::fetchAlignment()
 		if (a == "left") alignment.setHorizontal(page_layout::Alignment::LEFT);
 		if (a == "center") alignment.setHorizontal(page_layout::Alignment::HCENTER);
 		if (a == "right") alignment.setHorizontal(page_layout::Alignment::RIGHT);
+		if (a == "original") alignment.setHorizontal(page_layout::Alignment::HORIGINAL);
+		if (a == "auto") alignment.setHorizontal(page_layout::Alignment::HAUTO);
 	}
+
+	alignment.setAutoMargins(isAutoMarginsEnabled());
 
 	return alignment;
 }
@@ -412,6 +536,15 @@ CommandLine::fetchContentRect()
 	exit(1);
 }
 
+
+double
+CommandLine::fetchContentDeviation()
+{
+	if (!hasContentDeviation())
+		return 1.0;
+
+	return m_options["content-deviation"].toDouble();
+}
 
 CommandLine::Orientation
 CommandLine::fetchOrientation()
@@ -464,6 +597,15 @@ CommandLine::fetchDeskewAngle()
 	return m_options.value("rotate").toDouble();
 }
 
+double
+CommandLine::fetchSkewDeviation()
+{
+	if (!hasSkewDeviation())
+		return 0.0;
+
+	return m_options["skew-deviation"].toDouble();
+}
+
 int
 CommandLine::fetchStartFilterIdx()
 {
@@ -509,6 +651,16 @@ CommandLine::fetchDepthPerception()
 	return output::DepthPerception(m_options.value("depth-perception"));
 }
 
+float
+CommandLine::fetchMatchLayoutTolerance()
+{
+	if (!m_options.contains("match-layout-tolerance"))
+		return 0.2;
+
+	return m_options["match-layout-tolerance"].toFloat();
+}
+
+
 bool
 CommandLine::hasMargins() const
 {
@@ -525,9 +677,11 @@ bool
 CommandLine::hasAlignment() const
 {
 	return(
+		hasMatchLayoutTolerance() ||
 		m_options.contains("alignment") ||
 		m_options.contains("alignment-vertical") ||
-		m_options.contains("alignment-horizontal")
+		m_options.contains("alignment-horizontal") ||
+		isAutoMarginsEnabled()
 	);
 }
 
@@ -539,4 +693,26 @@ CommandLine::hasOutputDpi() const
 		m_options.contains("output-dpi-x") ||
 		m_options.contains("output-dpi-y")
 	);
+}
+
+int
+CommandLine::fetchCompression() const
+{
+	if (!m_options.contains("tiff-compression"))
+	    return COMPRESSION_LZW;
+	
+	QString c(m_options["tiff-compression"].toLower());
+	if (c == "lzw")
+	    return COMPRESSION_LZW;
+	else if (c == "none")
+	    return COMPRESSION_NONE;
+	else if (c == "jpeg")
+	    return COMPRESSION_JPEG;	
+	else if (c == "deflate")
+	    return COMPRESSION_DEFLATE;	
+	else if (c == "packbits")
+	    return COMPRESSION_PACKBITS;
+	
+	std::cout << "Unknown compression" << std::endl;
+	throw("Unknown compression");
 }

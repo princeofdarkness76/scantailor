@@ -22,6 +22,7 @@
 #include "imageproc/Connectivity.h"
 #include "Dpi.h"
 #include "ColorParams.h"
+#include "Params.h"
 #include "DepthPerception.h"
 #include "DespeckleLevel.h"
 #include "DewarpingMode.h"
@@ -130,6 +131,7 @@ public:
 //end of modified by monday2000
 		imageproc::BinaryImage* auto_picture_mask = 0,
 		imageproc::BinaryImage* speckles_image = 0,
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -138,6 +140,9 @@ public:
 		, PageId* p_pageId = NULL, IntrusivePtr<Settings>* p_settings = NULL
 		) const;
 //end of modified by monday2000
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> scantailor/tiff
 	
 	QSize outputImageSize() const;
 	
@@ -163,6 +168,7 @@ private:
 //end of modified by monday2000
 		imageproc::BinaryImage* auto_picture_mask = 0,
 		imageproc::BinaryImage* speckles_image = 0,
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -172,6 +178,9 @@ private:
 		, PageId* p_pageId = NULL, IntrusivePtr<Settings>* p_settings = NULL
 		) const;
 //end of modified by monday2000
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> scantailor/tiff
 
 	QImage processAsIs(
 		FilterData const& input, TaskStatus const& status,
@@ -191,6 +200,7 @@ private:
 //end of modified by monday2000
 		imageproc::BinaryImage* auto_picture_mask = 0,
 		imageproc::BinaryImage* speckles_image = 0,
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -199,6 +209,9 @@ private:
 		, PageId* p_pageId = NULL, IntrusivePtr<Settings>* p_settings = NULL
 		) const;
 //end of modified by monday2000
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> scantailor/tiff
 
 	QImage processWithDewarping(
 		TaskStatus const& status, FilterData const& input,
@@ -216,6 +229,7 @@ private:
 //end of modified by monday2000
 		imageproc::BinaryImage* auto_picture_mask = 0,
 		imageproc::BinaryImage* speckles_image = 0,
+<<<<<<< HEAD
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -237,6 +251,9 @@ private:
 	void movePointToBottomMargin(BinaryImage& bw_image, std::vector<QPointF>& polyline, int idx) const;
 	float vert_border_skew_angle(QPointF const& top, QPointF const& bottom) const;
 //end of modified by monday2000
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> scantailor/tiff
 	
 	void setupTrivialDistortionModel(dewarping::DistortionModel& distortion_model) const;
 

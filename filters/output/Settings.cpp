@@ -29,13 +29,15 @@
 #include <Qt>
 #include <QColor>
 #include <QMutexLocker>
+#include <tiff.h>
 
 namespace output
 {
 
 Settings::Settings()
 :	m_defaultPictureZoneProps(initialPictureZoneProps()),
-	m_defaultFillZoneProps(initialFillZoneProps())
+	m_defaultFillZoneProps(initialFillZoneProps()),
+	m_compression(COMPRESSION_LZW)
 {
 }
 
@@ -152,6 +154,21 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 	}
 }
 //end of modified by monday2000
+
+void
+Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
+{
+	QMutexLocker const locker(&m_mutex);
+
+	PerPageParams::iterator const it(m_perPageParams.lower_bound(page_id));
+	if (it == m_perPageParams.end() || m_perPageParams.key_comp()(page_id, it->first)) {
+		Params params;
+		params.setPictureShape(picture_shape);
+		m_perPageParams.insert(it, PerPageParams::value_type(page_id, params));
+	} else {
+		it->second.setPictureShape(picture_shape);
+	}
+}
 
 void
 Settings::setDpi(PageId const& page_id, Dpi const& dpi)

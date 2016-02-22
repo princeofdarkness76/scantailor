@@ -23,6 +23,7 @@
 #include "AutoManualMode.h"
 #include <QRectF>
 #include <QSizeF>
+#include <cmath>
 
 class QDomDocument;
 class QDomElement;
@@ -37,7 +38,7 @@ public:
 	// Member-wise copying is OK.
 	
 	Params(QRectF const& rect, QSizeF const& size_mm,
-		Dependencies const& deps, AutoManualMode mode);
+		Dependencies const& deps, AutoManualMode mode, bool contentDetect=true, bool pageDetect=false, bool fineTuning=false);
 	
 	Params(Dependencies const& deps);
 	
@@ -52,13 +53,36 @@ public:
 	Dependencies const& dependencies() const { return m_deps; }
 	
 	AutoManualMode mode() const { return m_mode; }
+
+	double deviation() const { return m_deviation; }
+	void setDeviation(double d) { m_deviation = d; }
+	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height()); }
+	bool isDeviant(double std, double max_dev) { return (max_dev*std) < fabs(m_deviation); }
+
+	bool isContentDetectionEnabled() const { return m_contentDetect; };
+	bool isPageDetectionEnabled() const { return m_pageDetect; };
+	bool isFineTuningEnabled() const { return m_fineTuneCorners; };
+
+	void setMode(AutoManualMode const& mode) { m_mode = mode; };
+	void setContentRect(QRectF const& rect) { m_contentRect = rect; };
+	void setPageRect(QRectF const& rect) { m_pageRect = rect; };
+	void setContentSizeMM(QSizeF const& size) { m_contentSizeMM = size; };
+	void setDependencies(Dependencies const& deps) { m_deps = deps; };
+	void setContentDetect(bool detect) { m_contentDetect = detect; };
+	void setPageDetect(bool detect) { m_pageDetect = detect; };
+	void setFineTuneCorners(bool fine_tune) { m_fineTuneCorners = fine_tune; };
 	
 	QDomElement toXml(QDomDocument& doc, QString const& name) const;
 private:
 	QRectF m_contentRect;
+	QRectF m_pageRect;
 	QSizeF m_contentSizeMM;
 	Dependencies m_deps;
 	AutoManualMode m_mode;
+	bool m_contentDetect;
+	bool m_pageDetect;
+	bool m_fineTuneCorners;
+	double m_deviation;
 };
 
 } // namespace select_content

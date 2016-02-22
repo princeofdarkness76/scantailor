@@ -51,8 +51,7 @@ public:
 	ConsoleBatch(QString const project_file);
 
 	void process();
-	void saveProject(QString const project_file);
-
+    void saveProject(QString const project_file);
 private:
 	bool batch;
 	bool debug;
