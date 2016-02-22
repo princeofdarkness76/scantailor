@@ -64,13 +64,17 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="205"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <source>Neco Torquato - Brazilian Portuguese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="229"/>
@@ -80,6 +84,9 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="212"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+>>>>>>> enhanced
         <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
         <translation type="unfinished"></translation>
     </message>
@@ -91,6 +98,7 @@
     <message utf8="true">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="243"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="219"/>
@@ -98,10 +106,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="219"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+>>>>>>> enhanced
         <source>Petr Kovář - Czech</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="250"/>
@@ -111,10 +123,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="226"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+>>>>>>> enhanced
         <source>Stefan Birkner - German</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="257"/>
@@ -124,10 +140,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="233"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+>>>>>>> enhanced
         <source>Angelo Gemmi - Italian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="264"/>
@@ -137,10 +157,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="240"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> enhanced
         <source>Masahiro Kitagawa - Japanese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="271"/>
@@ -150,10 +174,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="247"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> enhanced
         <source>Patrick Pascal - French</source>
         <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="278"/>
@@ -163,10 +191,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="254"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> enhanced
         <source>Daniel Koć - Polish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="285"/>
@@ -176,10 +208,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="261"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> enhanced
         <source>Joseph Artsimovich - Russian</source>
         <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="292"/>
@@ -189,10 +225,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="268"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> enhanced
         <source>Marián Hvolka - Slovak</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="299"/>
@@ -202,10 +242,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="275"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> enhanced
         <source>Flavio Benelli - Spanish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="306"/>
@@ -215,10 +259,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="282"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+>>>>>>> enhanced
         <source>Davidson Wang - Traditional Chinese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="313"/>
@@ -228,10 +276,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="289"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="289"/>
+>>>>>>> enhanced
         <source>Yuri Chornoivan - Ukrainian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="340"/>
@@ -241,6 +293,9 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="316"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+>>>>>>> enhanced
         <source>denver 22</source>
         <translation type="unfinished"></translation>
     </message>
@@ -252,10 +307,13 @@
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="159"/>
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <location filename="../ui/AboutDialog.ui" line="14"/>
         <source>About Scan Tailor &quot;Enhanced&quot;</source>
         <translation type="unfinished"></translation>
@@ -269,6 +327,7 @@
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="325"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="301"/>
@@ -276,10 +335,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="301"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> enhanced
         <source>Documentation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="381"/>
@@ -289,6 +352,9 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="357"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> enhanced
         <source>License</source>
         <translation type="unfinished"></translation>
     </message>
@@ -414,6 +480,7 @@
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>ExportDialog</name>
     <message>
         <location filename="../ui/ExportDialog.ui" line="14"/>
@@ -545,6 +612,8 @@
     </message>
 </context>
 <context>
+=======
+>>>>>>> enhanced
     <name>FixDpiDialog</name>
     <message>
         <location filename="../ui/FixDpiDialog.ui" line="13"/>
@@ -676,6 +745,7 @@
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="233"/>
         <location filename="../MainWindow.cpp" line="622"/>
 =======
@@ -684,6 +754,16 @@
 =======
         <location filename="../ui/MainWindow.ui" line="276"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> enhanced
         <source>Save Project</source>
         <translation type="unfinished"></translation>
     </message>
@@ -710,6 +790,7 @@
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="197"/>
 =======
         <location filename="../ui/MainWindow.ui" line="76"/>
@@ -717,10 +798,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="76"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> enhanced
         <source>File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="211"/>
@@ -730,16 +815,22 @@
 =======
         <location filename="../ui/MainWindow.ui" line="90"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> enhanced
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="228"/>
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <location filename="../ui/MainWindow.ui" line="107"/>
         <source>Thumbnails</source>
         <translation type="unfinished"></translation>
@@ -752,13 +843,17 @@
     <message>
         <location filename="../ui/MainWindow.ui" line="271"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <source>Debug Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="236"/>
@@ -768,10 +863,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="279"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="279"/>
+>>>>>>> enhanced
         <source>Ctrl+S</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="241"/>
@@ -781,10 +880,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="284"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="284"/>
+>>>>>>> enhanced
         <source>Save Project As ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="246"/>
@@ -797,10 +900,15 @@
         <location filename="../ui/MainWindow.ui" line="289"/>
         <location filename="../ui/MainWindow.ui" line="338"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+>>>>>>> enhanced
         <source>Next Page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="249"/>
@@ -810,10 +918,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="292"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> enhanced
         <source>PgDown</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="257"/>
@@ -826,10 +938,15 @@
         <location filename="../ui/MainWindow.ui" line="300"/>
         <location filename="../ui/MainWindow.ui" line="327"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> enhanced
         <source>Previous Page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="260"/>
@@ -839,10 +956,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="303"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> enhanced
         <source>PgUp</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="268"/>
@@ -852,10 +973,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="311"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> enhanced
         <source>New Project ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="271"/>
@@ -865,10 +990,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="314"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> enhanced
         <source>Ctrl+N</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="276"/>
@@ -878,10 +1007,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="319"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> enhanced
         <source>Open Project ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="279"/>
@@ -891,10 +1024,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="322"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> enhanced
         <source>Ctrl+O</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="287"/>
@@ -904,10 +1041,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="330"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> enhanced
         <source>Q</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="298"/>
@@ -917,10 +1058,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="341"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> enhanced
         <source>W</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="306"/>
@@ -930,10 +1075,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="349"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> enhanced
         <source>Close Project</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="309"/>
@@ -943,10 +1092,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="352"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> enhanced
         <source>Ctrl+W</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="314"/>
@@ -956,10 +1109,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="357"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> enhanced
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="317"/>
@@ -969,10 +1126,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="360"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> enhanced
         <source>Ctrl+Q</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="327"/>
@@ -982,10 +1143,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="370"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> enhanced
         <source>First Page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="330"/>
@@ -995,10 +1160,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="373"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> enhanced
         <source>Home</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="335"/>
@@ -1008,10 +1177,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="378"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> enhanced
         <source>Last Page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="338"/>
@@ -1021,29 +1194,41 @@
 =======
         <location filename="../ui/MainWindow.ui" line="381"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> enhanced
         <source>End</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="343"/>
 =======
         <location filename="../ui/MainWindow.ui" line="386"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> enhanced
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="348"/>
 =======
         <location filename="../ui/MainWindow.ui" line="391"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+>>>>>>> enhanced
         <source>Fix DPI ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="353"/>
 =======
@@ -1219,6 +1404,8 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
         <translation type="unfinished"></translation>
     </message>
     <message>
+=======
+>>>>>>> enhanced
         <location filename="../ui/MainWindow.ui" line="396"/>
         <source>Relinking ...</source>
         <translation type="unfinished"></translation>
@@ -1227,6 +1414,107 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
         <location filename="../ui/MainWindow.ui" line="365"/>
         <source>Settings ...</source>
 >>>>>>> origin/enhanced
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="492"/>
+        <source>Stop batch processing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="564"/>
+        <source>Save this project?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1001"/>
+        <source>Insert before ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1004"/>
+        <source>Insert after ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1010"/>
+        <source>Remove from project ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1031"/>
+        <source>Insert here ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1369"/>
+        <location filename="../MainWindow.cpp" line="1437"/>
+        <source>Scan Tailor Projects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1436"/>
+        <source>Open Project</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1454"/>
+        <location filename="../MainWindow.cpp" line="1463"/>
+        <location filename="../MainWindow.cpp" line="1777"/>
+        <location filename="../MainWindow.cpp" line="1808"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1455"/>
+        <source>Unable to open the project file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1464"/>
+        <source>The project file is broken.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1673"/>
+        <source>Output is not yet possible, as the final size of pages is not yet known.
+To determine it, run batch processing at &quot;Select Content&quot; or &quot;Margins&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1706"/>
+        <source>Unnamed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1711"/>
+        <source>%2 - Scan Tailor %3 [%1bit]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1778"/>
+        <location filename="../MainWindow.cpp" line="1809"/>
+        <source>Error saving the project file!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1860"/>
+        <source>Files to insert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1866"/>
+        <source>Images not in project (%1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1915"/>
+        <source>Skip failed files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1962"/>
+        <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1455,6 +1743,21 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
         <source>Error saving the project file!</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="88"/>
+        <source>Scan Tailor Projects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="123"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="124"/>
+        <source>Error saving the project file!</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>OutputApplyColorsDialog</name>
@@ -1616,6 +1919,7 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="78"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="504"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
@@ -1623,6 +1927,9 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> enhanced
         <source>Change ...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1644,6 +1951,7 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="348"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
@@ -1651,10 +1959,14 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
+>>>>>>> enhanced
         <source>Picture Shape</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="446"/>
@@ -1664,16 +1976,22 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+>>>>>>> enhanced
         <source>Dewarping</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="529"/>
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="785"/>
         <source>Tiff Compression</source>
         <translation type="unfinished"></translation>
@@ -1681,13 +1999,17 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <source>Depth perception</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="618"/>
@@ -1697,10 +2019,14 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+>>>>>>> enhanced
         <source>No despeckling</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="421"/>
@@ -1716,10 +2042,16 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+>>>>>>> enhanced
         <source>Apply To ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="594"/>
@@ -1729,10 +2061,14 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> enhanced
         <source>Despeckling</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="643"/>
@@ -1742,10 +2078,14 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> enhanced
         <source>Cautious despeckling</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="646"/>
@@ -1761,10 +2101,16 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> enhanced
         <source>...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="669"/>
@@ -1774,10 +2120,14 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> enhanced
         <source>Normal despeckling</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="695"/>
@@ -1787,6 +2137,9 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> enhanced
         <source>Aggressive despeckling</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2449,6 +2802,7 @@ You should remove them from the project.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/SettingsDialog.ui" line="27"/>
         <source>Auto-save the existing project</source>
         <translation type="unfinished"></translation>
@@ -2459,6 +2813,8 @@ You should remove them from the project.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+=======
+>>>>>>> enhanced
         <location filename="../SettingsDialog.cpp" line="36"/>
         <source>Compiled without OpenGL support.</source>
         <translation type="unfinished"></translation>
@@ -2476,6 +2832,10 @@ You should remove them from the project.</source>
         <source>Launch batch processing</source>
         <translation type="unfinished"></translation>
     </message>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> enhanced
 </context>
 <context>
     <name>StartBatchProcessingDialog</name>
@@ -2499,6 +2859,7 @@ You should remove them from the project.</source>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
     </message>
+<<<<<<< HEAD
 </context>
 <context>
     <name>StartBatchProcessingDialog</name>
@@ -2522,6 +2883,10 @@ You should remove them from the project.</source>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
     </message>
+=======
+=======
+>>>>>>> scantailor/master
+>>>>>>> enhanced
 </context>
 <context>
     <name>SystemLoadWidget</name>
@@ -2555,6 +2920,7 @@ You should remove them from the project.</source>
 <context>
     <name>ThumbnailSequence</name>
     <message>
+<<<<<<< HEAD
         <location filename="../ThumbnailSequence.cpp" line="780"/>
         <source>Warning</source>
         <translation type="unfinished"></translation>
@@ -2571,6 +2937,9 @@ You should remove them from the project.</source>
     </message>
     <message>
         <location filename="../ThumbnailSequence.cpp" line="1405"/>
+=======
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
+>>>>>>> enhanced
         <source>%1 (page %2)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2755,6 +3124,7 @@ You should remove them from the project.</source>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
@@ -2762,10 +3132,14 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
+>>>>>>> enhanced
         <source>Free</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="70"/>
@@ -2778,10 +3152,15 @@ You should remove them from the project.</source>
         <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
         <source>Rectangular</source>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
+        <source>Rectangular</source>
+>>>>>>> enhanced
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="71"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <source>Quadro</source>
@@ -2791,10 +3170,14 @@ You should remove them from the project.</source>
 =======
         <source>None</source>
 >>>>>>> origin/enhanced
+=======
+        <source>None</source>
+>>>>>>> enhanced
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="72"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <source>Picture Shape</source>
@@ -2805,6 +3188,8 @@ You should remove them from the project.</source>
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <source>LZW</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2826,13 +3211,17 @@ You should remove them from the project.</source>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="442"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <source>Apply Despeckling Level</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="530"/>
@@ -2842,10 +3231,14 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+>>>>>>> enhanced
         <source>Apply Depth Perception</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="728"/>
@@ -2855,10 +3248,14 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+>>>>>>> enhanced
         <source>Off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="731"/>
@@ -2868,10 +3265,14 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> enhanced
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="734"/>
@@ -2881,6 +3282,9 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+>>>>>>> enhanced
         <source>Manual</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2895,6 +3299,7 @@ You should remove them from the project.</source>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="604"/>
 =======
         <location filename="../filters/output/Task.cpp" line="512"/>
@@ -2902,10 +3307,14 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/Task.cpp" line="512"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> enhanced
         <source>Picture zones are only available in Mixed mode.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="656"/>
@@ -2915,10 +3324,14 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/Task.cpp" line="564"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> enhanced
         <source>Despeckling can&apos;t be done in Color / Grayscale mode.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="673"/>
@@ -2928,10 +3341,14 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/Task.cpp" line="581"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> enhanced
         <source>Output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="674"/>
@@ -2941,10 +3358,14 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/Task.cpp" line="582"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> enhanced
         <source>Picture Zones</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="675"/>
@@ -2954,10 +3375,14 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/Task.cpp" line="583"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> enhanced
         <source>Fill Zones</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="676"/>
@@ -2967,10 +3392,14 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/Task.cpp" line="584"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> enhanced
         <source>Dewarping</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="677"/>
@@ -2980,6 +3409,9 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/output/Task.cpp" line="585"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> enhanced
         <source>Despeckling</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3020,6 +3452,7 @@ You should remove them from the project.</source>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
@@ -3027,10 +3460,20 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+>>>>>>> enhanced
         <source>Apply Margins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
@@ -3040,6 +3483,15 @@ You should remove them from the project.</source>
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+>>>>>>> enhanced
         <source>Apply Alignment</source>
         <translation type="unfinished"></translation>
     </message>

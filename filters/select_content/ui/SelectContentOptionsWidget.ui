@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <width>236</width>
     <height>294</height>
 =======
@@ -23,6 +24,10 @@
     <width>236</width>
     <height>294</height>
 >>>>>>> pod/tiff
+=======
+    <width>292</width>
+    <height>361</height>
+>>>>>>> enhanced
    </rect>
   </property>
   <property name="windowTitle">
@@ -31,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <layout class="QVBoxLayout" name="verticalLayout_2">
 =======
   <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -41,6 +47,9 @@
 =======
   <layout class="QVBoxLayout" name="verticalLayout_2">
 >>>>>>> pod/tiff
+=======
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> enhanced
    <item>
     <widget class="QGroupBox" name="groupBox_2">
      <property name="title">
@@ -49,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      <layout class="QHBoxLayout" name="horizontalLayout">
 =======
      <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -59,6 +69,9 @@
 =======
      <layout class="QHBoxLayout" name="horizontalLayout">
 >>>>>>> pod/tiff
+=======
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+>>>>>>> enhanced
       <item>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
@@ -109,9 +122,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
       <item>
        <widget class="QGroupBox" name="groupBox_3">
         <property name="title">
@@ -196,11 +212,14 @@
        </widget>
       </item>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
      </layout>
     </widget>
    </item>
@@ -344,6 +363,7 @@
  </widget>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  <resources>
   <include location="../../../resources/resources.qrc"/>
  </resources>
@@ -353,5 +373,8 @@
 =======
  <resources/>
 >>>>>>> origin/enhanced
+=======
+ <resources/>
+>>>>>>> enhanced
  <connections/>
 </ui>

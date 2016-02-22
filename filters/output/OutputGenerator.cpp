@@ -316,6 +316,7 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,11 +415,15 @@ OutputGenerator::process(
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> enhanced
 {
 	QImage image(
 		processImpl(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -529,6 +534,9 @@ OutputGenerator::process(
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> pod/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> enhanced
 		)
 	);
 	assert(!image.isNull());
@@ -728,6 +736,7 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -826,6 +835,9 @@ OutputGenerator::processImpl(
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> enhanced
 {
 	RenderParams const render_params(m_colorParams);
 
@@ -870,6 +882,7 @@ OutputGenerator::processImpl(
 		return processWithDewarping(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -979,6 +992,9 @@ OutputGenerator::processImpl(
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> pod/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> enhanced
 		);
 	} else if (!render_params.whiteMargins()) {
 		return processAsIs(
@@ -987,6 +1003,7 @@ OutputGenerator::processImpl(
 	} else {
 		return processWithoutDewarping(
 			status, input, picture_zones, fill_zones,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1095,6 +1112,9 @@ OutputGenerator::processImpl(
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> pod/tiff
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> enhanced
 		);
 	}
 }
@@ -1164,6 +1184,7 @@ OutputGenerator::processWithoutDewarping(
 //end of modified by monday2000
 	imageproc::BinaryImage* auto_picture_mask,
 	imageproc::BinaryImage* speckles_image,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1269,6 +1290,9 @@ OutputGenerator::processWithoutDewarping(
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> enhanced
 {
 	RenderParams const render_params(m_colorParams);
 	
@@ -1428,6 +1452,7 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1553,10 +1578,13 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			bw_mask.rectangularizeAreas(WHITE);
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1608,6 +1636,8 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 
 		if (dbg) {
 			dbg->add(bw_mask, "bw_mask");
@@ -1774,6 +1804,7 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1872,6 +1903,9 @@ OutputGenerator::processWithDewarping(
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> pod/tiff
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> enhanced
 {
 	QSize const target_size(m_outRect.size().expandedTo(QSize(1, 1)));
 	if (m_outRect.isEmpty()) {
@@ -2048,6 +2082,7 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2198,6 +2233,11 @@ OutputGenerator::processWithDewarping(
 			warped_bw_mask.rectangularizeAreas(WHITE);
 		}
 >>>>>>> pod/tiff
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> enhanced
 
 		status.throwIfCancelled();
 

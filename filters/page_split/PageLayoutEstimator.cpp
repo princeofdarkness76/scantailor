@@ -53,8 +53,11 @@
 #include <boost/lambda/lambda.hpp>
 #include <boost/lambda/bind.hpp>
 #endif
+<<<<<<< HEAD
 =======
 >>>>>>> origin/qt5
+=======
+>>>>>>> enhanced
 #include <QRect>
 #include <QRectF>
 #include <QSize>

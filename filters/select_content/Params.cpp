@@ -35,12 +35,15 @@ Params::Params(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_contentSizeMM(content_size_mm),
 	m_deps(deps),
 	m_mode(mode),
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
     m_pageBorders(0,0,0,0),
 	m_contentSizeMM(content_size_mm),
 	m_deps(deps),
@@ -62,6 +65,7 @@ Params::Params(
 	m_deps(deps),
 	m_mode(mode),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
@@ -70,6 +74,8 @@ Params::Params(
 	m_deps(deps),
 	m_mode(mode),
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 	m_contentDetect(contentDetect),
 	m_pageDetect(pageDetect),
 	m_fineTuneCorners(fineTuning),
@@ -83,6 +89,7 @@ Params::Params(Dependencies const& deps)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_contentDetect(true),
 	m_pageDetect(false),
 	m_fineTuneCorners(false),
@@ -97,6 +104,9 @@ Params::Params(Dependencies const& deps)
 	m_pageDetect(false),
 	m_fineTuneCorners(false),
 >>>>>>> pod/tiff
+=======
+    m_pageBorders(0,0,0,0),
+>>>>>>> enhanced
 	m_deviation(0.0)
 {
 	m_contentDetect = CommandLine::get().isContentDetectionEnabled();

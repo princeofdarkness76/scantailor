@@ -42,6 +42,7 @@
         <translation>Joseph Artsimovich</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="142"/>
         <source>Fork Developer</source>
         <translation type="unfinished"></translation>
@@ -50,6 +51,16 @@
         <location filename="../ui/AboutDialog.ui" line="149"/>
         <source>monday2000</source>
         <translation type="unfinished"></translation>
+=======
+        <location filename="../ui/AboutDialog.ui" line="157"/>
+        <source>U235 - Picture auto-detection algorithm.</source>
+        <translation type="unfinished">U235 - Automatischer Bilderkennungs-Algorithmus.</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="164"/>
+        <source>Robert B. - First generation dewarping algorithm.</source>
+        <translation type="unfinished">Robert B. - Erste Generation des Dewarping-Algorithmus.</translation>
+>>>>>>> enhanced
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="174"/>
@@ -70,18 +81,22 @@
         <location filename="../ui/AboutDialog.ui" line="195"/>
         <source>Petr Kovář - Command line interface.</source>
         <translation type="unfinished">Petr Kovář - Kommandozeileninterface.</translation>
+<<<<<<< HEAD
     </message>
     <message>
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="222"/>
         <source>Neco Torquato - Brazilian Portuguese</source>
         <translation type="unfinished">Neco Torquato - Brasilianisches Portugiesisch</translation>
+=======
+>>>>>>> enhanced
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="229"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="205"/>
         <source>Neco Torquato - Brazilian Portuguese</source>
+<<<<<<< HEAD
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -96,8 +111,16 @@
     <message>
         <location filename="../ui/AboutDialog.ui" line="236"/>
         <source>Damir13 - Croatian</source>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> enhanced
         <translation type="unfinished"></translation>
+=======
+        <translation type="unfinished">Neco Torquato - Brasilianisches Portugiesisch</translation>
+>>>>>>> scantailor/master
     </message>
+<<<<<<< HEAD
     <message utf8="true">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,10 +183,49 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="247"/>
 >>>>>>> origin/enhanced
+=======
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+        <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
+        <translation type="unfinished">Svetoslav Sashkov, Mandor - Bulgarisch</translation>
+    </message>
+=======
+        <translation type="unfinished">Neco Torquato - Brasilianisches Portugiesisch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+        <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
+        <translation type="unfinished">Svetoslav Sashkov, Mandor - Bulgarisch</translation>
+    </message>
+>>>>>>> scantailor/master
+    <message utf8="true">
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+        <source>Petr Kovář - Czech</source>
+        <translation type="unfinished">Petr Kovář - Tschechisch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+        <source>Stefan Birkner - German</source>
+        <translation type="unfinished">Stefan Birkner - Deutsch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+        <source>Angelo Gemmi - Italian</source>
+        <translation type="unfinished">Angelo Gemmi - Italienisch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+        <source>Masahiro Kitagawa - Japanese</source>
+        <translation type="unfinished">Masahiro Kitagawa - Japanisch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> enhanced
         <source>Patrick Pascal - French</source>
         <translation type="unfinished">Patrick Pascal - Französisch</translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="278"/>
@@ -173,10 +235,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="254"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> enhanced
         <source>Daniel Koć - Polish</source>
         <translation type="unfinished">Daniel Koć - Polnisch</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="285"/>
@@ -186,10 +252,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="261"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> enhanced
         <source>Joseph Artsimovich - Russian</source>
         <translation type="unfinished">Joseph Artsimovich - Russisch</translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="292"/>
@@ -238,10 +308,29 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="289"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+        <source>Marián Hvolka - Slovak</source>
+        <translation type="unfinished">Marián Hvolka - Slowakisch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+        <source>Flavio Benelli - Spanish</source>
+        <translation type="unfinished">Flavio Benelli - Spanisch</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+        <source>Davidson Wang - Traditional Chinese</source>
+        <translation type="unfinished">Davidson Wang - Chinesisch (Langzeichen)</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="289"/>
+>>>>>>> enhanced
         <source>Yuri Chornoivan - Ukrainian</source>
         <translation type="unfinished">Yuri Chornoivan - Ukrainisch</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="340"/>
@@ -251,6 +340,9 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="316"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+>>>>>>> enhanced
         <source>denver 22</source>
         <translation type="unfinished">denver 22</translation>
     </message>
@@ -292,6 +384,7 @@ Andrey Bergman - Einstellen der Systemauslastung.</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="325"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="301"/>
@@ -299,6 +392,9 @@ Andrey Bergman - Einstellen der Systemauslastung.</translation>
 =======
         <location filename="../ui/AboutDialog.ui" line="301"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> enhanced
         <source>Documentation</source>
         <translation>Dokumentation</translation>
     </message>
@@ -313,6 +409,7 @@ Taxman</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="381"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="357"/>
@@ -320,6 +417,9 @@ Taxman</translation>
 =======
         <location filename="../ui/AboutDialog.ui" line="357"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> enhanced
         <source>License</source>
         <translation>Lizenz</translation>
     </message>
@@ -443,6 +543,7 @@ zur Auswahl mehrerer Seiten.</translation>
         <location filename="../ui/ErrorWidget.ui" line="14"/>
         <source>Form</source>
         <translation type="unfinished">Projekt auswählen</translation>
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -574,6 +675,8 @@ zur Auswahl mehrerer Seiten.</translation>
         <location filename="../ExportDialog.cpp" line="224"/>
         <source>Starting the export...</source>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> enhanced
     </message>
 </context>
 <context>
@@ -744,6 +847,7 @@ zur Auswahl mehrerer Seiten.</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="233"/>
         <location filename="../MainWindow.cpp" line="622"/>
 =======
@@ -752,10 +856,21 @@ zur Auswahl mehrerer Seiten.</translation>
 =======
         <location filename="../ui/MainWindow.ui" line="276"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> enhanced
         <source>Save Project</source>
         <translation>Projekt speichern</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="589"/>
         <source>The files export is finished.</source>
         <translation type="unfinished"></translation>
@@ -768,41 +883,70 @@ zur Auswahl mehrerer Seiten.</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="622"/>
+=======
+        <location filename="../MainWindow.cpp" line="564"/>
+>>>>>>> enhanced
         <source>Save this project?</source>
         <translation type="unfinished">Dieses Projekt speichern?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1098"/>
+=======
+        <location filename="../MainWindow.cpp" line="1001"/>
+>>>>>>> enhanced
         <source>Insert before ...</source>
         <translation type="unfinished">Davor einfügen ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1101"/>
+=======
+        <location filename="../MainWindow.cpp" line="1004"/>
+>>>>>>> enhanced
         <source>Insert after ...</source>
         <translation type="unfinished">Danach einfügen ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1107"/>
+=======
+        <location filename="../MainWindow.cpp" line="1010"/>
+>>>>>>> enhanced
         <source>Remove from project ...</source>
         <translation type="unfinished">Aus dem Projekt entfernen ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1128"/>
+=======
+        <location filename="../MainWindow.cpp" line="1031"/>
+>>>>>>> enhanced
         <source>Insert here ...</source>
         <translation type="unfinished">Hier einfügen ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1466"/>
         <location filename="../MainWindow.cpp" line="1534"/>
+=======
+        <location filename="../MainWindow.cpp" line="1369"/>
+        <location filename="../MainWindow.cpp" line="1437"/>
+>>>>>>> enhanced
         <source>Scan Tailor Projects</source>
         <translation type="unfinished">Scan-Tailor-Projekte</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1533"/>
+=======
+        <location filename="../MainWindow.cpp" line="1436"/>
+>>>>>>> enhanced
         <source>Open Project</source>
         <translation type="unfinished">Projekt öffnen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1551"/>
         <location filename="../MainWindow.cpp" line="1560"/>
         <location filename="../MainWindow.cpp" line="1834"/>
@@ -812,15 +956,26 @@ zur Auswahl mehrerer Seiten.</translation>
         <location filename="../MainWindow.cpp" line="2059"/>
         <location filename="../MainWindow.cpp" line="2336"/>
         <location filename="../MainWindow.cpp" line="2367"/>
+=======
+        <location filename="../MainWindow.cpp" line="1454"/>
+        <location filename="../MainWindow.cpp" line="1463"/>
+        <location filename="../MainWindow.cpp" line="1777"/>
+        <location filename="../MainWindow.cpp" line="1808"/>
+>>>>>>> enhanced
         <source>Error</source>
         <translation type="unfinished">Fehler</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1552"/>
+=======
+        <location filename="../MainWindow.cpp" line="1455"/>
+>>>>>>> enhanced
         <source>Unable to open the project file.</source>
         <translation type="unfinished">Die Projektdatei kann nicht geöffnet werden.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1561"/>
         <source>The project file is broken.</source>
         <translation type="unfinished">Die Projektdatei ist beschädigt.</translation>
@@ -854,28 +1009,53 @@ zur Auswahl mehrerer Seiten.</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2229"/>
+=======
+        <location filename="../MainWindow.cpp" line="1464"/>
+        <source>The project file is broken.</source>
+        <translation type="unfinished">Die Projektdatei ist beschädigt.</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1673"/>
+>>>>>>> enhanced
         <source>Output is not yet possible, as the final size of pages is not yet known.
 To determine it, run batch processing at &quot;Select Content&quot; or &quot;Margins&quot;.</source>
         <translation type="unfinished">Ausgabe ist noch nicht möglich, da die schlußendliche Größe der Seiten noch nicht bekannt ist.
 Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt auswählen“ oder „Stege (Ränder)“.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2262"/>
+=======
+        <location filename="../MainWindow.cpp" line="1706"/>
+>>>>>>> enhanced
         <source>Unnamed</source>
         <translation type="unfinished">Unbenannt</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2269"/>
         <source>%2 - Scan Tailor Featured %3 [%1bit]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2419"/>
+=======
+        <location filename="../MainWindow.cpp" line="1711"/>
+        <source>%2 - Scan Tailor %3 [%1bit]</source>
+        <translation type="unfinished">%2 - Scan Tailor %3 [%1bit]</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1860"/>
+>>>>>>> enhanced
         <source>Files to insert</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2474"/>
+=======
+        <location filename="../MainWindow.cpp" line="1915"/>
+>>>>>>> enhanced
         <source>Skip failed files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -884,8 +1064,13 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
         <translation type="obsolete">%1 - Scan Tailor %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2337"/>
         <location filename="../MainWindow.cpp" line="2368"/>
+=======
+        <location filename="../MainWindow.cpp" line="1778"/>
+        <location filename="../MainWindow.cpp" line="1809"/>
+>>>>>>> enhanced
         <source>Error saving the project file!</source>
         <translation type="unfinished">Beim Speichern der Projektdatei ist ein Fehler aufgetreten!</translation>
     </message>
@@ -894,7 +1079,11 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
         <translation type="obsolete">Einzufügende Datei</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2425"/>
+=======
+        <location filename="../MainWindow.cpp" line="1866"/>
+>>>>>>> enhanced
         <source>Images not in project (%1)</source>
         <translation type="unfinished">Bilder befinden sich nicht im Projekt (%1)</translation>
     </message>
@@ -903,7 +1092,11 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
         <translation type="obsolete">Beim Öffnen der Bilddatei ist ein Fehler aufgetreten.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2521"/>
+=======
+        <location filename="../MainWindow.cpp" line="1962"/>
+>>>>>>> enhanced
         <source>Remove</source>
         <translation type="unfinished">Entfernen</translation>
     </message>
@@ -935,6 +1128,7 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="197"/>
 =======
         <location filename="../ui/MainWindow.ui" line="76"/>
@@ -942,10 +1136,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="76"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> enhanced
         <source>File</source>
         <translation>Datei</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="211"/>
@@ -955,6 +1153,9 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="90"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> enhanced
         <source>Help</source>
         <translation>Hilfe</translation>
     </message>
@@ -963,6 +1164,7 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
         <translation type="obsolete">Debuggen</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="228"/>
@@ -1005,10 +1207,29 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="284"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="199"/>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="271"/>
+        <source>Debug Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="279"/>
+        <source>Ctrl+S</source>
+        <translation type="unfinished">Ctrl+S</translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="284"/>
+>>>>>>> enhanced
         <source>Save Project As ...</source>
         <translation>Projekt speichern unter ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="246"/>
@@ -1021,10 +1242,15 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
         <location filename="../ui/MainWindow.ui" line="289"/>
         <location filename="../ui/MainWindow.ui" line="338"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+>>>>>>> enhanced
         <source>Next Page</source>
         <translation>Nächste Seite</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="249"/>
@@ -1034,10 +1260,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="292"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> enhanced
         <source>PgDown</source>
         <translation type="unfinished">PgDown</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="257"/>
@@ -1050,10 +1280,15 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
         <location filename="../ui/MainWindow.ui" line="300"/>
         <location filename="../ui/MainWindow.ui" line="327"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> enhanced
         <source>Previous Page</source>
         <translation>Vorherige Seite</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="260"/>
@@ -1063,10 +1298,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="303"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> enhanced
         <source>PgUp</source>
         <translation type="unfinished">PgUp</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="268"/>
@@ -1076,10 +1315,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="311"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> enhanced
         <source>New Project ...</source>
         <translation>Neues Projekt ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="271"/>
@@ -1089,10 +1332,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="314"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> enhanced
         <source>Ctrl+N</source>
         <translation type="unfinished">Ctrl+N</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="276"/>
@@ -1102,10 +1349,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="319"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> enhanced
         <source>Open Project ...</source>
         <translation>Projekt öffnen ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="279"/>
@@ -1115,10 +1366,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="322"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> enhanced
         <source>Ctrl+O</source>
         <translation type="unfinished">Ctrl+O</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="287"/>
@@ -1128,10 +1383,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="330"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> enhanced
         <source>Q</source>
         <translation>Q</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="298"/>
@@ -1141,10 +1400,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="341"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> enhanced
         <source>W</source>
         <translation>W</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="306"/>
@@ -1154,10 +1417,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="349"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> enhanced
         <source>Close Project</source>
         <translation>Projekt schließen</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="309"/>
@@ -1167,10 +1434,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="352"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> enhanced
         <source>Ctrl+W</source>
         <translation type="unfinished">Ctrl+W</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="314"/>
@@ -1180,10 +1451,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="357"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> enhanced
         <source>Quit</source>
         <translation>Beenden</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="317"/>
@@ -1193,10 +1468,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="360"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> enhanced
         <source>Ctrl+Q</source>
         <translation type="unfinished">Ctrl+Q</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="327"/>
@@ -1206,10 +1485,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="370"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> enhanced
         <source>First Page</source>
         <translation>Erste Seite</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="330"/>
@@ -1219,10 +1502,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="373"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> enhanced
         <source>Home</source>
         <translation>Pos1</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="335"/>
@@ -1232,10 +1519,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="378"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> enhanced
         <source>Last Page</source>
         <translation>Letzte Seite</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="338"/>
@@ -1245,10 +1536,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="381"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> enhanced
         <source>End</source>
         <translation>Ende</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="343"/>
@@ -1258,10 +1553,14 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="386"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> enhanced
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="348"/>
@@ -1294,10 +1593,24 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="519"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+        <source>Fix DPI ...</source>
+        <translation type="unfinished">DPI korrigieren ...</translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="396"/>
+        <source>Relinking ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="492"/>
+>>>>>>> enhanced
         <source>Stop batch processing</source>
         <translation type="unfinished">Stapelverarbeitung beenden</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="322"/>
@@ -1307,6 +1620,9 @@ Um diese zu ermitteln, starten Sie bitte die Stapelverarbeitung unter „Inhalt 
 =======
         <location filename="../ui/MainWindow.ui" line="365"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="365"/>
+>>>>>>> enhanced
         <source>Settings ...</source>
         <translation>Einstellungen ...</translation>
     </message>
@@ -1702,6 +2018,7 @@ zur Auswahl mehrerer Seiten.</translation>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="78"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="504"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
@@ -1709,6 +2026,9 @@ zur Auswahl mehrerer Seiten.</translation>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> enhanced
         <source>Change ...</source>
         <translation>Ändern ...</translation>
     </message>
@@ -1730,6 +2050,7 @@ zur Auswahl mehrerer Seiten.</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="348"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
@@ -1737,10 +2058,14 @@ zur Auswahl mehrerer Seiten.</translation>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
+>>>>>>> enhanced
         <source>Picture Shape</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="446"/>
@@ -1750,16 +2075,22 @@ zur Auswahl mehrerer Seiten.</translation>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+>>>>>>> enhanced
         <source>Dewarping</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="529"/>
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="785"/>
         <source>Tiff Compression</source>
         <translation type="unfinished"></translation>
@@ -1767,13 +2098,17 @@ zur Auswahl mehrerer Seiten.</translation>
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <source>Depth perception</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="618"/>
@@ -1783,6 +2118,9 @@ zur Auswahl mehrerer Seiten.</translation>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+>>>>>>> enhanced
         <source>No despeckling</source>
         <translation>Kein Despeckling</translation>
     </message>
@@ -1791,6 +2129,7 @@ zur Auswahl mehrerer Seiten.</translation>
         <translation type="obsolete">Dewarp</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="421"/>
@@ -1806,10 +2145,16 @@ zur Auswahl mehrerer Seiten.</translation>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+>>>>>>> enhanced
         <source>Apply To ...</source>
         <translation>Anwenden auf ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="594"/>
@@ -1819,10 +2164,14 @@ zur Auswahl mehrerer Seiten.</translation>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> enhanced
         <source>Despeckling</source>
         <translation>Despeckling</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="643"/>
@@ -1832,10 +2181,14 @@ zur Auswahl mehrerer Seiten.</translation>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> enhanced
         <source>Cautious despeckling</source>
         <translation>Behutsames Despeckling</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="646"/>
@@ -1851,10 +2204,16 @@ zur Auswahl mehrerer Seiten.</translation>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> enhanced
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="669"/>
@@ -1864,10 +2223,14 @@ zur Auswahl mehrerer Seiten.</translation>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> enhanced
         <source>Normal despeckling</source>
         <translation>Normales Despeckling</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="695"/>
@@ -1877,6 +2240,9 @@ zur Auswahl mehrerer Seiten.</translation>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> enhanced
         <source>Aggressive despeckling</source>
         <translation>Offensives Despeckling</translation>
     </message>
@@ -2403,6 +2769,7 @@ Eingabedatei erhalten bleibt.</translation>
         <source>Options</source>
         <translation type="unfinished"></translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
@@ -2424,8 +2791,18 @@ Eingabedatei erhalten bleibt.</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
+=======
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
+<<<<<<< HEAD
+>>>>>>> enhanced
         <source>Apply content box</source>
         <translation type="unfinished"></translation>
+=======
+        <source>This page only (already applied)</source>
+        <translation type="unfinished">nur diese Seiten (schon angewandt)</translation>
+>>>>>>> scantailor/master
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
@@ -2435,10 +2812,16 @@ Eingabedatei erhalten bleibt.</translation>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="45"/>
         <source>This page only (already applied)</source>
+<<<<<<< HEAD
         <translation type="unfinished"></translation>
     </message>
     <message>
 >>>>>>> origin/enhanced
+=======
+        <translation type="unfinished">nur diese Seiten (schon angewandt)</translation>
+    </message>
+    <message>
+>>>>>>> enhanced
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="55"/>
         <source>All pages</source>
         <translation type="unfinished">alle Seiten</translation>
@@ -2602,6 +2985,10 @@ Benutzeroberläche verwenden</translation>
         <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
         <translation type="unfinished">Stapelverarbeitung starten</translation>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> enhanced
     </message>
 </context>
 <context>
@@ -2625,6 +3012,7 @@ Benutzeroberläche verwenden</translation>
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -2648,6 +3036,10 @@ Benutzeroberläche verwenden</translation>
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
+=======
+=======
+>>>>>>> scantailor/master
+>>>>>>> enhanced
     </message>
 </context>
 <context>
@@ -2682,6 +3074,7 @@ Benutzeroberläche verwenden</translation>
 <context>
     <name>ThumbnailSequence</name>
     <message>
+<<<<<<< HEAD
         <location filename="../ThumbnailSequence.cpp" line="780"/>
         <source>Warning</source>
         <translation type="unfinished"></translation>
@@ -2698,6 +3091,9 @@ Benutzeroberläche verwenden</translation>
     </message>
     <message>
         <location filename="../ThumbnailSequence.cpp" line="1405"/>
+=======
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
+>>>>>>> enhanced
         <source>%1 (page %2)</source>
         <translation type="unfinished">%1 (Seite %2)</translation>
     </message>
@@ -2889,6 +3285,7 @@ Benutzeroberläche verwenden</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
@@ -2896,10 +3293,14 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
+>>>>>>> enhanced
         <source>Free</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="70"/>
@@ -2912,10 +3313,15 @@ Benutzeroberläche verwenden</translation>
         <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
         <source>Rectangular</source>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
+        <source>Rectangular</source>
+>>>>>>> enhanced
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="71"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <source>Quadro</source>
@@ -2925,10 +3331,14 @@ Benutzeroberläche verwenden</translation>
 =======
         <source>None</source>
 >>>>>>> origin/enhanced
+=======
+        <source>None</source>
+>>>>>>> enhanced
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="72"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <source>Picture Shape</source>
@@ -2939,6 +3349,8 @@ Benutzeroberläche verwenden</translation>
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <source>LZW</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2960,13 +3372,17 @@ Benutzeroberläche verwenden</translation>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="442"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         <source>Apply Despeckling Level</source>
         <translation>Despeckling-Grad anwenden</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="530"/>
@@ -2976,10 +3392,14 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+>>>>>>> enhanced
         <source>Apply Depth Perception</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="728"/>
@@ -2989,10 +3409,14 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+>>>>>>> enhanced
         <source>Off</source>
         <translation type="unfinished">Aus</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="731"/>
@@ -3002,10 +3426,14 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> enhanced
         <source>Auto</source>
         <translation type="unfinished">Automatisch</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="734"/>
@@ -3015,6 +3443,9 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+>>>>>>> enhanced
         <source>Manual</source>
         <translation type="unfinished">Manuell</translation>
     </message>
@@ -3029,6 +3460,7 @@ Benutzeroberläche verwenden</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="604"/>
 =======
         <location filename="../filters/output/Task.cpp" line="512"/>
@@ -3036,10 +3468,14 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/Task.cpp" line="512"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> enhanced
         <source>Picture zones are only available in Mixed mode.</source>
         <translation>Bildbereiche stehen nur im Gemischten Modus zur Verfügung.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="656"/>
@@ -3049,10 +3485,14 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/Task.cpp" line="564"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> enhanced
         <source>Despeckling can&apos;t be done in Color / Grayscale mode.</source>
         <translation>Despeckling kann im Farb-/Graustufenmodes nicht durchgeführt werden.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="673"/>
@@ -3062,10 +3502,14 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/Task.cpp" line="581"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> enhanced
         <source>Output</source>
         <translation>Ausgabe</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="674"/>
@@ -3075,10 +3519,14 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/Task.cpp" line="582"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> enhanced
         <source>Picture Zones</source>
         <translation>Bildbereiche</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="675"/>
@@ -3088,10 +3536,14 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/Task.cpp" line="583"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> enhanced
         <source>Fill Zones</source>
         <translation>Bereiche füllen</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="676"/>
@@ -3101,10 +3553,14 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/Task.cpp" line="584"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> enhanced
         <source>Dewarping</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="677"/>
@@ -3114,6 +3570,9 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/output/Task.cpp" line="585"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> enhanced
         <source>Despeckling</source>
         <translation>Despeckling</translation>
     </message>
@@ -3161,6 +3620,7 @@ Benutzeroberläche verwenden</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
@@ -3168,10 +3628,20 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+>>>>>>> enhanced
         <source>Apply Margins</source>
         <translation>Ränder übernehmen</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
@@ -3181,6 +3651,15 @@ Benutzeroberläche verwenden</translation>
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+>>>>>>> enhanced
         <source>Apply Alignment</source>
         <translation>Ausrichtung übernehmen</translation>
     </message>

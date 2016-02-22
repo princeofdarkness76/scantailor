@@ -125,6 +125,7 @@ Filter::saveSettings(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	filter_el.setAttribute("pageDetectionBoxWidth", m_ptrSettings->pageDetectionBox().width());
 	filter_el.setAttribute("pageDetectionBoxHeight", m_ptrSettings->pageDetectionBox().height());
@@ -137,6 +138,11 @@ Filter::saveSettings(
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+	filter_el.setAttribute("pageDetectionBoxWidth", m_ptrSettings->pageDetectionBox().width());
+	filter_el.setAttribute("pageDetectionBoxHeight", m_ptrSettings->pageDetectionBox().height());
+	filter_el.setAttribute("pageDetectionTolerance", m_ptrSettings->pageDetectionTolerance());
+>>>>>>> enhanced
 
 	writer.enumPages(
 		bind(
@@ -173,6 +179,7 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     CommandLine cli = CommandLine::get();
 >>>>>>> origin/enhanced
@@ -181,6 +188,9 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+    CommandLine cli = CommandLine::get();
+>>>>>>> enhanced
 
 	QDomElement const filter_el(
 		filters_el.namedItem("select-content").toElement()
@@ -191,10 +201,13 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
     
     if (cli.hasContentDeviation()) {
         m_ptrSettings->setMaxDeviation(cli.getContentDeviation());
@@ -209,12 +222,15 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 	
 	m_ptrSettings->setPageDetectionTolerance(filter_el.attribute("pageDetectionTolerance", "0.1").toDouble());
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 =======
 	m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 
 	QString const page_tag_name("page");
 	QDomNode node(filter_el.firstChild());

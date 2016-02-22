@@ -24,6 +24,15 @@
 #ifndef Q_MOC_RUN
 #include <boost/foreach.hpp>
 #endif
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+#include <cmath>
+#include <iostream>
+=======
+>>>>>>> scantailor/master
+>>>>>>> enhanced
 
 #include <cmath>
 #include <iostream>
@@ -45,6 +54,7 @@ Settings::Settings() :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_sigma(0.0),
 	m_maxDeviation(1.0)
 =======
@@ -57,6 +67,9 @@ Settings::Settings() :
     m_sigma(0.0),
 	m_maxDeviation(1.0)
 >>>>>>> pod/tiff
+=======
+    m_sigma(0.0)
+>>>>>>> enhanced
 {
     m_maxDeviation = CommandLine::get().getSkewDeviation();
 }

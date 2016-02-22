@@ -102,6 +102,7 @@ Task::process(TaskStatus const& status, FilterData const& data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
 	if (params.get() && !params->dependencies().matches(deps) && (params->mode() == MODE_AUTO || params->isPageDetectionEnabled())) {
@@ -115,6 +116,8 @@ Task::process(TaskStatus const& status, FilterData const& data)
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
 
 	if (params.get())
 	{
@@ -133,11 +136,14 @@ Task::process(TaskStatus const& status, FilterData const& data)
 			goto create_new_content;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 	}
 	else
 	{
@@ -145,6 +151,7 @@ create_new_content:
 		QRectF page_rect(data.xform().resultingRect());
 		QRectF content_rect(page_rect);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,6 +188,8 @@ create_new_content:
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
 		if (new_params.isPageDetectionEnabled()) {
 			//std::cout << "PageFinder" << std::endl;
 			page_rect = PageFinder::findPageBox(status, data, new_params.isFineTuningEnabled(), m_ptrSettings->pageDetectionBox(), m_ptrSettings->pageDetectionTolerance(), new_params.pageBorders(), m_ptrDbg.get());
@@ -208,6 +217,9 @@ create_new_content:
 	ui_data.setFineTuneCorners(new_params.isFineTuningEnabled());
 	ui_data.setPageBorders(new_params.pageBorders());
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> enhanced
 
 	new_params.setContentSizeMM(ui_data.contentSizeMM());
 
@@ -232,6 +244,7 @@ create_new_content:
 		page_rect = PageFinder::findPageBox(status, data, new_params.isFineTuningEnabled(), m_ptrSettings->pageDetectionBox(), m_ptrSettings->pageDetectionTolerance(), new_params.pageBorders(), m_ptrDbg.get());
 	}
 	new_params.setPageRect(page_rect);
+<<<<<<< HEAD
 
 	QRectF content_rect(page_rect);
 	if (new_params.isContentDetectionEnabled() && new_params.mode() == MODE_AUTO) {
@@ -322,6 +335,32 @@ create_new_content:
 =======
 
 >>>>>>> pod/tiff
+=======
+
+	QRectF content_rect(page_rect);
+	if (new_params.isContentDetectionEnabled() && new_params.mode() == MODE_AUTO) {
+		content_rect = ContentBoxFinder::findContentBox(status, data, page_rect, m_ptrDbg.get());
+	} else if (params.get() && new_params.isContentDetectionEnabled() && new_params.mode() == MODE_MANUAL) {
+		std::cout << "params->contentRect()" << std::endl;
+		content_rect = params->contentRect();
+	}
+	new_params.setContentRect(content_rect);
+
+	ui_data.setContentRect(content_rect);
+	ui_data.setPageRect(page_rect);
+	ui_data.setDependencies(deps);
+	ui_data.setMode(new_params.mode());
+	ui_data.setContentDetection(new_params.isContentDetectionEnabled());
+	ui_data.setPageDetection(new_params.isPageDetectionEnabled());
+	ui_data.setFineTuneCorners(new_params.isFineTuningEnabled());
+    ui_data.setPageBorders(new_params.pageBorders());
+
+	new_params.setContentSizeMM(ui_data.contentSizeMM());
+
+	new_params.computeDeviation(m_ptrSettings->avg());
+	m_ptrSettings->setPageParams(m_pageId, new_params);
+*/
+>>>>>>> enhanced
 	/*
 	if (params.get()) {
 		ui_data.setContentRect(params->contentRect());
@@ -370,6 +409,7 @@ create_new_content:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			page_rect, ui_data.contentRect()
 =======
 			ui_data.pageRect(), ui_data.contentRect()
@@ -380,6 +420,9 @@ create_new_content:
 =======
 			page_rect, ui_data.contentRect()
 >>>>>>> pod/tiff
+=======
+			ui_data.pageRect(), ui_data.contentRect()
+>>>>>>> enhanced
 		);
 	} else {
 		return FilterResultPtr(
