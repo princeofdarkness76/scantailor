@@ -36,6 +36,7 @@ namespace output
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,6 +125,9 @@ namespace output
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
+>>>>>>> origin/enhanced
 
 class Params
 {
@@ -230,6 +234,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +285,8 @@ public:
 >>>>>>> pod/tiff
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
 	void setColorParams(ColorParams const& params) { m_colorParams = params; }
 
 	DewarpingMode const& dewarpingMode() const { return m_dewarpingMode; }
@@ -307,6 +314,7 @@ private:
 	static QString formatColorMode(ColorParams::ColorMode mode);
 	
 	ColorParams m_colorParams;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,6 +404,9 @@ private:
 	PictureShape m_pictureShape;
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	PictureShape m_pictureShape;
+>>>>>>> origin/enhanced
 	dewarping::DistortionModel m_distortionModel;
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;

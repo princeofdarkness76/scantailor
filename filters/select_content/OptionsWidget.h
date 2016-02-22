@@ -89,6 +89,10 @@ public:
 		bool m_pageDetection;
 		bool m_fineTuneCorners;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        Margins m_borders;
+>>>>>>> origin/enhanced
 =======
         Margins m_borders;
 >>>>>>> origin/enhanced
@@ -111,6 +115,11 @@ private slots:
 
 	void modeChanged(bool auto_mode);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	void autoMode();
+	void manualMode();
+>>>>>>> origin/enhanced
 =======
 	void autoMode();
 	void manualMode();
@@ -120,6 +129,11 @@ private slots:
 	void pageDetectionDisabled(void);
 	void pageDetectionEnabled(void);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+    void borderChanged();
+>>>>>>> origin/enhanced
 =======
     
     void borderChanged();

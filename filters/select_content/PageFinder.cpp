@@ -48,6 +48,7 @@ using namespace imageproc;
 QRectF
 PageFinder::findPageBox(
 <<<<<<< HEAD
+<<<<<<< HEAD
 	TaskStatus const& status, FilterData const& data, bool fine_tune, DebugImages* dbg)
 {
 	ImageTransformation xform_150dpi(data.xform());
@@ -57,6 +58,8 @@ PageFinder::findPageBox(
 		return QRectF();
 	}
 =======
+=======
+>>>>>>> origin/enhanced
 	TaskStatus const& status, FilterData const& data, bool fine_tune, QSizeF const& box, double tolerance, Margins borders, DebugImages* dbg)
 {
 	ImageTransformation xform_150dpi(data.xform());
@@ -75,6 +78,9 @@ PageFinder::findPageBox(
 	std::cout << "tolerance: " << tolerance << std::endl;
 	std::cout << "exp_width = " << exp_width << "; exp_height" << exp_height << std::endl;
 #endif
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 	
 	uint8_t const darkest_gray_level = darkestGrayLevel(data.grayImage());
@@ -95,6 +101,7 @@ PageFinder::findPageBox(
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	BinaryImage bw150(peakThreshold(gray150));
 	//BinaryImage bw150(binarizeOtsu(gray150));
 	if (dbg) {
@@ -107,6 +114,8 @@ PageFinder::findPageBox(
 		fineTuneCorners(bwimg, content_rect);
 	
 =======
+=======
+>>>>>>> origin/enhanced
 
 	std::vector<QRect> rects;
 	std::vector<BinaryImage> bwimages;
@@ -183,13 +192,22 @@ PageFinder::findPageBox(
     content_rect.setTop( content_rect.top() + to150 * borders.top() );
     content_rect.setRight( content_rect.right() - to150 * borders.right() );
     content_rect.setBottom( content_rect.bottom() - to150 * borders.bottom() );
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 
 	// Transform back from 150dpi.
 	QTransform combined_xform(xform_150dpi.transform().inverted());
 	combined_xform *= data.xform().transform();
 <<<<<<< HEAD
+<<<<<<< HEAD
 	return combined_xform.map(QRectF(content_rect)).boundingRect();
+=======
+	QRectF result = combined_xform.map(QRectF(content_rect)).boundingRect();
+
+    return result;
+>>>>>>> origin/enhanced
 =======
 	QRectF result = combined_xform.map(QRectF(content_rect)).boundingRect();
 
@@ -202,15 +220,21 @@ PageFinder::detectBorders(QImage const& img)
 {
 	int l=0, t=0, r=img.width()-1, b=img.height()-1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	int xmid = int(double(r) * 0.382);
 	int ymid = int(double(b) * 0.382);
 =======
+=======
+>>>>>>> origin/enhanced
 	int xmid = r / 2;
 	int ymid = b / 2;
 	/*
 	int xmid = int(double(r) * 0.382);
 	int ymid = int(double(b) * 0.382);
 	*/
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 
 	l = detectEdge(img, l, r, 1, ymid, Qt::Horizontal);
@@ -231,20 +255,27 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 	int gap=0;
 	int i=start, edge=start;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	int ms = mid - int(double(mid) / 4.0);
 	int me = mid + int(double(mid) / 4.0);
 	int min_bp = int(double(me-ms) * 0.8);
 =======
+=======
+>>>>>>> origin/enhanced
 	//int ms = mid - int(double(mid) / 4.0);
 	//int me = mid + int(double(mid) / 4.0);
 	int ms = 0;
 	int me = 2 * mid;
 	int min_bp = int(double(me-ms) * 0.95);
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 	Qt::GlobalColor black = Qt::color1;
 
 	while (i != end) {
 		int black_pixels=0;
+<<<<<<< HEAD
 <<<<<<< HEAD
 	    int old_gap=gap;
 
@@ -257,6 +288,8 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 				++black_pixels;
 	    }
 =======
+=======
+>>>>>>> origin/enhanced
 		int old_gap=gap;
 
 		// count black pixels on the edge around given point
@@ -267,6 +300,9 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 			if (pixel == black)
 				++black_pixels;
 		}
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 
 		if (black_pixels < min_bp) {
@@ -277,15 +313,21 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	    if (gap > min_size)
 	        break;
 
 	    i += inc;
 =======
+=======
+>>>>>>> origin/enhanced
 		if (gap > min_size)
 			break;
 
 		i += inc;
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 	}
 
@@ -293,6 +335,7 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 }
 
 void
+<<<<<<< HEAD
 <<<<<<< HEAD
 PageFinder::fineTuneCorners(QImage const& img, QRect &rect)
 {
@@ -303,6 +346,8 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect)
 	fineTuneCorner(img, l, b, 1, -1);
 	fineTuneCorner(img, r, b, -1, -1);
 =======
+=======
+>>>>>>> origin/enhanced
 PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, double tolerance)
 {
 	int l=rect.left(), t=rect.top(), r=rect.right(), b=rect.bottom();
@@ -314,6 +359,9 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, d
 		done &= fineTuneCorner(img, l, b, r, t, 1, -1, size, tolerance);
 		done &= fineTuneCorner(img, r, b, l, t, -1, -1, size, tolerance);
 	}
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 
 	rect.setLeft(l);
@@ -325,6 +373,7 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, d
 /**
  * shift edges until given corner is out of black
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 void
 PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int inc_x, int inc_y)
@@ -340,6 +389,8 @@ PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int inc_x, int inc
 	    y = ty;
 	}
 =======
+=======
+>>>>>>> origin/enhanced
 bool
 PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int max_x, int max_y, int inc_x, int inc_y, QSize const& size, double tolerance)
 {
@@ -362,6 +413,9 @@ PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int max_x, int max
 		y = ty;
 	//}
 	return false;
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 }
 

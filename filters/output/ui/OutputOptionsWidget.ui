@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,6 +102,10 @@
     <height>789</height>
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+    <width>269</width>
+    <height>789</height>
+>>>>>>> origin/enhanced
    </rect>
   </property>
   <property name="windowTitle">
@@ -415,6 +420,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -507,6 +513,9 @@
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> origin/enhanced
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_14">
            <item>
@@ -523,6 +532,7 @@
             </spacer>
            </item>
            <item>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -611,6 +621,9 @@
             <widget class="QLabel" name="label">
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+            <widget class="QLabel" name="label">
+>>>>>>> origin/enhanced
              <property name="text">
               <string>Picture Shape</string>
              </property>
@@ -1044,6 +1057,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/homebrew-formulae
 =======
@@ -1132,6 +1146,8 @@
 =======
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> origin/enhanced
     <widget class="QWidget" name="pictureShapeOptions_2" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_10">
       <item>
@@ -1212,6 +1228,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1260,6 +1277,8 @@
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
     <spacer name="verticalSpacer">

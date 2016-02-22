@@ -32,6 +32,7 @@ namespace output
 
 Params::Params()
 <<<<<<< HEAD
+<<<<<<< HEAD
 :	m_dpi(600, 600),
 	m_despeckleLevel(DESPECKLE_CAUTIOUS),
 <<<<<<< HEAD
@@ -129,6 +130,11 @@ Params::Params()
 	m_pictureShape(FREE_SHAPE)
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+:	m_dpi(CommandLine::get().getDefaultOutputDpi()),
+	m_despeckleLevel(DESPECKLE_CAUTIOUS),
+	m_pictureShape(FREE_SHAPE)
+>>>>>>> origin/enhanced
 {
 }
 
@@ -137,6 +143,7 @@ Params::Params(QDomElement const& el)
 	m_distortionModel(el.namedItem("distortion-model").toElement()),
 	m_depthPerception(el.attribute("depthPerception")),
 	m_dewarpingMode(el.attribute("dewarpingMode")),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,6 +243,10 @@ Params::Params(QDomElement const& el)
 	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
+	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
+>>>>>>> origin/enhanced
 {
 	QDomElement const cp(el.namedItem("color-params").toElement());
 	m_colorParams.setColorMode(parseColorMode(cp.attribute("colorMode")));
@@ -256,6 +267,7 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 	
 	QDomElement el(doc.createElement(name));
 	el.appendChild(m_distortionModel.toXml(doc, "distortion-model"));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -347,6 +359,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 	el.setAttribute("pictureShape", (int)m_pictureShape);
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	el.setAttribute("pictureShape", (int)m_pictureShape);
+>>>>>>> origin/enhanced
 	el.setAttribute("depthPerception", m_depthPerception.toString());
 	el.setAttribute("dewarpingMode", m_dewarpingMode.toString());
 	el.setAttribute("despeckleLevel", despeckleLevelToString(m_despeckleLevel));

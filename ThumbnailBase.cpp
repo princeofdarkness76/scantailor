@@ -228,6 +228,7 @@ ThumbnailBase::paint(QPainter* painter,
 void ThumbnailBase::paintDeviant(QPainter &painter)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	QPen pen(QColor(0xff, 0x00, 0x00, 0x99));
 	pen.setWidth(1);
 	pen.setCosmetic(true);
@@ -237,6 +238,8 @@ void ThumbnailBase::paintDeviant(QPainter &painter)
 
 	painter.drawRect(boundingRect());
 =======
+=======
+>>>>>>> origin/enhanced
 	QPen pen(QColor(0xdd, 0x00, 0x00, 0xee));
 	pen.setWidth(5);
 	pen.setCosmetic(true);
@@ -253,6 +256,9 @@ void ThumbnailBase::paintDeviant(QPainter &painter)
     //painter.drawLine(boundingRect().left(), boundingRect().bottom(), boundingRect().right(), boundingRect().top());
     painter.drawText(boundingRect(), Qt::AlignCenter, "*");
 	//painter.drawRect(boundingRect());
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 }
 

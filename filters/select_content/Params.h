@@ -44,6 +44,9 @@ public:
 	Params(QRectF const& rect, QSizeF const& size_mm,
 		Dependencies const& deps, AutoManualMode mode, bool contentDetect, bool pageDetect, bool fineTuning);
 	
+	Params(QRectF const& rect, QSizeF const& size_mm,
+		Dependencies const& deps, AutoManualMode mode, bool contentDetect, bool pageDetect, bool fineTuning);
+	
 	Params(Dependencies const& deps);
 	
 	Params(QDomElement const& filter_el);
@@ -62,7 +65,11 @@ public:
 	double deviation() const { return m_deviation; }
 	void setDeviation(double d) { m_deviation = d; }
 <<<<<<< HEAD
+<<<<<<< HEAD
 	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height()); }
+=======
+	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height() / 4); }
+>>>>>>> origin/enhanced
 =======
 	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height() / 4); }
 >>>>>>> origin/enhanced
@@ -72,6 +79,12 @@ public:
 	bool isPageDetectionEnabled() const { return m_pageDetect; };
 	bool isFineTuningEnabled() const { return m_fineTuneCorners; };
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+    Margins pageBorders() const { return m_pageBorders; };
+    void setPageBorders(Margins borders) { m_pageBorders = borders; };
+>>>>>>> origin/enhanced
 =======
     
     Margins pageBorders() const { return m_pageBorders; };
@@ -92,6 +105,10 @@ private:
 	QRectF m_contentRect;
 	QRectF m_pageRect;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    Margins m_pageBorders;
+>>>>>>> origin/enhanced
 =======
     Margins m_pageBorders;
 >>>>>>> origin/enhanced

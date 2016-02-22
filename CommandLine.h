@@ -49,6 +49,10 @@ namespace page_layout {
     class Alignment;
 }
 
+namespace page_layout {
+    class Alignment;
+}
+
 /**
  * CommandLine is a singleton simulation.
  * use CommandLine::get() to get access to global class
@@ -64,7 +68,11 @@ public:
 	static void set(CommandLine const& cl);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false) { CommandLine::parseCli(argv); }
+=======
+	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false), m_defaultNull(false) { CommandLine::parseCli(argv); }
+>>>>>>> origin/enhanced
 =======
 	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false), m_defaultNull(false) { CommandLine::parseCli(argv); }
 >>>>>>> origin/enhanced
@@ -81,23 +89,30 @@ public:
 	bool isContentDetectionEnabled() const { return !contains("disable-content-detection"); };
 	bool isPageDetectionEnabled() const { return contains("enable-page-detection"); };
 <<<<<<< HEAD
+<<<<<<< HEAD
 	bool isFineTuningEnabled() const { return contains("enable-fine-tuning"); };
 	bool isAutoMarginsEnabled() const { return contains("enable-auto-margins"); };
 
 	bool hasMargins() const;
 =======
+=======
+>>>>>>> origin/enhanced
 	bool isForcePageDetectionDisabled() const { return contains("force-disable-page-detection"); };
 	bool isFineTuningEnabled() const { return contains("enable-fine-tuning"); };
 	bool isAutoMarginsEnabled() const { return contains("enable-auto-margins"); };
 
 	bool hasMargins(QString base="margins") const;
     bool hasPageBorders() const { return hasMargins("page-borders"); };
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 	bool hasAlignment() const;
 	bool hasOutputDpi() const;
 	bool hasLanguage() const;
 
 	bool hasHelp() const { return contains("help"); }
+<<<<<<< HEAD
 <<<<<<< HEAD
 	bool hasOutputProject() const { return contains("output-project"); }
 	bool hasLayout() const { return contains("layout"); }
@@ -201,6 +216,8 @@ public:
 	bool hasPictureShape() const { return contains("picture-shape"); }
 >>>>>>> pod/tiff
 =======
+=======
+>>>>>>> origin/enhanced
 	bool hasOutputProject() const { return contains("output-project") && !m_options["output-project"].isEmpty(); }
 	bool hasLayout() const { return contains("layout") && !m_options["layout"].isEmpty(); }
 	bool hasLayoutDirection() const { return contains("layout-direction") && !m_options["layout-direction"].isEmpty(); }
@@ -217,18 +234,24 @@ public:
 	bool hasColorMode() const { return contains("color-mode") && !m_options["color-mode"].isEmpty(); }
 	bool hasDefaultColorMode() const { return contains("default-color-mode") && !m_options["default-color-mode"].isEmpty(); }
 	bool hasPictureShape() const { return contains("picture-shape") && !m_options["picture-shape"].isEmpty(); }
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> origin/enhanced
 	bool hasWhiteMargins() const { return contains("white-margins"); }
 	bool hasNormalizeIllumination() const { return contains("normalize-illumination"); }
 	bool hasThreshold() const { return contains("threshold") && !m_options["threshold"].isEmpty(); }
 	bool hasDespeckle() const { return contains("despeckle") && !m_options["despeckle"].isEmpty(); }
 	bool hasDewarping() const { return contains("dewarping"); }
 <<<<<<< HEAD
+<<<<<<< HEAD
 	bool hasMatchLayoutTolerance() const { return contains("match-layout-tolerance"); }
 	bool hasDepthPerception() const { return contains("depth-perception"); }
 	bool hasTiffCompression() const { return contains("tiff-compression"); }
 =======
+=======
+>>>>>>> origin/enhanced
 	bool hasMatchLayoutTolerance() const { return contains("match-layout-tolerance") && !m_options["match-layout-tolerance"].isEmpty(); }
 	bool hasDepthPerception() const { return contains("depth-perception") && !m_options["depth-perception"].isEmpty(); }
 	bool hasTiffCompression() const { return contains("tiff-compression") && !m_options["tiff-compression"].isEmpty(); }
@@ -239,11 +262,15 @@ public:
 	bool hasPageDetectionBox() const { return contains("page-detection-box") && !m_options["page-detection-box"].isEmpty(); }
 	bool hasPageDetectionTolerance() const { return contains("page-detection-tolerance") && !m_options["page-detection-tolerance"].isEmpty(); }
  	bool hasDisableCheckOutput() const { return contains("disable-check-output"); }
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 
 	page_split::LayoutType getLayout() const { return m_layoutType; }
 	Qt::LayoutDirection getLayoutDirection() const { return m_layoutDirection; }
 	output::ColorParams::ColorMode getColorMode() const { return m_colorMode; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,6 +363,10 @@ public:
 	output::PictureShape getPictureShape() const { return m_pictureShape; }
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	output::ColorParams::ColorMode getDefaultColorMode() const { return m_defaultColorMode; }
+	output::PictureShape getPictureShape() const { return m_pictureShape; }
+>>>>>>> origin/enhanced
 	Dpi getInputDpi() const { return m_dpi; }
 	Dpi getOutputDpi() const { return m_outputDpi; }
     Dpi getDefaultOutputDpi() const { return m_defaultOutputDpi; }
@@ -350,6 +381,10 @@ public:
 	int getThreshold() const { return m_threshold; }
 	double getDeskewAngle() const { return m_deskewAngle; }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	AutoManualMode getDeskewMode() const { return m_deskewMode; }
+>>>>>>> origin/enhanced
 =======
 	AutoManualMode getDeskewMode() const { return m_deskewMode; }
 >>>>>>> origin/enhanced
@@ -362,12 +397,18 @@ public:
 	float getMatchLayoutTolerance() const { return m_matchLayoutTolerance; }
 	int getTiffCompression() const { return m_compression; }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
 	QString getLanguage() const { return m_language; }
 	QString getWindowTitle() const { return m_windowTitle; }
 	QSizeF getPageDetectionBox() const { return m_pageDetectionBox; }
 	double getPageDetectionTolerance() const { return m_pageDetectionTolerance; }
     bool getDefaultNull() const { return m_defaultNull; }
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 
 	bool help() { return m_options.contains("help"); }
@@ -401,6 +442,7 @@ private:
 	page_split::LayoutType m_layoutType;
 	Qt::LayoutDirection m_layoutDirection;
 	output::ColorParams::ColorMode m_colorMode;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -493,6 +535,10 @@ private:
 	output::PictureShape m_pictureShape;
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	output::ColorParams::ColorMode m_defaultColorMode;
+	output::PictureShape m_pictureShape;
+>>>>>>> origin/enhanced
 	Dpi m_dpi;
 	Dpi m_outputDpi;
     Dpi m_defaultOutputDpi;
@@ -507,6 +553,10 @@ private:
 	int m_threshold;
 	double m_deskewAngle;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	AutoManualMode m_deskewMode;
+>>>>>>> origin/enhanced
 =======
 	AutoManualMode m_deskewMode;
 >>>>>>> origin/enhanced
@@ -524,6 +574,7 @@ private:
 	void setup();
 	page_split::LayoutType fetchLayoutType();
 	output::ColorParams::ColorMode fetchColorMode();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,6 +667,10 @@ private:
 	output::PictureShape fetchPictureShape();
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	output::ColorParams::ColorMode fetchDefaultColorMode();
+	output::PictureShape fetchPictureShape();
+>>>>>>> origin/enhanced
 	Qt::LayoutDirection fetchLayoutDirection();
 	Dpi fetchDpi(QString oname="dpi");
 	Margins fetchMargins(QString base="margins", Margins def=Margins(10.0, 5.0, 10.0, 5.0));
@@ -629,6 +684,10 @@ private:
 	int fetchThreshold();
 	double fetchDeskewAngle();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	AutoManualMode fetchDeskewMode();
+>>>>>>> origin/enhanced
 =======
 	AutoManualMode fetchDeskewMode();
 >>>>>>> origin/enhanced
@@ -641,12 +700,18 @@ private:
 	float fetchMatchLayoutTolerance();
 	int fetchCompression() const;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
 	QString fetchLanguage() const;
 	QString fetchWindowTitle() const;
 	QSizeF fetchPageDetectionBox() const;
 	double fetchPageDetectionTolerance() const;
     bool fetchDefaultNull();
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 };
 

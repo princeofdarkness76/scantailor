@@ -47,8 +47,12 @@ MACRO (TODAY RESULT)
     IF (WIN32)
         EXECUTE_PROCESS(COMMAND "date" "/T" OUTPUT_VARIABLE ${RESULT})
 <<<<<<< HEAD
+<<<<<<< HEAD
         string(REGEX REPLACE "(..)/(..)/..(..).*" "\\3\\2\\1"
 ${RESULT} ${${RESULT}})
+=======
+        #string(REGEX REPLACE "(..)/(..)/..(..).*" "\\3\\2\\1" ${RESULT} ${${RESULT}})
+>>>>>>> origin/enhanced
 =======
         #string(REGEX REPLACE "(..)/(..)/..(..).*" "\\3\\2\\1" ${RESULT} ${${RESULT}})
 >>>>>>> origin/enhanced

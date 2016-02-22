@@ -74,6 +74,10 @@ CommandLine::parseCli(QStringList const& argv)
 	opts << "enable-page-detection";
 	opts << "enable-fine-tuning";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	opts << "force-disable-page-detection";
+>>>>>>> origin/enhanced
 =======
 	opts << "force-disable-page-detection";
 >>>>>>> origin/enhanced
@@ -87,9 +91,12 @@ CommandLine::parseCli(QStringList const& argv)
 	opts << "margins-top";
 	opts << "margins-bottom";
 <<<<<<< HEAD
+<<<<<<< HEAD
 	opts << "match-layout";
 	opts << "match-layout-tolerance";
 =======
+=======
+>>>>>>> origin/enhanced
 	opts << "default-margins";
 	opts << "default-margins-left";
 	opts << "default-margins-right";
@@ -98,6 +105,9 @@ CommandLine::parseCli(QStringList const& argv)
 	opts << "match-layout";
 	opts << "match-layout-tolerance";
 	opts << "match-layout-default";
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 	opts << "alignment";
 	opts << "alignment-vertical";
@@ -121,7 +131,10 @@ CommandLine::parseCli(QStringList const& argv)
 	opts << "output-project";
 	opts << "tiff-compression";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
 	opts << "picture-shape";
  	opts << "language";
 	opts << "disable-content-text-mask";
@@ -139,6 +152,9 @@ CommandLine::parseCli(QStringList const& argv)
 	opts << "tiff-force-rgb";
 	opts << "tiff-force-grayscale";
 	opts << "tiff-force-keep-color-space";
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 
 	QMap<QString, QString> shortMap;
@@ -229,8 +245,13 @@ CommandLine::parseCli(QStringList const& argv)
 #ifdef DEBUG
 	QStringList params = m_options.keys();
 <<<<<<< HEAD
+<<<<<<< HEAD
 	for (int i=0; i<params.size(); i++) { std::cout << params[i].toAscii().constData() << "=" << m_options.value(params[i]).toAscii().constData() << "\n"; }
 	std::cout << "Images: " << CommandLine::m_images.size() << "\n";
+=======
+	for (int i=0; i<params.size(); i++) { std::cout << params[i].toAscii().constData() << "=" << m_options[params[i]].toAscii().constData() << std::endl; }
+	std::cout << "Images: " << CommandLine::m_images.size() << std::endl;
+>>>>>>> origin/enhanced
 =======
 	for (int i=0; i<params.size(); i++) { std::cout << params[i].toAscii().constData() << "=" << m_options[params[i]].toAscii().constData() << std::endl; }
 	std::cout << "Images: " << CommandLine::m_images.size() << std::endl;
@@ -255,6 +276,7 @@ CommandLine::setup()
 	m_layoutType = fetchLayoutType();
 	m_layoutDirection = fetchLayoutDirection();
 	m_colorMode = fetchColorMode();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -347,6 +369,10 @@ CommandLine::setup()
 	m_pictureShape = fetchPictureShape();
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	m_defaultColorMode = fetchDefaultColorMode();
+	m_pictureShape = fetchPictureShape();
+>>>>>>> origin/enhanced
 	m_dpi = fetchDpi();
 	m_outputDpi = fetchDpi("output-dpi");
     m_defaultOutputDpi = fetchDpi("default-output-dpi");
@@ -361,6 +387,10 @@ CommandLine::setup()
 	m_threshold = fetchThreshold();
 	m_deskewAngle = fetchDeskewAngle();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	m_deskewMode = fetchDeskewMode();
+>>>>>>> origin/enhanced
 =======
 	m_deskewMode = fetchDeskewMode();
 >>>>>>> origin/enhanced
@@ -371,7 +401,10 @@ CommandLine::setup()
 	m_dewarpingMode = fetchDewarpingMode();
 	m_compression = fetchCompression();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
 	m_language = fetchLanguage();
 	m_windowTitle = fetchWindowTitle();
 	m_pageDetectionBox = fetchPageDetectionBox();
@@ -396,6 +429,9 @@ CommandLine::setup()
 		ImageFileInfo image_info(m_files[i], vMetadata);
 		m_images.push_back(image_info);
 	}
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 }
 
@@ -403,6 +439,7 @@ CommandLine::setup()
 void
 CommandLine::printHelp()
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 	std::cout << "\n";
 	std::cout << "Scan Tailor is a post-processing tool for scanned pages." << "\n";
@@ -567,6 +604,8 @@ CommandLine::printHelp()
 	std::cout << "\t--tiff-compression=<lzw|deflate|packbits|jpeg|none>\t-- default: lzw" << "\n";
 	std::cout << "\n";
 =======
+=======
+>>>>>>> origin/enhanced
 	std::cout << std::endl;
 	std::cout << "Scan Tailor is a post-processing tool for scanned pages." << std::endl;    
 	std::cout << "Version: " << VERSION << std::endl;
@@ -658,6 +697,9 @@ CommandLine::printHelp()
 	std::cout << "\t\t--page-detection-tolerance=<0.0..1.0>\t-- default: 0.1" << std::endl;
     std::cout << "\t--disable-check-output\t\t\t-- don't check if page is valid when switching to step 6";
 	std::cout << std::endl;
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 }
 
@@ -718,8 +760,11 @@ output::ColorParams::ColorMode
 CommandLine::fetchColorMode()
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	QString cm = m_options.value("color-mode").toLower();
 =======
+=======
+>>>>>>> origin/enhanced
 	if (! hasColorMode())
 		return output::ColorParams::BLACK_AND_WHITE;
 	
@@ -887,6 +932,36 @@ CommandLine::fetchPictureShape()
 	return output::FREE_SHAPE;
 }
 
+output::ColorParams::ColorMode
+CommandLine::fetchDefaultColorMode()
+{
+	if (! hasDefaultColorMode())
+		return output::ColorParams::BLACK_AND_WHITE;
+	
+	QString cm = m_options["default-color-mode"].toLower();
+	
+	if (cm == "color_grayscale")
+		return output::ColorParams::COLOR_GRAYSCALE;
+	else if (cm == "mixed")
+		return output::ColorParams::MIXED;
+
+	return output::ColorParams::BLACK_AND_WHITE;
+}
+
+output::PictureShape
+CommandLine::fetchPictureShape()
+{
+	if (! hasPictureShape())
+		return output::FREE_SHAPE;
+	
+	QString ps = m_options["picture-shape"].toLower();
+	
+	if (ps == "rectangular")
+		return output::RECTANGULAR_SHAPE;
+
+	return output::FREE_SHAPE;
+}
+
 
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
@@ -904,8 +979,13 @@ CommandLine::fetchMargins(QString base, Margins def)
 	Margins margins(def);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if (m_options.contains("margins")) {
 		double m = m_options.value("margins").toDouble();
+=======
+	if (m_options.contains(base)) {
+		double m = m_options[base].toDouble();
+>>>>>>> origin/enhanced
 =======
 	if (m_options.contains(base)) {
 		double m = m_options[base].toDouble();
@@ -915,6 +995,7 @@ CommandLine::fetchMargins(QString base, Margins def)
 		margins.setLeft(m);
 		margins.setRight(m);
 	}
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 	if (m_options.contains("margins-left"))
@@ -926,6 +1007,8 @@ CommandLine::fetchMargins(QString base, Margins def)
 	if (m_options.contains("margins-bottom"))
 		margins.setBottom(m_options.value("margins-bottom").toFloat());
 =======
+=======
+>>>>>>> origin/enhanced
     
     QString lstr = base + "-left",
             tstr = base + "-top",
@@ -941,6 +1024,9 @@ CommandLine::fetchMargins(QString base, Margins def)
 		margins.setTop(m_options[tstr].toFloat());
 	if (m_options.contains(bstr))
 		margins.setBottom(m_options[bstr].toFloat());
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 
 	return margins;
@@ -954,15 +1040,21 @@ CommandLine::fetchAlignment()
 
 	if (m_options.contains("match-layout")) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if (m_options["match-layout"] == "false") alignment.setNull(true);
 		if (m_options["match-layout"] == "true") alignment.setNull(false);
 =======
+=======
+>>>>>>> origin/enhanced
         m_defaultNull = false;
 		if (m_options["match-layout"] == "false") alignment.setNull(true);
 		if (m_options["match-layout"] == "true") {
             alignment.setNull(false);
             m_defaultNull = true;
         }
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 	}
 
@@ -1009,9 +1101,12 @@ CommandLine::fetchContentDetection()
 	Despeckle::Level level = Despeckle::NORMAL;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if (m_options.value("content-detection") != "") {
 		QString cm = m_options.value("content-detection").toLower();
 =======
+=======
+>>>>>>> origin/enhanced
 	if (hasContentDetection()) {
 		QString cm = m_options["content-detection"].toLower();
 >>>>>>> origin/enhanced
@@ -1037,7 +1132,11 @@ CommandLine::fetchContentRect()
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	std::cout << "invalid --content-box=" << m_options.value("content-box").toAscii().constData() << "\n";
+=======
+	std::cout << "invalid --content-box=" << m_options["content-box"].toAscii().constData() << std::endl;
+>>>>>>> origin/enhanced
 =======
 	std::cout << "invalid --content-box=" << m_options["content-box"].toAscii().constData() << std::endl;
 >>>>>>> origin/enhanced
@@ -1071,7 +1170,11 @@ CommandLine::fetchOrientation()
 		orient = UPSIDEDOWN;
 	} else {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		std::cout << "Wrong orientation " << m_options.value("orientation").toAscii().constData() << "\n";
+=======
+		std::cout << "Wrong orientation " << m_options["orientation"].toAscii().constData() << std::endl;
+>>>>>>> origin/enhanced
 =======
 		std::cout << "Wrong orientation " << m_options["orientation"].toAscii().constData() << std::endl;
 >>>>>>> origin/enhanced
@@ -1114,6 +1217,22 @@ CommandLine::fetchSkewDeviation()
 {
 	if (!hasSkewDeviation())
 		return 0.0;
+
+	return m_options["skew-deviation"].toDouble();
+}
+
+AutoManualMode CommandLine::fetchDeskewMode()
+{
+	if (!hasDeskew())
+		return MODE_AUTO;
+	return (m_options["deskew"].toLower() == "manual") ? MODE_MANUAL : MODE_AUTO;
+}
+
+double
+CommandLine::fetchSkewDeviation()
+{
+	if (!hasSkewDeviation())
+		return 5.0;
 
 	return m_options["skew-deviation"].toDouble();
 }
@@ -1199,6 +1318,18 @@ CommandLine::fetchMatchLayoutTolerance()
 	return m_options["match-layout-tolerance"].toFloat();
 }
 
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+float
+CommandLine::fetchMatchLayoutTolerance()
+{
+	if (! hasMatchLayoutTolerance())
+		return 0.2;
+
+	return m_options["match-layout-tolerance"].toFloat();
+}
+
 >>>>>>> origin/enhanced
 
 bool
@@ -1238,6 +1369,84 @@ CommandLine::hasOutputDpi() const
 bool CommandLine::hasLanguage() const
 {
 	return m_options.contains("language");
+<<<<<<< HEAD
+=======
+}
+
+int
+CommandLine::fetchCompression() const
+{
+	if (!m_options.contains("tiff-compression"))
+	    return COMPRESSION_LZW;
+	
+	QString c(m_options["tiff-compression"].toLower());
+	if (c == "lzw")
+	    return COMPRESSION_LZW;
+	else if (c == "none")
+	    return COMPRESSION_NONE;
+	else if (c == "jpeg")
+	    return COMPRESSION_JPEG;	
+	else if (c == "deflate")
+	    return COMPRESSION_DEFLATE;	
+	else if (c == "packbits")
+	    return COMPRESSION_PACKBITS;
+	
+	std::cout << "Unknown compression" << std::endl;
+    throw("Unknown compression");
+}
+
+QString CommandLine::fetchLanguage() const
+{
+	if (hasLanguage()) {
+		return m_options["language"];
+	}
+    
+    return "untranslated";
+}
+
+QString CommandLine::fetchWindowTitle() const
+{
+    if (hasWindowTitle()) {
+        return m_options["window-title"];
+    }
+    
+    return "";
+}
+
+QSizeF CommandLine::fetchPageDetectionBox() const
+{
+    if (! hasPageDetectionBox()) {
+        return QSizeF();
+    }
+    
+    QRegExp rx("([\\d\\.]+)x([\\d\\.]+)");
+	if (rx.exactMatch(m_options["page-detection-box"])) {
+		return QSizeF(rx.cap(1).toFloat(), rx.cap(2).toFloat());
+	}
+    
+    std::cout << "invalid --page-detection-box=" << m_options["page-detection-box"].toAscii().constData() << std::endl;
+    exit(1);    
+}
+
+double CommandLine::fetchPageDetectionTolerance() const
+{
+    if (hasPageDetectionTolerance()) {
+        return m_options["page-detection-tolerance"].toFloat();
+    }
+    
+    return 0.1;
+}
+
+bool CommandLine::fetchDefaultNull() 
+{
+    m_defaultNull = false;
+    
+    if (contains("match-layout-default") && m_options["match-layout-default"] == "false") {
+        m_defaultNull = true;
+    }
+    
+    return m_defaultNull;
+>>>>>>> origin/enhanced
 }
 
 int

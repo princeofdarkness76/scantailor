@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,5 +120,9 @@
 #define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+#define VERSION __DATE__
+#define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
+>>>>>>> origin/enhanced
 
 #endif

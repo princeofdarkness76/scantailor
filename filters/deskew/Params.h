@@ -25,6 +25,12 @@
 #include <cmath>
 #include <algorithm>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#include "CommandLine.h"
+class CommandLine;
+>>>>>>> origin/enhanced
 =======
 
 #include "CommandLine.h"
@@ -55,7 +61,11 @@ public:
 	void computeDeviation(double avg) { m_deviation = avg - m_deskewAngleDeg; }
 	// check if skew is too large
 <<<<<<< HEAD
+<<<<<<< HEAD
 	bool isDeviant(double std, double max_dev=1.0) const { return std::max(1.5*std, max_dev) < fabs(m_deviation); }
+=======
+	bool isDeviant(double std, double max_dev=CommandLine::get().getSkewDeviation()) const { return std::max(1.5*std, max_dev) < fabs(m_deviation); }
+>>>>>>> origin/enhanced
 =======
 	bool isDeviant(double std, double max_dev=CommandLine::get().getSkewDeviation()) const { return std::max(1.5*std, max_dev) < fabs(m_deviation); }
 >>>>>>> origin/enhanced

@@ -76,13 +76,20 @@
         <location filename="../ui/AboutDialog.ui" line="222"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="205"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Neco Torquato - Brazilian Portuguese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="229"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="212"/>
 >>>>>>> origin/enhanced
@@ -96,7 +103,11 @@
     </message>
     <message utf8="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="243"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="219"/>
 >>>>>>> origin/enhanced
@@ -105,7 +116,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="250"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="226"/>
 >>>>>>> origin/enhanced
@@ -114,7 +129,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="257"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="233"/>
 >>>>>>> origin/enhanced
@@ -123,7 +142,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="264"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="240"/>
 >>>>>>> origin/enhanced
@@ -132,7 +155,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="271"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="247"/>
 >>>>>>> origin/enhanced
@@ -141,7 +168,11 @@
     </message>
     <message utf8="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="278"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="254"/>
 >>>>>>> origin/enhanced
@@ -150,7 +181,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="285"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="261"/>
 >>>>>>> origin/enhanced
@@ -159,7 +194,11 @@
     </message>
     <message utf8="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="292"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="268"/>
 >>>>>>> origin/enhanced
@@ -168,7 +207,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="299"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="275"/>
 >>>>>>> origin/enhanced
@@ -177,7 +220,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="306"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="282"/>
 >>>>>>> origin/enhanced
@@ -186,7 +233,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="313"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="289"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="289"/>
 >>>>>>> origin/enhanced
@@ -195,7 +246,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="340"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="316"/>
 >>>>>>> origin/enhanced
@@ -239,7 +294,11 @@ Andrey Bergman - System load adjustment.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="325"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="301"/>
 >>>>>>> origin/enhanced
@@ -256,7 +315,11 @@ Taxman</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="381"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="357"/>
 >>>>>>> origin/enhanced
@@ -690,8 +753,12 @@ Taxman</translation>
     <name>MainWindow</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="233"/>
         <location filename="../MainWindow.cpp" line="622"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="276"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="276"/>
 >>>>>>> origin/enhanced
@@ -877,7 +944,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="197"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="76"/>
 >>>>>>> origin/enhanced
@@ -886,7 +957,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="211"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="90"/>
 >>>>>>> origin/enhanced
@@ -899,21 +974,31 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="228"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../ui/MainWindow.ui" line="199"/>
         <source>Filters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="271"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Debug Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="236"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="279"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="279"/>
 >>>>>>> origin/enhanced
@@ -922,7 +1007,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="241"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="284"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="284"/>
 >>>>>>> origin/enhanced
@@ -931,8 +1020,13 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="246"/>
         <location filename="../ui/MainWindow.ui" line="295"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="289"/>
         <location filename="../ui/MainWindow.ui" line="338"/>
@@ -942,7 +1036,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="249"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="292"/>
 >>>>>>> origin/enhanced
@@ -951,8 +1049,13 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="257"/>
         <location filename="../ui/MainWindow.ui" line="284"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="300"/>
         <location filename="../ui/MainWindow.ui" line="327"/>
@@ -962,7 +1065,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="260"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="303"/>
 >>>>>>> origin/enhanced
@@ -971,7 +1078,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="268"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="311"/>
 >>>>>>> origin/enhanced
@@ -980,7 +1091,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="271"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="314"/>
 >>>>>>> origin/enhanced
@@ -989,7 +1104,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="319"/>
 >>>>>>> origin/enhanced
@@ -998,7 +1117,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="279"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="322"/>
 >>>>>>> origin/enhanced
@@ -1007,7 +1130,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="287"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="330"/>
 >>>>>>> origin/enhanced
@@ -1016,7 +1143,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="298"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="341"/>
 >>>>>>> origin/enhanced
@@ -1025,7 +1156,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="306"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="349"/>
 >>>>>>> origin/enhanced
@@ -1034,7 +1169,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="309"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="352"/>
 >>>>>>> origin/enhanced
@@ -1043,7 +1182,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="314"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="357"/>
 >>>>>>> origin/enhanced
@@ -1052,7 +1195,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="317"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="360"/>
 >>>>>>> origin/enhanced
@@ -1061,7 +1208,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="327"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="370"/>
 >>>>>>> origin/enhanced
@@ -1070,7 +1221,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="330"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="373"/>
 >>>>>>> origin/enhanced
@@ -1079,7 +1234,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="335"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="378"/>
 >>>>>>> origin/enhanced
@@ -1088,7 +1247,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="338"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="381"/>
 >>>>>>> origin/enhanced
@@ -1097,7 +1260,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="343"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="386"/>
 >>>>>>> origin/enhanced
@@ -1106,7 +1273,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="348"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="391"/>
 >>>>>>> origin/enhanced
@@ -1115,7 +1286,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="353"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="396"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="396"/>
 >>>>>>> origin/enhanced
@@ -1134,7 +1309,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="322"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="365"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="365"/>
 >>>>>>> origin/enhanced
@@ -1528,7 +1707,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="78"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="504"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
 >>>>>>> origin/enhanced
@@ -1552,7 +1735,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="348"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
 >>>>>>> origin/enhanced
@@ -1561,7 +1748,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="446"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
 >>>>>>> origin/enhanced
@@ -1570,21 +1761,31 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="529"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="785"/>
         <source>Tiff Compression</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Depth perception</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="618"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
 >>>>>>> origin/enhanced
@@ -1597,9 +1798,15 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="421"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="569"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="751"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
@@ -1610,7 +1817,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="594"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
 >>>>>>> origin/enhanced
@@ -1619,7 +1830,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="643"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
 >>>>>>> origin/enhanced
@@ -1628,9 +1843,15 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="646"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="672"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="698"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
@@ -1641,7 +1862,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="669"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
 >>>>>>> origin/enhanced
@@ -1650,7 +1875,11 @@ Pour la déterminer, lancez le processus de traitement à l&apos;étape &quot;S�
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="695"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
 >>>>>>> origin/enhanced
@@ -2376,6 +2605,29 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
+    <name>StartBatchProcessingDialog</name>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="26"/>
+        <source>Batch Process</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="33"/>
+        <source>All pages</source>
+        <translation type="unfinished">Toutes les pages</translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
+        <source>Start from selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SystemLoadWidget</name>
     <message>
         <location filename="../ui/SystemLoadWidget.ui" line="14"/>
@@ -2613,7 +2865,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
 >>>>>>> origin/enhanced
@@ -2622,8 +2878,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="70"/>
         <source>Surrounded</source>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
+        <source>Rectangular</source>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
         <source>Rectangular</source>
@@ -2633,7 +2894,11 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="71"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>Quadro</source>
+=======
+        <source>None</source>
+>>>>>>> origin/enhanced
 =======
         <source>None</source>
 >>>>>>> origin/enhanced
@@ -2642,12 +2907,15 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="72"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>Picture Shape</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="445"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <source>LZW</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2668,13 +2936,20 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="442"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Apply Despeckling Level</source>
         <translation>Appliquer le réglage d&apos;élimination du bruit</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="530"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
 >>>>>>> origin/enhanced
@@ -2683,7 +2958,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="728"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
 >>>>>>> origin/enhanced
@@ -2692,7 +2971,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="731"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
 >>>>>>> origin/enhanced
@@ -2701,7 +2984,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="734"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
 >>>>>>> origin/enhanced
@@ -2718,7 +3005,11 @@ p, li { white-space: pre-wrap; }
     <name>output::Task::UiUpdater</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="604"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="512"/>
 >>>>>>> origin/enhanced
@@ -2727,7 +3018,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="656"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="564"/>
 >>>>>>> origin/enhanced
@@ -2736,7 +3031,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="673"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="581"/>
 >>>>>>> origin/enhanced
@@ -2745,7 +3044,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="674"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="582"/>
 >>>>>>> origin/enhanced
@@ -2754,7 +3057,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="675"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="583"/>
 >>>>>>> origin/enhanced
@@ -2763,7 +3070,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="676"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="584"/>
 >>>>>>> origin/enhanced
@@ -2772,7 +3083,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="677"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="585"/>
 >>>>>>> origin/enhanced
@@ -2822,7 +3137,11 @@ p, li { white-space: pre-wrap; }
     <name>page_layout::OptionsWidget</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
 >>>>>>> origin/enhanced
@@ -2831,7 +3150,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
 >>>>>>> origin/enhanced

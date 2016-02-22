@@ -88,6 +88,7 @@ private slots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,6 +159,12 @@ private slots:
 =======
 
 	void pictureShapeChanged(int idx);
+=======
+
+	void pictureShapeChanged(int idx);
+	
+	void tiffCompressionChanged(int idx);
+>>>>>>> origin/enhanced
 	
 	void tiffCompressionChanged(int idx);
 <<<<<<< HEAD
@@ -253,6 +260,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +347,9 @@ private:
 	PictureShape m_pictureShape;
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	PictureShape m_pictureShape;
+>>>>>>> origin/enhanced
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;
 	DespeckleLevel m_despeckleLevel;

@@ -223,6 +223,7 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -310,6 +311,9 @@ Task::process(
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> origin/enhanced
 	);
 
 //begin of modified by monday2000
@@ -497,6 +501,7 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -586,6 +591,9 @@ Task::process(
 			m_ptrDbg.get(), params.pictureShape()
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+			m_ptrDbg.get(), params.pictureShape()
+>>>>>>> origin/enhanced
 		);
 
 		if ((params.dewarpingMode() == DewarpingMode::AUTO && distortion_model.isValid())

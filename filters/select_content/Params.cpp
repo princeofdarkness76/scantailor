@@ -33,10 +33,13 @@ Params::Params(
 :	m_contentRect(content_rect),
 	m_pageRect(content_rect),
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_contentSizeMM(content_size_mm),
 	m_deps(deps),
 	m_mode(mode),
 =======
+=======
+>>>>>>> origin/enhanced
     m_pageBorders(0,0,0,0),
 	m_contentSizeMM(content_size_mm),
 	m_deps(deps),
@@ -57,6 +60,9 @@ Params::Params(
 	m_contentSizeMM(content_size_mm),
 	m_deps(deps),
 	m_mode(mode),
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 	m_contentDetect(contentDetect),
 	m_pageDetect(pageDetect),
@@ -69,9 +75,13 @@ Params::Params(Dependencies const& deps)
 :	m_deps(deps),
 	m_mode(MODE_AUTO),
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_contentDetect(true),
 	m_pageDetect(false),
 	m_fineTuneCorners(false),
+=======
+    m_pageBorders(0,0,0,0),
+>>>>>>> origin/enhanced
 =======
     m_pageBorders(0,0,0,0),
 >>>>>>> origin/enhanced

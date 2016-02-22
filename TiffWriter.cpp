@@ -198,6 +198,7 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 	setDpm(tif, Dpm(image));
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	switch (image.format()) {
 		case QImage::Format_Mono:
 		case QImage::Format_MonoLSB:
@@ -205,6 +206,8 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 			return writeBitonalOrIndexed8Image(tif, image, compression);
 		default:;
 =======
+=======
+>>>>>>> origin/enhanced
 	CommandLine const& cli = CommandLine::get();
 
 	if (! cli.hasTiffForceRGB()) {
@@ -218,6 +221,9 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 				return writeBitonalOrIndexed8Image(tif, image, compression);
 			default:;
 		}
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 	}
 	

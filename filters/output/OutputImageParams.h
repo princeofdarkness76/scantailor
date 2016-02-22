@@ -57,6 +57,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +146,9 @@ public:
 		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
+>>>>>>> origin/enhanced
 	
 //begin of modified by monday2000
 //Picture_Shape_Bug	
@@ -214,6 +218,7 @@ private:
 	/** Non-geometric parameters used to generate the output image. */
 	ColorParams m_colorParams;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +317,10 @@ private:
 	PictureShape m_pictureShape;
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	/** Shape of the pictures in image */
+	PictureShape m_pictureShape;
+>>>>>>> origin/enhanced
 
 	/** Two curves and two lines connecting their endpoints.  Used for dewarping. */
 	dewarping::DistortionModel m_distortionModel;

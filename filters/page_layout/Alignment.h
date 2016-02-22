@@ -26,6 +26,11 @@ class QString;
 #include <iostream>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+class CommandLine;
+
+>>>>>>> origin/enhanced
 =======
 class CommandLine;
 
@@ -46,11 +51,17 @@ public:
 	 * \brief Constructs a null alignment.
 	 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 	Alignment()
 	: m_vert(VCENTER), m_hor(HCENTER), m_isNull(true), m_tolerance(DEFAULT_TOLERANCE), m_autoMargins(false) {}
 	
 	Alignment(Vertical vert, Horizontal hor)
 	: m_vert(vert), m_hor(hor), m_isNull(false), m_tolerance(DEFAULT_TOLERANCE), m_autoMargins(false) {}
+=======
+	Alignment();
+    
+    Alignment(Vertical vert, Horizontal hor);
+>>>>>>> origin/enhanced
 =======
 	Alignment();
     

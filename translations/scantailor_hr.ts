@@ -6,8 +6,13 @@
     <message>
         <location filename="../ui/AboutDialog.ui" line="14"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>About Scan Tailor</source>
         <translation>O Scan Tailor-u</translation>
+=======
+        <source>About Scan Tailor &quot;Enhanced&quot;</source>
+        <translation>O Scan Tailor-u &quot;Enhanced&quot;</translation>
+>>>>>>> origin/enhanced
 =======
         <source>About Scan Tailor &quot;Enhanced&quot;</source>
         <translation>O Scan Tailor-u &quot;Enhanced&quot;</translation>
@@ -22,7 +27,11 @@
         <location filename="../ui/AboutDialog.ui" line="33"/>
         <source>Scan Tailor is an interactive post-processing tool for scanned pages. It performs operations such as page splitting, skew correction, adding/removing margins, and others. You give it raw scans, and you get pages ready to be printed or assembled into a PDF or DJVU file.  Scanning and optical character recognition is out of scope of this project.</source>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation>Scan Tailor je interaktivni post-processing alat za obradu skeniranih stranica. On izvodi operacije kao što su dijeljenje duplih stranice, ispravljanje iskrivljenja i dodavanje / uklanjanje margine, i drugo. Možete mu dati sirovu skeniranu stranicu, i dobiti ćete stranice spremne za ispis ili stavljanje u PDF ili DJVU datoteke. Skeniranje i optičko prepoznavanje znakova ne dolazi u okviru ovog projekta.</translation>
+=======
+        <translation>Scan Tailor je interaktivni post-procesni alat za obradu skeniranih stranica. On izvodi operacije kao što su dijeljenje duplih stranice, ispravljanje iskrivljenja, dodavanje / uklanjanje margine i drugo. Možete mu dati sirovu skeniranu stranicu i dobiti ćete stranice spremne za ispis ili stavljanje u PDF ili DJVU datoteke. Skeniranje i optičko prepoznavanje znakova ne dolazi u okviru ovog projekta.</translation>
+>>>>>>> origin/enhanced
 =======
         <translation>Scan Tailor je interaktivni post-procesni alat za obradu skeniranih stranica. On izvodi operacije kao što su dijeljenje duplih stranice, ispravljanje iskrivljenja, dodavanje / uklanjanje margine i drugo. Možete mu dati sirovu skeniranu stranicu i dobiti ćete stranice spremne za ispis ili stavljanje u PDF ili DJVU datoteke. Skeniranje i optičko prepoznavanje znakova ne dolazi u okviru ovog projekta.</translation>
 >>>>>>> origin/enhanced
@@ -44,6 +53,7 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="142"/>
         <source>Fork Developer</source>
         <translation type="unfinished"></translation>
@@ -58,12 +68,19 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="157"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="157"/>
+>>>>>>> origin/enhanced
         <source>U235 - Picture auto-detection algorithm.</source>
         <translation>U234 - Auto-detekcijski algoritam slika.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="181"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="164"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="164"/>
 >>>>>>> origin/enhanced
@@ -72,7 +89,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="188"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="171"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="171"/>
 >>>>>>> origin/enhanced
@@ -81,7 +102,11 @@
     </message>
     <message utf8="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="195"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="178"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="178"/>
 >>>>>>> origin/enhanced
@@ -89,6 +114,7 @@
         <translation>Petr Kovář - Sučelje komandne linije.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="222"/>
         <source>Neco Torquato - Brazilian Portuguese</source>
@@ -99,10 +125,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="212"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+>>>>>>> origin/enhanced
         <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
         <translation>Svetoslav Sashkov, Mandor - Bugarski</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="236"/>
         <source>Damir13 - Croatian</source>
@@ -111,6 +141,8 @@
     <message utf8="true">
         <location filename="../ui/AboutDialog.ui" line="243"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../ui/AboutDialog.ui" line="205"/>
         <source>Neco Torquato - Brazilian Portuguese</source>
         <translation>Neco Torquato - Brazilski portugalski</translation>
@@ -121,11 +153,15 @@
     </message>
     <message utf8="true">
         <location filename="../ui/AboutDialog.ui" line="219"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Petr Kovář - Czech</source>
         <translation>Petr Kovář - Češki</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="250"/>
         <source>Stefan Birkner - German</source>
@@ -134,19 +170,28 @@
     <message>
         <location filename="../ui/AboutDialog.ui" line="257"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../ui/AboutDialog.ui" line="226"/>
         <source>Stefan Birkner - German</source>
         <translation>Stefan Birkner - Njemački</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="233"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Angelo Gemmi - Italian</source>
         <translation>Angelo Gemmi - Talijanski</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="264"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="240"/>
 >>>>>>> origin/enhanced
@@ -155,7 +200,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="271"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="247"/>
 >>>>>>> origin/enhanced
@@ -164,7 +213,11 @@
     </message>
     <message utf8="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="278"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="254"/>
 >>>>>>> origin/enhanced
@@ -173,7 +226,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="285"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="261"/>
 >>>>>>> origin/enhanced
@@ -182,7 +239,11 @@
     </message>
     <message utf8="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="292"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="268"/>
 >>>>>>> origin/enhanced
@@ -191,7 +252,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="299"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="275"/>
 >>>>>>> origin/enhanced
@@ -199,6 +264,7 @@
         <translation>Flavio Benelli - Španjolski</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="306"/>
         <source>Davidson Wang - Traditional Chinese</source>
@@ -212,6 +278,8 @@
     <message>
         <location filename="../ui/AboutDialog.ui" line="340"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../ui/AboutDialog.ui" line="282"/>
         <source>Davidson Wang - Traditional Chinese</source>
         <translation>Davidson Wang - Tradicionalni kineski</translation>
@@ -223,13 +291,20 @@
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="316"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>denver 22</source>
         <translation>denver 22</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="207"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="190"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="190"/>
 >>>>>>> origin/enhanced
@@ -238,7 +313,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="159"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="142"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="142"/>
 >>>>>>> origin/enhanced
@@ -247,7 +326,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="325"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="301"/>
 >>>>>>> origin/enhanced
@@ -256,7 +339,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="381"/>
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/AboutDialog.ui" line="357"/>
 >>>>>>> origin/enhanced
@@ -309,8 +396,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="59"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="57"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
@@ -318,17 +408,23 @@
     </message>
     <message>
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="67"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Selected pages</source>
         <translation>Odbrane stranice</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="92"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
     </message>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="97"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
@@ -353,6 +449,9 @@
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation>Ova stranica i slijedeća svaka druga stranica</translation>
     </message>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 </context>
 <context>
@@ -394,6 +493,7 @@
 <context>
     <name>ErrorWidget</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/ErrorWidget.ui" line="14"/>
         <source>Form</source>
@@ -533,6 +633,10 @@
         <source>Form</source>
         <translation type="obsolete">Oblik</translation>
 >>>>>>> origin/enhanced
+=======
+        <source>Form</source>
+        <translation type="obsolete">Oblik</translation>
+>>>>>>> origin/enhanced
     </message>
 </context>
 <context>
@@ -574,6 +678,7 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../FixDpiDialog.cpp" line="241"/>
         <source>Need Fixing</source>
         <translation>Potrebno popraviti</translation>
@@ -604,6 +709,8 @@
         <source>%1 (page %2)</source>
         <translation>%1 (stranica %2)</translation>
 =======
+=======
+>>>>>>> origin/enhanced
         <source>Need Fixing</source>
         <translation type="obsolete">Potrebno popraviti</translation>
     </message>
@@ -626,6 +733,9 @@
     <message>
         <source>%1 (page %2)</source>
         <translation type="obsolete">%1 (stranica %2)</translation>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
     </message>
 </context>
@@ -633,9 +743,14 @@
     <name>ImageViewBase</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ImageViewBase.cpp" line="211"/>
         <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
         <translation>Koristite kotačić miša ili + / - da bi povećali ili smanjili. Kad zumiranja, moguće je povlačenje.</translation>
+=======
+        <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
+        <translation type="obsolete">Koristite kotačić miša ili + / - da bi povećali ili smanjili. Kad zumiranja, moguće je povlačenje.</translation>
+>>>>>>> origin/enhanced
 =======
         <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
         <translation type="obsolete">Koristite kotačić miša ili + / - da bi povećali ili smanjili. Kad zumiranja, moguće je povlačenje.</translation>
@@ -651,7 +766,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../interaction/InteractiveXSpline.cpp" line="77"/>
+=======
+        <location filename="../interaction/InteractiveXSpline.cpp" line="73"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../interaction/InteractiveXSpline.cpp" line="73"/>
 >>>>>>> origin/enhanced
@@ -660,7 +779,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../interaction/InteractiveXSpline.cpp" line="79"/>
+=======
+        <location filename="../interaction/InteractiveXSpline.cpp" line="75"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../interaction/InteractiveXSpline.cpp" line="75"/>
 >>>>>>> origin/enhanced
@@ -671,6 +794,7 @@
 <context>
     <name>LoadFileTask</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../LoadFileTask.cpp" line="157"/>
         <source>The following file could not be loaded:
@@ -683,6 +807,8 @@
         <source>The following file doesn&apos;t exist:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Use the &lt;a href=&quot;#relink&quot;&gt;Relinking Tool&lt;/a&gt; to locate it.</source>
         <translation>Sljedeća datoteka ne postoji:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Koristite &lt;a href=&quot;#relink&quot;&gt; Alat Ponovno pronađi&lt;/a&gt; kako bi ga pronašli.</translation>
 =======
+=======
+>>>>>>> origin/enhanced
         <source>The following file could not be loaded:
 %1</source>
         <translation type="obsolete">Sljedeću datoteku nije moguće učitati:
@@ -691,6 +817,9 @@
     <message>
         <source>The following file doesn&apos;t exist:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Use the &lt;a href=&quot;#relink&quot;&gt;Relinking Tool&lt;/a&gt; to locate it.</source>
         <translation type="obsolete">Sljedeća datoteka ne postoji:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Koristite &lt;a href=&quot;#relink&quot;&gt; Alat Ponovno pronađi&lt;/a&gt; kako bi ga pronašli.</translation>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
     </message>
 </context>
@@ -716,8 +845,12 @@
     <name>MainWindow</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="233"/>
         <location filename="../MainWindow.cpp" line="622"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="276"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="276"/>
 >>>>>>> origin/enhanced
@@ -731,7 +864,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="130"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="128"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="128"/>
 >>>>>>> origin/enhanced
@@ -740,7 +877,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="156"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="166"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="166"/>
 >>>>>>> origin/enhanced
@@ -749,7 +890,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="185"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="65"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="65"/>
 >>>>>>> origin/enhanced
@@ -758,7 +903,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="197"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="76"/>
 >>>>>>> origin/enhanced
@@ -767,7 +916,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="211"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="90"/>
 >>>>>>> origin/enhanced
@@ -776,7 +929,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="228"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="271"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="271"/>
 >>>>>>> origin/enhanced
@@ -785,7 +942,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="236"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="279"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="279"/>
 >>>>>>> origin/enhanced
@@ -794,7 +955,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="241"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="284"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="284"/>
 >>>>>>> origin/enhanced
@@ -803,8 +968,13 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="246"/>
         <location filename="../ui/MainWindow.ui" line="295"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="289"/>
         <location filename="../ui/MainWindow.ui" line="338"/>
@@ -814,7 +984,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="249"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="292"/>
 >>>>>>> origin/enhanced
@@ -823,8 +997,13 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="257"/>
         <location filename="../ui/MainWindow.ui" line="284"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="300"/>
         <location filename="../ui/MainWindow.ui" line="327"/>
@@ -834,7 +1013,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="260"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="303"/>
 >>>>>>> origin/enhanced
@@ -843,7 +1026,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="268"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="311"/>
 >>>>>>> origin/enhanced
@@ -852,7 +1039,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="271"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="314"/>
 >>>>>>> origin/enhanced
@@ -861,7 +1052,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="319"/>
 >>>>>>> origin/enhanced
@@ -870,7 +1065,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="279"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="322"/>
 >>>>>>> origin/enhanced
@@ -879,7 +1078,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="287"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="330"/>
 >>>>>>> origin/enhanced
@@ -888,7 +1091,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="298"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="341"/>
 >>>>>>> origin/enhanced
@@ -897,7 +1104,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="306"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="349"/>
 >>>>>>> origin/enhanced
@@ -906,7 +1117,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="309"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="352"/>
 >>>>>>> origin/enhanced
@@ -915,7 +1130,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="314"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="357"/>
 >>>>>>> origin/enhanced
@@ -924,7 +1143,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="317"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="360"/>
 >>>>>>> origin/enhanced
@@ -933,7 +1156,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="327"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="370"/>
 >>>>>>> origin/enhanced
@@ -942,7 +1169,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="330"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="373"/>
 >>>>>>> origin/enhanced
@@ -951,7 +1182,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="335"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="378"/>
 >>>>>>> origin/enhanced
@@ -960,7 +1195,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="338"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="381"/>
 >>>>>>> origin/enhanced
@@ -969,7 +1208,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="343"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="386"/>
 >>>>>>> origin/enhanced
@@ -978,7 +1221,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="348"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="391"/>
 >>>>>>> origin/enhanced
@@ -987,7 +1234,11 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="353"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="396"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../ui/MainWindow.ui" line="396"/>
 >>>>>>> origin/enhanced
@@ -995,6 +1246,7 @@
         <translation>Ponovno pronađi...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="358"/>
         <source>Export...</source>
@@ -1005,10 +1257,14 @@
 =======
         <location filename="../ui/MainWindow.ui" line="365"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="365"/>
+>>>>>>> origin/enhanced
         <source>Settings ...</source>
         <translation>Postavke...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="519"/>
         <source>Stop batch processing</source>
@@ -1158,6 +1414,8 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <source>Remove</source>
         <translation>Ukloni</translation>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../ui/MainWindow.ui" line="107"/>
         <source>Thumbnails</source>
         <translation>Minijature</translation>
@@ -1244,6 +1502,9 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     <message>
         <source>Remove</source>
         <translation type="obsolete">Ukloni</translation>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
     </message>
 </context>
@@ -1296,6 +1557,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="46"/>
         <source>This page and the following ones</source>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation>Ova stranica i sve koje slijede</translation>
     </message>
     <message>
@@ -1309,6 +1571,8 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="101"/>
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="206"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <translation>Ova stranica i koje slijede</translation>
     </message>
     <message>
@@ -1326,13 +1590,20 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="181"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>The current page will be included.</source>
         <translation>Trenutna stranica će biti uključena.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="125"/>
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="100"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="100"/>
 >>>>>>> origin/enhanced
@@ -1341,8 +1612,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="155"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="71"/>
         <source>This page and the following every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
@@ -1350,15 +1624,24 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="130"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="176"/>
         <source>Every other selected page</source>
         <translation>Sve druge odabrane stranice</translation>
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="151"/>
+        <source>Every other selected page</source>
+        <translation>Svaka druga odabrana stranica</translation>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="151"/>
         <source>Every other selected page</source>
@@ -1495,6 +1778,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../OutOfMemoryDialog.cpp" line="88"/>
         <source>Scan Tailor Projects</source>
         <translation>Scan Tailor projekti</translation>
@@ -1509,6 +1793,8 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <source>Error saving the project file!</source>
         <translation>Greška spremanja projekt datpteke!</translation>
 =======
+=======
+>>>>>>> origin/enhanced
         <source>Scan Tailor Projects</source>
         <translation type="obsolete">Scan Tailor projekti</translation>
     </message>
@@ -1519,6 +1805,9 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     <message>
         <source>Error saving the project file!</source>
         <translation type="obsolete">Greška spremanja projekt datpteke!</translation>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
     </message>
 </context>
@@ -1528,7 +1817,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputApplyColorsDialog.ui" line="17"/>
         <source>Apply Mode</source>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation>Primijena</translation>
+=======
+        <translation>Primjena načina</translation>
+>>>>>>> origin/enhanced
 =======
         <translation>Primjena načina</translation>
 >>>>>>> origin/enhanced
@@ -1588,7 +1881,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="52"/>
+=======
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="49"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="49"/>
 >>>>>>> origin/enhanced
@@ -1596,6 +1893,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <translation>Ručno</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="62"/>
         <source>Marginal (experimental)</source>
@@ -1606,12 +1904,19 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="59"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="59"/>
+>>>>>>> origin/enhanced
         <source>Scope</source>
         <translation>Područje</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="78"/>
+=======
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="65"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="65"/>
 >>>>>>> origin/enhanced
@@ -1620,7 +1925,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="88"/>
+=======
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="75"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="75"/>
 >>>>>>> origin/enhanced
@@ -1629,6 +1938,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="95"/>
         <source>This page and the following ones</source>
         <translation>Ova stranica i sve koje slijede</translation>
@@ -1636,19 +1946,28 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     <message>
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="111"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="82"/>
         <source>This page and the following ones</source>
         <translation>Ova stranica i koje slijede</translation>
     </message>
     <message>
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="98"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Selected pages</source>
         <translation>Odabrane stranice</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="144"/>
+=======
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="131"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="131"/>
 >>>>>>> origin/enhanced
@@ -1682,7 +2001,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputChangeDpiDialog.ui" line="91"/>
         <source>This page and the following ones</source>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation>Ova stranica i sve koje slijede</translation>
+=======
+        <translation>Ova stranica i koje slijede</translation>
+>>>>>>> origin/enhanced
 =======
         <translation>Ova stranica i koje slijede</translation>
 >>>>>>> origin/enhanced
@@ -1718,7 +2041,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="78"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="504"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
 >>>>>>> origin/enhanced
@@ -1742,6 +2069,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="348"/>
         <source>Picture Shape</source>
         <translation type="unfinished"></translation>
@@ -1751,12 +2079,19 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+>>>>>>> origin/enhanced
         <source>Dewarping</source>
         <translation>Poravnanje (Warp)</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="529"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
 >>>>>>> origin/enhanced
@@ -1765,7 +2100,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="618"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
 >>>>>>> origin/enhanced
@@ -1774,9 +2113,15 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="421"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="569"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="751"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
@@ -1787,7 +2132,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="594"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
 >>>>>>> origin/enhanced
@@ -1796,7 +2145,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="643"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
 >>>>>>> origin/enhanced
@@ -1805,9 +2158,15 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="646"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="672"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="698"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
@@ -1818,7 +2177,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="669"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
 >>>>>>> origin/enhanced
@@ -1827,7 +2190,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="695"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
 >>>>>>> origin/enhanced
@@ -1845,7 +2212,10 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <translation>Deblje</translation>
     </message>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
         <source>Picture Shape</source>
@@ -1856,6 +2226,9 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <source>Tiff Compression</source>
         <translation>Tiff komprimiranje</translation>
     </message>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 </context>
 <context>
@@ -1882,8 +2255,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <source>This page and following every other ones</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translatorcomment>Sve parne i neparne stranice ovise o tome je li trenutna stranica parna ili neparna.</translatorcomment>
@@ -1891,6 +2267,9 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="69"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
@@ -1899,8 +2278,12 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="89"/>
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="194"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="169"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="169"/>
 >>>>>>> origin/enhanced
@@ -1909,7 +2292,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="110"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="85"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="85"/>
 >>>>>>> origin/enhanced
@@ -1918,8 +2305,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="143"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
         <source>This page and the following every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
@@ -1927,15 +2317,24 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="118"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="164"/>
         <source>Every other selected page</source>
         <translation>Sve druge odabrane stranice</translation>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="139"/>
+        <source>Every other selected page</source>
+        <translation>Svaka druga odabrana stranica</translation>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="139"/>
         <source>Every other selected page</source>
@@ -1957,7 +2356,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="42"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="44"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="44"/>
 >>>>>>> origin/enhanced
@@ -1966,7 +2369,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="47"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="49"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="49"/>
 >>>>>>> origin/enhanced
@@ -1975,7 +2382,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="87"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="91"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="91"/>
 >>>>>>> origin/enhanced
@@ -1983,6 +2394,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <translation>Vrh</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="100"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="161"/>
@@ -1996,6 +2408,8 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="502"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="525"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="104"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="165"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="378"/>
@@ -2007,13 +2421,20 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="519"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="542"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="565"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="121"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="125"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="125"/>
 >>>>>>> origin/enhanced
@@ -2022,7 +2443,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="138"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="142"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="142"/>
 >>>>>>> origin/enhanced
@@ -2031,7 +2456,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="185"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="189"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="189"/>
 >>>>>>> origin/enhanced
@@ -2040,8 +2469,13 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="244"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="580"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="248"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="620"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="248"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="620"/>
@@ -2051,7 +2485,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="269"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="273"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="273"/>
 >>>>>>> origin/enhanced
@@ -2060,11 +2498,14 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="293"/>
         <source>Match size with other pages</source>
         <translation>Prilagodi veličinu 
 ostalim stranicama</translation>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="303"/>
         <source>Auto</source>
         <comment>auto</comment>
@@ -2099,6 +2540,9 @@ ostalim stranicama</translation>
     <message>
         <source>Original</source>
         <translation type="obsolete">Izvorno</translation>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
     </message>
 </context>
@@ -2108,22 +2552,32 @@ ostalim stranicama</translation>
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="17"/>
         <source>Split Pages</source>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation>Podijela stranica</translation>
     </message>
     <message>
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="63"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <translation>Podjela stranica</translation>
     </message>
     <message>
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="65"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Mode</source>
         <translation>Način</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="69"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="71"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="71"/>
 >>>>>>> origin/enhanced
@@ -2132,7 +2586,11 @@ ostalim stranicama</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="79"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="81"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="81"/>
 >>>>>>> origin/enhanced
@@ -2141,7 +2599,11 @@ ostalim stranicama</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="89"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="122"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="122"/>
 >>>>>>> origin/enhanced
@@ -2150,7 +2612,11 @@ ostalim stranicama</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="95"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
 >>>>>>> origin/enhanced
@@ -2159,7 +2625,11 @@ ostalim stranicama</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="112"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="145"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="145"/>
 >>>>>>> origin/enhanced
@@ -2168,7 +2638,11 @@ ostalim stranicama</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="175"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="175"/>
 >>>>>>> origin/enhanced
@@ -2177,7 +2651,11 @@ ostalim stranicama</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="161"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="208"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="208"/>
 >>>>>>> origin/enhanced
@@ -2186,11 +2664,14 @@ ostalim stranicama</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="105"/>
         <source>All pages</source>
         <translation>Sve stranice</translation>
     </message>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="138"/>
         <source>All pages</source>
         <translation>Sve stranice</translation>
@@ -2220,6 +2701,9 @@ ostalim stranicama</translation>
         <source>Every other selected page</source>
         <translation>Svaka druga izabrana stranica</translation>
     </message>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 </context>
 <context>
@@ -2288,7 +2772,10 @@ ostalim stranicama</translation>
     <message>
         <location filename="../ui/ProjectFilesDialog.ui" line="20"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ProjectFilesDialog.cpp" line="334"/>
+=======
+>>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
         <source>Input Directory</source>
@@ -2297,7 +2784,10 @@ ostalim stranicama</translation>
     <message>
         <location filename="../ui/ProjectFilesDialog.ui" line="43"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ProjectFilesDialog.cpp" line="354"/>
+=======
+>>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
         <source>Output Directory</source>
@@ -2374,6 +2864,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ProjectFilesDialog.cpp" line="526"/>
         <location filename="../ProjectFilesDialog.cpp" line="534"/>
         <location filename="../ProjectFilesDialog.cpp" line="543"/>
@@ -2425,6 +2916,8 @@ Either we don&apos;t support their format, or they are broken.
 You should remove them from the project.</source>
         <translation>Neke datoteke nisu učitane.
 =======
+=======
+>>>>>>> origin/enhanced
         <source>Error</source>
         <translation type="obsolete">Greška</translation>
     </message>
@@ -2461,6 +2954,9 @@ You should remove them from the project.</source>
 Either we don&apos;t support their format, or they are broken.
 You should remove them from the project.</source>
         <translation type="obsolete">Neke datoteke nisu učitane.
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 Ili mi ne podržavamo njihov format, ili su neispravne.
 Trebali bi ih uklonili iz projekta.</translation>
@@ -2469,6 +2965,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <context>
     <name>ProjectOpeningContext</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ProjectOpeningContext.cpp" line="51"/>
         <source>Error</source>
@@ -2479,12 +2976,17 @@ Trebali bi ih uklonili iz projekta.</translation>
         <source>Unable to interpret the project file.</source>
         <translation>Ne mogu interpretirati projekt datoteku.</translation>
 =======
+=======
+>>>>>>> origin/enhanced
         <source>Error</source>
         <translation type="obsolete">Greška</translation>
     </message>
     <message>
         <source>Unable to interpret the project file.</source>
         <translation type="obsolete">Ne mogu interpretirati projekt datoteku.</translation>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
     </message>
 </context>
@@ -2507,6 +3009,7 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../RelinkingDialog.cpp" line="95"/>
         <source>Substitution File for %1</source>
         <translation>Zamjena datoteke za %1</translation>
@@ -2521,6 +3024,8 @@ Trebali bi ih uklonili iz projekta.</translation>
         <source>This change would merge several files into one.</source>
         <translation>Ova promijena će spojiti nekoliko datoteka u jednu.</translation>
 =======
+=======
+>>>>>>> origin/enhanced
         <source>Substitution File for %1</source>
         <translation type="obsolete">Zamjena datoteke za %1</translation>
     </message>
@@ -2531,6 +3036,9 @@ Trebali bi ih uklonili iz projekta.</translation>
     <message>
         <source>This change would merge several files into one.</source>
         <translation type="obsolete">Ova promijena će spojiti nekoliko datoteka u jednu.</translation>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
     </message>
 </context>
@@ -2562,7 +3070,10 @@ Trebali bi ih uklonili iz projekta.</translation>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="23"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
         <source>Options</source>
         <translation>Mogućnosti</translation>
     </message>
@@ -2573,11 +3084,15 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Apply to</source>
         <translation>Primijeni na</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
         <source>This page only (already applied)</source>
@@ -2586,17 +3101,23 @@ Trebali bi ih uklonili iz projekta.</translation>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="45"/>
         <source>This page only (already applied)</source>
         <translation>Samo ova stranica (već primjenjeno)</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="55"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>All pages</source>
         <translation>Sve stranice</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="46"/>
         <source>This page and the following ones</source>
@@ -2613,6 +3134,8 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="101"/>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="206"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="62"/>
         <source>This page and the following ones</source>
         <translation>Ova stranica i koje slijede</translation>
@@ -2632,13 +3155,20 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="197"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>The current page will be included.</source>
         <translation>Trenutna stranica će biti uključena.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="125"/>
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="116"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="116"/>
 >>>>>>> origin/enhanced
@@ -2647,8 +3177,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="155"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="109"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
@@ -2656,15 +3189,24 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="146"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="176"/>
         <source>Every other selected page</source>
         <translation>Sve druge odabrane stranice</translation>
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="167"/>
+        <source>Every other selected page</source>
+        <translation>Svaka druga odabrana stranica</translation>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="167"/>
         <source>Every other selected page</source>
@@ -2676,7 +3218,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>SelectContentOptionsWidget</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="13"/>
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="14"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="14"/>
 >>>>>>> origin/enhanced
@@ -2685,7 +3231,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="19"/>
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="159"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="159"/>
 >>>>>>> origin/enhanced
@@ -2694,8 +3244,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="38"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="73"/>
         <source>Borders in MM</source>
         <translation>Obrubi u mm</translation>
@@ -2703,14 +3256,20 @@ Trebali bi ih uklonili iz projekta.</translation>
     <message>
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="56"/>
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="191"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="54"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="96"/>
         <source>Left</source>
         <translation>Lijevo</translation>
@@ -2722,14 +3281,20 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="207"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Manual</source>
         <translation>Ručno</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="83"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="116"/>
         <source>Right</source>
         <translation>Desno</translation>
@@ -2741,17 +3306,23 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="236"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Scope</source>
         <translation>Područje</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="104"/>
         <source>Apply to ...</source>
         <translation>Primijeni na...</translation>
     </message>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="20"/>
         <source>Page Box</source>
         <translation>Okvir stranice</translation>
@@ -2777,6 +3348,9 @@ Trebali bi ih uklonili iz projekta.</translation>
         <source>Disable</source>
         <translation>Onemogući</translation>
     </message>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 </context>
 <context>
@@ -2792,6 +3366,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <translation>Koristitite 3D ubrzanje za korisničko sučelje</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/SettingsDialog.ui" line="27"/>
         <source>Auto-save the existing project</source>
@@ -2812,12 +3387,17 @@ Trebali bi ih uklonili iz projekta.</translation>
         <source>Your hardware / driver don&apos;t provide the necessary features.</source>
         <translation>Vaš hardware / driver ne osigurava potrebne značajke.</translation>
 =======
+=======
+>>>>>>> origin/enhanced
         <source>Compiled without OpenGL support.</source>
         <translation type="obsolete">Sastavljen bez OpenGL podrške.</translation>
     </message>
     <message>
         <source>Your hardware / driver don&apos;t provide the necessary features.</source>
         <translation type="obsolete">Vaš hardware / driver ne osigurava potrebne značajke.</translation>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
     </message>
 </context>
@@ -2825,10 +3405,13 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>StageListView</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
         <translation>Pokrenite skupne obrade</translation>
 =======
+=======
+>>>>>>> origin/enhanced
         <source>Launch batch processing</source>
         <translation type="obsolete">Pokrenite skupne obrade</translation>
     </message>
@@ -2854,6 +3437,9 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../ui/StartBatchProcessingDialog.ui" line="14"/>
         <source>Dialog</source>
         <translation>Izbor</translation>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
     </message>
 </context>
@@ -2877,6 +3463,7 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../SystemLoadWidget.cpp" line="98"/>
         <source>Minimal</source>
         <translation>Minimalno</translation>
@@ -2886,18 +3473,24 @@ Trebali bi ih uklonili iz projekta.</translation>
         <source>Normal</source>
         <translation>Normalno</translation>
 =======
+=======
+>>>>>>> origin/enhanced
         <source>Minimal</source>
         <translation type="obsolete">Minimalno</translation>
     </message>
     <message>
         <source>Normal</source>
         <translation type="obsolete">Normalno</translation>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
     </message>
 </context>
 <context>
     <name>ThumbnailSequence</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ThumbnailSequence.cpp" line="780"/>
         <source>Warning</source>
@@ -2917,6 +3510,10 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../ThumbnailSequence.cpp" line="1405"/>
         <source>%1 (page %2)</source>
         <translation>%1 (stranica %2)</translation>
+=======
+        <source>%1 (page %2)</source>
+        <translation type="obsolete">%1 (stranica %2)</translation>
+>>>>>>> origin/enhanced
 =======
         <source>%1 (page %2)</source>
         <translation type="obsolete">%1 (stranica %2)</translation>
@@ -2950,7 +3547,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>ZoneCreationInteraction</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../zones/ZoneCreationInteraction.cpp" line="362"/>
+=======
+        <location filename="../zones/ZoneCreationInteraction.cpp" line="206"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../zones/ZoneCreationInteraction.cpp" line="206"/>
 >>>>>>> origin/enhanced
@@ -2959,7 +3560,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../zones/ZoneCreationInteraction.cpp" line="364"/>
+=======
+        <location filename="../zones/ZoneCreationInteraction.cpp" line="208"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../zones/ZoneCreationInteraction.cpp" line="208"/>
 >>>>>>> origin/enhanced
@@ -2968,7 +3573,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../zones/ZoneCreationInteraction.cpp" line="367"/>
+=======
+        <location filename="../zones/ZoneCreationInteraction.cpp" line="211"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../zones/ZoneCreationInteraction.cpp" line="211"/>
 >>>>>>> origin/enhanced
@@ -3003,7 +3612,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>ZoneVertexDragInteraction</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../zones/ZoneVertexDragInteraction.cpp" line="194"/>
+=======
+        <location filename="../zones/ZoneVertexDragInteraction.cpp" line="160"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../zones/ZoneVertexDragInteraction.cpp" line="160"/>
 >>>>>>> origin/enhanced
@@ -3012,7 +3625,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../zones/ZoneVertexDragInteraction.cpp" line="196"/>
+=======
+        <location filename="../zones/ZoneVertexDragInteraction.cpp" line="162"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../zones/ZoneVertexDragInteraction.cpp" line="162"/>
 >>>>>>> origin/enhanced
@@ -3053,9 +3670,14 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>fix_orientation::ApplyDialog</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/fix_orientation/ApplyDialog.cpp" line="53"/>
         <source>Can&apos;t do: more than one group is selected.</source>
         <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+=======
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation type="obsolete">Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> origin/enhanced
 =======
         <source>Can&apos;t do: more than one group is selected.</source>
         <translation type="obsolete">Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
@@ -3112,7 +3734,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>output::Filter</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Filter.cpp" line="63"/>
+=======
+        <location filename="../filters/output/Filter.cpp" line="64"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Filter.cpp" line="64"/>
 >>>>>>> origin/enhanced
@@ -3124,7 +3750,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>output::OptionsWidget</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="63"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
 >>>>>>> origin/enhanced
@@ -3133,7 +3763,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
 >>>>>>> origin/enhanced
@@ -3142,7 +3776,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="66"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="66"/>
 >>>>>>> origin/enhanced
@@ -3150,6 +3788,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <translation>Miješano</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
         <source>Free</source>
@@ -3173,6 +3812,8 @@ Trebali bi ih uklonili iz projekta.</translation>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="445"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
         <source>Free</source>
         <translation>Slobodan</translation>
@@ -3209,13 +3850,20 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="442"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Apply Despeckling Level</source>
         <translation>Prihvati razinu čišćenja</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="530"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
 >>>>>>> origin/enhanced
@@ -3224,7 +3872,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="728"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
 >>>>>>> origin/enhanced
@@ -3233,7 +3885,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="731"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
 >>>>>>> origin/enhanced
@@ -3241,6 +3897,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <translation>Auto</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="734"/>
         <source>Manual</source>
@@ -3252,17 +3909,26 @@ Trebali bi ih uklonili iz projekta.</translation>
         <translation type="unfinished"></translation>
     </message>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
         <source>Manual</source>
         <translation>Ručno</translation>
     </message>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 </context>
 <context>
     <name>output::Task::UiUpdater</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="604"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="512"/>
 >>>>>>> origin/enhanced
@@ -3271,7 +3937,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="656"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="564"/>
 >>>>>>> origin/enhanced
@@ -3280,7 +3950,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="673"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="581"/>
 >>>>>>> origin/enhanced
@@ -3289,7 +3963,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="674"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="582"/>
 >>>>>>> origin/enhanced
@@ -3298,7 +3976,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="675"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="583"/>
 >>>>>>> origin/enhanced
@@ -3307,7 +3989,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="676"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="584"/>
 >>>>>>> origin/enhanced
@@ -3316,7 +4002,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="677"/>
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/output/Task.cpp" line="585"/>
 >>>>>>> origin/enhanced
@@ -3328,9 +4018,14 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>page_layout::ApplyDialog</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ApplyDialog.cpp" line="51"/>
         <source>Can&apos;t do: more than one group is selected.</source>
         <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+=======
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation type="obsolete">Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> origin/enhanced
 =======
         <source>Can&apos;t do: more than one group is selected.</source>
         <translation type="obsolete">Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
@@ -3364,7 +4059,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>page_layout::ImageView</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ImageView.cpp" line="76"/>
+=======
+        <location filename="../filters/page_layout/ImageView.cpp" line="78"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/ImageView.cpp" line="78"/>
 >>>>>>> origin/enhanced
@@ -3376,7 +4075,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>page_layout::OptionsWidget</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
 >>>>>>> origin/enhanced
@@ -3385,7 +4088,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
 >>>>>>> origin/enhanced
@@ -3409,7 +4116,11 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/page_split/Filter.cpp" line="76"/>
         <source>Split Pages</source>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation>Podijela stranica</translation>
+=======
+        <translation>Podjela stranica</translation>
+>>>>>>> origin/enhanced
 =======
         <translation>Podjela stranica</translation>
 >>>>>>> origin/enhanced
@@ -3429,7 +4140,11 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="116"/>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="208"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_split/OptionsWidget.cpp" line="301"/>
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="289"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_split/OptionsWidget.cpp" line="289"/>
 >>>>>>> origin/enhanced
@@ -3439,7 +4154,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     <message>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="165"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_split/OptionsWidget.cpp" line="298"/>
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="286"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/page_split/OptionsWidget.cpp" line="286"/>
 >>>>>>> origin/enhanced
@@ -3459,9 +4178,14 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>select_content::ApplyDialog</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ApplyDialog.cpp" line="53"/>
         <source>Can&apos;t do: more than one group is selected.</source>
         <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+=======
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation type="obsolete">Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> origin/enhanced
 =======
         <source>Can&apos;t do: more than one group is selected.</source>
         <translation type="obsolete">Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
@@ -3495,6 +4219,7 @@ Trebali bi ih uklonili iz projekta.</translation>
     <name>select_content::ImageView</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ImageView.cpp" line="58"/>
         <source>Use the context menu to enable / disable the content box.</source>
         <translation>Upotrijebite kontekstni izbornik za uključivanje / isključivanje la sadržajnog okvira.</translation>
@@ -3502,19 +4227,28 @@ Trebali bi ih uklonili iz projekta.</translation>
     <message>
         <location filename="../filters/select_content/ImageView.cpp" line="61"/>
 =======
+=======
+>>>>>>> origin/enhanced
         <location filename="../filters/select_content/ImageView.cpp" line="59"/>
         <source>Use the context menu to enable / disable the content box.</source>
         <translation>Upotrijebite kontekstni izbornik za uključivanje / isključivanje sadržajnog okvira.</translation>
     </message>
     <message>
         <location filename="../filters/select_content/ImageView.cpp" line="62"/>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
         <source>Drag lines or corners to resize the content box.</source>
         <translation>Povucite crte ili kutove za promjenu veličine sadržajnog okvira.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ImageView.cpp" line="107"/>
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/select_content/ImageView.cpp" line="108"/>
 >>>>>>> origin/enhanced
@@ -3523,7 +4257,11 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ImageView.cpp" line="108"/>
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="109"/>
+>>>>>>> origin/enhanced
 =======
         <location filename="../filters/select_content/ImageView.cpp" line="109"/>
 >>>>>>> origin/enhanced

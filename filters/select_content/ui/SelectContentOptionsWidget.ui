@@ -7,8 +7,13 @@
     <x>0</x>
     <y>0</y>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <width>236</width>
     <height>294</height>
+=======
+    <width>292</width>
+    <height>361</height>
+>>>>>>> origin/enhanced
 =======
     <width>292</width>
     <height>361</height>
@@ -19,7 +24,11 @@
    <string>Form</string>
   </property>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <layout class="QVBoxLayout" name="verticalLayout_2">
+=======
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> origin/enhanced
 =======
   <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> origin/enhanced
@@ -29,7 +38,11 @@
       <string>Page Box</string>
      </property>
 <<<<<<< HEAD
+<<<<<<< HEAD
      <layout class="QHBoxLayout" name="horizontalLayout">
+=======
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+>>>>>>> origin/enhanced
 =======
      <layout class="QVBoxLayout" name="verticalLayout_3">
 >>>>>>> origin/enhanced
@@ -81,7 +94,10 @@
        </layout>
       </item>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
       <item>
        <widget class="QGroupBox" name="groupBox_3">
         <property name="title">
@@ -165,6 +181,9 @@
         </layout>
        </widget>
       </item>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
      </layout>
     </widget>
@@ -308,9 +327,13 @@
   </layout>
  </widget>
 <<<<<<< HEAD
+<<<<<<< HEAD
  <resources>
   <include location="../../../resources/resources.qrc"/>
  </resources>
+=======
+ <resources/>
+>>>>>>> origin/enhanced
 =======
  <resources/>
 >>>>>>> origin/enhanced

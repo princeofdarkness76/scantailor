@@ -244,6 +244,9 @@ ConsoleBatch::process()
 	for (int j=0; j<=endFilterIdx; j++) {
 		m_ptrStages->filterAt(j)->updateStatistics();
 	}
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 }
 
@@ -357,6 +360,7 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 	for (std::set<PageId>::iterator i=allPages.begin(); i!=allPages.end(); i++) {
 		PageId page = *i;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	    select_content::Dependencies deps;
 
         select_content::Params params(deps);
@@ -370,6 +374,8 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 		if (cli.hasContentRect()) {
             params.setContentRect(cli.getContentRect());
 =======
+=======
+>>>>>>> origin/enhanced
 		select_content::Dependencies deps;
 
 		select_content::Params params(deps);
@@ -382,12 +388,16 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 		// SELECT CONTENT FILTER
 		if (cli.hasContentRect()) {
 			params.setContentRect(cli.getContentRect());
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 			//QRectF rect(cli.getContentRect());
 			//QSizeF size_mm(rect.width(), rect.height());
 			//select_content::Params params(rect, size_mm, deps, MODE_MANUAL);
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         params.setContentDetect(cli.isContentDetectionEnabled());
         params.setPageDetect(cli.isPageDetectionEnabled());
@@ -399,6 +409,8 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 	if (cli.hasContentDeviation()) {
 		select_content->getSettings()->setMaxDeviation(cli.getContentDeviation());
 =======
+=======
+>>>>>>> origin/enhanced
 		params.setContentDetect(cli.isContentDetectionEnabled());
 		params.setPageDetect(cli.isPageDetectionEnabled());
 		params.setFineTuneCorners(cli.isFineTuningEnabled());
@@ -406,6 +418,9 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 			params.setPageBorders(cli.getPageBorders());
 
 		select_content->getSettings()->setPageParams(page, params);
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 	}
 
@@ -486,6 +501,7 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 			params.setOutputDpi(outputDpi);
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -592,6 +608,11 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 		}
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+		if (cli.hasPictureShape()) {
+			params.setPictureShape(cli.getPictureShape());
+		}
+>>>>>>> origin/enhanced
 
 		output::ColorParams colorParams = params.colorParams();
 		if (cli.hasColorMode())

@@ -208,6 +208,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,6 +289,8 @@ public:
 =======
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> origin/enhanced
 
 	void rectangularizeAreas(BWColor content_color = BLACK);
 	

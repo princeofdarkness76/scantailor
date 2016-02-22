@@ -6,7 +6,10 @@ build/
 *~
 *.swp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
 .vimprj/
 *.patch
 ScanTailor.config
@@ -17,4 +20,7 @@ ScanTailor.includes
 build-*/
 samples/
 
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced

@@ -41,6 +41,7 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,10 +136,15 @@ OutputImageParams::OutputImageParams(
 	PictureShape const picture_shape)
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> origin/enhanced
 :	m_size(out_image_size),
 	m_contentRect(content_rect),
 	m_dpi(dpi),
 	m_colorParams(color_params),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,6 +236,9 @@ OutputImageParams::OutputImageParams(
 	m_pictureShape(picture_shape),
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	m_pictureShape(picture_shape),
+>>>>>>> origin/enhanced
 	m_distortionModel(distortion_model),
 	m_depthPerception(depth_perception),
 	m_dewarpingMode(dewarping_mode),
@@ -308,6 +317,7 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -408,6 +418,11 @@ OutputImageParams::matches(OutputImageParams const& other) const
 	}
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> origin/enhanced
 
 	if (m_dewarpingMode != other.m_dewarpingMode) {
 		return false;

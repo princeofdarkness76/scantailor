@@ -119,10 +119,16 @@ Task::process(TaskStatus const& status, FilterData const& data)
 	std::auto_ptr<Params> params(m_ptrSettings->getPageParams(m_pageId));
 	if (params.get()) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if ((!deps.matches(params->dependencies()) ||
 				params->deskewAngle() != ui_data.effectiveDeskewAngle()) &&
 				params->mode() == MODE_AUTO &&
 				!cli.hasDeskewAngle() && !cli.hasDeskew()) {
+=======
+		if (!deps.matches(params->dependencies())) {
+			//std::cout << "Deskew: " << "reset params" << std::endl;
+			//std::cout << (deps.matches(params->dependencies())) << std::endl;
+>>>>>>> origin/enhanced
 =======
 		if (!deps.matches(params->dependencies())) {
 			//std::cout << "Deskew: " << "reset params" << std::endl;

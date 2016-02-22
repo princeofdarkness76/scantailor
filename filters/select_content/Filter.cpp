@@ -123,6 +123,12 @@ Filter::saveSettings(
 	filter_el.setAttribute("sigma", m_ptrSettings->std());
 	filter_el.setAttribute("maxDeviation", m_ptrSettings->maxDeviation());
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	filter_el.setAttribute("pageDetectionBoxWidth", m_ptrSettings->pageDetectionBox().width());
+	filter_el.setAttribute("pageDetectionBoxHeight", m_ptrSettings->pageDetectionBox().height());
+	filter_el.setAttribute("pageDetectionTolerance", m_ptrSettings->pageDetectionTolerance());
+>>>>>>> origin/enhanced
 =======
 	filter_el.setAttribute("pageDetectionBoxWidth", m_ptrSettings->pageDetectionBox().width());
 	filter_el.setAttribute("pageDetectionBoxHeight", m_ptrSettings->pageDetectionBox().height());
@@ -162,6 +168,10 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 	m_ptrSettings->clear();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    CommandLine cli = CommandLine::get();
+>>>>>>> origin/enhanced
 =======
     CommandLine cli = CommandLine::get();
 >>>>>>> origin/enhanced
@@ -173,8 +183,11 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 	m_ptrSettings->setAvg(filter_el.attribute("average").toDouble());
 	m_ptrSettings->setStd(filter_el.attribute("sigma").toDouble());
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
 =======
+=======
+>>>>>>> origin/enhanced
     
     if (cli.hasContentDeviation()) {
         m_ptrSettings->setMaxDeviation(cli.getContentDeviation());
@@ -188,6 +201,9 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 	m_ptrSettings->setPageDetectionBox(box);
 	
 	m_ptrSettings->setPageDetectionTolerance(filter_el.attribute("pageDetectionTolerance", "0.1").toDouble());
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
 
 	QString const page_tag_name("page");

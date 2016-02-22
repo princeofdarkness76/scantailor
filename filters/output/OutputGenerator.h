@@ -136,6 +136,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,6 +227,9 @@ public:
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> origin/enhanced
 	
 	QSize outputImageSize() const;
 	
@@ -251,6 +255,7 @@ private:
 //end of modified by monday2000
 		imageproc::BinaryImage* auto_picture_mask = 0,
 		imageproc::BinaryImage* speckles_image = 0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -347,6 +352,9 @@ private:
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> origin/enhanced
 
 	QImage processAsIs(
 		FilterData const& input, TaskStatus const& status,
@@ -366,6 +374,7 @@ private:
 //end of modified by monday2000
 		imageproc::BinaryImage* auto_picture_mask = 0,
 		imageproc::BinaryImage* speckles_image = 0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -461,6 +470,9 @@ private:
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> origin/enhanced
 
 	QImage processWithDewarping(
 		TaskStatus const& status, FilterData const& input,
@@ -478,6 +490,7 @@ private:
 //end of modified by monday2000
 		imageproc::BinaryImage* auto_picture_mask = 0,
 		imageproc::BinaryImage* speckles_image = 0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -586,6 +599,9 @@ private:
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> origin/enhanced
 	
 	void setupTrivialDistortionModel(dewarping::DistortionModel& distortion_model) const;
 

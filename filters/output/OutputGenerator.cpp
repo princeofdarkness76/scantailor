@@ -314,6 +314,7 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,11 +407,15 @@ OutputGenerator::process(
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
 {
 	QImage image(
 		processImpl(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -513,6 +518,9 @@ OutputGenerator::process(
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
 		)
 	);
 	assert(!image.isNull());
@@ -710,6 +718,7 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -802,6 +811,9 @@ OutputGenerator::processImpl(
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
 {
 	RenderParams const render_params(m_colorParams);
 
@@ -846,6 +858,7 @@ OutputGenerator::processImpl(
 		return processWithDewarping(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -947,6 +960,9 @@ OutputGenerator::processImpl(
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
 		);
 	} else if (!render_params.whiteMargins()) {
 		return processAsIs(
@@ -955,6 +971,7 @@ OutputGenerator::processImpl(
 	} else {
 		return processWithoutDewarping(
 			status, input, picture_zones, fill_zones,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1055,6 +1072,9 @@ OutputGenerator::processImpl(
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> origin/enhanced
 		);
 	}
 }
@@ -1124,6 +1144,7 @@ OutputGenerator::processWithoutDewarping(
 //end of modified by monday2000
 	imageproc::BinaryImage* auto_picture_mask,
 	imageproc::BinaryImage* speckles_image,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1221,6 +1242,9 @@ OutputGenerator::processWithoutDewarping(
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
 {
 	RenderParams const render_params(m_colorParams);
 	
@@ -1378,6 +1402,7 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1499,10 +1524,13 @@ OutputGenerator::processWithoutDewarping(
 =======
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> origin/enhanced
 
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			bw_mask.rectangularizeAreas(WHITE);
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1546,6 +1574,8 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 
@@ -1712,6 +1742,7 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1804,6 +1835,9 @@ OutputGenerator::processWithDewarping(
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> origin/enhanced
 {
 	QSize const target_size(m_outRect.size().expandedTo(QSize(1, 1)));
 	if (m_outRect.isEmpty()) {
@@ -1978,6 +2012,7 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2118,6 +2153,11 @@ OutputGenerator::processWithDewarping(
 		}
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> origin/enhanced
 
 		status.throwIfCancelled();
 

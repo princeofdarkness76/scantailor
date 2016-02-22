@@ -90,6 +90,7 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,6 +130,8 @@ OptionsWidget::OptionsWidget(
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 	darkerThresholdLink->setText(
@@ -208,6 +211,7 @@ OptionsWidget::OptionsWidget(
 =======
 >>>>>>> pod/scantailor-filters.h
 	connect(
+<<<<<<< HEAD
 		tiffCompression, SIGNAL(currentIndexChanged(int)),
 		this, SLOT(tiffCompressionChanged(int))
 	);
@@ -253,6 +257,8 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 >>>>>>> pod/tiff
 =======
+=======
+>>>>>>> origin/enhanced
 		pictureShapeSelector, SIGNAL(currentIndexChanged(int)),
 		this, SLOT(pictureShapeChanged(int))
 	);
@@ -261,8 +267,11 @@ OptionsWidget::OptionsWidget(
 		this, SLOT(tiffCompressionChanged(int))
 	);
 	connect(
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> origin/enhanced
 		whiteMarginsCB, SIGNAL(clicked(bool)),
 		this, SLOT(whiteMarginsToggled(bool))
 	);
@@ -352,6 +361,7 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -438,6 +448,9 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 	m_pictureShape = params.pictureShape();
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	m_pictureShape = params.pictureShape();
+>>>>>>> origin/enhanced
 	m_dewarpingMode = params.dewarpingMode();
 	m_depthPerception = params.depthPerception();
 	m_despeckleLevel = params.despeckleLevel();
@@ -498,6 +511,7 @@ OptionsWidget::pictureShapeChanged(int const idx)
 	m_ptrSettings->setPictureShape(m_pageId, m_pictureShape);
 	emit reloadRequested();
 }
+<<<<<<< HEAD
 //end of modified by monday2000
 
 void
@@ -626,6 +640,8 @@ OptionsWidget::pictureShapeChanged(int const idx)
 	m_ptrSettings->setPictureShape(m_pageId, m_pictureShape);
 	emit reloadRequested();
 }
+=======
+>>>>>>> origin/enhanced
 
 void
 OptionsWidget::tiffCompressionChanged(int idx)
@@ -635,6 +651,7 @@ OptionsWidget::tiffCompressionChanged(int idx)
 }
 
 void
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
@@ -647,6 +664,8 @@ void
 =======
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> origin/enhanced
 OptionsWidget::whiteMarginsToggled(bool const checked)
 {
 	ColorGrayscaleOptions opt(m_colorParams.colorGrayscaleOptions());
@@ -784,6 +803,7 @@ OptionsWidget::applyColorsConfirmed(std::set<PageId> const& pages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -868,6 +888,9 @@ OptionsWidget::applyColorsConfirmed(std::set<PageId> const& pages)
 >>>>>>> pod/tiff
 >>>>>>> pod/scantailor-filters.h
 		emit invalidateThumbnail(page_id);
+=======
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> origin/enhanced
 =======
 		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
 >>>>>>> origin/enhanced
@@ -1137,6 +1160,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1223,6 +1247,9 @@ OptionsWidget::updateColorsDisplay()
 	bool picture_shape_visible = false;
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	bool picture_shape_visible = false;
+>>>>>>> origin/enhanced
 	switch (color_mode) {
 		case ColorParams::BLACK_AND_WHITE:
 			bw_options_visible = true;
@@ -1237,6 +1264,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1323,6 +1351,9 @@ OptionsWidget::updateColorsDisplay()
 			picture_shape_visible = true;
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+			picture_shape_visible = true;
+>>>>>>> origin/enhanced
 			break;
 	}
 	
@@ -1342,6 +1373,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1384,10 +1416,13 @@ OptionsWidget::updateColorsDisplay()
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
 	pictureShapeOptions->setVisible(picture_shape_visible);
 	bwOptions->setVisible(bw_options_visible);
 	despecklePanel->setVisible(bw_options_visible && m_lastTab != TAB_DEWARPING);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
@@ -1455,6 +1490,8 @@ OptionsWidget::updateColorsDisplay()
 =======
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> origin/enhanced
 	if (picture_shape_visible) {
 		int const picture_shape_idx = pictureShapeSelector->findData(m_pictureShape);
 		pictureShapeSelector->setCurrentIndex(picture_shape_idx);
@@ -1464,6 +1501,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1559,6 +1597,11 @@ OptionsWidget::updateColorsDisplay()
 	tiffCompression->setCurrentIndex(compression_idx);
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
+=======
+	
+	int compression_idx = tiffCompression->findData(m_ptrSettings->getTiffCompression());
+	tiffCompression->setCurrentIndex(compression_idx);
+>>>>>>> origin/enhanced
 
 	if (bw_options_visible) {
 		switch (m_despeckleLevel) {

@@ -401,10 +401,13 @@
    </property>
   </action>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <action name="actionExport">
    <property name="text">
     <string>Export...</string>
 =======
+=======
+>>>>>>> origin/enhanced
   <action name="actionSwitchFilter1">
    <property name="text">
     <string>Switch filter to orientation</string>
@@ -466,6 +469,9 @@
    </property>
    <property name="shortcut">
     <string>P</string>
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
 >>>>>>> origin/enhanced
    </property>
   </action>
