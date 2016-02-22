@@ -523,6 +523,9 @@ Taxman</translation>
         <location filename="../ui/MainWindow.ui" line="232"/>
         <location filename="../MainWindow.cpp" line="564"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -611,6 +614,9 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <source>Unnamed</source>
         <translation type="unfinished">Без име</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> scantailor/master
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1711"/>
@@ -618,6 +624,7 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 =======
     </message>
     <message>
@@ -626,6 +633,8 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Pag
         <translation type="unfinished"></translation>
     </message>
     <message>
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
         <location filename="../MainWindow.cpp" line="1778"/>
         <location filename="../MainWindow.cpp" line="1809"/>
@@ -2035,6 +2044,7 @@ text-indent:0px;&quot;&gt;Премахване на избраните стра�
         <source>Launch batch processing</source>
         <translation type="unfinished">Стартиране на пакетна обработка</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -2058,6 +2068,8 @@ text-indent:0px;&quot;&gt;Премахване на избраните стра�
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
     </message>
@@ -2448,7 +2460,11 @@ text-indent:0px;&quot;&gt;Премахване на избраните стра�
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
@@ -2461,7 +2477,11 @@ text-indent:0px;&quot;&gt;Премахване на избраните стра�
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master

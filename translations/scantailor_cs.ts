@@ -56,7 +56,11 @@
         <source>Neco Torquato - Brazilian Portuguese</source>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation></translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> scantailor/master
 =======
         <translation type="unfinished"></translation>
 >>>>>>> scantailor/master
@@ -127,11 +131,14 @@
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="14"/>
         <source>About Scan Tailor &quot;Enhanced&quot;</source>
         <translation>O programu Scan Tailor &quot;Enhanced&quot;</translation>
     </message>
     <message>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======
@@ -546,6 +553,9 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="232"/>
         <location filename="../MainWindow.cpp" line="564"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -745,6 +755,7 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
         <source>Unnamed</source>
         <translation type="unfinished">Nepojmenovaný</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1711"/>
@@ -753,6 +764,8 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
     </message>
     <message>
 =======
+=======
+>>>>>>> scantailor/master
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1711"/>
@@ -760,6 +773,9 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
         <location filename="../MainWindow.cpp" line="1778"/>
         <location filename="../MainWindow.cpp" line="1809"/>
@@ -1746,6 +1762,21 @@ Vyjměte je z projektu.</translation>
         <source>This change would merge several files into one.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="95"/>
+        <source>Substitution File for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="102"/>
+        <source>Substitution Directory for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="130"/>
+        <source>This change would merge several files into one.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RemovePagesDialog</name>
@@ -1945,6 +1976,7 @@ Vyjměte je z projektu.</translation>
         <source>Launch batch processing</source>
         <translation type="unfinished">Spustit dávkové zpracování</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -1968,6 +2000,8 @@ Vyjměte je z projektu.</translation>
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation>Začít vybranou stranou</translation>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
     </message>
@@ -2335,7 +2369,11 @@ Vyjměte je z projektu.</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
@@ -2348,7 +2386,11 @@ Vyjměte je z projektu.</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master

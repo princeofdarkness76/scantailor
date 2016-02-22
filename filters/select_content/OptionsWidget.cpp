@@ -26,8 +26,11 @@
 #include <boost/foreach.hpp>
 #endif
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #include <iostream>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 

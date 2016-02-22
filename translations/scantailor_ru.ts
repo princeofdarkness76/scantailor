@@ -497,6 +497,9 @@ To determine it, run batch processing at &quot;Select Content&quot; or &quot;Mar
         <location filename="../ui/MainWindow.ui" line="232"/>
         <location filename="../MainWindow.cpp" line="564"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -2100,6 +2103,7 @@ p, li { white-space: pre-wrap; }
         <source>Launch batch processing</source>
         <translation type="unfinished">Запустить пакетную обработку</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -2123,6 +2127,8 @@ p, li { white-space: pre-wrap; }
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
     </message>
@@ -2597,7 +2603,11 @@ p, li { white-space: pre-wrap; }
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
@@ -2610,7 +2620,11 @@ p, li { white-space: pre-wrap; }
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master

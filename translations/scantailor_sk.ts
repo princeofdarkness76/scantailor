@@ -119,11 +119,14 @@
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="14"/>
         <source>About Scan Tailor &quot;Enhanced&quot;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======
@@ -551,6 +554,9 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="232"/>
         <location filename="../MainWindow.cpp" line="564"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -750,6 +756,9 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <source>Unnamed</source>
         <translation type="unfinished">Nepomenovaný</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> scantailor/master
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1711"/>
@@ -757,6 +766,7 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 =======
     </message>
     <message>
@@ -765,6 +775,8 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <translation type="unfinished"></translation>
     </message>
     <message>
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
         <location filename="../MainWindow.cpp" line="1778"/>
         <location filename="../MainWindow.cpp" line="1809"/>
@@ -1941,6 +1953,7 @@ Vyraďte ich z projektu.</translation>
         <source>Launch batch processing</source>
         <translation type="unfinished">Spustiť dávkové spracovanie</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -1964,6 +1977,8 @@ Vyraďte ich z projektu.</translation>
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
     </message>
@@ -2331,7 +2346,11 @@ Vyraďte ich z projektu.</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
@@ -2344,7 +2363,11 @@ Vyraďte ich z projektu.</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master

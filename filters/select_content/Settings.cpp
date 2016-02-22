@@ -25,10 +25,13 @@
 #include <boost/foreach.hpp>
 #endif
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #include <cmath>
 #include <iostream>
 #include "CommandLine.h" 
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 

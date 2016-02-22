@@ -400,6 +400,9 @@
         <location filename="../ui/MainWindow.ui" line="232"/>
         <location filename="../MainWindow.cpp" line="564"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -1809,6 +1812,7 @@ You should remove them from the project.</source>
         <translation type="unfinished"></translation>
     </message>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </context>
 <context>
     <name>StartBatchProcessingDialog</name>
@@ -1832,6 +1836,8 @@ You should remove them from the project.</source>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
     </message>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 </context>
@@ -2184,7 +2190,11 @@ You should remove them from the project.</source>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
@@ -2197,7 +2207,11 @@ You should remove them from the project.</source>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master
