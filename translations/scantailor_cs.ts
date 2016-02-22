@@ -58,7 +58,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation></translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> scantailor/master
 =======
         <translation type="unfinished"></translation>
 >>>>>>> scantailor/master
@@ -137,11 +141,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="14"/>
         <source>About Scan Tailor &quot;Enhanced&quot;</source>
         <translation>O programu Scan Tailor &quot;Enhanced&quot;</translation>
     </message>
     <message>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======
@@ -562,6 +569,9 @@ English or Russian please.</source>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -767,11 +777,15 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> scantailor/master
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1711"/>
         <source>%2 - Scan Tailor %3 [%1bit]</source>
         <translation type="unfinished"></translation>
+<<<<<<< HEAD
     </message>
     <message>
 =======
@@ -794,6 +808,10 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
         <location filename="../MainWindow.cpp" line="1711"/>
         <source>%2 - Scan Tailor %3 [%1bit]</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+>>>>>>> scantailor/master
+=======
     </message>
     <message>
 >>>>>>> scantailor/master
@@ -1812,6 +1830,21 @@ Vyjměte je z projektu.</translation>
         <source>This change would merge several files into one.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="95"/>
+        <source>Substitution File for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="102"/>
+        <source>Substitution Directory for %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="130"/>
+        <source>This change would merge several files into one.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RemovePagesDialog</name>
@@ -2013,6 +2046,7 @@ Vyjměte je z projektu.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -2036,6 +2070,8 @@ Vyjměte je z projektu.</translation>
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation>Začít vybranou stranou</translation>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======
@@ -2409,7 +2445,11 @@ Vyjměte je z projektu.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
@@ -2430,7 +2470,11 @@ Vyjměte je z projektu.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master

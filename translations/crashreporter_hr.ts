@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="71"/>
         <source>This file contains the internal state of the program when it crashed</source>
         <translation>Ova datoteka sadrži unutarnje stanje programa kada se srušio</translation>
@@ -26,11 +27,14 @@
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="105"/>
         <source>Sending ...</source>
         <translation>Slanje...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,6 +54,8 @@
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="14"/>
         <source>Crash Report</source>
         <translation>Izvješće o rušenju</translation>
@@ -61,6 +67,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -75,6 +84,7 @@
         <translation>Neočekivani odgovor (kod %1) od strane primatelja</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104,6 +114,8 @@
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="77"/>
         <source>Dump file</source>
         <translation>Dump datoteka</translation>
@@ -115,6 +127,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -135,7 +150,10 @@ Engleski ili ruski molim.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======
@@ -160,6 +178,9 @@ Engleski ili ruski molim.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
@@ -176,10 +197,13 @@ Engleski ili ruski molim.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="81"/>
         <source>Email [optional]</source>
         <translation>e-pošta [po izboru]</translation>
 =======
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======
@@ -197,6 +221,9 @@ Engleski ili ruski molim.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master

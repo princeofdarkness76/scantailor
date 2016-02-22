@@ -27,9 +27,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #include <cmath>
 #include <iostream>
+=======
+>>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 =======
