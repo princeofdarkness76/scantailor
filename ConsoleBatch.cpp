@@ -435,6 +435,9 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 
@@ -452,11 +455,14 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 			params.setPictureShape(cli.getPictureShape());
 		}
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 		if (cli.hasPictureShape()) {
 			params.setPictureShape(cli.getPictureShape());
 		}
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 		output::ColorParams colorParams = params.colorParams();
 		if (cli.hasColorMode())

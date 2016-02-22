@@ -34,6 +34,9 @@ namespace output
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE, 
@@ -46,9 +49,12 @@ namespace output
 =======
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 class Params
 {
@@ -65,6 +71,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	PictureShape pictureShape() const { return m_pictureShape; }
@@ -73,16 +82,22 @@ public:
 =======
 =======
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 	PictureShape pictureShape() const { return m_pictureShape; }
 	void setPictureShape(PictureShape ps) { m_pictureShape = ps; }
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
+=======
+>>>>>>> master
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
@@ -116,6 +131,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 
 	Dpi m_dpi;
 =======
@@ -124,9 +142,12 @@ private:
 =======
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	dewarping::DistortionModel m_distortionModel;
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;

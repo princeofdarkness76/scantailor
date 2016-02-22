@@ -134,6 +134,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -148,9 +151,12 @@ public:
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	
 	QSize outputImageSize() const;
 	
@@ -179,6 +185,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -194,9 +203,12 @@ private:
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 	QImage processAsIs(
 		FilterData const& input, TaskStatus const& status,
@@ -219,6 +231,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -233,9 +248,12 @@ private:
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 	QImage processWithDewarping(
 		TaskStatus const& status, FilterData const& input,
@@ -256,6 +274,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 		//DebugImages* dbg = 0) const;
@@ -283,9 +304,12 @@ private:
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	
 	void setupTrivialDistortionModel(dewarping::DistortionModel& distortion_model) const;
 

@@ -92,6 +92,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	bool hasPictureShape() const { return contains("picture-shape") && !m_options["picture-shape"].isEmpty(); }
@@ -102,9 +105,12 @@ public:
 =======
 	bool hasPictureShape() const { return contains("picture-shape"); }
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	bool hasPictureShape() const { return contains("picture-shape"); }
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	bool hasWhiteMargins() const { return contains("white-margins"); }
 	bool hasNormalizeIllumination() const { return contains("normalize-illumination"); }
 	bool hasThreshold() const { return contains("threshold"); }
@@ -120,6 +126,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	output::PictureShape getPictureShape() const { return m_pictureShape; }
@@ -130,9 +139,12 @@ public:
 =======
 	output::PictureShape getPictureShape() const { return m_pictureShape; }
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	output::PictureShape getPictureShape() const { return m_pictureShape; }
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	Dpi getInputDpi() const { return m_dpi; }
 	Dpi getOutputDpi() const { return m_outputDpi; }
 	Margins getMargins() const { return m_margins; }
@@ -181,6 +193,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	output::PictureShape m_pictureShape;
@@ -191,9 +206,12 @@ private:
 =======
 	output::PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	output::PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	Dpi m_dpi;
 	Dpi m_outputDpi;
 	Margins m_margins;
@@ -221,6 +239,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape	
 	output::PictureShape fetchPictureShape();
@@ -231,9 +252,12 @@ private:
 =======
 	output::PictureShape fetchPictureShape();
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	output::PictureShape fetchPictureShape();
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	Qt::LayoutDirection fetchLayoutDirection();
 	Dpi fetchDpi(QString oname="dpi");
 	Margins fetchMargins();

@@ -186,6 +186,7 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 }
 
 void
+<<<<<<< HEAD
 Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 {
 	QMutexLocker const locker(&m_mutex);
@@ -201,6 +202,8 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 }
 
 void
+=======
+>>>>>>> master
 Settings::setDpi(PageId const& page_id, Dpi const& dpi)
 {
 	QMutexLocker const locker(&m_mutex);

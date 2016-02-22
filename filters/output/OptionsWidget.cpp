@@ -88,8 +88,11 @@ OptionsWidget::OptionsWidget(
 	                         
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
+=======
+>>>>>>> master
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
@@ -137,6 +140,7 @@ OptionsWidget::OptionsWidget(
 		this, SLOT(tiffCompressionChanged(int))
 	);
 	connect(
+<<<<<<< HEAD
 		pictureShapeSelector, SIGNAL(currentIndexChanged(int)),
 		this, SLOT(pictureShapeChanged(int))
 	);
@@ -145,6 +149,8 @@ OptionsWidget::OptionsWidget(
 		this, SLOT(tiffCompressionChanged(int))
 	);
 	connect(
+=======
+>>>>>>> master
 		whiteMarginsCB, SIGNAL(clicked(bool)),
 		this, SLOT(whiteMarginsToggled(bool))
 	);
@@ -232,6 +238,9 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	m_pictureShape = params.pictureShape();
@@ -242,9 +251,12 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 =======
 	m_pictureShape = params.pictureShape();
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	m_pictureShape = params.pictureShape();
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	m_dewarpingMode = params.dewarpingMode();
 	m_depthPerception = params.depthPerception();
 	m_despeckleLevel = params.despeckleLevel();
@@ -338,6 +350,7 @@ OptionsWidget::tiffCompressionChanged(int idx)
 }
 
 void
+<<<<<<< HEAD
 OptionsWidget::pictureShapeChanged(int const idx)
 {
 	m_pictureShape = (PictureShape)(pictureShapeSelector->itemData(idx).toInt());
@@ -353,6 +366,8 @@ OptionsWidget::tiffCompressionChanged(int idx)
 }
 
 void
+=======
+>>>>>>> master
 OptionsWidget::whiteMarginsToggled(bool const checked)
 {
 	ColorGrayscaleOptions opt(m_colorParams.colorGrayscaleOptions());
@@ -488,6 +503,9 @@ OptionsWidget::applyColorsConfirmed(std::set<PageId> const& pages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
@@ -498,9 +516,12 @@ OptionsWidget::applyColorsConfirmed(std::set<PageId> const& pages)
 =======
 		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 		emit invalidateThumbnail(page_id);
 	}
 	
@@ -765,6 +786,9 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	bool picture_shape_visible = false;
@@ -775,9 +799,12 @@ OptionsWidget::updateColorsDisplay()
 =======
 	bool picture_shape_visible = false;
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	bool picture_shape_visible = false;
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	switch (color_mode) {
 		case ColorParams::BLACK_AND_WHITE:
 			bw_options_visible = true;
@@ -790,6 +817,9 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 			picture_shape_visible = true;
@@ -800,9 +830,12 @@ OptionsWidget::updateColorsDisplay()
 =======
 			picture_shape_visible = true;
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 			picture_shape_visible = true;
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 			break;
 	}
 	
@@ -820,6 +853,9 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	pictureShapeOptions->setVisible(picture_shape_visible);
@@ -841,12 +877,15 @@ OptionsWidget::updateColorsDisplay()
 	despecklePanel->setVisible(bw_options_visible && m_lastTab != TAB_DEWARPING);
 
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	pictureShapeOptions->setVisible(picture_shape_visible);
 	bwOptions->setVisible(bw_options_visible);
 	despecklePanel->setVisible(bw_options_visible && m_lastTab != TAB_DEWARPING);
 
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	if (picture_shape_visible) {
 		int const picture_shape_idx = pictureShapeSelector->findData(m_pictureShape);
 		pictureShapeSelector->setCurrentIndex(picture_shape_idx);
@@ -854,6 +893,9 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //end of modified by monday2000
 =======
 	
@@ -865,11 +907,14 @@ OptionsWidget::updateColorsDisplay()
 	int compression_idx = tiffCompression->findData(m_ptrSettings->getTiffCompression());
 	tiffCompression->setCurrentIndex(compression_idx);
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	
 	int compression_idx = tiffCompression->findData(m_ptrSettings->getTiffCompression());
 	tiffCompression->setCurrentIndex(compression_idx);
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 	if (bw_options_visible) {
 		switch (m_despeckleLevel) {

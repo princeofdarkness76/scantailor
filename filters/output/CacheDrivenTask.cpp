@@ -90,6 +90,9 @@ CacheDrivenTask::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 				params.depthPerception(), params.despeckleLevel()
 //begin of modified by monday2000
 //Picture_Shape
@@ -101,9 +104,12 @@ CacheDrivenTask::process(
 =======
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 			);
 
 			if (!stored_output_params->outputImageParams().matches(new_output_image_params)) {

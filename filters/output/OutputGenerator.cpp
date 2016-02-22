@@ -311,6 +311,9 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* const dbg) const
@@ -327,9 +330,12 @@ OutputGenerator::process(
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 {
 	QImage image(
 		processImpl(
@@ -338,6 +344,9 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
 //Original_Foreground_Mixed
@@ -359,9 +368,12 @@ OutputGenerator::process(
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 		)
 	);
 	assert(!image.isNull());
@@ -557,6 +569,9 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* const dbg) const
@@ -573,9 +588,12 @@ OutputGenerator::processImpl(
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	DebugImages* const dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 {
 	RenderParams const render_params(m_colorParams);
 
@@ -623,6 +641,9 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
 //added:			
@@ -643,9 +664,12 @@ OutputGenerator::processImpl(
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 		);
 	} else if (!render_params.whiteMargins()) {
 		return processAsIs(
@@ -657,6 +681,9 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Dont_Equalize_Illumination_Pic_Zones
 //added:			
@@ -676,9 +703,12 @@ OutputGenerator::processImpl(
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 			auto_picture_mask, speckles_image, dbg, picture_shape
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 		);
 	}
 }
@@ -750,6 +780,9 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* dbg) const
@@ -766,9 +799,12 @@ OutputGenerator::processWithoutDewarping(
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 {
 	RenderParams const render_params(m_colorParams);
 	
@@ -924,6 +960,9 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 //Quadro_Zoner
@@ -973,16 +1012,22 @@ OutputGenerator::processWithoutDewarping(
 =======
 =======
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			bw_mask.rectangularizeAreas(WHITE);
 		}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
+=======
+>>>>>>> master
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
@@ -1148,6 +1193,9 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	//DebugImages* dbg) const
@@ -1164,9 +1212,12 @@ OutputGenerator::processWithDewarping(
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	DebugImages* dbg, PictureShape picture_shape) const
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 {
 	QSize const target_size(m_outRect.size().expandedTo(QSize(1, 1)));
 	if (m_outRect.isEmpty()) {
@@ -1339,6 +1390,9 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 //Quadro_Zoner
@@ -1395,11 +1449,14 @@ OutputGenerator::processWithDewarping(
 			warped_bw_mask.rectangularizeAreas(WHITE);
 		}
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			warped_bw_mask.rectangularizeAreas(WHITE);
 		}
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 		status.throwIfCancelled();
 

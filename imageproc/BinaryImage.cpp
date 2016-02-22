@@ -567,6 +567,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 =======
@@ -575,9 +578,12 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 void
 BinaryImage::rectangularizeAreas(BWColor content_color)
 {
@@ -668,6 +674,9 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 void
 BinaryImage::rectangularizeAreasQuadro(BWColor content_color, std::vector<QRect>& areas)
 {
@@ -864,8 +873,11 @@ BinaryImage::getPixel(int x, int y)
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 uint32_t*
 BinaryImage::data()

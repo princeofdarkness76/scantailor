@@ -227,6 +227,9 @@ CommandLine::setup()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	m_pictureShape = fetchPictureShape();
@@ -237,9 +240,12 @@ CommandLine::setup()
 =======
 	m_pictureShape = fetchPictureShape();
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	m_pictureShape = fetchPictureShape();
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	m_dpi = fetchDpi();
 	m_outputDpi = fetchDpi("output-dpi");
 	m_margins = fetchMargins();
@@ -326,6 +332,9 @@ CommandLine::printHelp()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << std::endl;
@@ -336,9 +345,12 @@ CommandLine::printHelp()
 =======
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	std::cout << "\t--white-margins\t\t\t\t-- default: false" << "\n";
 	std::cout << "\t--normalize-illumination\t\t-- default: false" << "\n";
 	std::cout << "\t--threshold=<n>\t\t\t\t-- n<0 thinner, n>0 thicker; default: 0" << "\n";
@@ -459,6 +471,7 @@ CommandLine::fetchPictureShape()
 }
 
 
+<<<<<<< HEAD
 output::PictureShape
 CommandLine::fetchPictureShape()
 {
@@ -471,6 +484,8 @@ CommandLine::fetchPictureShape()
 }
 
 
+=======
+>>>>>>> master
 Margins
 CommandLine::fetchMargins()
 {

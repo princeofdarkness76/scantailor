@@ -86,6 +86,9 @@ private slots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	void pictureShapeChanged(int idx);
@@ -96,12 +99,15 @@ private slots:
 =======
 
 	void pictureShapeChanged(int idx);
+<<<<<<< HEAD
 =======
 
 	void pictureShapeChanged(int idx);
 	
 	void tiffCompressionChanged(int idx);
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	
 	void tiffCompressionChanged(int idx);
 >>>>>>> scantailor/tiff
@@ -161,6 +167,9 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	PictureShape m_pictureShape;
@@ -171,9 +180,12 @@ private:
 =======
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;
 	DespeckleLevel m_despeckleLevel;

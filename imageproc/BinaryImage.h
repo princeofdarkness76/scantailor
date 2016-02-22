@@ -206,6 +206,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	void rectangularizeAreas(BWColor content_color = BLACK);
@@ -214,8 +217,11 @@ public:
 =======
 =======
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 	void rectangularizeAreas(BWColor content_color = BLACK);
 	

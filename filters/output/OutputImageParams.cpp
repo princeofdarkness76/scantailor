@@ -39,6 +39,9 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	//DespeckleLevel const despeckle_level)
@@ -53,10 +56,13 @@ OutputImageParams::OutputImageParams(
 	DespeckleLevel const despeckle_level,
 	PictureShape const picture_shape)
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	DespeckleLevel const despeckle_level,
 	PictureShape const picture_shape)
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 :	m_size(out_image_size),
 	m_contentRect(content_rect),
 	m_dpi(dpi),
@@ -64,6 +70,9 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	m_pictureShape(picture_shape),
@@ -74,9 +83,12 @@ OutputImageParams::OutputImageParams(
 =======
 	m_pictureShape(picture_shape),
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	m_pictureShape(picture_shape),
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 	m_distortionModel(distortion_model),
 	m_depthPerception(depth_perception),
 	m_dewarpingMode(dewarping_mode),
@@ -153,6 +165,9 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
 	if (m_pictureShape != other.m_pictureShape) {
@@ -169,11 +184,14 @@ OutputImageParams::matches(OutputImageParams const& other) const
 		return false;
 	}
 >>>>>>> scantailor/tiff
+<<<<<<< HEAD
 =======
 	if (m_pictureShape != other.m_pictureShape) {
 		return false;
 	}
 >>>>>>> scantailor/tiff
+=======
+>>>>>>> master
 
 	if (m_dewarpingMode != other.m_dewarpingMode) {
 		return false;
