@@ -36,6 +36,7 @@ namespace output
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -61,6 +62,9 @@ namespace output
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
+>>>>>>> scantailor/tiff
 
 class Params
 {
@@ -74,6 +78,7 @@ public:
 	void setOutputDpi(Dpi const& dpi) { m_dpi = dpi; }
 	
 	ColorParams const& colorParams() const { return m_colorParams; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,10 +104,13 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> scantailor/tiff
 
 	PictureShape pictureShape() const { return m_pictureShape; }
 	void setPictureShape(PictureShape ps) { m_pictureShape = ps; }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,6 +121,8 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+>>>>>>> scantailor/tiff
+=======
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
@@ -148,6 +158,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -169,6 +180,9 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
 	dewarping::DistortionModel m_distortionModel;
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;

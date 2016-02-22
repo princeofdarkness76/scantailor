@@ -313,6 +313,7 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -342,11 +343,15 @@ OutputGenerator::process(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 {
 	QImage image(
 		processImpl(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,6 +391,9 @@ OutputGenerator::process(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
 		)
 	);
 	assert(!image.isNull());
@@ -583,6 +591,7 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -612,6 +621,9 @@ OutputGenerator::processImpl(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 {
 	RenderParams const render_params(m_colorParams);
 
@@ -661,6 +673,7 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -694,6 +707,9 @@ OutputGenerator::processImpl(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
 		);
 	} else if (!render_params.whiteMargins()) {
 		return processAsIs(
@@ -702,6 +718,7 @@ OutputGenerator::processImpl(
 	} else {
 		return processWithoutDewarping(
 			status, input, picture_zones, fill_zones,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -739,6 +756,9 @@ OutputGenerator::processImpl(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> scantailor/tiff
 		);
 	}
 }
@@ -812,6 +832,7 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -841,6 +862,9 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 {
 	RenderParams const render_params(m_colorParams);
 	
@@ -998,6 +1022,7 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -1059,10 +1084,13 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> scantailor/tiff
 
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			bw_mask.rectangularizeAreas(WHITE);
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1073,6 +1101,8 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+>>>>>>> scantailor/tiff
+=======
 >>>>>>> scantailor/tiff
 =======
 >>>>>>> scantailor/tiff
@@ -1240,6 +1270,7 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -1269,6 +1300,9 @@ OutputGenerator::processWithDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> scantailor/tiff
 {
 	QSize const target_size(m_outRect.size().expandedTo(QSize(1, 1)));
 	if (m_outRect.isEmpty()) {
@@ -1443,6 +1477,7 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -1514,6 +1549,11 @@ OutputGenerator::processWithDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> scantailor/tiff
 
 		status.throwIfCancelled();
 

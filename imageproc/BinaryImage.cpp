@@ -569,6 +569,7 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -590,6 +591,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+
+>>>>>>> scantailor/tiff
 void
 BinaryImage::rectangularizeAreas(BWColor content_color)
 {
@@ -677,6 +681,7 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 	}
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -890,6 +895,8 @@ BinaryImage::getPixel(int x, int y)
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> scantailor/tiff
 
 uint32_t*
 BinaryImage::data()

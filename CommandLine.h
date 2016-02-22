@@ -94,6 +94,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -117,6 +118,9 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	bool hasPictureShape() const { return contains("picture-shape"); }
+>>>>>>> scantailor/tiff
 	bool hasWhiteMargins() const { return contains("white-margins"); }
 	bool hasNormalizeIllumination() const { return contains("normalize-illumination"); }
 	bool hasThreshold() const { return contains("threshold"); }
@@ -129,6 +133,7 @@ public:
 	page_split::LayoutType getLayout() const { return m_layoutType; }
 	Qt::LayoutDirection getLayoutDirection() const { return m_layoutDirection; }
 	output::ColorParams::ColorMode getColorMode() const { return m_colorMode; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,6 +162,9 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	output::PictureShape getPictureShape() const { return m_pictureShape; }
+>>>>>>> scantailor/tiff
 	Dpi getInputDpi() const { return m_dpi; }
 	Dpi getOutputDpi() const { return m_outputDpi; }
 	Margins getMargins() const { return m_margins; }
@@ -207,6 +215,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -230,6 +239,9 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	output::PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
 	Dpi m_dpi;
 	Dpi m_outputDpi;
 	Margins m_margins;
@@ -259,6 +271,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -282,6 +295,9 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	output::PictureShape fetchPictureShape();
+>>>>>>> scantailor/tiff
 	Qt::LayoutDirection fetchLayoutDirection();
 	Dpi fetchDpi(QString oname="dpi");
 	Margins fetchMargins();

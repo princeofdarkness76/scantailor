@@ -57,6 +57,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -82,6 +83,9 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+		DepthPerception const& depth_perception, DespeckleLevel despeckle_level, PictureShape picture_shape);
+>>>>>>> scantailor/tiff
 	
 //begin of modified by monday2000
 //Picture_Shape_Bug	
@@ -156,6 +160,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -183,6 +188,10 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	/** Shape of the pictures in image */
+	PictureShape m_pictureShape;
+>>>>>>> scantailor/tiff
 
 	/** Two curves and two lines connecting their endpoints.  Used for dewarping. */
 	dewarping::DistortionModel m_distortionModel;

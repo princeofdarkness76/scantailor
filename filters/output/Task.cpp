@@ -206,6 +206,7 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -230,6 +231,9 @@ Task::process(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> scantailor/tiff
 	);
 
 //begin of modified by monday2000
@@ -417,6 +421,7 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -443,6 +448,9 @@ Task::process(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+			m_ptrDbg.get(), params.pictureShape()
+>>>>>>> scantailor/tiff
 		);
 
 		if ((params.dewarpingMode() == DewarpingMode::AUTO && distortion_model.isValid())

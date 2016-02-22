@@ -68,6 +68,7 @@ font-weight: bold;</string>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -88,6 +89,9 @@ font-weight: bold;</string>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+          <string notr="true">Scan Tailor "Enhanced"</string>
+>>>>>>> scantailor/tiff
          </property>
          <property name="alignment">
           <set>Qt::AlignBottom|Qt::AlignHCenter</set>

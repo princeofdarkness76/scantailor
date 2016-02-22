@@ -229,6 +229,7 @@ CommandLine::setup()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -252,6 +253,9 @@ CommandLine::setup()
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	m_pictureShape = fetchPictureShape();
+>>>>>>> scantailor/tiff
 	m_dpi = fetchDpi();
 	m_outputDpi = fetchDpi("output-dpi");
 	m_margins = fetchMargins();
@@ -340,6 +344,7 @@ CommandLine::printHelp()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -363,6 +368,9 @@ CommandLine::printHelp()
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	std::cout << "\t--picture-shape=<free|rectangular>\n\t\t\t\t\t\t-- default: free" << "\n";
+>>>>>>> scantailor/tiff
 	std::cout << "\t--white-margins\t\t\t\t-- default: false" << "\n";
 	std::cout << "\t--normalize-illumination\t\t-- default: false" << "\n";
 	std::cout << "\t--threshold=<n>\t\t\t\t-- n<0 thinner, n>0 thicker; default: 0" << "\n";
@@ -497,10 +505,25 @@ CommandLine::fetchPictureShape()
 }
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+output::PictureShape
+CommandLine::fetchPictureShape()
+{
+	QString ps = m_options["picture-shape"].toLower();
+	
+	if (ps == "rectangular")
+		return output::RECTANGULAR_SHAPE;
+
+	return output::FREE_SHAPE;
+}
+
+
+>>>>>>> scantailor/tiff
 Margins
 CommandLine::fetchMargins()
 {

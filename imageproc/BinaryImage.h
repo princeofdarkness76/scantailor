@@ -208,6 +208,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -228,6 +229,8 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> scantailor/tiff
 
 	void rectangularizeAreas(BWColor content_color = BLACK);
 	

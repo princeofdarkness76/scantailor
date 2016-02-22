@@ -2276,6 +2276,7 @@ MainWindow::updateWindowTitle()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -2299,6 +2300,9 @@ MainWindow::updateWindowTitle()
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	setWindowTitle(tr("%2 - Scan Tailor \"Enhanced\" build from %3 [%1bit]").arg(sizeof(void*)*8).arg(project_name, version));
+>>>>>>> scantailor/tiff
 }
 
 /**

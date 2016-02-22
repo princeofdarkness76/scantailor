@@ -437,6 +437,7 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
@@ -469,6 +470,11 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+		if (cli.hasPictureShape()) {
+			params.setPictureShape(cli.getPictureShape());
+		}
+>>>>>>> scantailor/tiff
 
 		output::ColorParams colorParams = params.colorParams();
 		if (cli.hasColorMode())

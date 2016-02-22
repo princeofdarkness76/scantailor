@@ -153,6 +153,7 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 		it->second.setPictureShape(picture_shape);
 	}
 }
+<<<<<<< HEAD
 //end of modified by monday2000
 
 void
@@ -207,6 +208,10 @@ void
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+
+void
+>>>>>>> scantailor/tiff
 Settings::setDpi(PageId const& page_id, Dpi const& dpi)
 {
 	QMutexLocker const locker(&m_mutex);
