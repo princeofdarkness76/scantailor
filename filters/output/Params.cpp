@@ -36,10 +36,15 @@ Params::Params()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,9 +52,12 @@ Params::Params()
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -65,9 +73,14 @@ Params::Params()
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -78,11 +91,14 @@ Params::Params()
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 	m_pictureShape(FREE_SHAPE)
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 {
@@ -97,10 +113,15 @@ Params::Params(QDomElement const& el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,9 +129,12 @@ Params::Params(QDomElement const& el)
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -130,9 +154,14 @@ Params::Params(QDomElement const& el)
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -144,12 +173,15 @@ Params::Params(QDomElement const& el)
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 	m_despeckleLevel(despeckleLevelFromString(el.attribute("despeckleLevel"))),
 	m_pictureShape((PictureShape)(el.attribute("pictureShape").toInt()))
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 {
@@ -176,10 +208,15 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,9 +224,12 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -205,9 +245,14 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -218,11 +263,14 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 	el.setAttribute("pictureShape", (int)m_pictureShape);
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 	el.setAttribute("depthPerception", m_depthPerception.toString());

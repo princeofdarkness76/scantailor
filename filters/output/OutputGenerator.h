@@ -135,10 +135,15 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,9 +151,12 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -168,9 +176,14 @@ public:
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -181,11 +194,14 @@ public:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 	
@@ -217,10 +233,15 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,9 +249,12 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -251,9 +275,14 @@ private:
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -264,11 +293,14 @@ private:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 
@@ -294,10 +326,15 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,9 +342,12 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -327,9 +367,14 @@ private:
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -340,11 +385,14 @@ private:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 
@@ -368,10 +416,15 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,9 +432,12 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -414,9 +470,14 @@ private:
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -427,11 +488,14 @@ private:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 	

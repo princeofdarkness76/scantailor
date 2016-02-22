@@ -568,10 +568,15 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -579,9 +584,12 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -595,9 +603,14 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -608,11 +621,14 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 void
@@ -706,10 +722,15 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -717,9 +738,12 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -921,9 +945,14 @@ BinaryImage::getPixel(int x, int y)
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -933,10 +962,13 @@ BinaryImage::getPixel(int x, int y)
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 

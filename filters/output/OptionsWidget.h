@@ -87,10 +87,15 @@ private slots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,9 +103,12 @@ private slots:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -116,6 +124,7 @@ private slots:
 	void pictureShapeChanged(int idx);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
@@ -124,6 +133,11 @@ private slots:
 =======
 
 	void pictureShapeChanged(int idx);
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 =======
 
@@ -132,6 +146,7 @@ private slots:
 	void tiffCompressionChanged(int idx);
 >>>>>>> scantailor/tiff
 =======
+<<<<<<< HEAD
 >>>>>>> pod/filters.cpp
 	
 	void tiffCompressionChanged(int idx);
@@ -143,6 +158,11 @@ private slots:
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -206,10 +226,15 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,9 +242,12 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
@@ -235,9 +263,14 @@ private:
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -248,11 +281,14 @@ private:
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 	PictureShape m_pictureShape;
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 	DepthPerception m_depthPerception;

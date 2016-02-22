@@ -189,9 +189,14 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 void
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
 <<<<<<< HEAD
 <<<<<<< HEAD
 Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
@@ -215,11 +220,14 @@ void
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 void
 >>>>>>> scantailor/tiff
 >>>>>>> pod/filters.coo
 =======
+=======
+>>>>>>> pod/homebrew-formulae
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 Settings::setDpi(PageId const& page_id, Dpi const& dpi)
