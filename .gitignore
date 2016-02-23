@@ -8,9 +8,12 @@ build/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
 .vimprj/
 *.patch
 ScanTailor.config
@@ -22,8 +25,11 @@ build-*/
 samples/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced

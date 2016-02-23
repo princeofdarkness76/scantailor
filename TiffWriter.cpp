@@ -199,6 +199,7 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 	
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	switch (image.format()) {
 		case QImage::Format_Mono:
 		case QImage::Format_MonoLSB:
@@ -208,6 +209,8 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
 	CommandLine const& cli = CommandLine::get();
 
 	if (! cli.hasTiffForceRGB()) {
@@ -222,9 +225,12 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 			default:;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
 	}
 	
 	if (image.hasAlphaChannel()) {

@@ -25,6 +25,14 @@
 #ifndef Q_MOC_RUN
 #include <boost/foreach.hpp>
 #endif
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+#include <iostream>
+=======
+>>>>>>> scantailor/master
+>>>>>>> enhanced
 
 #include <iostream>
 
@@ -49,6 +57,7 @@ OptionsWidget::OptionsWidget(
 	
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	connect(autoBtn, SIGNAL(toggled(bool)), this, SLOT(modeChanged(bool)));
 <<<<<<< HEAD
 =======
@@ -61,6 +70,10 @@ OptionsWidget::OptionsWidget(
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+	connect(autoBtn, SIGNAL(pressed()), this, SLOT(autoMode()));
+	connect(manualBtn, SIGNAL(pressed()), this, SLOT(manualMode()));
+>>>>>>> enhanced
 	connect(disableBtn, SIGNAL(pressed()), this, SLOT(contentDetectionDisabled()));
 	connect(pageDetectAutoBtn, SIGNAL(pressed()), this, SLOT(pageDetectionEnabled()));
 	connect(pageDetectDisableBtn, SIGNAL(pressed()), this, SLOT(pageDetectionDisabled()));
@@ -69,20 +82,26 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
     
     connect(leftBorder, SIGNAL(valueChanged(double)), this, SLOT(borderChanged()));
     connect(rightBorder, SIGNAL(valueChanged(double)), this, SLOT(borderChanged()));
     connect(topBorder, SIGNAL(valueChanged(double)), this, SLOT(borderChanged()));
     connect(bottomBorder, SIGNAL(valueChanged(double)), this, SLOT(borderChanged()));
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 }
 
 OptionsWidget::~OptionsWidget()
@@ -136,6 +155,7 @@ OptionsWidget::manualContentRectSet(QRectF const& content_rect)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     m_uiData.setPageDetection(false);
 >>>>>>> origin/enhanced
@@ -144,6 +164,9 @@ OptionsWidget::manualContentRectSet(QRectF const& content_rect)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+    m_uiData.setPageDetection(false);
+>>>>>>> enhanced
 	updateModeIndication(MODE_MANUAL);
 	commitCurrentParams();
 	
@@ -154,6 +177,7 @@ OptionsWidget::manualContentRectSet(QRectF const& content_rect)
 void
 OptionsWidget::modeChanged(bool const auto_mode)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	if (m_ignoreAutoManualToggle) {
@@ -172,6 +196,11 @@ OptionsWidget::modeChanged(bool const auto_mode)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+	//if (m_ignoreAutoManualToggle) {
+	//	return;
+	//}
+>>>>>>> enhanced
 
 	if (auto_mode) {
 		//m_ptrSettings->clearPageParams(m_pageId);
@@ -212,6 +241,7 @@ void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
 OptionsWidget::fineTuningChanged(bool checked)
@@ -231,6 +261,8 @@ void
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 OptionsWidget::contentDetectionDisabled(void)
 {
 	bool old = m_ignoreAutoManualToggle;
@@ -266,10 +298,13 @@ OptionsWidget::pageDetectionEnabled(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	emit reloadRequested();
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
     emit reloadRequested();
 }
 
@@ -279,12 +314,15 @@ void OptionsWidget::borderChanged()
     commitCurrentParams();
     emit reloadRequested();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 =======
 	emit reloadRequested();
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 }
 
 void
@@ -307,6 +345,7 @@ OptionsWidget::updateModeIndication(AutoManualMode const mode)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             pageDetectDisableBtn->setChecked(true);
             pageDetectAutoBtn->setChecked(false);
@@ -317,6 +356,10 @@ OptionsWidget::updateModeIndication(AutoManualMode const mode)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+            pageDetectDisableBtn->setChecked(true);
+            pageDetectAutoBtn->setChecked(false);
+>>>>>>> enhanced
 		}
 	}
 }
@@ -329,6 +372,7 @@ OptionsWidget::commitCurrentParams()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		m_uiData.dependencies(), m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
 	);
 =======
@@ -339,16 +383,21 @@ OptionsWidget::commitCurrentParams()
     params.setPageBorders(m_uiData.pageBorders());
 >>>>>>> origin/enhanced
 =======
+=======
+>>>>>>> enhanced
 		//m_uiData.dependencies(), m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
 		Dependencies(), m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
 	);
 	params.setPageRect(m_uiData.pageRect());
     params.setPageBorders(m_uiData.pageBorders());
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 		m_uiData.dependencies(), m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
 	);
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 	params.computeDeviation(m_ptrSettings->avg());
 	m_ptrSettings->setPageParams(m_pageId, params);
 }
@@ -380,6 +429,7 @@ OptionsWidget::applySelection(std::set<PageId> const& pages, bool apply_content_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		m_uiData.dependencies(), m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
 =======
 		deps, m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
@@ -390,6 +440,9 @@ OptionsWidget::applySelection(std::set<PageId> const& pages, bool apply_content_
 =======
 		m_uiData.dependencies(), m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
 >>>>>>> pod/tiff
+=======
+		deps, m_uiData.mode(), m_uiData.contentDetection(), m_uiData.pageDetection(), m_uiData.fineTuning()
+>>>>>>> enhanced
 	);
 
 	BOOST_FOREACH(PageId const& page_id, pages) {
@@ -420,6 +473,7 @@ OptionsWidget::UiData::UiData()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_fineTuneCorners(false)
 =======
 	m_fineTuneCorners(false),
@@ -432,6 +486,10 @@ OptionsWidget::UiData::UiData()
 =======
 	m_fineTuneCorners(false)
 >>>>>>> pod/tiff
+=======
+	m_fineTuneCorners(false),
+    m_borders(0,0,0,0)
+>>>>>>> enhanced
 {
 }
 
@@ -517,10 +575,13 @@ OptionsWidget::UiData::setFineTuneCorners(bool fine_tune)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_fineTuneCorners = fine_tune;
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
     m_fineTuneCorners = fine_tune;
 }
 
@@ -531,12 +592,15 @@ void OptionsWidget::UiData::setPageBorders(double left, double top, double right
     m_borders.setRight(right);
     m_borders.setBottom(bottom);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 =======
 	m_fineTuneCorners = fine_tune;
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 }
 
 

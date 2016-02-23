@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include "Margins.h"
 >>>>>>> origin/enhanced
@@ -32,6 +33,9 @@
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+#include "Margins.h"
+>>>>>>> enhanced
 
 #include <Qt>
 
@@ -44,6 +48,7 @@ class QRectF;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class QSizeF;
 class QSize;
@@ -54,6 +59,10 @@ class QSize;
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+class QSizeF;
+class QSize;
+>>>>>>> enhanced
 
 namespace imageproc
 {
@@ -70,6 +79,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
 		TaskStatus const& status, FilterData const& data, bool fine_tune=false,
@@ -83,6 +93,8 @@ private:
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
         TaskStatus const& status, FilterData const& data, bool fine_tune, QSizeF const& box, double tolerance, Margins borders, DebugImages* dbg = 0);
 private:
 	static QRect detectBorders(QImage const& img);
@@ -90,11 +102,14 @@ private:
 	static void fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, double tolerance);
 	static bool fineTuneCorner(QImage const& img, int &x, int &y, int max_x, int max_y, int inc_x, int inc_y, QSize const& size, double tolerance);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 };
 
 } // namespace select_content

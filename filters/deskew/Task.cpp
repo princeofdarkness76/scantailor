@@ -120,6 +120,7 @@ Task::process(TaskStatus const& status, FilterData const& data)
 	if (params.get()) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if ((!deps.matches(params->dependencies()) ||
 				params->deskewAngle() != ui_data.effectiveDeskewAngle()) &&
 				params->mode() == MODE_AUTO &&
@@ -134,6 +135,11 @@ Task::process(TaskStatus const& status, FilterData const& data)
 			//std::cout << "Deskew: " << "reset params" << std::endl;
 			//std::cout << (deps.matches(params->dependencies())) << std::endl;
 >>>>>>> origin/enhanced
+=======
+		if (!deps.matches(params->dependencies())) {
+			//std::cout << "Deskew: " << "reset params" << std::endl;
+			//std::cout << (deps.matches(params->dependencies())) << std::endl;
+>>>>>>> enhanced
 			params.reset();
 		} else {
 			ui_data.setEffectiveDeskewAngle(params->deskewAngle());

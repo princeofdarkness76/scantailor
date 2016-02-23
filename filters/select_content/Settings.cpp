@@ -24,6 +24,16 @@
 #ifndef Q_MOC_RUN
 #include <boost/foreach.hpp>
 #endif
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+#include <cmath>
+#include <iostream>
+#include "CommandLine.h" 
+=======
+>>>>>>> scantailor/master
+>>>>>>> enhanced
 
 #include <cmath>
 #include <iostream>
@@ -48,6 +58,7 @@ Settings::Settings() :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_maxDeviation(1.0)
 =======
     m_pageDetectionBox(0.0, 0.0),
@@ -60,6 +71,10 @@ Settings::Settings() :
 =======
 	m_maxDeviation(1.0)
 >>>>>>> pod/tiff
+=======
+    m_pageDetectionBox(0.0, 0.0),
+    m_pageDetectionTolerance(0.1)
+>>>>>>> enhanced
 {
     m_maxDeviation = CommandLine::get().getContentDeviation();
 }

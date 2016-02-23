@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 #include "CommandLine.h"
@@ -39,6 +40,11 @@ class CommandLine;
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+
+#include "CommandLine.h"
+class CommandLine;
+>>>>>>> enhanced
 
 class QDomDocument;
 class QDomElement;
@@ -66,6 +72,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	bool isDeviant(double std, double max_dev=1.0) const { return std::max(1.5*std, max_dev) < fabs(m_deviation); }
 =======
 	bool isDeviant(double std, double max_dev=CommandLine::get().getSkewDeviation()) const { return std::max(1.5*std, max_dev) < fabs(m_deviation); }
@@ -76,6 +83,9 @@ public:
 =======
 	bool isDeviant(double std, double max_dev=1.0) const { return std::max(1.5*std, max_dev) < fabs(m_deviation); }
 >>>>>>> pod/tiff
+=======
+	bool isDeviant(double std, double max_dev=CommandLine::get().getSkewDeviation()) const { return std::max(1.5*std, max_dev) < fabs(m_deviation); }
+>>>>>>> enhanced
 	
 	Dependencies const& dependencies() const { return m_deps; }
 	

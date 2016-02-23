@@ -71,6 +71,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/filters.cpp
 =======
@@ -152,6 +153,11 @@ public:
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
 
 >>>>>>> pod/tiff
+=======
+
+	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
+
+>>>>>>> enhanced
 	void setDpi(PageId const& page_id, Dpi const& dpi);
 
 	void setDewarpingMode(PageId const& page_id, DewarpingMode const& mode);

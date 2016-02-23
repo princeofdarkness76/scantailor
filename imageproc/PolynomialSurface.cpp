@@ -27,11 +27,14 @@
 #ifndef Q_MOC_RUN
 #include <boost/foreach.hpp>
 #endif
+<<<<<<< HEAD
 =======
 #include "MatT.h"
 #include "VecT.h"
 #include "MatrixCalc.h"
 >>>>>>> origin/qt5
+=======
+>>>>>>> enhanced
 #include <stdexcept>
 #include <algorithm>
 #include <math.h>

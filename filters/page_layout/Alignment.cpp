@@ -53,6 +53,7 @@ Alignment::Alignment(QDomElement const& el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	m_autoMargins = el.attribute("autoMargins") == "true" ? true: false;
 >>>>>>> origin/enhanced
@@ -61,6 +62,9 @@ Alignment::Alignment(QDomElement const& el)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+	m_autoMargins = el.attribute("autoMargins") == "true" ? true: false;
+>>>>>>> enhanced
 	
 	if (vert == "top") {
 		m_vert = TOP;
@@ -136,6 +140,7 @@ Alignment::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	el.setAttribute("autoMargins", m_autoMargins ? "true" : "false");
 >>>>>>> origin/enhanced
@@ -144,6 +149,9 @@ Alignment::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+=======
+	el.setAttribute("autoMargins", m_autoMargins ? "true" : "false");
+>>>>>>> enhanced
 	return el;
 }
 

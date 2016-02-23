@@ -113,10 +113,13 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> enhanced
     
     if (cli.hasSkewDeviation()) {
         m_ptrSettings->setMaxDeviation(cli.getSkewDeviation());
@@ -124,12 +127,15 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
         m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", QString::number(cli.getSkewDeviation())).toDouble());
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 =======
     m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
 >>>>>>> pod/tiff
+=======
+>>>>>>> enhanced
 
     QString const page_tag_name("page");
 	QDomNode node(filter_el.firstChild());
