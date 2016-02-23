@@ -68,8 +68,11 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,6 +82,9 @@ public:
 >>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 //begin of modified by monday2000
 //Picture_Shape
@@ -93,6 +99,7 @@ public:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,6 +118,8 @@ public:
 >>>>>>> pod/filters.cpp
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -126,6 +135,9 @@ public:
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 >>>>>>> scantailor/tiff
 =======
@@ -133,7 +145,10 @@ public:
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 =======
@@ -160,6 +175,9 @@ public:
 
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
 
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 >>>>>>> pod/tiff
 =======
@@ -168,7 +186,10 @@ public:
 
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
@@ -179,6 +200,9 @@ public:
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
 
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	void setDpi(PageId const& page_id, Dpi const& dpi);
 

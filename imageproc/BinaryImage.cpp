@@ -570,11 +570,14 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -588,6 +591,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,8 +602,11 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 >>>>>>> master
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
@@ -606,6 +615,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 >>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -620,10 +632,13 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -637,6 +652,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 <<<<<<< HEAD
 >>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -649,8 +667,11 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -663,6 +684,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 >>>>>>> pod/filters.cpp
 =======
 >>>>>>> master
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
@@ -672,7 +696,10 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/scantailor-filters.h
 =======
 
@@ -680,6 +707,9 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 void
 BinaryImage::rectangularizeAreas(BWColor content_color)
@@ -774,11 +804,14 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -792,6 +825,9 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 =======
 >>>>>>> pod/scantailor-filters.h
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -800,8 +836,11 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 =======
 >>>>>>> master
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> pod/filters.coo
@@ -810,6 +849,9 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 >>>>>>> pod/homebrew-formulae
 =======
 >>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 >>>>>>> master
@@ -1012,10 +1054,13 @@ BinaryImage::getPixel(int x, int y)
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1029,6 +1074,9 @@ BinaryImage::getPixel(int x, int y)
 =======
 <<<<<<< HEAD
 >>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1040,8 +1088,11 @@ BinaryImage::getPixel(int x, int y)
 >>>>>>> master
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
@@ -1053,6 +1104,9 @@ BinaryImage::getPixel(int x, int y)
 >>>>>>> pod/filters.cpp
 =======
 >>>>>>> master
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
@@ -1060,12 +1114,18 @@ BinaryImage::getPixel(int x, int y)
 =======
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 >>>>>>> pod/scantailor-filters.h
 =======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 
 uint32_t*

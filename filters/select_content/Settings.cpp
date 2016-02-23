@@ -29,21 +29,30 @@
 #include <iostream>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 #include <cmath>
 #include <iostream>
 #include "CommandLine.h" 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 #include <cmath>
 #include <iostream>
 #include "CommandLine.h" 
 
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 namespace select_content
 {
@@ -53,6 +62,7 @@ Settings::Settings() :
     m_sigma(0.0),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_maxDeviation(1.0)
 =======
     m_pageDetectionBox(0.0, 0.0),
@@ -60,6 +70,8 @@ Settings::Settings() :
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	m_maxDeviation(1.0)
 =======
@@ -73,6 +85,9 @@ Settings::Settings() :
 =======
 	m_maxDeviation(1.0)
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 {
     m_maxDeviation = CommandLine::get().getContentDeviation();

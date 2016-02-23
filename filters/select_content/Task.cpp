@@ -101,8 +101,14 @@ Task::process(TaskStatus const& status, FilterData const& data)
 	Params new_params(deps);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
@@ -118,7 +124,11 @@ Task::process(TaskStatus const& status, FilterData const& data)
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
@@ -143,7 +153,13 @@ Task::process(TaskStatus const& status, FilterData const& data)
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 =======
@@ -158,8 +174,14 @@ create_new_content:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
@@ -194,6 +216,11 @@ create_new_content:
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 =======
 >>>>>>> origin/enhanced
@@ -225,8 +252,11 @@ create_new_content:
 	ui_data.setFineTuneCorners(new_params.isFineTuningEnabled());
 	ui_data.setPageBorders(new_params.pageBorders());
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 
 	new_params.setContentSizeMM(ui_data.contentSizeMM());
 
@@ -277,6 +307,9 @@ create_new_content:
 */
 >>>>>>> origin/enhanced
 =======
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 
 	new_params.setContentSizeMM(ui_data.contentSizeMM());
@@ -310,7 +343,10 @@ create_new_content:
 		std::cout << "params->contentRect()" << std::endl;
 		content_rect = params->contentRect();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 
 	QRectF content_rect(page_rect);
@@ -319,6 +355,9 @@ create_new_content:
 	} else if (params.get() && new_params.mode() == MODE_MANUAL) {
 		content_rect = new_params.contentRect();
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	}
 	new_params.setContentRect(content_rect);
@@ -334,7 +373,11 @@ create_new_content:
     ui_data.setPageBorders(new_params.pageBorders());
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     ui_data.setPageBorders(new_params.pageBorders());
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
@@ -348,8 +391,13 @@ create_new_content:
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 */
 >>>>>>> origin/enhanced
+=======
+
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 
 >>>>>>> pod/tiff
@@ -401,12 +449,26 @@ create_new_content:
 			status, FilterData(data, data.xform()),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			page_rect, ui_data.contentRect()
 =======
 			ui_data.pageRect(), ui_data.contentRect()
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+			page_rect, ui_data.contentRect()
+=======
+			ui_data.pageRect(), ui_data.contentRect()
+>>>>>>> origin/enhanced
+=======
+			ui_data.pageRect(), ui_data.contentRect()
+>>>>>>> origin/enhanced
+=======
+			page_rect, ui_data.contentRect()
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 			page_rect, ui_data.contentRect()
 =======

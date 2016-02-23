@@ -52,11 +52,14 @@ Alignment::Alignment(QDomElement const& el)
 	m_tolerance = el.attribute("tolerance", QString::number(DEFAULT_TOLERANCE)).toDouble();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	m_autoMargins = el.attribute("autoMargins") == "true" ? true: false;
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 	m_autoMargins = el.attribute("autoMargins") == "true" ? true: false;
@@ -66,6 +69,9 @@ Alignment::Alignment(QDomElement const& el)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	
 	if (vert == "top") {
@@ -141,11 +147,14 @@ Alignment::toXml(QDomDocument& doc, QString const& name) const
 	el.setAttribute("tolerance", QString::number(m_tolerance));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	el.setAttribute("autoMargins", m_autoMargins ? "true" : "false");
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 	el.setAttribute("autoMargins", m_autoMargins ? "true" : "false");
@@ -155,6 +164,9 @@ Alignment::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	return el;
 }

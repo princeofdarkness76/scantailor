@@ -34,8 +34,12 @@ Params::Params(
 	m_pageRect(content_rect),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 <<<<<<< HEAD
 >>>>>>> master
 	m_contentSizeMM(content_size_mm),
@@ -43,6 +47,11 @@ Params::Params(
 	m_mode(mode),
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 =======
 >>>>>>> origin/enhanced
@@ -71,14 +80,20 @@ Params::Params(
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
 =======
 	m_contentSizeMM(content_size_mm),
 	m_deps(deps),
 	m_mode(mode),
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	m_contentDetect(contentDetect),
 	m_pageDetect(pageDetect),
@@ -92,8 +107,12 @@ Params::Params(Dependencies const& deps)
 	m_mode(MODE_AUTO),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 <<<<<<< HEAD
 >>>>>>> master
 	m_contentDetect(true),
@@ -103,7 +122,10 @@ Params::Params(Dependencies const& deps)
     m_pageBorders(0,0,0,0),
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
     m_pageBorders(0,0,0,0),
 >>>>>>> origin/enhanced
@@ -112,6 +134,9 @@ Params::Params(Dependencies const& deps)
 	m_pageDetect(false),
 	m_fineTuneCorners(false),
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	m_deviation(0.0)
 {

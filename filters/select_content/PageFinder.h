@@ -23,11 +23,14 @@
 #include "imageproc/BinaryThreshold.h"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include "Margins.h"
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 #include "Margins.h"
@@ -37,6 +40,9 @@
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 
 #include <Qt>
@@ -49,8 +55,12 @@ class QRect;
 class QRectF;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 <<<<<<< HEAD
 >>>>>>> master
 =======
@@ -58,13 +68,19 @@ class QSizeF;
 class QSize;
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 class QSizeF;
 class QSize;
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 
 namespace imageproc
@@ -81,8 +97,14 @@ public:
 	static QRectF findPageBox(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
@@ -98,7 +120,11 @@ private:
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
@@ -112,7 +138,13 @@ private:
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 =======

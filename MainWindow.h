@@ -100,8 +100,11 @@ public:
 	
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	std::vector<PageRange> selectedRanges() const;
 //begin of modified by monday2000
@@ -111,6 +114,12 @@ public:
     std::vector<PageRange> selectedRanges() const;
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    std::vector<PageRange> selectedRanges() const;
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 =======
     std::vector<PageRange> selectedRanges() const;

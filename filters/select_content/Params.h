@@ -49,9 +49,12 @@ public:
 		Dependencies const& deps, AutoManualMode mode, bool contentDetect, bool pageDetect, bool fineTuning);
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
 	
 	Params(QRectF const& rect, QSizeF const& size_mm,
 		Dependencies const& deps, AutoManualMode mode, bool contentDetect, bool pageDetect, bool fineTuning);
+=======
+>>>>>>> master
 	
 	Params(Dependencies const& deps);
 	
@@ -72,12 +75,15 @@ public:
 	void setDeviation(double d) { m_deviation = d; }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height()); }
 =======
 	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height() / 4); }
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height()); }
 =======
@@ -89,6 +95,9 @@ public:
 =======
 	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height()); }
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	bool isDeviant(double std, double max_dev) { return (max_dev*std) < fabs(m_deviation); }
 
@@ -97,14 +106,20 @@ public:
 	bool isFineTuningEnabled() const { return m_fineTuneCorners; };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
     
     Margins pageBorders() const { return m_pageBorders; };
     void setPageBorders(Margins borders) { m_pageBorders = borders; };
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
     
@@ -112,6 +127,11 @@ public:
     void setPageBorders(Margins borders) { m_pageBorders = borders; };
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 =======
 >>>>>>> pod/tiff
@@ -132,11 +152,14 @@ private:
 	QRectF m_pageRect;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     Margins m_pageBorders;
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
     Margins m_pageBorders;
@@ -146,6 +169,9 @@ private:
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	QSizeF m_contentSizeMM;
 	Dependencies m_deps;

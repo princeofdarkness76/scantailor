@@ -9,7 +9,11 @@
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
@@ -24,8 +28,13 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
+=======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> master
@@ -37,8 +46,11 @@
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="14"/>
         <source>Crash Report</source>
@@ -50,6 +62,11 @@
         <translation>Scan Tailor se srušio. To je obično uzrokovano greškama u programu. Možete nam pomoći pronaći i riješiti problem slanjem ovog izvješće.</translation>
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 =======
 >>>>>>> origin/enhanced
@@ -63,8 +80,13 @@
         <source>Unexpected response from dispatcher</source>
         <translation>Neočekivani odgovor od strane primatelja</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
+=======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> master
@@ -78,8 +100,11 @@
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="77"/>
         <source>Dump file</source>
@@ -108,6 +133,11 @@ Engleski ili ruski molim.</translation>
         <translation>Neočekivani odgovor od strane primatelja</translation>
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 =======
 >>>>>>> origin/enhanced
@@ -126,8 +156,13 @@ Engleski ili ruski molim.</translation>
         <source>Scan Tailor crashed.  That&apos;s usually caused by errors in the software.  You can help us find and fix the problem by submitting this crash report.</source>
         <translation>Scan Tailor se srušio. To je obično uzrokovano greškama u programu. Možete nam pomoći pronaći i riješiti problem slanjem ovog izvješće.</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
+=======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> master
@@ -144,7 +179,11 @@ Engleski ili ruski molim.</translation>
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
@@ -156,8 +195,13 @@ Engleski ili ruski molim.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
+=======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> master
@@ -169,8 +213,11 @@ Engleski ili ruski molim.</translation>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="71"/>
         <source>This file contains the internal state of the program when it crashed</source>
@@ -186,12 +233,18 @@ Engleski ili ruski molim.</translation>
         <translation>e-pošta [po izboru]</translation>
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="81"/>
         <source>Email [optional]</source>
         <translation>e-pošta [po izboru]</translation>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
     </message>
 </context>

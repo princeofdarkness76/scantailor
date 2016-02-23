@@ -229,8 +229,14 @@ void ThumbnailBase::paintDeviant(QPainter &painter)
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
@@ -247,7 +253,11 @@ void ThumbnailBase::paintDeviant(QPainter &painter)
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
@@ -271,7 +281,13 @@ void ThumbnailBase::paintDeviant(QPainter &painter)
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 =======

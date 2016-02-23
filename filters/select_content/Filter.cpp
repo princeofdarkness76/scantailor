@@ -124,14 +124,20 @@ Filter::saveSettings(
 	filter_el.setAttribute("maxDeviation", m_ptrSettings->maxDeviation());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 	filter_el.setAttribute("pageDetectionBoxWidth", m_ptrSettings->pageDetectionBox().width());
 	filter_el.setAttribute("pageDetectionBoxHeight", m_ptrSettings->pageDetectionBox().height());
 	filter_el.setAttribute("pageDetectionTolerance", m_ptrSettings->pageDetectionTolerance());
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 =======
 	filter_el.setAttribute("pageDetectionBoxWidth", m_ptrSettings->pageDetectionBox().width());
@@ -139,6 +145,11 @@ Filter::saveSettings(
 	filter_el.setAttribute("pageDetectionTolerance", m_ptrSettings->pageDetectionTolerance());
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 =======
 >>>>>>> pod/tiff
@@ -178,11 +189,14 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     CommandLine cli = CommandLine::get();
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
     CommandLine cli = CommandLine::get();
@@ -192,6 +206,9 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 
 	QDomElement const filter_el(
@@ -202,10 +219,18 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 	m_ptrSettings->setStd(filter_el.attribute("sigma").toDouble());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+	m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
+=======
 <<<<<<< HEAD
 	m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
 =======
@@ -229,12 +254,18 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
 =======
 	m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 
 	QString const page_tag_name("page");

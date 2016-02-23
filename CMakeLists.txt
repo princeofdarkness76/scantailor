@@ -45,6 +45,7 @@ MACRO (TODAY RESULT)
         EXECUTE_PROCESS(COMMAND "date" "/T" OUTPUT_VARIABLE ${RESULT})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string(REGEX REPLACE "(..)/(..)/..(..).*" "\\3\\2\\1"
 ${RESULT} ${${RESULT}})
 =======
@@ -52,6 +53,8 @@ ${RESULT} ${${RESULT}})
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
         string(REGEX REPLACE "(..)/(..)/..(..).*" "\\3\\2\\1"
 ${RESULT} ${${RESULT}})
@@ -65,6 +68,9 @@ ${RESULT} ${${RESULT}})
         string(REGEX REPLACE "(..)/(..)/..(..).*" "\\3\\2\\1"
 ${RESULT} ${${RESULT}})
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
     ELSEIF(UNIX)
         EXECUTE_PROCESS(COMMAND "date" "+%Y%m%d" OUTPUT_VARIABLE ${RESULT})

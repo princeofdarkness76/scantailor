@@ -32,16 +32,22 @@
 #include <cmath>
 #include <iostream>
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 #include <cmath>
 #include <iostream>
 
+=======
+>>>>>>> master
 #include <cmath>
 #include <iostream>
 
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 namespace deskew
 {
@@ -50,6 +56,7 @@ Settings::Settings() :
     m_avg(0.0),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_sigma(0.0),
 	m_maxDeviation(1.0)
 =======
@@ -57,6 +64,8 @@ Settings::Settings() :
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
     m_sigma(0.0),
 	m_maxDeviation(1.0)
@@ -70,6 +79,9 @@ Settings::Settings() :
     m_sigma(0.0),
 	m_maxDeviation(1.0)
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 {
     m_maxDeviation = CommandLine::get().getSkewDeviation();

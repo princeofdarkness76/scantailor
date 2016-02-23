@@ -402,14 +402,22 @@
   </action>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
   <action name="actionExport">
    <property name="text">
     <string>Export...</string>
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 =======
 >>>>>>> origin/enhanced
@@ -476,8 +484,13 @@
    <property name="shortcut">
     <string>P</string>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
+=======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> master

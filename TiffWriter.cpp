@@ -199,8 +199,11 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 	
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	switch (image.format()) {
 		case QImage::Format_Mono:
@@ -210,6 +213,11 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 		default:;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 =======
 >>>>>>> origin/enhanced
@@ -228,8 +236,13 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 			default:;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
+=======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> master

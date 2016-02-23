@@ -49,8 +49,14 @@ QRectF
 PageFinder::findPageBox(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
@@ -67,7 +73,11 @@ PageFinder::findPageBox(
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
@@ -93,7 +103,13 @@ PageFinder::findPageBox(
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 =======
@@ -119,8 +135,14 @@ PageFinder::findPageBox(
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
@@ -140,7 +162,11 @@ PageFinder::findPageBox(
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
@@ -224,7 +250,13 @@ PageFinder::findPageBox(
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 =======
@@ -236,6 +268,7 @@ PageFinder::findPageBox(
 	combined_xform *= data.xform().transform();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	return combined_xform.map(QRectF(content_rect)).boundingRect();
 =======
 	QRectF result = combined_xform.map(QRectF(content_rect)).boundingRect();
@@ -244,6 +277,8 @@ PageFinder::findPageBox(
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 	return combined_xform.map(QRectF(content_rect)).boundingRect();
 =======
@@ -259,6 +294,9 @@ PageFinder::findPageBox(
 =======
 	return combined_xform.map(QRectF(content_rect)).boundingRect();
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 }
 
@@ -266,6 +304,7 @@ QRect
 PageFinder::detectBorders(QImage const& img)
 {
 	int l=0, t=0, r=img.width()-1, b=img.height()-1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	int xmid = int(double(r) * 0.382);
@@ -280,6 +319,28 @@ PageFinder::detectBorders(QImage const& img)
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+	int xmid = int(double(r) * 0.382);
+	int ymid = int(double(b) * 0.382);
+=======
+=======
+>>>>>>> origin/enhanced
+	int xmid = r / 2;
+	int ymid = b / 2;
+	/*
+	int xmid = int(double(r) * 0.382);
+	int ymid = int(double(b) * 0.382);
+	*/
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+	int xmid = int(double(r) * 0.382);
+	int ymid = int(double(b) * 0.382);
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 	int xmid = int(double(r) * 0.382);
 	int ymid = int(double(b) * 0.382);
@@ -321,6 +382,7 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 	int i=start, edge=start;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,14 +414,43 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 	int min_bp = int(double(me-ms) * 0.8);
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+<<<<<<< HEAD
+	int ms = mid - int(double(mid) / 4.0);
+	int me = mid + int(double(mid) / 4.0);
+	int min_bp = int(double(me-ms) * 0.8);
+=======
+=======
+>>>>>>> origin/enhanced
+	//int ms = mid - int(double(mid) / 4.0);
+	//int me = mid + int(double(mid) / 4.0);
+	int ms = 0;
+	int me = 2 * mid;
+	int min_bp = int(double(me-ms) * 0.95);
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+	int ms = mid - int(double(mid) / 4.0);
+	int me = mid + int(double(mid) / 4.0);
+	int min_bp = int(double(me-ms) * 0.8);
+>>>>>>> pod/tiff
+>>>>>>> master
 	Qt::GlobalColor black = Qt::color1;
 
 	while (i != end) {
 		int black_pixels=0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
@@ -378,7 +469,11 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
@@ -396,7 +491,13 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 =======
@@ -412,8 +513,14 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
@@ -426,7 +533,11 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
@@ -438,7 +549,13 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 =======
@@ -452,8 +569,14 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 void
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
@@ -470,7 +593,11 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect)
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
@@ -489,7 +616,13 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, d
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 =======
@@ -507,8 +640,14 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, d
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
@@ -530,7 +669,11 @@ PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int inc_x, int inc
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
@@ -560,7 +703,13 @@ PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int max_x, int max
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 =======

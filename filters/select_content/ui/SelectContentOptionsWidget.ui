@@ -8,8 +8,12 @@
     <y>0</y>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 <<<<<<< HEAD
 >>>>>>> master
     <width>236</width>
@@ -19,7 +23,10 @@
     <height>361</height>
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
     <width>292</width>
     <height>361</height>
@@ -28,12 +35,16 @@
     <width>236</width>
     <height>294</height>
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -46,6 +57,19 @@
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
 =======
+=======
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> origin/enhanced
+=======
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+>>>>>>> pod/tiff
+>>>>>>> master
+=======
+<<<<<<< HEAD
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+=======
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> origin/enhanced
 =======
   <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> origin/enhanced
@@ -60,12 +84,15 @@
      </property>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      <layout class="QHBoxLayout" name="horizontalLayout">
 =======
      <layout class="QVBoxLayout" name="verticalLayout_3">
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
      <layout class="QHBoxLayout" name="horizontalLayout">
 =======
@@ -77,6 +104,9 @@
 =======
      <layout class="QHBoxLayout" name="horizontalLayout">
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
       <item>
        <layout class="QVBoxLayout" name="verticalLayout">
@@ -127,13 +157,19 @@
       </item>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
       <item>
        <widget class="QGroupBox" name="groupBox_3">
@@ -222,7 +258,13 @@
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 =======
 >>>>>>> origin/enhanced
 =======
@@ -371,8 +413,11 @@
  </widget>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
  <resources>
   <include location="../../../resources/resources.qrc"/>
@@ -381,6 +426,12 @@
  <resources/>
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+ <resources/>
+>>>>>>> origin/enhanced
+>>>>>>> master
 =======
 =======
  <resources/>

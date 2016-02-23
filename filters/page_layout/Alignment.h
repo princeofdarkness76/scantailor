@@ -27,8 +27,12 @@ class QString;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
 <<<<<<< HEAD
 >>>>>>> master
 =======
@@ -36,13 +40,19 @@ class CommandLine;
 
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 class CommandLine;
 
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 namespace page_layout
 {
@@ -61,8 +71,11 @@ public:
 	 */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	Alignment()
 	: m_vert(VCENTER), m_hor(HCENTER), m_isNull(true), m_tolerance(DEFAULT_TOLERANCE), m_autoMargins(false) {}
@@ -72,14 +85,20 @@ public:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
+=======
+>>>>>>> master
 	Alignment();
     
     Alignment(Vertical vert, Horizontal hor);
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 	Alignment();
     
@@ -87,6 +106,9 @@ public:
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	
 	Alignment(QDomElement const& el);

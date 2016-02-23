@@ -120,8 +120,11 @@ Task::process(TaskStatus const& status, FilterData const& data)
 	if (params.get()) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 		if ((!deps.matches(params->dependencies()) ||
 				params->deskewAngle() != ui_data.effectiveDeskewAngle()) &&
@@ -133,12 +136,18 @@ Task::process(TaskStatus const& status, FilterData const& data)
 			//std::cout << (deps.matches(params->dependencies())) << std::endl;
 >>>>>>> origin/enhanced
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
 		if (!deps.matches(params->dependencies())) {
 			//std::cout << "Deskew: " << "reset params" << std::endl;
 			//std::cout << (deps.matches(params->dependencies())) << std::endl;
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 			params.reset();
 		} else {

@@ -71,11 +71,14 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 	el.appendChild(marshaller.margins(m_hardMarginsMM, "hardMarginsMM"));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	el.appendChild(marshaller.rectF(m_pageRect, "pageRect"));
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> master
 <<<<<<< HEAD
 =======
 	el.appendChild(marshaller.rectF(m_pageRect, "pageRect"));
@@ -85,6 +88,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> origin/enhanced
 =======
 >>>>>>> pod/tiff
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 	el.appendChild(marshaller.rectF(m_contentRect, "contentRect"));
 	el.appendChild(marshaller.sizeF(m_contentSizeMM, "contentSizeMM"));
