@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include "Margins.h"
 >>>>>>> origin/enhanced
@@ -48,6 +49,8 @@
 =======
 #include "Margins.h"
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 
 #include <Qt>
 
@@ -61,6 +64,7 @@ class QRectF;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,6 +95,8 @@ class QSize;
 class QSizeF;
 class QSize;
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 
 namespace imageproc
 {
@@ -108,6 +114,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,6 +126,8 @@ public:
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/tiff
 		TaskStatus const& status, FilterData const& data, bool fine_tune=false,
 		DebugImages* dbg = 0);
 private:
@@ -126,6 +135,7 @@ private:
 	static int detectEdge(QImage const& img, int start, int end, int inc, int mid, Qt::Orientation orient);
 	static void fineTuneCorners(QImage const& img, QRect &rect);
 	static void fineTuneCorner(QImage const& img, int &x, int &y, int inc_x, int inc_y);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -165,6 +175,8 @@ private:
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 };
 
 } // namespace select_content

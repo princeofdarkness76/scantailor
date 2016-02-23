@@ -91,6 +91,7 @@ private slots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,6 +213,12 @@ private slots:
 =======
 
 	void pictureShapeChanged(int idx);
+=======
+
+	void pictureShapeChanged(int idx);
+	
+	void tiffCompressionChanged(int idx);
+>>>>>>> pod/tiff
 	
 	void tiffCompressionChanged(int idx);
 >>>>>>> pod/translations
@@ -336,6 +343,7 @@ private:
 	PageId m_pageId;
 	Dpi m_outputDpi;
 	ColorParams m_colorParams;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -489,6 +497,9 @@ private:
 =======
 	PictureShape m_pictureShape;
 >>>>>>> pod/translations
+=======
+	PictureShape m_pictureShape;
+>>>>>>> pod/tiff
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;
 	DespeckleLevel m_despeckleLevel;

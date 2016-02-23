@@ -36,6 +36,7 @@ Params::Params(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,6 +102,11 @@ Params::Params(
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+	m_contentSizeMM(content_size_mm),
+	m_deps(deps),
+	m_mode(mode),
+>>>>>>> pod/tiff
 	m_contentDetect(contentDetect),
 	m_pageDetect(pageDetect),
 	m_fineTuneCorners(fineTuning),
@@ -111,6 +117,7 @@ Params::Params(
 Params::Params(Dependencies const& deps)
 :	m_deps(deps),
 	m_mode(MODE_AUTO),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +155,11 @@ Params::Params(Dependencies const& deps)
 =======
     m_pageBorders(0,0,0,0),
 >>>>>>> pod/translations
+=======
+	m_contentDetect(true),
+	m_pageDetect(false),
+	m_fineTuneCorners(false),
+>>>>>>> pod/tiff
 	m_deviation(0.0)
 {
 	m_contentDetect = CommandLine::get().isContentDetectionEnabled();

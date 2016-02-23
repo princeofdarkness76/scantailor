@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,6 +45,10 @@
     <width>292</width>
     <height>361</height>
 >>>>>>> pod/translations
+=======
+    <width>236</width>
+    <height>294</height>
+>>>>>>> pod/tiff
    </rect>
   </property>
   <property name="windowTitle">
@@ -53,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +92,9 @@
 =======
   <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> pod/translations
+=======
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+>>>>>>> pod/tiff
    <item>
     <widget class="QGroupBox" name="groupBox_2">
      <property name="title">
@@ -95,6 +104,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      <layout class="QHBoxLayout" name="horizontalLayout">
 =======
      <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -121,6 +131,9 @@
 =======
      <layout class="QVBoxLayout" name="verticalLayout_3">
 >>>>>>> pod/translations
+=======
+     <layout class="QHBoxLayout" name="horizontalLayout">
+>>>>>>> pod/tiff
       <item>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
@@ -168,6 +181,7 @@
         </item>
        </layout>
       </item>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +303,8 @@
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
      </layout>
     </widget>
    </item>

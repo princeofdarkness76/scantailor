@@ -96,6 +96,7 @@ public:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
@@ -207,6 +208,8 @@ public:
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 	void setDpi(PageId const& page_id, Dpi const& dpi);
 
 	void setDewarpingMode(PageId const& page_id, DewarpingMode const& mode);

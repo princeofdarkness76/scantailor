@@ -58,6 +58,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -98,6 +99,8 @@ public:
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 
     double avg() const { return m_avg; };
     void setAvg(double a) { m_avg = a; };
@@ -112,6 +115,7 @@ private:
     double m_avg;
     double m_sigma;
 	double m_maxDeviation;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +150,8 @@ private:
     QSizeF m_pageDetectionBox;
     double m_pageDetectionTolerance;
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 };
 
 } // namespace select_content

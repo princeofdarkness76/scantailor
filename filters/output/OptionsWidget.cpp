@@ -93,6 +93,7 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +171,8 @@ OptionsWidget::OptionsWidget(
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 	darkerThresholdLink->setText(
 		Utils::richTextForLink(darkerThresholdLink->text())
 	);
@@ -250,6 +253,7 @@ OptionsWidget::OptionsWidget(
 <<<<<<< HEAD
 	connect(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -354,6 +358,8 @@ OptionsWidget::OptionsWidget(
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 		pictureShapeSelector, SIGNAL(currentIndexChanged(int)),
 		this, SLOT(pictureShapeChanged(int))
 	);
@@ -362,6 +368,7 @@ OptionsWidget::OptionsWidget(
 		this, SLOT(tiffCompressionChanged(int))
 	);
 	connect(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,6 +390,8 @@ OptionsWidget::OptionsWidget(
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 		whiteMarginsCB, SIGNAL(clicked(bool)),
 		this, SLOT(whiteMarginsToggled(bool))
 	);
@@ -467,6 +476,7 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 	m_pageId = page_id;
 	m_outputDpi = params.outputDpi();
 	m_colorParams = params.colorParams();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,6 +630,9 @@ OptionsWidget::preUpdateUI(PageId const& page_id)
 =======
 	m_pictureShape = params.pictureShape();
 >>>>>>> pod/translations
+=======
+	m_pictureShape = params.pictureShape();
+>>>>>>> pod/tiff
 	m_dewarpingMode = params.dewarpingMode();
 	m_depthPerception = params.depthPerception();
 	m_despeckleLevel = params.despeckleLevel();
@@ -945,6 +958,7 @@ OptionsWidget::tiffCompressionChanged(int idx)
 }
 
 void
+<<<<<<< HEAD
 >>>>>>> pod/tiff
 OptionsWidget::whiteMarginsToggled(bool const checked)
 {
@@ -1044,6 +1058,8 @@ void
 =======
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 OptionsWidget::pictureShapeChanged(int const idx)
 {
 	m_pictureShape = (PictureShape)(pictureShapeSelector->itemData(idx).toInt());
@@ -1060,9 +1076,12 @@ OptionsWidget::tiffCompressionChanged(int idx)
 
 void
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> pod/tiff
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 OptionsWidget::whiteMarginsToggled(bool const checked)
 {
 	ColorGrayscaleOptions opt(m_colorParams.colorGrayscaleOptions());
@@ -1203,6 +1222,7 @@ OptionsWidget::applyColorsConfirmed(std::set<PageId> const& pages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1331,6 +1351,9 @@ OptionsWidget::applyColorsConfirmed(std::set<PageId> const& pages)
 >>>>>>> master
 =======
 >>>>>>> master
+		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
+>>>>>>> pod/tiff
+=======
 		m_ptrSettings->setPictureShape(page_id, m_pictureShape);
 >>>>>>> pod/tiff
 		emit invalidateThumbnail(page_id);
@@ -1621,6 +1644,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1795,6 +1819,9 @@ OptionsWidget::updateColorsDisplay()
 =======
 	bool picture_shape_visible = false;
 >>>>>>> pod/translations
+=======
+	bool picture_shape_visible = false;
+>>>>>>> pod/tiff
 	switch (color_mode) {
 		case ColorParams::BLACK_AND_WHITE:
 			bw_options_visible = true;
@@ -1812,6 +1839,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1957,6 +1985,9 @@ OptionsWidget::updateColorsDisplay()
 =======
 			picture_shape_visible = true;
 >>>>>>> pod/translations
+=======
+			picture_shape_visible = true;
+>>>>>>> pod/tiff
 			break;
 	}
 	
@@ -1979,6 +2010,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2049,10 +2081,13 @@ OptionsWidget::updateColorsDisplay()
 >>>>>>> master
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
 	pictureShapeOptions->setVisible(picture_shape_visible);
 	bwOptions->setVisible(bw_options_visible);
 	despecklePanel->setVisible(bw_options_visible && m_lastTab != TAB_DEWARPING);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> scantailor/tiff
@@ -2192,6 +2227,8 @@ OptionsWidget::updateColorsDisplay()
 	despecklePanel->setVisible(bw_options_visible && m_lastTab != TAB_DEWARPING);
 
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 	if (picture_shape_visible) {
 		int const picture_shape_idx = pictureShapeSelector->findData(m_pictureShape);
 		pictureShapeSelector->setCurrentIndex(picture_shape_idx);
@@ -2204,6 +2241,7 @@ OptionsWidget::updateColorsDisplay()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2364,6 +2402,11 @@ OptionsWidget::updateColorsDisplay()
 	int compression_idx = tiffCompression->findData(m_ptrSettings->getTiffCompression());
 	tiffCompression->setCurrentIndex(compression_idx);
 >>>>>>> pod/translations
+=======
+	
+	int compression_idx = tiffCompression->findData(m_ptrSettings->getTiffCompression());
+	tiffCompression->setCurrentIndex(compression_idx);
+>>>>>>> pod/tiff
 
 	if (bw_options_visible) {
 		switch (m_despeckleLevel) {

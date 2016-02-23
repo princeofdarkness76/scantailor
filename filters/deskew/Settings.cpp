@@ -25,10 +25,14 @@
 #include <boost/foreach.hpp>
 #endif
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
 
 #include <cmath>
 #include <iostream>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #include <cmath>
 #include <iostream>
@@ -68,6 +72,8 @@
 >>>>>>> scantailor/master
 
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 namespace deskew
 {
 
@@ -77,6 +83,7 @@ Settings::Settings() :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_sigma(0.0),
 	m_maxDeviation(1.0)
 =======
@@ -106,6 +113,10 @@ Settings::Settings() :
 =======
     m_sigma(0.0)
 >>>>>>> pod/translations
+=======
+    m_sigma(0.0),
+	m_maxDeviation(1.0)
+>>>>>>> pod/tiff
 {
     m_maxDeviation = CommandLine::get().getSkewDeviation();
 }

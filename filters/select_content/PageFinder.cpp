@@ -51,6 +51,7 @@ PageFinder::findPageBox(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,6 +63,8 @@ PageFinder::findPageBox(
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/tiff
 	TaskStatus const& status, FilterData const& data, bool fine_tune, DebugImages* dbg)
 {
 	ImageTransformation xform_150dpi(data.xform());
@@ -70,6 +73,7 @@ PageFinder::findPageBox(
 	if (xform_150dpi.resultingRect().toRect().isEmpty()) {
 		return QRectF();
 	}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -121,6 +125,8 @@ PageFinder::findPageBox(
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 	
 	uint8_t const darkest_gray_level = darkestGrayLevel(data.grayImage());
 	QColor const outside_color(darkest_gray_level, darkest_gray_level, darkest_gray_level);
@@ -143,6 +149,7 @@ PageFinder::findPageBox(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,6 +161,8 @@ PageFinder::findPageBox(
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/tiff
 	BinaryImage bw150(peakThreshold(gray150));
 	//BinaryImage bw150(binarizeOtsu(gray150));
 	if (dbg) {
@@ -165,6 +174,7 @@ PageFinder::findPageBox(
 	if (fine_tune)
 		fineTuneCorners(bwimg, content_rect);
 	
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -274,10 +284,13 @@ PageFinder::findPageBox(
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 
 	// Transform back from 150dpi.
 	QTransform combined_xform(xform_150dpi.transform().inverted());
 	combined_xform *= data.xform().transform();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,6 +329,9 @@ PageFinder::findPageBox(
 
     return result;
 >>>>>>> pod/translations
+=======
+	return combined_xform.map(QRectF(content_rect)).boundingRect();
+>>>>>>> pod/tiff
 }
 
 QRect
@@ -326,6 +342,7 @@ PageFinder::detectBorders(QImage const& img)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	int xmid = int(double(r) * 0.382);
 	int ymid = int(double(b) * 0.382);
 =======
@@ -386,6 +403,10 @@ PageFinder::detectBorders(QImage const& img)
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+	int xmid = int(double(r) * 0.382);
+	int ymid = int(double(b) * 0.382);
+>>>>>>> pod/tiff
 
 	l = detectEdge(img, l, r, 1, ymid, Qt::Horizontal);
 	t = detectEdge(img, t, b, 1, xmid, Qt::Vertical);
@@ -408,6 +429,7 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -467,6 +489,11 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+	int ms = mid - int(double(mid) / 4.0);
+	int me = mid + int(double(mid) / 4.0);
+	int min_bp = int(double(me-ms) * 0.8);
+>>>>>>> pod/tiff
 	Qt::GlobalColor black = Qt::color1;
 
 	while (i != end) {
@@ -475,6 +502,7 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,6 +514,8 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/tiff
 	    int old_gap=gap;
 
 		// count black pixels on the edge around given point
@@ -496,6 +526,7 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 	        if (pixel == black)
 				++black_pixels;
 	    }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -539,6 +570,8 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 
 		if (black_pixels < min_bp) {
 			++gap;
@@ -551,6 +584,7 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -562,10 +596,13 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/tiff
 	    if (gap > min_size)
 	        break;
 
 	    i += inc;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -603,6 +640,8 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 	}
 
 	return edge;
@@ -613,6 +652,7 @@ void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -624,6 +664,8 @@ void
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/tiff
 PageFinder::fineTuneCorners(QImage const& img, QRect &rect)
 {
 	int l=rect.left(), t=rect.top(), r=rect.right(), b=rect.bottom();
@@ -632,6 +674,7 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect)
 	fineTuneCorner(img, r, t, -1, 1);
 	fineTuneCorner(img, l, b, 1, -1);
 	fineTuneCorner(img, r, b, -1, -1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -676,6 +719,8 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, d
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 
 	rect.setLeft(l);
 	rect.setTop(t);
@@ -690,6 +735,7 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -701,6 +747,8 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, d
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/tiff
 void
 PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int inc_x, int inc_y)
 {
@@ -714,6 +762,7 @@ PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int inc_x, int inc
 	    x = tx;
 	    y = ty;
 	}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -769,6 +818,8 @@ PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int max_x, int max
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 }
 
 } // namespace

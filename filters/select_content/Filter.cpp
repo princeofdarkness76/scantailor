@@ -126,6 +126,7 @@ Filter::saveSettings(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -160,6 +161,8 @@ Filter::saveSettings(
 	filter_el.setAttribute("pageDetectionBoxHeight", m_ptrSettings->pageDetectionBox().height());
 	filter_el.setAttribute("pageDetectionTolerance", m_ptrSettings->pageDetectionTolerance());
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 
 	writer.enumPages(
 		bind(
@@ -197,6 +200,7 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     CommandLine cli = CommandLine::get();
 >>>>>>> origin/enhanced
@@ -220,6 +224,8 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 =======
     CommandLine cli = CommandLine::get();
 >>>>>>> pod/translations
+=======
+>>>>>>> pod/tiff
 
 	QDomElement const filter_el(
 		filters_el.namedItem("select-content").toElement()
@@ -227,6 +233,7 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 
 	m_ptrSettings->setAvg(filter_el.attribute("average").toDouble());
 	m_ptrSettings->setStd(filter_el.attribute("sigma").toDouble());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +290,9 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+	m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
+>>>>>>> pod/tiff
 
 	QString const page_tag_name("page");
 	QDomNode node(filter_el.firstChild());

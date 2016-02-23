@@ -114,6 +114,7 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
 =======
 =======
@@ -159,6 +160,9 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 >>>>>>> master
 =======
 >>>>>>> pod/translations
+=======
+    m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
+>>>>>>> pod/tiff
 
     QString const page_tag_name("page");
 	QDomNode node(filter_el.firstChild());
