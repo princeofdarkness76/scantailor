@@ -38,9 +38,8 @@ Boost_UNIT_TEST_FRAMEWORK_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_unit_te
 //Boost unit_test_framework library (release)
 Boost_UNIT_TEST_FRAMEWORK_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_unit_test_framework-mt.dylib
 
-//Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
-// CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
-CMAKE_BUILD_TYPE:STRING=None
+//No help, variable specified on the command line.
+CMAKE_BUILD_TYPE:UNINITIALIZED=None
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -101,8 +100,8 @@ CMAKE_INCLUDE_PATH:UNINITIALIZED=/opt/local/include
 //Path to a program.
 CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
 
-//Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/usr/local/Cellar/scantailor/0.9.11
+//No help, variable specified on the command line.
+CMAKE_INSTALL_PREFIX:UNINITIALIZED=/usr/local/Cellar/scantailor/0.9.11
 
 //No help, variable specified on the command line.
 CMAKE_LIBRARY_PATH:UNINITIALIZED=/opt/local/lib
@@ -278,8 +277,8 @@ Output Filter_BINARY_DIR:STATIC=/Users/pod/scantailor/filters/output
 //Value Computed by CMake
 Output Filter_SOURCE_DIR:STATIC=/Users/pod/scantailor/filters/output
 
-//Path to libpng headers.
-PNG_INCLUDE_DIR:PATH=/usr/X11/include
+//No help, variable specified on the command line.
+PNG_INCLUDE_DIR:UNINITIALIZED=/usr/X11/include
 
 //Path to png library.
 PNG_LIBRARY:FILEPATH=/usr/local/lib/libpng.dylib
@@ -1279,7 +1278,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=20
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //Path to CMake installation.
 CMAKE_ROOT:INTERNAL=/usr/local/Cellar/cmake/3.4.3/share/cmake
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
@@ -1388,8 +1387,6 @@ QT_DOC_DIR-ADVANCED:INTERNAL=1
 QT_HEADERS_DIR:INTERNAL=/usr/local/Cellar/qt/4.8.7_2/include
 //ADVANCED property for variable: QT_IMPORTS_DIR
 QT_IMPORTS_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: QT_LIBRARY_DIR
-QT_LIBRARY_DIR-ADVANCED:INTERNAL=1
 //Qt library dir
 QT_LIBRARY_DIR:INTERNAL=/usr/local/Cellar/qt/4.8.7_2/lib
 //ADVANCED property for variable: QT_LINGUIST_EXECUTABLE
