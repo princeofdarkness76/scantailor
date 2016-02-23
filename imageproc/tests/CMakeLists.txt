@@ -26,9 +26,9 @@ SOURCE_GROUP("Sources" FILES ${sources})
 SET(
 	libs
 	imageproc math foundation ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY}
-	${Boost_PRG_EXECUTION_MONITOR_LIBRARY}
-	${QT_QTGUI_LIBRARY} ${QT_QTCORE_LIBRARY} ${EXTRA_LIBS}
+	${Boost_PRG_EXECUTION_MONITOR_LIBRARY} ${EXTRA_LIBS}
 )
 
 ADD_EXECUTABLE(imageproc_tests ${sources})
+QT5_USE_MODULES(imageproc_tests Widgets Xml)
 TARGET_LINK_LIBRARIES(imageproc_tests ${libs})

@@ -5,7 +5,14 @@
     <name>CrashReportDialog</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="71"/>
         <source>This file contains the internal state of the program when it crashed</source>
         <translation>Ova datoteka sadrži unutarnje stanje programa kada se srušio</translation>
@@ -16,6 +23,12 @@
         <translation>Dump datoteka</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="105"/>
         <source>Sending ...</source>
@@ -23,6 +36,10 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="14"/>
         <source>Crash Report</source>
         <translation>Izvješće o rušenju</translation>
@@ -32,6 +49,11 @@
         <source>Scan Tailor crashed.  That&apos;s usually caused by errors in the software.  You can help us find and fix the problem by submitting this crash report.</source>
         <translation>Scan Tailor se srušio. To je obično uzrokovano greškama u programu. Možete nam pomoći pronaći i riješiti problem slanjem ovog izvješće.</translation>
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="136"/>
         <source>Unexpected response (code %1) from dispatcher</source>
         <translation>Neočekivani odgovor (kod %1) od strane primatelja</translation>
@@ -40,6 +62,12 @@
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="161"/>
         <source>Unexpected response from dispatcher</source>
         <translation>Neočekivani odgovor od strane primatelja</translation>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
     </message>
     <message>
@@ -49,6 +77,10 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="77"/>
         <source>Dump file</source>
         <translation>Dump datoteka</translation>
@@ -75,6 +107,11 @@ Engleski ili ruski molim.</translation>
         <source>Unexpected response from dispatcher</source>
         <translation>Neočekivani odgovor od strane primatelja</translation>
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="227"/>
         <source>Successfully sent</source>
         <translation>Uspješno poslano</translation>
@@ -88,6 +125,12 @@ Engleski ili ruski molim.</translation>
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="20"/>
         <source>Scan Tailor crashed.  That&apos;s usually caused by errors in the software.  You can help us find and fix the problem by submitting this crash report.</source>
         <translation>Scan Tailor se srušio. To je obično uzrokovano greškama u programu. Možete nam pomoći pronaći i riješiti problem slanjem ovog izvješće.</translation>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
     </message>
     <message>
@@ -97,7 +140,14 @@ Engleski ili ruski molim.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="63"/>
         <source>If you have additional information, for example you know how to reproduce the crash, please provide it here.
 English or Russian please.</source>
@@ -105,6 +155,12 @@ English or Russian please.</source>
 Engleski ili ruski molim.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
         <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="71"/>
         <source>If you are willing to provide further assistance to developers to help fix this problem, please provide your email address.</source>
@@ -112,6 +168,10 @@ Engleski ili ruski molim.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../crash_reporter/CrashReportDialog.cpp" line="71"/>
         <source>This file contains the internal state of the program when it crashed</source>
         <translation>Ova datoteka sadrži unutarnje stanje programa kada se srušio</translation>
@@ -125,6 +185,14 @@ Engleski ili ruski molim.</translation>
         <source>Email [optional]</source>
         <translation>e-pošta [po izboru]</translation>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../crash_reporter/ui/CrashReportDialog.ui" line="81"/>
+        <source>Email [optional]</source>
+        <translation>e-pošta [po izboru]</translation>
+>>>>>>> origin/enhanced
+>>>>>>> master
     </message>
 </context>
 </TS>

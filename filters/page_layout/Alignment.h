@@ -26,10 +26,24 @@ class QString;
 #include <iostream>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 class CommandLine;
 
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+class CommandLine;
+
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 namespace page_layout
 {
 
@@ -46,16 +60,34 @@ public:
 	 * \brief Constructs a null alignment.
 	 */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
 	Alignment()
 	: m_vert(VCENTER), m_hor(HCENTER), m_isNull(true), m_tolerance(DEFAULT_TOLERANCE), m_autoMargins(false) {}
 	
 	Alignment(Vertical vert, Horizontal hor)
 	: m_vert(vert), m_hor(hor), m_isNull(false), m_tolerance(DEFAULT_TOLERANCE), m_autoMargins(false) {}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	Alignment();
     
     Alignment(Vertical vert, Horizontal hor);
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+	Alignment();
+    
+    Alignment(Vertical vert, Horizontal hor);
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 	
 	Alignment(QDomElement const& el);
 	

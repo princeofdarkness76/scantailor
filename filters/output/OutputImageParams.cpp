@@ -41,14 +41,43 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 >>>>>>> master
 =======
 >>>>>>> master
@@ -68,8 +97,25 @@ OutputImageParams::OutputImageParams(
 	PictureShape const picture_shape)
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -81,6 +127,22 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
@@ -91,6 +153,18 @@ OutputImageParams::OutputImageParams(
 	DespeckleLevel const despeckle_level,
 	PictureShape const picture_shape)
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> origin/enhanced
+=======
+	DespeckleLevel const despeckle_level,
+	PictureShape const picture_shape)
+>>>>>>> pod/tiff
+>>>>>>> master
 :	m_size(out_image_size),
 	m_contentRect(content_rect),
 	m_dpi(dpi),
@@ -100,14 +174,43 @@ OutputImageParams::OutputImageParams(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 >>>>>>> master
 =======
 >>>>>>> master
@@ -123,8 +226,25 @@ OutputImageParams::OutputImageParams(
 	m_pictureShape(picture_shape),
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -135,6 +255,21 @@ OutputImageParams::OutputImageParams(
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	m_pictureShape(picture_shape),
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
@@ -143,6 +278,16 @@ OutputImageParams::OutputImageParams(
 =======
 	m_pictureShape(picture_shape),
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+	m_pictureShape(picture_shape),
+>>>>>>> origin/enhanced
+=======
+	m_pictureShape(picture_shape),
+>>>>>>> pod/tiff
+>>>>>>> master
 	m_distortionModel(distortion_model),
 	m_depthPerception(depth_perception),
 	m_dewarpingMode(dewarping_mode),
@@ -221,14 +366,43 @@ OutputImageParams::matches(OutputImageParams const& other) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 >>>>>>> master
 =======
 >>>>>>> master
@@ -250,8 +424,25 @@ OutputImageParams::matches(OutputImageParams const& other) const
 	}
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -264,6 +455,23 @@ OutputImageParams::matches(OutputImageParams const& other) const
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
@@ -276,6 +484,20 @@ OutputImageParams::matches(OutputImageParams const& other) const
 		return false;
 	}
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> origin/enhanced
+=======
+	if (m_pictureShape != other.m_pictureShape) {
+		return false;
+	}
+>>>>>>> pod/tiff
+>>>>>>> master
 
 	if (m_dewarpingMode != other.m_dewarpingMode) {
 		return false;

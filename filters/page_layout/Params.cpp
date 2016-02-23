@@ -70,9 +70,22 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 	QDomElement el(doc.createElement(name));
 	el.appendChild(marshaller.margins(m_hardMarginsMM, "hardMarginsMM"));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	el.appendChild(marshaller.rectF(m_pageRect, "pageRect"));
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	el.appendChild(marshaller.rectF(m_pageRect, "pageRect"));
+>>>>>>> origin/enhanced
+=======
+	el.appendChild(marshaller.rectF(m_pageRect, "pageRect"));
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 	el.appendChild(marshaller.rectF(m_contentRect, "contentRect"));
 	el.appendChild(marshaller.sizeF(m_contentSizeMM, "contentSizeMM"));
 	el.appendChild(m_alignment.toXml(doc, "alignment"));

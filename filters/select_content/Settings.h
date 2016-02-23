@@ -55,14 +55,31 @@ public:
 	double maxDeviation() const { return m_maxDeviation; }
 	void setMaxDeviation(double md) { m_maxDeviation = md; }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
     
     QSizeF pageDetectionBox() const { return m_pageDetectionBox; }
     void setPageDetectionBox(QSizeF size) { m_pageDetectionBox = size; }
     
     double pageDetectionTolerance() const { return m_pageDetectionTolerance; }
     void setPageDetectionTolerance(double tolerance) { m_pageDetectionTolerance = tolerance; }
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 
     double avg() const { return m_avg; };
     void setAvg(double a) { m_avg = a; };
@@ -78,10 +95,24 @@ private:
     double m_sigma;
 	double m_maxDeviation;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
     QSizeF m_pageDetectionBox;
     double m_pageDetectionTolerance;
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+    QSizeF m_pageDetectionBox;
+    double m_pageDetectionTolerance;
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 };
 
 } // namespace select_content

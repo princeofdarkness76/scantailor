@@ -221,15 +221,25 @@ ConsoleBatch::process()
 		for (unsigned i=0; i<page_sequence.numPages(); i++) {
 			PageInfo page = page_sequence.pageAt(i);
 			if (cli.isVerbose())
-				std::cout << "\tProcessing: " << page.imageId().filePath().toAscii().constData() << "\n";
+				std::cout << "\tProcessing: " << page.imageId().filePath().toLocal8Bit().constData() << "\n";
 			BackgroundTaskPtr bgTask = createCompositeTask(page, j);
 			(*bgTask)();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
         }
     }
     for (int j=0; j<=endFilterIdx; j++) {
 		m_ptrStages->filterAt(j)->updateStatistics();
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
 =======
 		}
 	}
@@ -244,7 +254,16 @@ ConsoleBatch::process()
 	for (int j=0; j<=endFilterIdx; j++) {
 		m_ptrStages->filterAt(j)->updateStatistics();
 	}
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 }
 
 
@@ -357,6 +376,13 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 	for (std::set<PageId>::iterator i=allPages.begin(); i!=allPages.end(); i++) {
 		PageId page = *i;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 	    select_content::Dependencies deps;
 
         select_content::Params params(deps);
@@ -369,7 +395,14 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 		// SELECT CONTENT FILTER
 		if (cli.hasContentRect()) {
             params.setContentRect(cli.getContentRect());
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 		select_content::Dependencies deps;
 
 		select_content::Params params(deps);
@@ -382,13 +415,29 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 		// SELECT CONTENT FILTER
 		if (cli.hasContentRect()) {
 			params.setContentRect(cli.getContentRect());
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 			//QRectF rect(cli.getContentRect());
 			//QSizeF size_mm(rect.width(), rect.height());
 			//select_content::Params params(rect, size_mm, deps, MODE_MANUAL);
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
         params.setContentDetect(cli.isContentDetectionEnabled());
         params.setPageDetect(cli.isPageDetectionEnabled());
         params.setFineTuneCorners(cli.isFineTuningEnabled());
@@ -398,7 +447,14 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 
 	if (cli.hasContentDeviation()) {
 		select_content->getSettings()->setMaxDeviation(cli.getContentDeviation());
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 		params.setContentDetect(cli.isContentDetectionEnabled());
 		params.setPageDetect(cli.isPageDetectionEnabled());
 		params.setFineTuneCorners(cli.isFineTuningEnabled());
@@ -406,7 +462,16 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 			params.setPageBorders(cli.getPageBorders());
 
 		select_content->getSettings()->setPageParams(page, params);
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 	}
 
 	if (cli.hasContentDeviation())
@@ -491,14 +556,43 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 >>>>>>> master
 =======
 >>>>>>> master
@@ -521,8 +615,25 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 		}
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -535,6 +646,23 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		if (cli.hasPictureShape()) {
+			params.setPictureShape(cli.getPictureShape());
+		}
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
@@ -547,6 +675,20 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 			params.setPictureShape(cli.getPictureShape());
 		}
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+		if (cli.hasPictureShape()) {
+			params.setPictureShape(cli.getPictureShape());
+		}
+>>>>>>> origin/enhanced
+=======
+		if (cli.hasPictureShape()) {
+			params.setPictureShape(cli.getPictureShape());
+		}
+>>>>>>> pod/tiff
+>>>>>>> master
 
 		output::ColorParams colorParams = params.colorParams();
 		if (cli.hasColorMode())

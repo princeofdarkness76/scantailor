@@ -198,6 +198,10 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 	setDpm(tif, Dpm(image));
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
 	switch (image.format()) {
 		case QImage::Format_Mono:
 		case QImage::Format_MonoLSB:
@@ -205,6 +209,11 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 			return writeBitonalOrIndexed8Image(tif, image, compression);
 		default:;
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 	CommandLine const& cli = CommandLine::get();
 
 	if (! cli.hasTiffForceRGB()) {
@@ -218,6 +227,12 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 				return writeBitonalOrIndexed8Image(tif, image, compression);
 			default:;
 		}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
 	}
 	
@@ -285,7 +300,7 @@ TiffWriter::writeBitonalOrIndexed8Image(
 			// has problems with it.
 			//compression = COMPRESSION_CCITTFAX4;
 			bits_per_sample = 1;
-			if (image.numColors() < 2) {
+			if (image.colorCount() < 2) {
 				photometric = PHOTOMETRIC_MINISWHITE;
 			} else {
 				// Some programs don't understand

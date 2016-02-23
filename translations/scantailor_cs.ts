@@ -76,6 +76,12 @@
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="212"/>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
         <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
         <translation></translation>
@@ -87,91 +93,191 @@
     </message>
     <message utf8="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="243"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="219"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Petr Kovář - Czech</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="250"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="226"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Stefan Birkner - German</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="257"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="233"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Angelo Gemmi - Italian</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="264"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="240"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Masahiro Kitagawa - Japanese</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="271"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="247"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Patrick Pascal - French</source>
         <translation></translation>
     </message>
     <message utf8="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="278"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="254"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Daniel Koć - Polish</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="285"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="261"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Joseph Artsimovich - Russian</source>
         <translation></translation>
     </message>
     <message utf8="true">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="292"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="268"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Marián Hvolka - Slovak</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="299"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="275"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Flavio Benelli - Spanish</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="306"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="282"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Davidson Wang - Traditional Chinese</source>
         <translation></translation>
     </message>
@@ -182,42 +288,86 @@
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="313"/>
 =======
+=======
+<<<<<<< HEAD
+        <location filename="../ui/AboutDialog.ui" line="313"/>
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="14"/>
         <source>About Scan Tailor &quot;Enhanced&quot;</source>
         <translation>O programu Scan Tailor &quot;Enhanced&quot;</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="289"/>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
         <source>Yuri Chornoivan - Ukrainian</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="325"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="301"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Documentation</source>
         <translation>Dokumentace</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="340"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="316"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>denver 22</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/AboutDialog.ui" line="381"/>
 =======
         <location filename="../ui/AboutDialog.ui" line="357"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>License</source>
         <translation>Licence</translation>
     </message>
@@ -714,19 +864,39 @@ English or Russian please.</source>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="197"/>
 =======
         <location filename="../ui/MainWindow.ui" line="76"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>File</source>
         <translation>Soubor</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="211"/>
 =======
         <location filename="../ui/MainWindow.ui" line="90"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Help</source>
         <translation>Nápověda</translation>
     </message>
@@ -736,241 +906,501 @@ English or Russian please.</source>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="228"/>
 =======
+=======
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="228"/>
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="199"/>
         <source>Filters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="271"/>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
         <source>Debug Mode</source>
         <translation>Ladící mód</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="233"/>
         <location filename="../MainWindow.cpp" line="622"/>
 =======
         <location filename="../ui/MainWindow.ui" line="276"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="276"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Save Project</source>
         <translation>Uložit projekt</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="236"/>
 =======
         <location filename="../ui/MainWindow.ui" line="279"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="279"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Ctrl+S</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="241"/>
 =======
         <location filename="../ui/MainWindow.ui" line="284"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="284"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Save Project As ...</source>
         <translation>Uložit projekt jako ...</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="246"/>
         <location filename="../ui/MainWindow.ui" line="295"/>
 =======
         <location filename="../ui/MainWindow.ui" line="289"/>
         <location filename="../ui/MainWindow.ui" line="338"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Next Page</source>
         <translation>Další strana</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="249"/>
 =======
         <location filename="../ui/MainWindow.ui" line="292"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>PgDown</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="257"/>
         <location filename="../ui/MainWindow.ui" line="284"/>
 =======
         <location filename="../ui/MainWindow.ui" line="300"/>
         <location filename="../ui/MainWindow.ui" line="327"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Previous Page</source>
         <translation>Předchozí strana</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="260"/>
 =======
         <location filename="../ui/MainWindow.ui" line="303"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>PgUp</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="268"/>
 =======
         <location filename="../ui/MainWindow.ui" line="311"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>New Project ...</source>
         <translation>Nový projekt ...</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="271"/>
 =======
         <location filename="../ui/MainWindow.ui" line="314"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Ctrl+N</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="276"/>
 =======
         <location filename="../ui/MainWindow.ui" line="319"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Open Project ...</source>
         <translation>Otevřít projekt ...</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="279"/>
 =======
         <location filename="../ui/MainWindow.ui" line="322"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Ctrl+O</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="287"/>
 =======
         <location filename="../ui/MainWindow.ui" line="330"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Q</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="298"/>
 =======
         <location filename="../ui/MainWindow.ui" line="341"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>W</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="306"/>
 =======
         <location filename="../ui/MainWindow.ui" line="349"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Close Project</source>
         <translation>Zavřít projekt</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="309"/>
 =======
         <location filename="../ui/MainWindow.ui" line="352"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Ctrl+W</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="314"/>
 =======
         <location filename="../ui/MainWindow.ui" line="357"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Quit</source>
         <translation>Konec</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="317"/>
 =======
         <location filename="../ui/MainWindow.ui" line="360"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Ctrl+Q</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="322"/>
 =======
         <location filename="../ui/MainWindow.ui" line="365"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="365"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Settings ...</source>
         <translation>Nastavení...</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="327"/>
 =======
         <location filename="../ui/MainWindow.ui" line="370"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>First Page</source>
         <translation>První strana</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="330"/>
 =======
         <location filename="../ui/MainWindow.ui" line="373"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Home</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="335"/>
 =======
         <location filename="../ui/MainWindow.ui" line="378"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Last Page</source>
         <translation>Poslední strana</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="338"/>
 =======
         <location filename="../ui/MainWindow.ui" line="381"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>End</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="343"/>
 =======
         <location filename="../ui/MainWindow.ui" line="386"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>About</source>
         <translation>O programu</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="348"/>
 =======
         <location filename="../ui/MainWindow.ui" line="391"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Fix DPI ...</source>
         <translation>Opravit DPI ...</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../ui/MainWindow.ui" line="353"/>
 =======
         <location filename="../ui/MainWindow.ui" line="396"/>
@@ -982,6 +1412,11 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="358"/>
         <source>Export...</source>
         <translation type="unfinished"></translation>
+=======
+        <location filename="../ui/MainWindow.ui" line="396"/>
+        <source>Relinking ...</source>
+        <translation>Opravit cesty ...</translation>
+>>>>>>> origin/enhanced
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="519"/>
@@ -1522,10 +1957,20 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="78"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="504"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Change ...</source>
         <translation>Změnit ...</translation>
     </message>
@@ -1556,6 +2001,10 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="348"/>
         <source>Picture Shape</source>
         <translation type="unfinished"></translation>
@@ -1565,6 +2014,11 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="569"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="751"/>
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
         <source>Picture Shape</source>
         <translation>Tvar obrázků</translation>
@@ -1573,62 +2027,126 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
         <source>Apply To ...</source>
         <translation>Aplikovat na ...</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="446"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Dewarping</source>
         <translation>Deformace</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="529"/>
 =======
+=======
+<<<<<<< HEAD
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="529"/>
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="785"/>
         <source>Tiff Compression</source>
         <translation>TIFF Komprese</translation>
     </message>
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
         <source>Depth perception</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="594"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Despeckling</source>
         <translation>Vyčistit</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="618"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>No despeckling</source>
         <translation>Bez čištění</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="643"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Cautious despeckling</source>
         <translation>Opatrné čištění</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="646"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="672"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="698"/>
@@ -1637,24 +2155,52 @@ Pro určení velikosti stránek spusťte dávkové zpracování u &quot;Vybrat O
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>...</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="669"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Normal despeckling</source>
         <translation>Normální čištění</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="695"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Aggressive despeckling</source>
         <translation>Agresivní čištění</translation>
     </message>
@@ -2111,6 +2657,10 @@ Vyjměte je z projektu.</translation>
         <location filename="../ui/RelinkingDialog.ui" line="100"/>
         <source>...</source>
         <translation></translation>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
     </message>
     <message>
         <location filename="../RelinkingDialog.cpp" line="95"/>
@@ -2126,6 +2676,8 @@ Vyjměte je z projektu.</translation>
         <location filename="../RelinkingDialog.cpp" line="130"/>
         <source>This change would merge several files into one.</source>
         <translation type="unfinished"></translation>
+=======
+>>>>>>> origin/enhanced
     </message>
 </context>
 <context>
@@ -2361,6 +2913,32 @@ Vyjměte je z projektu.</translation>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>StartBatchProcessingDialog</name>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="26"/>
+        <source>Batch Process</source>
+        <translation>Hromadně zpracovat</translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="33"/>
+        <source>All pages</source>
+        <translation>Všechny strany</translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
+        <source>Start from selected</source>
+        <translation>Začít vybranou stranou</translation>
+    </message>
+</context>
+<context>
+>>>>>>> master
     <name>SystemLoadWidget</name>
     <message>
         <location filename="../ui/SystemLoadWidget.ui" line="14"/>
@@ -2598,6 +3176,10 @@ Vyjměte je z projektu.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
         <source>Free</source>
         <translation type="unfinished"></translation>
@@ -2620,6 +3202,11 @@ Vyjměte je z projektu.</translation>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="445"/>
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
         <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
         <source>Free</source>
         <translation>Volný</translation>
@@ -2656,43 +3243,89 @@ Vyjměte je z projektu.</translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="442"/>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> master
 >>>>>>> origin/enhanced
         <source>Apply Despeckling Level</source>
         <translation>Aplikovat úroveň čištění</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/OptionsWidget.cpp" line="530"/>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Apply Depth Perception</source>
         <translation></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/OptionsWidget.cpp" line="728"/>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Off</source>
         <translation>Vypnuto</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/OptionsWidget.cpp" line="731"/>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Auto</source>
         <translation>Automaticky</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/OptionsWidget.cpp" line="734"/>
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Manual</source>
         <translation>Ručně</translation>
     </message>
@@ -2706,64 +3339,134 @@ Vyjměte je z projektu.</translation>
     <name>output::Task::UiUpdater</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/Task.cpp" line="604"/>
 =======
         <location filename="../filters/output/Task.cpp" line="512"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Picture zones are only available in Mixed mode.</source>
         <translation>Zóny s obrázky jsou možné pouze ve smíšeném módu.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/Task.cpp" line="656"/>
 =======
         <location filename="../filters/output/Task.cpp" line="564"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Despeckling can&apos;t be done in Color / Grayscale mode.</source>
         <translation>Čištění nelze provést v barevném / černobílém módu.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/Task.cpp" line="673"/>
 =======
         <location filename="../filters/output/Task.cpp" line="581"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Output</source>
         <translation>Výstup</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/Task.cpp" line="674"/>
 =======
         <location filename="../filters/output/Task.cpp" line="582"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Picture Zones</source>
         <translation>Zóny s obrázky</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/Task.cpp" line="675"/>
 =======
         <location filename="../filters/output/Task.cpp" line="583"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Fill Zones</source>
         <translation>Prázdné zóny</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/Task.cpp" line="676"/>
 =======
         <location filename="../filters/output/Task.cpp" line="584"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Dewarping</source>
         <translation>Deformace</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/output/Task.cpp" line="677"/>
 =======
         <location filename="../filters/output/Task.cpp" line="585"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Despeckling</source>
         <translation>Vyčistit</translation>
     </message>
@@ -2810,19 +3513,39 @@ Vyjměte je z projektu.</translation>
     <name>page_layout::OptionsWidget</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Apply Margins</source>
         <translation>Aplikovat okraje</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+>>>>>>> origin/enhanced
+>>>>>>> master
         <source>Apply Alignment</source>
         <translation>Aplikovat zarovnání</translation>
     </message>

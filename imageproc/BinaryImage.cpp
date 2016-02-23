@@ -569,14 +569,43 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 >>>>>>> master
 =======
 >>>>>>> master
@@ -590,8 +619,25 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -602,6 +648,21 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
@@ -610,6 +671,16 @@ BinaryImage::contentBoundingBox(BWColor const content_color) const
 =======
 
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+
+>>>>>>> origin/enhanced
+=======
+
+>>>>>>> pod/tiff
+>>>>>>> master
 void
 BinaryImage::rectangularizeAreas(BWColor content_color)
 {
@@ -702,14 +773,43 @@ BinaryImage::rectangularizeAreas(BWColor content_color)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
+<<<<<<< HEAD
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> master
 =======
+>>>>>>> master
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+=======
+>>>>>>> pod/scantailor-filters.h
 >>>>>>> master
 =======
 >>>>>>> master
@@ -911,8 +1011,25 @@ BinaryImage::getPixel(int x, int y)
 =======
 >>>>>>> scantailor/tiff
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> pod/filters.cpp
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/homebrew-formulae
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> pod/scantailor-filters.h
+>>>>>>> master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -922,12 +1039,34 @@ BinaryImage::getPixel(int x, int y)
 =======
 >>>>>>> master
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/tiff
+>>>>>>> pod/filters.coo
+=======
+=======
+>>>>>>> pod/homebrew-formulae
+>>>>>>> master
+>>>>>>> pod/filters.cpp
+=======
+>>>>>>> master
 >>>>>>> master
 >>>>>>> pod/filters.cpp
 =======
 >>>>>>> pod/tiff
 =======
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+>>>>>>> pod/scantailor-filters.h
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 
 uint32_t*
 BinaryImage::data()
@@ -958,7 +1097,7 @@ BinaryImage::toQImage() const
 	
 	QImage dst(m_width, m_height, QImage::Format_Mono);
 	assert(dst.bytesPerLine() % 4 == 0);
-	dst.setNumColors(2);
+	dst.setColorCount(2);
 	dst.setColor(0, 0xffffffff);
 	dst.setColor(1, 0xff000000);
 	int const dst_wpl = dst.bytesPerLine() / 4;
@@ -1087,7 +1226,7 @@ BinaryImage::fromMono(QImage const& image)
 	uint32_t* dst_line = dst.data();
 	
 	uint32_t modifier = ~uint32_t(0);
-	if (image.numColors() >= 2) {
+	if (image.colorCount() >= 2) {
 		if (qGray(image.color(0)) > qGray(image.color(1))) {
 			// if color 0 is lighter than color 1
 			modifier = ~modifier;
@@ -1125,7 +1264,7 @@ BinaryImage::fromMono(QImage const& image, QRect const& rect)
 	int const dst_last_word_unused_bits = (dst_wpl << 5) - width;
 	
 	uint32_t modifier = ~uint32_t(0);
-	if (image.numColors() >= 2) {
+	if (image.colorCount() >= 2) {
 		if (qGray(image.color(0)) > qGray(image.color(1))) {
 			// if color 0 is lighter than color 1
 			modifier = ~modifier;
@@ -1202,7 +1341,7 @@ BinaryImage::fromIndexed8(
 	int const last_word_bits = width - (last_word_idx << 5);
 	int const last_word_unused_bits = 32 - last_word_bits;
 	
-	int const num_colors = image.numColors();
+	int const num_colors = image.colorCount();
 	assert(num_colors <= 256);
 	int color_to_gray[256];
 	int color_idx = 0;

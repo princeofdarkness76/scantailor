@@ -22,9 +22,22 @@
 
 #include "imageproc/BinaryThreshold.h"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include "Margins.h"
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#include "Margins.h"
+>>>>>>> origin/enhanced
+=======
+#include "Margins.h"
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 
 #include <Qt>
 
@@ -35,10 +48,24 @@ class QImage;
 class QRect;
 class QRectF;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 class QSizeF;
 class QSize;
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+class QSizeF;
+class QSize;
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 
 namespace imageproc
 {
@@ -53,6 +80,13 @@ class PageFinder
 public:
 	static QRectF findPageBox(
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 		TaskStatus const& status, FilterData const& data, bool fine_tune=false,
 		DebugImages* dbg = 0);
 private:
@@ -60,14 +94,30 @@ private:
 	static int detectEdge(QImage const& img, int start, int end, int inc, int mid, Qt::Orientation orient);
 	static void fineTuneCorners(QImage const& img, QRect &rect);
 	static void fineTuneCorner(QImage const& img, int &x, int &y, int inc_x, int inc_y);
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
         TaskStatus const& status, FilterData const& data, bool fine_tune, QSizeF const& box, double tolerance, Margins borders, DebugImages* dbg = 0);
 private:
 	static QRect detectBorders(QImage const& img);
 	static int detectEdge(QImage const& img, int start, int end, int inc, int mid, Qt::Orientation orient);
 	static void fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, double tolerance);
 	static bool fineTuneCorner(QImage const& img, int &x, int &y, int max_x, int max_y, int inc_x, int inc_y, QSize const& size, double tolerance);
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 };
 
 } // namespace select_content

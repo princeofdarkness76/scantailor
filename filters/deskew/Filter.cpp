@@ -111,15 +111,34 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
     m_ptrSettings->setAvg(filter_el.attribute("average").toDouble());
     m_ptrSettings->setStd(filter_el.attribute("sigma").toDouble());
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
     
     if (cli.hasSkewDeviation()) {
         m_ptrSettings->setMaxDeviation(cli.getSkewDeviation());
     } else {
         m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", QString::number(cli.getSkewDeviation())).toDouble());
     }
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+    m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
+>>>>>>> pod/tiff
+>>>>>>> master
 
     QString const page_tag_name("page");
 	QDomNode node(filter_el.firstChild());

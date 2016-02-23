@@ -33,10 +33,20 @@ Params::Params(
 :	m_contentRect(content_rect),
 	m_pageRect(content_rect),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 	m_contentSizeMM(content_size_mm),
 	m_deps(deps),
 	m_mode(mode),
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
     m_pageBorders(0,0,0,0),
 	m_contentSizeMM(content_size_mm),
 	m_deps(deps),
@@ -57,7 +67,19 @@ Params::Params(
 	m_contentSizeMM(content_size_mm),
 	m_deps(deps),
 	m_mode(mode),
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+	m_contentSizeMM(content_size_mm),
+	m_deps(deps),
+	m_mode(mode),
+>>>>>>> pod/tiff
+>>>>>>> master
 	m_contentDetect(contentDetect),
 	m_pageDetect(pageDetect),
 	m_fineTuneCorners(fineTuning),
@@ -69,12 +91,28 @@ Params::Params(Dependencies const& deps)
 :	m_deps(deps),
 	m_mode(MODE_AUTO),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 	m_contentDetect(true),
 	m_pageDetect(false),
 	m_fineTuneCorners(false),
 =======
     m_pageBorders(0,0,0,0),
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+    m_pageBorders(0,0,0,0),
+>>>>>>> origin/enhanced
+=======
+	m_contentDetect(true),
+	m_pageDetect(false),
+	m_fineTuneCorners(false),
+>>>>>>> pod/tiff
+>>>>>>> master
 	m_deviation(0.0)
 {
 	m_contentDetect = CommandLine::get().isContentDetectionEnabled();

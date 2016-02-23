@@ -146,7 +146,7 @@ ThumbnailBase::paint(QPainter* painter,
 	display_rect.setRight(ceil(display_rect.right()));
 		
 	QPixmap temp_pixmap;
-	QString const cache_key(QString::fromAscii("ThumbnailBase::temp_pixmap"));
+	QString const cache_key(QString::fromLatin1("ThumbnailBase::temp_pixmap"));
 	if (!QPixmapCache::find(cache_key, temp_pixmap)
 			|| temp_pixmap.width() < display_rect.width()
 			|| temp_pixmap.height() < display_rect.width()) {
@@ -228,6 +228,13 @@ ThumbnailBase::paint(QPainter* painter,
 void ThumbnailBase::paintDeviant(QPainter &painter)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 	QPen pen(QColor(0xff, 0x00, 0x00, 0x99));
 	pen.setWidth(1);
 	pen.setCosmetic(true);
@@ -236,7 +243,14 @@ void ThumbnailBase::paintDeviant(QPainter &painter)
 	painter.setBrush(QColor(0xff, 0x00, 0x00, 0x99));
 
 	painter.drawRect(boundingRect());
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/enhanced
+>>>>>>> master
 	QPen pen(QColor(0xdd, 0x00, 0x00, 0xee));
 	pen.setWidth(5);
 	pen.setCosmetic(true);
@@ -253,7 +267,16 @@ void ThumbnailBase::paintDeviant(QPainter &painter)
     //painter.drawLine(boundingRect().left(), boundingRect().bottom(), boundingRect().right(), boundingRect().top());
     painter.drawText(boundingRect(), Qt::AlignCenter, "*");
 	//painter.drawRect(boundingRect());
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+>>>>>>> origin/enhanced
+=======
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 }
 
 void

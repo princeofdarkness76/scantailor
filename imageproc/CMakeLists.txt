@@ -32,7 +32,6 @@ SET(
 	GaussBlur.cpp GaussBlur.h
 	Sobel.h
 	MorphGradientDetect.cpp MorphGradientDetect.h
-	LeastSquaresFit.cpp LeastSquaresFit.h
 	PolynomialLine.cpp PolynomialLine.h
 	PolynomialSurface.cpp PolynomialSurface.h
 	SavGolKernel.cpp SavGolKernel.h
@@ -55,5 +54,6 @@ SET(
 SOURCE_GROUP(Sources FILES ${sources})
 
 ADD_LIBRARY(imageproc STATIC ${sources})
+QT5_USE_MODULES(imageproc Core Gui)
 
 ADD_SUBDIRECTORY(tests)

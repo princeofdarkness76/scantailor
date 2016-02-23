@@ -89,9 +89,22 @@ public:
 		bool m_pageDetection;
 		bool m_fineTuneCorners;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Margins m_borders;
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        Margins m_borders;
+>>>>>>> origin/enhanced
+=======
+        Margins m_borders;
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 	};
 	
 	OptionsWidget(IntrusivePtr<Settings> const& settings,
@@ -111,19 +124,47 @@ private slots:
 
 	void modeChanged(bool auto_mode);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
 	void autoMode();
 	void manualMode();
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+	void autoMode();
+	void manualMode();
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 	void fineTuningChanged(bool checked);
 	void contentDetectionDisabled(void);
 	void pageDetectionDisabled(void);
 	void pageDetectionEnabled(void);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
 =======
     
     void borderChanged();
 >>>>>>> origin/enhanced
+<<<<<<< HEAD
+=======
+=======
+    
+    void borderChanged();
+>>>>>>> origin/enhanced
+=======
+>>>>>>> pod/tiff
+>>>>>>> master
 
 private:
 	void updateModeIndication(AutoManualMode const mode);
