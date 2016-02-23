@@ -226,6 +226,7 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,6 +323,9 @@ Task::process(
 =======
 		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
 >>>>>>> enhanced
+=======
+		params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> pod/translations
 	);
 
 //begin of modified by monday2000
@@ -512,6 +516,7 @@ Task::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,6 +615,9 @@ Task::process(
 =======
 			m_ptrDbg.get(), params.pictureShape()
 >>>>>>> enhanced
+=======
+			m_ptrDbg.get(), params.pictureShape()
+>>>>>>> pod/translations
 		);
 
 		if ((params.dewarpingMode() == DewarpingMode::AUTO && distortion_model.isValid())

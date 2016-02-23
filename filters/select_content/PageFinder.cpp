@@ -51,6 +51,7 @@ PageFinder::findPageBox(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
 	TaskStatus const& status, FilterData const& data, bool fine_tune, DebugImages* dbg)
@@ -67,6 +68,8 @@ PageFinder::findPageBox(
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	TaskStatus const& status, FilterData const& data, bool fine_tune, QSizeF const& box, double tolerance, Margins borders, DebugImages* dbg)
 {
 	ImageTransformation xform_150dpi(data.xform());
@@ -87,6 +90,7 @@ PageFinder::findPageBox(
 #endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
@@ -94,6 +98,8 @@ PageFinder::findPageBox(
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	
 	uint8_t const darkest_gray_level = darkestGrayLevel(data.grayImage());
 	QColor const outside_color(darkest_gray_level, darkest_gray_level, darkest_gray_level);
@@ -112,6 +118,7 @@ PageFinder::findPageBox(
 		dbg->add(gray150, "gray150");
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,6 +142,8 @@ PageFinder::findPageBox(
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 
 	std::vector<QRect> rects;
 	std::vector<BinaryImage> bwimages;
@@ -213,6 +222,7 @@ PageFinder::findPageBox(
     content_rect.setBottom( content_rect.bottom() - to150 * borders.bottom() );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
@@ -220,6 +230,8 @@ PageFinder::findPageBox(
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 
 	// Transform back from 150dpi.
 	QTransform combined_xform(xform_150dpi.transform().inverted());
@@ -228,6 +240,7 @@ PageFinder::findPageBox(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	return combined_xform.map(QRectF(content_rect)).boundingRect();
 =======
 	QRectF result = combined_xform.map(QRectF(content_rect)).boundingRect();
@@ -247,6 +260,11 @@ PageFinder::findPageBox(
 
     return result;
 >>>>>>> enhanced
+=======
+	QRectF result = combined_xform.map(QRectF(content_rect)).boundingRect();
+
+    return result;
+>>>>>>> pod/translations
 }
 
 QRect
@@ -257,6 +275,7 @@ PageFinder::detectBorders(QImage const& img)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	int xmid = int(double(r) * 0.382);
 	int ymid = int(double(b) * 0.382);
 =======
@@ -264,12 +283,15 @@ PageFinder::detectBorders(QImage const& img)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	int xmid = r / 2;
 	int ymid = b / 2;
 	/*
 	int xmid = int(double(r) * 0.382);
 	int ymid = int(double(b) * 0.382);
 	*/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -281,6 +303,8 @@ PageFinder::detectBorders(QImage const& img)
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 
 	l = detectEdge(img, l, r, 1, ymid, Qt::Horizontal);
 	t = detectEdge(img, t, b, 1, xmid, Qt::Vertical);
@@ -303,6 +327,7 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	int ms = mid - int(double(mid) / 4.0);
 	int me = mid + int(double(mid) / 4.0);
 	int min_bp = int(double(me-ms) * 0.8);
@@ -311,11 +336,14 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	//int ms = mid - int(double(mid) / 4.0);
 	//int me = mid + int(double(mid) / 4.0);
 	int ms = 0;
 	int me = 2 * mid;
 	int min_bp = int(double(me-ms) * 0.95);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -328,10 +356,13 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	Qt::GlobalColor black = Qt::color1;
 
 	while (i != end) {
 		int black_pixels=0;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -354,6 +385,8 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 		int old_gap=gap;
 
 		// count black pixels on the edge around given point
@@ -366,6 +399,7 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 		}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
@@ -373,6 +407,8 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 
 		if (black_pixels < min_bp) {
 			++gap;
@@ -381,6 +417,7 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 			edge = i;
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,10 +434,13 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 		if (gap > min_size)
 			break;
 
 		i += inc;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -410,12 +450,15 @@ PageFinder::detectEdge(QImage const& img, int start, int end, int inc, int mid, 
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	}
 
 	return edge;
 }
 
 void
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -436,6 +479,8 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, double tolerance)
 {
 	int l=rect.left(), t=rect.top(), r=rect.right(), b=rect.bottom();
@@ -449,6 +494,7 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, d
 	}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
@@ -456,6 +502,8 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, d
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 
 	rect.setLeft(l);
 	rect.setTop(t);
@@ -466,6 +514,7 @@ PageFinder::fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, d
 /**
  * shift edges until given corner is out of black
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,6 +540,8 @@ PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int inc_x, int inc
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 bool
 PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int max_x, int max_y, int inc_x, int inc_y, QSize const& size, double tolerance)
 {
@@ -515,6 +566,7 @@ PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int max_x, int max
 	return false;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
@@ -522,6 +574,8 @@ PageFinder::fineTuneCorner(QImage const& img, int &x, int &y, int max_x, int max
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 }
 
 } // namespace

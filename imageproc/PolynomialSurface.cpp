@@ -28,6 +28,7 @@
 #include <boost/foreach.hpp>
 #endif
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include "MatT.h"
 #include "VecT.h"
@@ -35,6 +36,8 @@
 >>>>>>> origin/qt5
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 #include <stdexcept>
 #include <algorithm>
 #include <math.h>

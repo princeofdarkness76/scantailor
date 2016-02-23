@@ -62,6 +62,9 @@
         <source>Petr Kovář - Command line interface.</source>
         <translation>Petr Kovář - Interface de línea de comando.</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/translations
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="222"/>
@@ -82,11 +85,14 @@
         <location filename="../ui/AboutDialog.ui" line="212"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
         <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
         <translation>Svetoslav Sashkov, Mandor - Búlgaro</translation>
     </message>
@@ -96,6 +102,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,10 +116,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="219"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+>>>>>>> pod/translations
         <source>Petr Kovář - Czech</source>
         <translation>Petr Kovář - Checo</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,10 +137,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="226"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+>>>>>>> pod/translations
         <source>Stefan Birkner - German</source>
         <translation>Stefan Birkner - Alemán</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,10 +158,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="233"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+>>>>>>> pod/translations
         <source>Angelo Gemmi - Italian</source>
         <translation>Angelo Gemmi - Italiano</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,10 +179,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="240"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> pod/translations
         <source>Masahiro Kitagawa - Japanese</source>
         <translation>Masahiro Kitagawa - Japonés</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,10 +200,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="247"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> pod/translations
         <source>Patrick Pascal - French</source>
         <translation>Patrick Pascal - Francés</translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,10 +221,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="254"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> pod/translations
         <source>Daniel Koć - Polish</source>
         <translation>Daniel Koć - Polaco</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,10 +242,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="261"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> pod/translations
         <source>Joseph Artsimovich - Russian</source>
         <translation>Joseph Artsimovich - Ruso</translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,10 +263,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="268"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> pod/translations
         <source>Marián Hvolka - Slovak</source>
         <translation>Marián Hvolka - Eslovaco</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,10 +284,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="275"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> pod/translations
         <source>Flavio Benelli - Spanish</source>
         <translation>Flavio Benelli - Español</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,10 +305,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="282"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+>>>>>>> pod/translations
         <source>Davidson Wang - Traditional Chinese</source>
         <translation>Davidson Wang - Chino Tradicional</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,10 +326,14 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="289"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="289"/>
+>>>>>>> pod/translations
         <source>Yuri Chornoivan - Ukrainian</source>
         <translation>Yuri Chornoivan - Ucraniano</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,6 +347,9 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="316"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+>>>>>>> pod/translations
         <source>denver 22</source>
         <translation>denver 22</translation>
     </message>
@@ -308,10 +362,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="159"/>
 =======
 =======
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/translations
         <location filename="../ui/AboutDialog.ui" line="14"/>
         <source>About Scan Tailor &quot;Enhanced&quot;</source>
         <translation type="unfinished"></translation>
@@ -321,6 +378,7 @@
 >>>>>>> origin/enhanced
         <source>Contributors</source>
         <translation>Colaboradores</translation>
+<<<<<<< HEAD
     </message>
     <message>
 <<<<<<< HEAD
@@ -345,10 +403,16 @@
     <message>
         <location filename="../ui/AboutDialog.ui" line="301"/>
 >>>>>>> enhanced
+=======
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> pod/translations
         <source>Documentation</source>
         <translation>Documentación</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,6 +426,9 @@
 =======
         <location filename="../ui/AboutDialog.ui" line="357"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> pod/translations
         <source>License</source>
         <translation>Licencia</translation>
     </message>
@@ -409,12 +476,19 @@
         <source>This page and the following ones</source>
         <translation>Esta página y las siguientes</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
     </message>
     <message>
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="50"/>
         <source>This page and the following every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation type="unfinished"></translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="57"/>
@@ -435,13 +509,30 @@
 >>>>>>> scantailor/master
     </message>
     <message>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+>>>>>>> pod/translations
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="57"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translation type="unfinished"></translation>
+<<<<<<< HEAD
     </message>
     <message>
 >>>>>>> enhanced
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+>>>>>>> pod/translations
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="67"/>
         <source>Selected pages</source>
         <translation>Páginas seleccionadas</translation>
@@ -451,6 +542,7 @@
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Usar Ctrl+Clic / Shift+Clic para seleccionar múltiples páginas.</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> enhanced
@@ -464,6 +556,10 @@
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="136"/>
         <source>The current page will be included.</source>
         <translation type="unfinished">La pagina actual sera inluida.</translation>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
 <<<<<<< HEAD
     </message>
     <message>
@@ -476,9 +572,19 @@
         <source>The current page will be included.</source>
         <translation type="unfinished">La pagina actual sera inluida.</translation>
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> scantailor/master
 >>>>>>> enhanced
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -837,6 +943,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="233"/>
         <location filename="../MainWindow.cpp" line="622"/>
 =======
@@ -846,19 +953,37 @@
         <location filename="../ui/MainWindow.ui" line="276"/>
 >>>>>>> origin/enhanced
 =======
+=======
+>>>>>>> pod/translations
         <location filename="../ui/MainWindow.ui" line="276"/>
 =======
         <location filename="../ui/MainWindow.ui" line="232"/>
         <location filename="../MainWindow.cpp" line="564"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/master
 =======
 >>>>>>> scantailor/master
 >>>>>>> enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Save Project</source>
         <translation>Guardar Proyecto</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="589"/>
         <source>The files export is finished.</source>
@@ -875,46 +1000,66 @@
 =======
         <location filename="../MainWindow.cpp" line="564"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="564"/>
+>>>>>>> pod/translations
         <source>Save this project?</source>
         <translation type="unfinished">¿Desea guardar este proyecto?</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1098"/>
 =======
         <location filename="../MainWindow.cpp" line="1001"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1001"/>
+>>>>>>> pod/translations
         <source>Insert before ...</source>
         <translation type="unfinished">Insertar antes...</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1101"/>
 =======
         <location filename="../MainWindow.cpp" line="1004"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1004"/>
+>>>>>>> pod/translations
         <source>Insert after ...</source>
         <translation type="unfinished">Insertar después...</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1107"/>
 =======
         <location filename="../MainWindow.cpp" line="1010"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1010"/>
+>>>>>>> pod/translations
         <source>Remove from project ...</source>
         <translation type="unfinished">Eliminar del proyecto...</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1128"/>
 =======
         <location filename="../MainWindow.cpp" line="1031"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1031"/>
+>>>>>>> pod/translations
         <source>Insert here ...</source>
         <translation type="unfinished">Insertar aquí...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1466"/>
         <location filename="../MainWindow.cpp" line="1534"/>
@@ -922,19 +1067,28 @@
         <location filename="../MainWindow.cpp" line="1369"/>
         <location filename="../MainWindow.cpp" line="1437"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1369"/>
+        <location filename="../MainWindow.cpp" line="1437"/>
+>>>>>>> pod/translations
         <source>Scan Tailor Projects</source>
         <translation type="unfinished">Proyectos de Scan Tailor</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1533"/>
 =======
         <location filename="../MainWindow.cpp" line="1436"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1436"/>
+>>>>>>> pod/translations
         <source>Open Project</source>
         <translation type="unfinished">Abrir proyecto</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1551"/>
         <location filename="../MainWindow.cpp" line="1560"/>
@@ -946,30 +1100,44 @@
         <location filename="../MainWindow.cpp" line="2336"/>
         <location filename="../MainWindow.cpp" line="2367"/>
 =======
+=======
+>>>>>>> pod/translations
         <location filename="../MainWindow.cpp" line="1454"/>
         <location filename="../MainWindow.cpp" line="1463"/>
         <location filename="../MainWindow.cpp" line="1777"/>
         <location filename="../MainWindow.cpp" line="1808"/>
+<<<<<<< HEAD
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
         <source>Error</source>
         <translation type="unfinished">Error</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1552"/>
 =======
         <location filename="../MainWindow.cpp" line="1455"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1455"/>
+>>>>>>> pod/translations
         <source>Unable to open the project file.</source>
         <translation type="unfinished">Imposible abrir el archivo del proyecto.</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1561"/>
+=======
+        <location filename="../MainWindow.cpp" line="1464"/>
+>>>>>>> pod/translations
         <source>The project file is broken.</source>
         <translation type="unfinished">Este proyecto está corrupto.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1834"/>
         <source>The file</source>
         <translation type="unfinished"></translation>
@@ -1006,6 +1174,9 @@
     <message>
         <location filename="../MainWindow.cpp" line="1673"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1673"/>
+>>>>>>> pod/translations
         <source>Output is not yet possible, as the final size of pages is not yet known.
 To determine it, run batch processing at &quot;Select Content&quot; or &quot;Margins&quot;.</source>
         <translation type="unfinished">Salida no es aun posible debido a que el tamaño final de la página aun es desconocida.
@@ -1013,14 +1184,19 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2262"/>
 =======
         <location filename="../MainWindow.cpp" line="1706"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1706"/>
+>>>>>>> pod/translations
         <source>Unnamed</source>
         <translation type="unfinished">Sin nombre</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2269"/>
         <source>%2 - Scan Tailor Featured %3 [%1bit]</source>
@@ -1029,22 +1205,31 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
     <message>
         <location filename="../MainWindow.cpp" line="2419"/>
 =======
+=======
+>>>>>>> pod/translations
         <location filename="../MainWindow.cpp" line="1711"/>
         <source>%2 - Scan Tailor %3 [%1bit]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1860"/>
+<<<<<<< HEAD
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
         <source>Files to insert</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2474"/>
 =======
         <location filename="../MainWindow.cpp" line="1915"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1915"/>
+>>>>>>> pod/translations
         <source>Skip failed files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1054,12 +1239,17 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2337"/>
         <location filename="../MainWindow.cpp" line="2368"/>
 =======
         <location filename="../MainWindow.cpp" line="1778"/>
         <location filename="../MainWindow.cpp" line="1809"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1778"/>
+        <location filename="../MainWindow.cpp" line="1809"/>
+>>>>>>> pod/translations
         <source>Error saving the project file!</source>
         <translation type="unfinished">Se produjo un error al intentar guardar el proyecto!</translation>
     </message>
@@ -1069,10 +1259,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2425"/>
 =======
         <location filename="../MainWindow.cpp" line="1866"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1866"/>
+>>>>>>> pod/translations
         <source>Images not in project (%1)</source>
         <translation type="unfinished">Imagenes que no estan en el proyecto (%1)</translation>
     </message>
@@ -1082,10 +1276,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2521"/>
 =======
         <location filename="../MainWindow.cpp" line="1962"/>
 >>>>>>> enhanced
+=======
+        <location filename="../MainWindow.cpp" line="1962"/>
+>>>>>>> pod/translations
         <source>Remove</source>
         <translation type="unfinished">Eliminar</translation>
     </message>
@@ -1119,6 +1317,7 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="197"/>
 =======
         <location filename="../ui/MainWindow.ui" line="76"/>
@@ -1129,10 +1328,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="76"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> pod/translations
         <source>File</source>
         <translation>Archivo</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1146,12 +1349,16 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="90"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> pod/translations
         <source>Help</source>
         <translation>Ayuda</translation>
     </message>
     <message>
         <source>Debug</source>
         <translation type="obsolete">Depurar</translation>
+<<<<<<< HEAD
 <<<<<<< HEAD
     </message>
     <message>
@@ -1171,10 +1378,29 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="199"/>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="271"/>
+>>>>>>> pod/translations
         <source>Debug Mode</source>
         <translation>Modo Depuración</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="236"/>
@@ -1254,10 +1480,30 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="292"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="279"/>
+        <source>Ctrl+S</source>
+        <translation>Ctrl+S</translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="284"/>
+        <source>Save Project As ...</source>
+        <translation>Guardar proyecto como...</translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+        <source>Next Page</source>
+        <translation>Página siguiente</translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> pod/translations
         <source>PgDown</source>
         <translation>PgDown</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1275,10 +1521,15 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
         <location filename="../ui/MainWindow.ui" line="300"/>
         <location filename="../ui/MainWindow.ui" line="327"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> pod/translations
         <source>Previous Page</source>
         <translation>Página anterior</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1292,10 +1543,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="303"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> pod/translations
         <source>PgUp</source>
         <translation>PgUp</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1309,10 +1564,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="311"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> pod/translations
         <source>New Project ...</source>
         <translation>Nuevo proyecto...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1326,10 +1585,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="314"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> pod/translations
         <source>Ctrl+N</source>
         <translation>Ctrl+N</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1343,10 +1606,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="319"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> pod/translations
         <source>Open Project ...</source>
         <translation>Abrir proyecto...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1360,10 +1627,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="322"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> pod/translations
         <source>Ctrl+O</source>
         <translation>Ctrl+O</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1377,10 +1648,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="330"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> pod/translations
         <source>Q</source>
         <translation>Q</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1394,10 +1669,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="341"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> pod/translations
         <source>W</source>
         <translation>W</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1411,10 +1690,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="349"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> pod/translations
         <source>Close Project</source>
         <translation>Cerrar proyecto</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1428,10 +1711,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="352"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> pod/translations
         <source>Ctrl+W</source>
         <translation>Ctrl+W</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1445,10 +1732,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="357"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> pod/translations
         <source>Quit</source>
         <translation>Salir</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1462,10 +1753,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="360"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> pod/translations
         <source>Ctrl+Q</source>
         <translation>Ctrl+Q</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1479,10 +1774,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="370"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> pod/translations
         <source>First Page</source>
         <translation>Primera página</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1496,10 +1795,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="373"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> pod/translations
         <source>Home</source>
         <translation>Inicio</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1513,10 +1816,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="378"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> pod/translations
         <source>Last Page</source>
         <translation>Ultima página</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1530,10 +1837,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="381"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> pod/translations
         <source>End</source>
         <translation>Final</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1547,10 +1858,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../ui/MainWindow.ui" line="386"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> pod/translations
         <source>About</source>
         <translation>Acerca</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1613,6 +1928,24 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
     <message>
         <location filename="../ui/MainWindow.ui" line="365"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+        <source>Fix DPI ...</source>
+        <translation>Corregir DPI...</translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="396"/>
+        <source>Relinking ...</source>
+        <translation>Revincular...</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="492"/>
+        <source>Stop batch processing</source>
+        <translation type="unfinished">Detener el procesamiento por lotes</translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="365"/>
+>>>>>>> pod/translations
         <source>Settings ...</source>
         <translation>Ajustes...</translation>
     </message>
@@ -2004,6 +2337,7 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="504"/>
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
@@ -2014,6 +2348,9 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> pod/translations
         <source>Change ...</source>
         <translation>Cambiar...</translation>
     </message>
@@ -2031,6 +2368,7 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="176"/>
         <source>Equalize illumination</source>
         <translation>Emparejar iluminación</translation>
+<<<<<<< HEAD
 <<<<<<< HEAD
     </message>
     <message>
@@ -2068,10 +2406,32 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
 >>>>>>> enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
+        <source>Picture Shape</source>
+        <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+>>>>>>> pod/translations
         <source>Dewarping</source>
         <translation>Antideformación</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2103,6 +2463,8 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
 >>>>>>> origin/enhanced
 =======
+=======
+>>>>>>> pod/translations
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="785"/>
         <source>Tiff Compression</source>
         <translation type="unfinished"></translation>
@@ -2114,11 +2476,15 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
     </message>
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+<<<<<<< HEAD
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
         <source>No despeckling</source>
         <translation>No eliminar manchas</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2140,10 +2506,16 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+>>>>>>> pod/translations
         <source>Apply To ...</source>
         <translation>Aplicar a...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2157,10 +2529,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> pod/translations
         <source>Despeckling</source>
         <translation>Eliminar manchas</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2174,10 +2550,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> pod/translations
         <source>Cautious despeckling</source>
         <translation>Eliminado de manchas cuidadoso</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2199,10 +2579,16 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> pod/translations
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2216,10 +2602,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> pod/translations
         <source>Normal despeckling</source>
         <translation>Eliminado de manchas normal</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2233,6 +2623,9 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
 =======
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> pod/translations
         <source>Aggressive despeckling</source>
         <translation>Eliminado de manchas agresivo</translation>
     </message>
@@ -2370,12 +2763,20 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
         <source>Alignment</source>
         <translation>Alineación</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
     <message>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="303"/>
         <source>Auto</source>
         <comment>auto</comment>
         <translation type="unfinished">Auto</translation>
+<<<<<<< HEAD
     </message>
     <message>
 =======
@@ -2388,6 +2789,14 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
     </message>
     <message>
 >>>>>>> enhanced
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+>>>>>>> pod/translations
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="308"/>
         <source>Manual</source>
         <comment>manual</comment>
@@ -2482,6 +2891,7 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="217"/>
         <source>Every other selected page</source>
         <translation type="unfinished"></translation>
+<<<<<<< HEAD
     </message>
     <message>
 =======
@@ -2493,6 +2903,12 @@ Para determinarlo, ejecute el proceso de &quot;Seleccionar Contenido&quot; o &qu
     </message>
     <message>
 >>>>>>> enhanced
+=======
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+>>>>>>> pod/translations
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="138"/>
         <source>All pages</source>
         <translation>Todas las páginas</translation>
@@ -2794,6 +3210,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="62"/>
         <source>This page and the following ones</source>
         <translation>Esta página y las siguientes</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="87"/>
@@ -2802,6 +3219,19 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
+=======
+<<<<<<< HEAD
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="87"/>
+        <source>This page and the following every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+>>>>>>> pod/translations
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="109"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
@@ -2931,6 +3361,7 @@ p, li { white-space: pre-wrap; }
         <source>Use 3D acceleration for user interface</source>
         <translation>Usar aceleración 3D para la interfase de usuario</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="27"/>
@@ -2943,6 +3374,8 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -2952,6 +3385,7 @@ p, li { white-space: pre-wrap; }
         <source>Launch batch processing</source>
         <translation type="unfinished">Comenzar procesado de archivo por lotes</translation>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> enhanced
@@ -2978,6 +3412,10 @@ p, li { white-space: pre-wrap; }
         <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
 <<<<<<< HEAD
     </message>
 </context>
@@ -3003,9 +3441,19 @@ p, li { white-space: pre-wrap; }
         <source>Start from selected</source>
         <translation type="unfinished"></translation>
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> scantailor/master
 >>>>>>> enhanced
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -3041,6 +3489,7 @@ p, li { white-space: pre-wrap; }
     <name>ThumbnailSequence</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ThumbnailSequence.cpp" line="780"/>
         <source>Warning</source>
         <translation type="unfinished"></translation>
@@ -3060,6 +3509,9 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../ThumbnailSequence.cpp" line="1359"/>
 >>>>>>> enhanced
+=======
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
+>>>>>>> pod/translations
         <source>%1 (page %2)</source>
         <translation type="unfinished">%1 (página %2)</translation>
     </message>
@@ -3177,6 +3629,7 @@ p, li { white-space: pre-wrap; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 =======
         <translation type="obsolete">No se puede: has seleccionado mas de un grupo.</translation>
@@ -3187,12 +3640,29 @@ p, li { white-space: pre-wrap; }
 =======
         <translation type="obsolete">No se puede: has seleccionado mas de un grupo.</translation>
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation type="obsolete">No se puede: has seleccionado mas de un grupo.</translation>
+=======
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 >>>>>>> scantailor/master
 =======
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 >>>>>>> scantailor/master
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
+<<<<<<< HEAD
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -3267,6 +3737,7 @@ p, li { white-space: pre-wrap; }
         <translation>Combinado</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3371,6 +3842,8 @@ p, li { white-space: pre-wrap; }
         <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
 >>>>>>> origin/enhanced
 =======
+=======
+>>>>>>> pod/translations
         <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
         <source>Free</source>
         <translation type="unfinished"></translation>
@@ -3417,11 +3890,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+<<<<<<< HEAD
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
         <source>Off</source>
         <translation>Apagado</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3435,10 +3912,14 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> pod/translations
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3452,6 +3933,9 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+>>>>>>> pod/translations
         <source>Manual</source>
         <translation>Manual</translation>
     </message>
@@ -3467,6 +3951,7 @@ p, li { white-space: pre-wrap; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/Task.cpp" line="604"/>
 =======
         <location filename="../filters/output/Task.cpp" line="512"/>
@@ -3477,10 +3962,14 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../filters/output/Task.cpp" line="512"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> pod/translations
         <source>Picture zones are only available in Mixed mode.</source>
         <translation>Las zona de imágenes solo están disponibles en el modo Combinado.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3494,10 +3983,14 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../filters/output/Task.cpp" line="564"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> pod/translations
         <source>Despeckling can&apos;t be done in Color / Grayscale mode.</source>
         <translation>La eliminación de manchas no funciona en el modo Color / Escala de grises.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3511,10 +4004,14 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../filters/output/Task.cpp" line="581"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> pod/translations
         <source>Output</source>
         <translation>Salida</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3528,10 +4025,14 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../filters/output/Task.cpp" line="582"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> pod/translations
         <source>Picture Zones</source>
         <translation>Zonas de imagen</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3545,10 +4046,14 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../filters/output/Task.cpp" line="583"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> pod/translations
         <source>Fill Zones</source>
         <translation>Zonas de relleno</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3562,10 +4067,14 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../filters/output/Task.cpp" line="584"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> pod/translations
         <source>Dewarping</source>
         <translation>Antideformación</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3579,6 +4088,9 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../filters/output/Task.cpp" line="585"/>
 >>>>>>> enhanced
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> pod/translations
         <source>Despeckling</source>
         <translation>Eliminar manchas</translation>
     </message>
@@ -3590,6 +4102,7 @@ p, li { white-space: pre-wrap; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 =======
         <translation type="obsolete">No se puede:has seleccionado mas de un grupo.</translation>
@@ -3600,12 +4113,29 @@ p, li { white-space: pre-wrap; }
 =======
         <translation type="obsolete">No se puede:has seleccionado mas de un grupo.</translation>
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation type="obsolete">No se puede:has seleccionado mas de un grupo.</translation>
+=======
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 >>>>>>> scantailor/master
 =======
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 >>>>>>> scantailor/master
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
+<<<<<<< HEAD
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -3645,6 +4175,7 @@ p, li { white-space: pre-wrap; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
@@ -3655,12 +4186,29 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
 >>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+<<<<<<< HEAD
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
         <source>Apply Margins</source>
         <translation>Aplicar márgenes</translation>
     </message>
@@ -3668,6 +4216,7 @@ p, li { white-space: pre-wrap; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
@@ -3678,12 +4227,29 @@ p, li { white-space: pre-wrap; }
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master
 =======
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
 >>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+<<<<<<< HEAD
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
         <source>Apply Alignment</source>
         <translation>Aplicar alineación</translation>
     </message>
@@ -3745,6 +4311,7 @@ p, li { white-space: pre-wrap; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 =======
         <translation type="obsolete">No se puede:has seleccionado mas de un grupo.</translation>
@@ -3755,12 +4322,29 @@ p, li { white-space: pre-wrap; }
 =======
         <translation type="obsolete">No se puede:has seleccionado mas de un grupo.</translation>
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation type="obsolete">No se puede:has seleccionado mas de un grupo.</translation>
+=======
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 >>>>>>> scantailor/master
 =======
         <translation>No se puede: has seleccionado más de un grupo.</translation>
 >>>>>>> scantailor/master
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>No se puede: has seleccionado más de un grupo.</translation>
+>>>>>>> scantailor/master
+<<<<<<< HEAD
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
     </message>
 </context>
 <context>

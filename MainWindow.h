@@ -101,6 +101,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	std::vector<PageRange> selectedRanges() const;
 //begin of modified by monday2000
 	QImage m_orig_fore_subscan;	
@@ -114,6 +115,9 @@ public:
 =======
     std::vector<PageRange> selectedRanges() const;
 >>>>>>> enhanced
+=======
+    std::vector<PageRange> selectedRanges() const;
+>>>>>>> pod/translations
 protected:
     bool eventFilter(QObject *obj, QEvent *ev);
 	virtual void closeEvent(QCloseEvent* event);

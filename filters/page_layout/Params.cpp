@@ -73,6 +73,7 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	el.appendChild(marshaller.rectF(m_pageRect, "pageRect"));
 >>>>>>> origin/enhanced
@@ -84,6 +85,9 @@ Params::toXml(QDomDocument& doc, QString const& name) const
 =======
 	el.appendChild(marshaller.rectF(m_pageRect, "pageRect"));
 >>>>>>> enhanced
+=======
+	el.appendChild(marshaller.rectF(m_pageRect, "pageRect"));
+>>>>>>> pod/translations
 	el.appendChild(marshaller.rectF(m_contentRect, "contentRect"));
 	el.appendChild(marshaller.sizeF(m_contentSizeMM, "contentSizeMM"));
 	el.appendChild(m_alignment.toXml(doc, "alignment"));

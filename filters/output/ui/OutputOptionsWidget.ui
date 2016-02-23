@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +117,10 @@
     <width>269</width>
     <height>789</height>
 >>>>>>> enhanced
+=======
+    <width>269</width>
+    <height>789</height>
+>>>>>>> pod/translations
    </rect>
   </property>
   <property name="windowTitle">
@@ -433,6 +438,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,6 +540,9 @@
 =======
         <layout class="QVBoxLayout" name="verticalLayout_4">
 >>>>>>> enhanced
+=======
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> pod/translations
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_14">
            <item>
@@ -550,6 +559,7 @@
             </spacer>
            </item>
            <item>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -650,6 +660,9 @@
 =======
             <widget class="QLabel" name="label">
 >>>>>>> enhanced
+=======
+            <widget class="QLabel" name="label">
+>>>>>>> pod/translations
              <property name="text">
               <string>Picture Shape</string>
              </property>
@@ -1086,6 +1099,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/homebrew-formulae
 =======
@@ -1180,6 +1194,8 @@
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
     <widget class="QWidget" name="pictureShapeOptions_2" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_10">
       <item>
@@ -1263,6 +1279,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1319,6 +1336,8 @@
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>

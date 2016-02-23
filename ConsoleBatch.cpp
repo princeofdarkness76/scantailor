@@ -250,6 +250,7 @@ ConsoleBatch::process()
 	}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
@@ -257,6 +258,8 @@ ConsoleBatch::process()
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 }
 
 
@@ -372,6 +375,7 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
 	    select_content::Dependencies deps;
@@ -392,6 +396,8 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 		select_content::Dependencies deps;
 
 		select_content::Params params(deps);
@@ -406,6 +412,7 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 			params.setContentRect(cli.getContentRect());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
@@ -413,11 +420,14 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 			//QRectF rect(cli.getContentRect());
 			//QSizeF size_mm(rect.width(), rect.height());
 			//select_content::Params params(rect, size_mm, deps, MODE_MANUAL);
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -428,11 +438,14 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
         params.setPageDetect(cli.isPageDetectionEnabled());
         params.setFineTuneCorners(cli.isFineTuningEnabled());
 =======
+=======
+>>>>>>> pod/translations
 		params.setContentDetect(cli.isContentDetectionEnabled());
 		params.setPageDetect(cli.isPageDetectionEnabled());
 		params.setFineTuneCorners(cli.isFineTuningEnabled());
         if (cli.hasPageBorders())
 			params.setPageBorders(cli.getPageBorders());
+<<<<<<< HEAD
 >>>>>>> enhanced
 
 		select_content->getSettings()->setPageParams(page, params);
@@ -462,6 +475,12 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 
 =======
 >>>>>>> enhanced
+=======
+
+		select_content->getSettings()->setPageParams(page, params);
+	}
+
+>>>>>>> pod/translations
 	if (cli.hasContentDeviation())
 		select_content->getSettings()->setMaxDeviation(cli.getContentDeviation());
 
@@ -539,6 +558,7 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 			params.setOutputDpi(outputDpi);
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -663,6 +683,11 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 			params.setPictureShape(cli.getPictureShape());
 		}
 >>>>>>> enhanced
+=======
+		if (cli.hasPictureShape()) {
+			params.setPictureShape(cli.getPictureShape());
+		}
+>>>>>>> pod/translations
 
 		output::ColorParams colorParams = params.colorParams();
 		if (cli.hasColorMode())

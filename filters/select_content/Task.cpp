@@ -103,6 +103,7 @@ Task::process(TaskStatus const& status, FilterData const& data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
 	if (params.get() && !params->dependencies().matches(deps) && (params->mode() == MODE_AUTO || params->isPageDetectionEnabled())) {
@@ -118,6 +119,8 @@ Task::process(TaskStatus const& status, FilterData const& data)
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 
 	if (params.get())
 	{
@@ -137,6 +140,7 @@ Task::process(TaskStatus const& status, FilterData const& data)
 		}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
@@ -144,6 +148,8 @@ Task::process(TaskStatus const& status, FilterData const& data)
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	}
 	else
 	{
@@ -151,6 +157,7 @@ create_new_content:
 		QRectF page_rect(data.xform().resultingRect());
 		QRectF content_rect(page_rect);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +197,8 @@ create_new_content:
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 		if (new_params.isPageDetectionEnabled()) {
 			//std::cout << "PageFinder" << std::endl;
 			page_rect = PageFinder::findPageBox(status, data, new_params.isFineTuningEnabled(), m_ptrSettings->pageDetectionBox(), m_ptrSettings->pageDetectionTolerance(), new_params.pageBorders(), m_ptrDbg.get());
@@ -218,8 +227,11 @@ create_new_content:
 	ui_data.setPageBorders(new_params.pageBorders());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 
 	new_params.setContentSizeMM(ui_data.contentSizeMM());
 
@@ -245,6 +257,9 @@ create_new_content:
 	}
 	new_params.setPageRect(page_rect);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pod/translations
 
 	QRectF content_rect(page_rect);
 	if (new_params.isContentDetectionEnabled() && new_params.mode() == MODE_AUTO) {
@@ -263,6 +278,7 @@ create_new_content:
 	ui_data.setPageDetection(new_params.isPageDetectionEnabled());
 	ui_data.setFineTuneCorners(new_params.isFineTuningEnabled());
     ui_data.setPageBorders(new_params.pageBorders());
+<<<<<<< HEAD
 
 	new_params.setContentSizeMM(ui_data.contentSizeMM());
 
@@ -361,6 +377,14 @@ create_new_content:
 	m_ptrSettings->setPageParams(m_pageId, new_params);
 */
 >>>>>>> enhanced
+=======
+
+	new_params.setContentSizeMM(ui_data.contentSizeMM());
+
+	new_params.computeDeviation(m_ptrSettings->avg());
+	m_ptrSettings->setPageParams(m_pageId, new_params);
+*/
+>>>>>>> pod/translations
 	/*
 	if (params.get()) {
 		ui_data.setContentRect(params->contentRect());
@@ -410,6 +434,7 @@ create_new_content:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			page_rect, ui_data.contentRect()
 =======
 			ui_data.pageRect(), ui_data.contentRect()
@@ -423,6 +448,9 @@ create_new_content:
 =======
 			ui_data.pageRect(), ui_data.contentRect()
 >>>>>>> enhanced
+=======
+			ui_data.pageRect(), ui_data.contentRect()
+>>>>>>> pod/translations
 		);
 	} else {
 		return FilterResultPtr(

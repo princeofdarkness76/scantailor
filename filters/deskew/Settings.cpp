@@ -25,8 +25,25 @@
 #include <boost/foreach.hpp>
 #endif
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+#include <cmath>
+#include <iostream>
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
 
 #include <cmath>
 #include <iostream>
@@ -55,6 +72,7 @@ Settings::Settings() :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_sigma(0.0),
 	m_maxDeviation(1.0)
 =======
@@ -70,6 +88,9 @@ Settings::Settings() :
 =======
     m_sigma(0.0)
 >>>>>>> enhanced
+=======
+    m_sigma(0.0)
+>>>>>>> pod/translations
 {
     m_maxDeviation = CommandLine::get().getSkewDeviation();
 }

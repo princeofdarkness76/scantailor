@@ -29,6 +29,7 @@ class QString;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class CommandLine;
 
@@ -43,6 +44,10 @@ class CommandLine;
 class CommandLine;
 
 >>>>>>> enhanced
+=======
+class CommandLine;
+
+>>>>>>> pod/translations
 namespace page_layout
 {
 
@@ -58,6 +63,7 @@ public:
 	/**
 	 * \brief Constructs a null alignment.
 	 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,6 +90,11 @@ public:
     
     Alignment(Vertical vert, Horizontal hor);
 >>>>>>> enhanced
+=======
+	Alignment();
+    
+    Alignment(Vertical vert, Horizontal hor);
+>>>>>>> pod/translations
 	
 	Alignment(QDomElement const& el);
 	

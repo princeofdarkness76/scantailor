@@ -57,6 +57,10 @@ namespace page_layout {
     class Alignment;
 }
 
+namespace page_layout {
+    class Alignment;
+}
+
 /**
  * CommandLine is a singleton simulation.
  * use CommandLine::get() to get access to global class
@@ -75,6 +79,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false) { CommandLine::parseCli(argv); }
 =======
 	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false), m_defaultNull(false) { CommandLine::parseCli(argv); }
@@ -88,6 +93,9 @@ public:
 =======
 	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false), m_defaultNull(false) { CommandLine::parseCli(argv); }
 >>>>>>> enhanced
+=======
+	CommandLine(QStringList const& argv, bool g=true) : m_error(false), m_gui(g), m_global(false), m_defaultNull(false) { CommandLine::parseCli(argv); }
+>>>>>>> pod/translations
 
 	bool isGui() const { return m_gui; }
 	bool isVerbose() const { return contains("verbose"); }
@@ -104,6 +112,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pod/tiff
 	bool isFineTuningEnabled() const { return contains("enable-fine-tuning"); };
@@ -115,6 +124,8 @@ public:
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	bool isForcePageDetectionDisabled() const { return contains("force-disable-page-detection"); };
 	bool isFineTuningEnabled() const { return contains("enable-fine-tuning"); };
 	bool isAutoMarginsEnabled() const { return contains("enable-auto-margins"); };
@@ -123,16 +134,20 @@ public:
     bool hasPageBorders() const { return hasMargins("page-borders"); };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	bool hasAlignment() const;
 	bool hasOutputDpi() const;
 	bool hasLanguage() const;
 
 	bool hasHelp() const { return contains("help"); }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +258,8 @@ public:
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	bool hasOutputProject() const { return contains("output-project") && !m_options["output-project"].isEmpty(); }
 	bool hasLayout() const { return contains("layout") && !m_options["layout"].isEmpty(); }
 	bool hasLayoutDirection() const { return contains("layout-direction") && !m_options["layout-direction"].isEmpty(); }
@@ -261,6 +278,7 @@ public:
 	bool hasPictureShape() const { return contains("picture-shape") && !m_options["picture-shape"].isEmpty(); }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 >>>>>>> pod/scantailor-filters.h
 =======
@@ -270,11 +288,14 @@ public:
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	bool hasWhiteMargins() const { return contains("white-margins"); }
 	bool hasNormalizeIllumination() const { return contains("normalize-illumination"); }
 	bool hasThreshold() const { return contains("threshold") && !m_options["threshold"].isEmpty(); }
 	bool hasDespeckle() const { return contains("despeckle") && !m_options["despeckle"].isEmpty(); }
 	bool hasDewarping() const { return contains("dewarping"); }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -287,6 +308,8 @@ public:
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	bool hasMatchLayoutTolerance() const { return contains("match-layout-tolerance") && !m_options["match-layout-tolerance"].isEmpty(); }
 	bool hasDepthPerception() const { return contains("depth-perception") && !m_options["depth-perception"].isEmpty(); }
 	bool hasTiffCompression() const { return contains("tiff-compression") && !m_options["tiff-compression"].isEmpty(); }
@@ -299,6 +322,7 @@ public:
  	bool hasDisableCheckOutput() const { return contains("disable-check-output"); }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 >>>>>>> origin/enhanced
@@ -309,10 +333,13 @@ public:
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 
 	page_split::LayoutType getLayout() const { return m_layoutType; }
 	Qt::LayoutDirection getLayoutDirection() const { return m_layoutDirection; }
 	output::ColorParams::ColorMode getColorMode() const { return m_colorMode; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -419,6 +446,10 @@ public:
 	output::ColorParams::ColorMode getDefaultColorMode() const { return m_defaultColorMode; }
 	output::PictureShape getPictureShape() const { return m_pictureShape; }
 >>>>>>> enhanced
+=======
+	output::ColorParams::ColorMode getDefaultColorMode() const { return m_defaultColorMode; }
+	output::PictureShape getPictureShape() const { return m_pictureShape; }
+>>>>>>> pod/translations
 	Dpi getInputDpi() const { return m_dpi; }
 	Dpi getOutputDpi() const { return m_outputDpi; }
     Dpi getDefaultOutputDpi() const { return m_defaultOutputDpi; }
@@ -436,6 +467,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	AutoManualMode getDeskewMode() const { return m_deskewMode; }
 >>>>>>> origin/enhanced
@@ -447,6 +479,9 @@ public:
 =======
 	AutoManualMode getDeskewMode() const { return m_deskewMode; }
 >>>>>>> enhanced
+=======
+	AutoManualMode getDeskewMode() const { return m_deskewMode; }
+>>>>>>> pod/translations
 	double getSkewDeviation() const { return m_skewDeviation; }
 	int getStartFilterIdx() const { return m_startFilterIdx; }
 	int getEndFilterIdx() const { return m_endFilterIdx; }
@@ -459,16 +494,20 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	QString getLanguage() const { return m_language; }
 	QString getWindowTitle() const { return m_windowTitle; }
 	QSizeF getPageDetectionBox() const { return m_pageDetectionBox; }
 	double getPageDetectionTolerance() const { return m_pageDetectionTolerance; }
     bool getDefaultNull() const { return m_defaultNull; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -478,6 +517,8 @@ public:
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 
 	bool help() { return m_options.contains("help"); }
 	void printHelp();
@@ -518,6 +559,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,6 +658,10 @@ private:
 	output::ColorParams::ColorMode m_defaultColorMode;
 	output::PictureShape m_pictureShape;
 >>>>>>> enhanced
+=======
+	output::ColorParams::ColorMode m_defaultColorMode;
+	output::PictureShape m_pictureShape;
+>>>>>>> pod/translations
 	Dpi m_dpi;
 	Dpi m_outputDpi;
     Dpi m_defaultOutputDpi;
@@ -633,6 +679,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	AutoManualMode m_deskewMode;
 >>>>>>> origin/enhanced
@@ -644,6 +691,9 @@ private:
 =======
 	AutoManualMode m_deskewMode;
 >>>>>>> enhanced
+=======
+	AutoManualMode m_deskewMode;
+>>>>>>> pod/translations
 	double m_skewDeviation;
 	int m_startFilterIdx;
 	int m_endFilterIdx;
@@ -658,6 +708,7 @@ private:
 	void setup();
 	page_split::LayoutType fetchLayoutType();
 	output::ColorParams::ColorMode fetchColorMode();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -764,6 +815,10 @@ private:
 	output::ColorParams::ColorMode fetchDefaultColorMode();
 	output::PictureShape fetchPictureShape();
 >>>>>>> enhanced
+=======
+	output::ColorParams::ColorMode fetchDefaultColorMode();
+	output::PictureShape fetchPictureShape();
+>>>>>>> pod/translations
 	Qt::LayoutDirection fetchLayoutDirection();
 	Dpi fetchDpi(QString oname="dpi");
 	Margins fetchMargins(QString base="margins", Margins def=Margins(10.0, 5.0, 10.0, 5.0));
@@ -780,6 +835,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	AutoManualMode fetchDeskewMode();
 >>>>>>> origin/enhanced
@@ -791,6 +847,9 @@ private:
 =======
 	AutoManualMode fetchDeskewMode();
 >>>>>>> enhanced
+=======
+	AutoManualMode fetchDeskewMode();
+>>>>>>> pod/translations
 	double fetchSkewDeviation();
 	int fetchStartFilterIdx();
 	int fetchEndFilterIdx();
@@ -803,16 +862,20 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/enhanced
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	QString fetchLanguage() const;
 	QString fetchWindowTitle() const;
 	QSizeF fetchPageDetectionBox() const;
 	double fetchPageDetectionTolerance() const;
     bool fetchDefaultNull();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -822,6 +885,8 @@ private:
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 };
 
 #endif

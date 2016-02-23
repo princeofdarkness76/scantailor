@@ -47,6 +47,7 @@ MACRO (TODAY RESULT)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string(REGEX REPLACE "(..)/(..)/..(..).*" "\\3\\2\\1"
 ${RESULT} ${${RESULT}})
 =======
@@ -62,6 +63,9 @@ ${RESULT} ${${RESULT}})
 =======
         #string(REGEX REPLACE "(..)/(..)/..(..).*" "\\3\\2\\1" ${RESULT} ${${RESULT}})
 >>>>>>> enhanced
+=======
+        #string(REGEX REPLACE "(..)/(..)/..(..).*" "\\3\\2\\1" ${RESULT} ${${RESULT}})
+>>>>>>> pod/translations
     ELSEIF(UNIX)
         EXECUTE_PROCESS(COMMAND "date" "+%Y%m%d" OUTPUT_VARIABLE ${RESULT})
 		string(REGEX REPLACE "(\\d\\d\\d\\d)(\\d\\d)(\\d\\d).*" "\\1\\2\\3" ${RESULT} ${${RESULT}})
@@ -578,7 +582,10 @@ SET(
 
 SOURCE_GROUP("Sources" FILES ${common_sources} ${gui_only_sources} ${cli_only_sources})
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> pod/translations
 QT4_AUTOMOC(${common_sources} ${gui_only_sources} ${cli_only_sources})
 
 >>>>>>> enhanced
@@ -671,9 +678,13 @@ TRANSLATION_SOURCES(
 	scantailor
 	${common_sources} ${gui_only_sources} ${cli_only_sources}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	${common_ui_files} ${gui_only_ui_files}
 >>>>>>> enhanced
+=======
+	${common_ui_files} ${gui_only_ui_files}
+>>>>>>> pod/translations
 )
 FILE(GLOB TRANSLATION_FILES translations/scantailor_*.ts)
 FILE(GLOB CR_TRANSLATION_FILES translations/crashreporter_*.ts)

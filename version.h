@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,5 +135,9 @@
 #define VERSION __DATE__
 #define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
 >>>>>>> enhanced
+=======
+#define VERSION __DATE__
+#define VERSION_QUAD "" // Must be "x.x.x.x" or an empty string.
+>>>>>>> pod/translations
 
 #endif

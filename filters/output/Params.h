@@ -39,6 +39,7 @@ namespace output
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +137,9 @@ namespace output
 =======
 	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
 >>>>>>> enhanced
+=======
+	enum PictureShape { FREE_SHAPE, RECTANGULAR_SHAPE };
+>>>>>>> pod/translations
 
 class Params
 {
@@ -245,6 +249,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,6 +306,8 @@ public:
 >>>>>>> pod/tiff
 =======
 >>>>>>> enhanced
+=======
+>>>>>>> pod/translations
 	void setColorParams(ColorParams const& params) { m_colorParams = params; }
 
 	DewarpingMode const& dewarpingMode() const { return m_dewarpingMode; }
@@ -328,6 +335,7 @@ private:
 	static QString formatColorMode(ColorParams::ColorMode mode);
 	
 	ColorParams m_colorParams;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,6 +437,9 @@ private:
 =======
 	PictureShape m_pictureShape;
 >>>>>>> enhanced
+=======
+	PictureShape m_pictureShape;
+>>>>>>> pod/translations
 	dewarping::DistortionModel m_distortionModel;
 	DepthPerception m_depthPerception;
 	DewarpingMode m_dewarpingMode;

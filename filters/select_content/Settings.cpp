@@ -25,8 +25,26 @@
 #include <boost/foreach.hpp>
 #endif
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+#include <cmath>
+#include <iostream>
+#include "CommandLine.h" 
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
 
 #include <cmath>
 #include <iostream>
@@ -59,6 +77,7 @@ Settings::Settings() :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_maxDeviation(1.0)
 =======
     m_pageDetectionBox(0.0, 0.0),
@@ -75,6 +94,10 @@ Settings::Settings() :
     m_pageDetectionBox(0.0, 0.0),
     m_pageDetectionTolerance(0.1)
 >>>>>>> enhanced
+=======
+    m_pageDetectionBox(0.0, 0.0),
+    m_pageDetectionTolerance(0.1)
+>>>>>>> pod/translations
 {
     m_maxDeviation = CommandLine::get().getContentDeviation();
 }
