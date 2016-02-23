@@ -91,6 +91,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Margins m_borders;
 >>>>>>> origin/enhanced
@@ -111,6 +112,9 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+        Margins m_borders;
+>>>>>>> pod/translations
 	};
 	
 	OptionsWidget(IntrusivePtr<Settings> const& settings,
@@ -132,6 +136,7 @@ private slots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,6 +163,10 @@ private slots:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	void autoMode();
+	void manualMode();
+>>>>>>> pod/translations
 	void fineTuningChanged(bool checked);
 	void contentDetectionDisabled(void);
 	void pageDetectionDisabled(void);
@@ -165,6 +174,7 @@ private slots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +201,10 @@ private slots:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+    
+    void borderChanged();
+>>>>>>> pod/translations
 
 private:
 	void updateModeIndication(AutoManualMode const mode);

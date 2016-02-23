@@ -94,6 +94,7 @@ CacheDrivenTask::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,6 +238,9 @@ CacheDrivenTask::process(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+				params.depthPerception(), params.despeckleLevel(), params.pictureShape()
+>>>>>>> pod/translations
 			);
 
 			if (!stored_output_params->outputImageParams().matches(new_output_image_params)) {

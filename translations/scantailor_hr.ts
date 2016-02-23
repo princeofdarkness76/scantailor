@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -32,6 +33,32 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>About Scan Tailor &quot;Enhanced&quot;</source>
+        <translation>O Scan Tailor-u &quot;Enhanced&quot;</translation>
+=======
+        <source>About Scan Tailor</source>
+        <translation>O Scan Tailor-u</translation>
+>>>>>>> scantailor/master
+=======
+        <source>About Scan Tailor</source>
+        <translation>O Scan Tailor-u</translation>
+>>>>>>> scantailor/master
+=======
+        <source>About Scan Tailor</source>
+        <translation>O Scan Tailor-u</translation>
+>>>>>>> scantailor/master
+=======
+        <source>About Scan Tailor</source>
+        <translation>O Scan Tailor-u</translation>
+>>>>>>> scantailor/master
+=======
+        <source>About Scan Tailor</source>
+        <translation>O Scan Tailor-u</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="27"/>
@@ -41,6 +68,7 @@
     <message>
         <location filename="../ui/AboutDialog.ui" line="33"/>
         <source>Scan Tailor is an interactive post-processing tool for scanned pages. It performs operations such as page splitting, skew correction, adding/removing margins, and others. You give it raw scans, and you get pages ready to be printed or assembled into a PDF or DJVU file.  Scanning and optical character recognition is out of scope of this project.</source>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,6 +93,26 @@
         <translation>Scan Tailor je interaktivni post-procesni alat za obradu skeniranih stranica. On izvodi operacije kao što su dijeljenje duplih stranice, ispravljanje iskrivljenja, dodavanje / uklanjanje margine i drugo. Možete mu dati sirovu skeniranu stranicu i dobiti ćete stranice spremne za ispis ili stavljanje u PDF ili DJVU datoteke. Skeniranje i optičko prepoznavanje znakova ne dolazi u okviru ovog projekta.</translation>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation>Scan Tailor je interaktivni post-procesni alat za obradu skeniranih stranica. On izvodi operacije kao što su dijeljenje duplih stranice, ispravljanje iskrivljenja, dodavanje / uklanjanje margine i drugo. Možete mu dati sirovu skeniranu stranicu i dobiti ćete stranice spremne za ispis ili stavljanje u PDF ili DJVU datoteke. Skeniranje i optičko prepoznavanje znakova ne dolazi u okviru ovog projekta.</translation>
+=======
+        <translation>Scan Tailor je interaktivni post-processing alat za obradu skeniranih stranica. On izvodi operacije kao što su dijeljenje duplih stranice, ispravljanje iskrivljenja i dodavanje / uklanjanje margine, i drugo. Možete mu dati sirovu skeniranu stranicu, i dobiti ćete stranice spremne za ispis ili stavljanje u PDF ili DJVU datoteke. Skeniranje i optičko prepoznavanje znakova ne dolazi u okviru ovog projekta.</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Scan Tailor je interaktivni post-processing alat za obradu skeniranih stranica. On izvodi operacije kao što su dijeljenje duplih stranice, ispravljanje iskrivljenja i dodavanje / uklanjanje margine, i drugo. Možete mu dati sirovu skeniranu stranicu, i dobiti ćete stranice spremne za ispis ili stavljanje u PDF ili DJVU datoteke. Skeniranje i optičko prepoznavanje znakova ne dolazi u okviru ovog projekta.</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Scan Tailor je interaktivni post-processing alat za obradu skeniranih stranica. On izvodi operacije kao što su dijeljenje duplih stranice, ispravljanje iskrivljenja i dodavanje / uklanjanje margine, i drugo. Možete mu dati sirovu skeniranu stranicu, i dobiti ćete stranice spremne za ispis ili stavljanje u PDF ili DJVU datoteke. Skeniranje i optičko prepoznavanje znakova ne dolazi u okviru ovog projekta.</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Scan Tailor je interaktivni post-processing alat za obradu skeniranih stranica. On izvodi operacije kao što su dijeljenje duplih stranice, ispravljanje iskrivljenja i dodavanje / uklanjanje margine, i drugo. Možete mu dati sirovu skeniranu stranicu, i dobiti ćete stranice spremne za ispis ili stavljanje u PDF ili DJVU datoteke. Skeniranje i optičko prepoznavanje znakova ne dolazi u okviru ovog projekta.</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Scan Tailor je interaktivni post-processing alat za obradu skeniranih stranica. On izvodi operacije kao što su dijeljenje duplih stranice, ispravljanje iskrivljenja i dodavanje / uklanjanje margine, i drugo. Možete mu dati sirovu skeniranu stranicu, i dobiti ćete stranice spremne za ispis ili stavljanje u PDF ili DJVU datoteke. Skeniranje i optičko prepoznavanje znakova ne dolazi u okviru ovog projekta.</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="101"/>
@@ -82,6 +130,7 @@
         <translation>Joseph Artsimovich</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,10 +165,14 @@
         <location filename="../ui/AboutDialog.ui" line="157"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="157"/>
+>>>>>>> pod/translations
         <source>U235 - Picture auto-detection algorithm.</source>
         <translation>U234 - Auto-detekcijski algoritam slika.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,10 +197,14 @@
         <location filename="../ui/AboutDialog.ui" line="164"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="164"/>
+>>>>>>> pod/translations
         <source>Robert B. - First generation dewarping algorithm.</source>
         <translation>Robert B. -Prva generacija dewarping algoritama.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,10 +229,14 @@
         <location filename="../ui/AboutDialog.ui" line="171"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="171"/>
+>>>>>>> pod/translations
         <source>Andrey Bergman - System load adjustment.</source>
         <translation>Andrey Bergman - Podešavanje opterećenja sustava.</translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,10 +261,14 @@
         <location filename="../ui/AboutDialog.ui" line="178"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="178"/>
+>>>>>>> pod/translations
         <source>Petr Kovář - Command line interface.</source>
         <translation>Petr Kovář - Sučelje komandne linije.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,10 +298,16 @@
         <location filename="../ui/AboutDialog.ui" line="212"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+>>>>>>> pod/translations
         <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
         <translation>Svetoslav Sashkov, Mandor - Bugarski</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,10 +355,53 @@
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="205"/>
+        <source>Neco Torquato - Brazilian Portuguese</source>
+        <translation>Neco Torquato - Brazilski portugalski</translation>
+    </message>
+    <message utf8="true">
+        <source>Damir13 - Croatian</source>
+        <translation type="obsolete">Damir13 - Hrvatski</translation>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../ui/AboutDialog.ui" line="205"/>
+        <source>Neco Torquato - Brazilian Portuguese</source>
+        <translation>Neco Torquato - Brazilski Portugalski</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+        <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
+        <translation>Svetoslav Sashkov, Mandor - Bugarski</translation>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message utf8="true">
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+>>>>>>> pod/translations
         <source>Petr Kovář - Czech</source>
         <translation>Petr Kovář - Češki</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -331,10 +445,39 @@
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+        <source>Stefan Birkner - German</source>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation>Stefan Birkner - Njemački</translation>
+=======
+        <translation>Marián Hvolka - Slovački</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Marián Hvolka - Slovački</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Marián Hvolka - Slovački</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Marián Hvolka - Slovački</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Marián Hvolka - Slovački</translation>
+>>>>>>> scantailor/master
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+>>>>>>> pod/translations
         <source>Angelo Gemmi - Italian</source>
         <translation>Angelo Gemmi - Talijanski</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -359,10 +502,14 @@
         <location filename="../ui/AboutDialog.ui" line="240"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> pod/translations
         <source>Masahiro Kitagawa - Japanese</source>
         <translation>Masahiro Kitagawa - Japanski</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -387,10 +534,14 @@
         <location filename="../ui/AboutDialog.ui" line="247"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> pod/translations
         <source>Patrick Pascal - French</source>
         <translation>Patrick Pascal - Francuski</translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,10 +566,14 @@
         <location filename="../ui/AboutDialog.ui" line="254"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> pod/translations
         <source>Daniel Koć - Polish</source>
         <translation>Daniel Koć - Poljski</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -443,10 +598,14 @@
         <location filename="../ui/AboutDialog.ui" line="261"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> pod/translations
         <source>Joseph Artsimovich - Russian</source>
         <translation>Joseph Artsimovich - Ruski</translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -471,10 +630,14 @@
         <location filename="../ui/AboutDialog.ui" line="268"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> pod/translations
         <source>Marián Hvolka - Slovak</source>
         <translation>Marián Hvolka - Slovački</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,10 +662,14 @@
         <location filename="../ui/AboutDialog.ui" line="275"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> pod/translations
         <source>Flavio Benelli - Spanish</source>
         <translation>Flavio Benelli - Španjolski</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,10 +703,36 @@
         <location filename="../ui/AboutDialog.ui" line="282"/>
         <source>Davidson Wang - Traditional Chinese</source>
         <translation>Davidson Wang - Tradicionalni kineski</translation>
+=======
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+        <source>Davidson Wang - Traditional Chinese</source>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation>Davidson Wang - Tradicionalni kineski</translation>
+=======
+        <translation>Davidson Wang - Kineski Tradicionalni</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Davidson Wang - Kineski Tradicionalni</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Davidson Wang - Kineski Tradicionalni</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Davidson Wang - Kineski Tradicionalni</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Davidson Wang - Kineski Tradicionalni</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="289"/>
         <source>Yuri Chornoivan - Ukrainian</source>
+<<<<<<< HEAD
         <translation>Yuri Chornoivan - Ukrainski</translation>
     </message>
     <message>
@@ -640,10 +833,52 @@
         <location filename="../ui/AboutDialog.ui" line="301"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation>Yuri Chornoivan - Ukrainski</translation>
+=======
+        <translation>Yuri Chornoivan - Ukrajinski</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Yuri Chornoivan - Ukrajinski</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Yuri Chornoivan - Ukrajinski</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Yuri Chornoivan - Ukrajinski</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Yuri Chornoivan - Ukrajinski</translation>
+>>>>>>> scantailor/master
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+        <source>denver 22</source>
+        <translation>denver 22</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="190"/>
+        <source>Translators</source>
+        <translation>Prevodioci</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="142"/>
+        <source>Contributors</source>
+        <translation>Suradnici</translation>
+    </message>
+    <message>
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> pod/translations
         <source>Documentation</source>
         <translation>Dokumentacija</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -668,6 +903,9 @@
         <location filename="../ui/AboutDialog.ui" line="357"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> pod/translations
         <source>License</source>
         <translation>Dozvola</translation>
     </message>
@@ -719,6 +957,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="59"/>
 =======
 =======
@@ -733,6 +972,10 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="57"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
@@ -742,6 +985,7 @@
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="67"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -752,10 +996,28 @@
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="59"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="59"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="59"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="59"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="59"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Selected pages</source>
         <translation>Odbrane stranice</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -779,6 +1041,10 @@
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="97"/>
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
@@ -805,6 +1071,7 @@
     </message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -815,6 +1082,34 @@
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../filters/deskew/ui/DeskewApplyDialog.ui" line="92"/>
+        <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
+        <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
+    </message>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
 </context>
 <context>
     <name>DeskewOptionsWidget</name>
@@ -855,6 +1150,7 @@
 <context>
     <name>ErrorWidget</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1014,6 +1310,37 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Form</source>
+        <translation type="obsolete">Oblik</translation>
+=======
+        <location filename="../ui/ErrorWidget.ui" line="14"/>
+        <source>Form</source>
+        <translation>Oblik</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/ErrorWidget.ui" line="14"/>
+        <source>Form</source>
+        <translation>Oblik</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/ErrorWidget.ui" line="14"/>
+        <source>Form</source>
+        <translation>Oblik</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/ErrorWidget.ui" line="14"/>
+        <source>Form</source>
+        <translation>Oblik</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/ErrorWidget.ui" line="14"/>
+        <source>Form</source>
+        <translation>Oblik</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -1054,6 +1381,7 @@
         <translation>Prihvati</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1136,11 +1464,89 @@
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Need Fixing</source>
+        <translation type="obsolete">Potrebno popraviti</translation>
+    </message>
+    <message>
+        <source>All Pages</source>
+        <translation type="obsolete">Sve stranice</translation>
+    </message>
+    <message>
+        <source>DPI is too large and most likely wrong.</source>
+        <translation type="obsolete">DPI je preveliki, izgleda kao da je krivi.</translation>
+    </message>
+    <message>
+        <source>DPI is too small. Even if it&apos;s correct, you are not going to get acceptable results with it.</source>
+        <translation type="obsolete">DPI je premali. Čak i ako je ispravan, s njim nećete dobiti prihvatljivi rezultat.</translation>
+    </message>
+    <message>
+        <source>DPI is too small for this pixel size. Such combination would probably lead to out of memory errors.</source>
+        <translation type="obsolete">DPI je premali za ovu veličinu piksela. Takva kombinacija najvjerojatnije će uzrokovati  stanje izvan memorije.</translation>
+    </message>
+    <message>
+        <source>%1 (page %2)</source>
+        <translation type="obsolete">%1 (stranica %2)</translation>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../FixDpiDialog.cpp" line="241"/>
+        <source>Need Fixing</source>
+        <translation>Potrebno popraviti</translation>
+    </message>
+    <message>
+        <location filename="../FixDpiDialog.cpp" line="242"/>
+        <location filename="../FixDpiDialog.cpp" line="707"/>
+        <source>All Pages</source>
+        <translation>Sve stranice</translation>
+    </message>
+    <message>
+        <location filename="../FixDpiDialog.cpp" line="476"/>
+        <source>DPI is too large and most likely wrong.</source>
+        <translation>DPI je preveliki, izgleda kao da je krivi.</translation>
+    </message>
+    <message>
+        <location filename="../FixDpiDialog.cpp" line="479"/>
+        <source>DPI is too small. Even if it&apos;s correct, you are not going to get acceptable results with it.</source>
+        <translation>DPI je premali. Čak i ako je ispravan, s njim nećete dobiti prihvatljivi rezultat.</translation>
+    </message>
+    <message>
+        <location filename="../FixDpiDialog.cpp" line="482"/>
+        <source>DPI is too small for this pixel size. Such combination would probably lead to out of memory errors.</source>
+        <translation>DPI je premali za ovu veličinu piksela. Takva kombinacija najvjerojatnije će uzrokovati  stanje izvan memorije.</translation>
+    </message>
+    <message>
+        <location filename="../FixDpiDialog.cpp" line="733"/>
+        <source>%1 (page %2)</source>
+        <translation>%1 (stranica %2)</translation>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
     <name>ImageViewBase</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1169,6 +1575,37 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
+        <translation type="obsolete">Koristite kotačić miša ili + / - da bi povećali ili smanjili. Kad zumiranja, moguće je povlačenje.</translation>
+=======
+        <location filename="../ImageViewBase.cpp" line="211"/>
+        <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
+        <translation>Koristite kotačić miša ili + / - da bi povećali ili smanjili. Kad zumiranja, moguće je povlačenje.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ImageViewBase.cpp" line="211"/>
+        <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
+        <translation>Koristite kotačić miša ili + / - da bi povećali ili smanjili. Kad zumiranja, moguće je povlačenje.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ImageViewBase.cpp" line="211"/>
+        <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
+        <translation>Koristite kotačić miša ili + / - da bi povećali ili smanjili. Kad zumiranja, moguće je povlačenje.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ImageViewBase.cpp" line="211"/>
+        <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
+        <translation>Koristite kotačić miša ili + / - da bi povećali ili smanjili. Kad zumiranja, moguće je povlačenje.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ImageViewBase.cpp" line="211"/>
+        <source>Use the mouse wheel or +/- to zoom.  When zoomed, dragging is possible.</source>
+        <translation>Koristite kotačić miša ili + / - da bi povećali ili smanjili. Kad zumiranja, moguće je povlačenje.</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -1179,6 +1616,7 @@
         <translation>Kliknite za stvaranje nove točke.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1231,6 +1669,14 @@
         <location filename="../interaction/InteractiveXSpline.cpp" line="75"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../interaction/InteractiveXSpline.cpp" line="73"/>
+        <source>This point can be dragged.</source>
+        <translation>Ova točka se može povlačitii.</translation>
+    </message>
+    <message>
+        <location filename="../interaction/InteractiveXSpline.cpp" line="75"/>
+>>>>>>> pod/translations
         <source>Drag this point or delete it by pressing Del or D.</source>
         <translation>Povucite ovu točku ili ju možete ukloniti pritiskom na tipku Del ili D.</translation>
     </message>
@@ -1238,6 +1684,7 @@
 <context>
     <name>LoadFileTask</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1287,6 +1734,50 @@
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>The following file could not be loaded:
+%1</source>
+        <translation type="obsolete">Sljedeću datoteku nije moguće učitati:
+%1</translation>
+    </message>
+    <message>
+        <source>The following file doesn&apos;t exist:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Use the &lt;a href=&quot;#relink&quot;&gt;Relinking Tool&lt;/a&gt; to locate it.</source>
+        <translation type="obsolete">Sljedeća datoteka ne postoji:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Koristite &lt;a href=&quot;#relink&quot;&gt; Alat Ponovno pronađi&lt;/a&gt; kako bi ga pronašli.</translation>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../LoadFileTask.cpp" line="157"/>
+        <source>The following file could not be loaded:
+%1</source>
+        <translation>Sljedeću datoteku nije moguće učitati:
+%1</translation>
+    </message>
+    <message>
+        <location filename="../LoadFileTask.cpp" line="160"/>
+        <source>The following file doesn&apos;t exist:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Use the &lt;a href=&quot;#relink&quot;&gt;Relinking Tool&lt;/a&gt; to locate it.</source>
+        <translation>Sljedeća datoteka ne postoji:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Koristite &lt;a href=&quot;#relink&quot;&gt; Alat Ponovno pronađi&lt;/a&gt; kako bi ga pronašli.</translation>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -1313,6 +1804,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -1335,6 +1827,31 @@
         <location filename="../ui/MainWindow.ui" line="276"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Save Project</source>
         <translation>Spremi projekt</translation>
     </message>
@@ -1344,6 +1861,7 @@
         <translation>Glavni prozor</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1368,10 +1886,31 @@
         <location filename="../ui/MainWindow.ui" line="128"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="128"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="130"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="130"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="130"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="130"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="130"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Keep current page in view.</source>
         <translation>Zadrži pogled na trenutnoj stranici.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1396,10 +1935,31 @@
         <location filename="../ui/MainWindow.ui" line="166"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="166"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="156"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="156"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="156"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="156"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="156"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Use Home, End, PgUp (or Q), PgDown (or W) to navigate between pages.</source>
         <translation>Koristite Home, End, PgUp (or Q), PgDown (or W) za kretanje po stranicama.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1424,10 +1984,31 @@
         <location filename="../ui/MainWindow.ui" line="65"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="65"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="185"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="185"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="185"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="185"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="185"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Tools</source>
         <translation>Alati</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1452,10 +2033,31 @@
         <location filename="../ui/MainWindow.ui" line="76"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="76"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="196"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="196"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="196"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="196"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="196"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>File</source>
         <translation>Datoteka</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1480,10 +2082,31 @@
         <location filename="../ui/MainWindow.ui" line="90"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="90"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="210"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="210"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="210"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="210"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="210"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Help</source>
         <translation>Pomoć</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1508,10 +2131,31 @@
         <location filename="../ui/MainWindow.ui" line="271"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="271"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="227"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="227"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="227"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="227"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="227"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Debug Mode</source>
         <translation>Debug način</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1536,10 +2180,31 @@
         <location filename="../ui/MainWindow.ui" line="279"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="279"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="235"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="235"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="235"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="235"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="235"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Ctrl+S</source>
         <translation>Ctrl+S</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1564,10 +2229,31 @@
         <location filename="../ui/MainWindow.ui" line="284"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="284"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="240"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="240"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="240"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="240"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="240"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Save Project As ...</source>
         <translation>Spremi projekt kao...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1595,10 +2281,37 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="245"/>
+        <location filename="../ui/MainWindow.ui" line="294"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="245"/>
+        <location filename="../ui/MainWindow.ui" line="294"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="245"/>
+        <location filename="../ui/MainWindow.ui" line="294"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="245"/>
+        <location filename="../ui/MainWindow.ui" line="294"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="245"/>
+        <location filename="../ui/MainWindow.ui" line="294"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Next Page</source>
         <translation>Slijedeća stranica</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1623,10 +2336,31 @@
         <location filename="../ui/MainWindow.ui" line="292"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="292"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="248"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="248"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="248"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="248"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="248"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>PgDown</source>
         <translation>Dolje</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1654,10 +2388,37 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="256"/>
+        <location filename="../ui/MainWindow.ui" line="283"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="256"/>
+        <location filename="../ui/MainWindow.ui" line="283"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="256"/>
+        <location filename="../ui/MainWindow.ui" line="283"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="256"/>
+        <location filename="../ui/MainWindow.ui" line="283"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="256"/>
+        <location filename="../ui/MainWindow.ui" line="283"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Previous Page</source>
         <translation>Prethodna stranica</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1682,10 +2443,31 @@
         <location filename="../ui/MainWindow.ui" line="303"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="303"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="259"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="259"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="259"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="259"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="259"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>PgUp</source>
         <translation>Gore</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1710,10 +2492,31 @@
         <location filename="../ui/MainWindow.ui" line="311"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="311"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="267"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="267"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="267"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="267"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="267"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>New Project ...</source>
         <translation>Novi projekt...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1738,10 +2541,31 @@
         <location filename="../ui/MainWindow.ui" line="314"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="314"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="270"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="270"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="270"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="270"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="270"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Ctrl+N</source>
         <translation>Ctrl+N</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1766,10 +2590,31 @@
         <location filename="../ui/MainWindow.ui" line="319"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="319"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="275"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="275"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="275"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="275"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="275"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Open Project ...</source>
         <translation>Otvori projekt...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1794,10 +2639,31 @@
         <location filename="../ui/MainWindow.ui" line="322"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="322"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="278"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="278"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="278"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="278"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="278"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Ctrl+O</source>
         <translation>Ctrl+O</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1822,10 +2688,31 @@
         <location filename="../ui/MainWindow.ui" line="330"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="330"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="286"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="286"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="286"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="286"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="286"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Q</source>
         <translation>Q</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1850,10 +2737,31 @@
         <location filename="../ui/MainWindow.ui" line="341"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="341"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="297"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="297"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="297"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="297"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="297"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>W</source>
         <translation>W</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1878,10 +2786,31 @@
         <location filename="../ui/MainWindow.ui" line="349"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="349"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="305"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="305"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="305"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="305"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="305"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Close Project</source>
         <translation>Zatvori projekt</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1906,10 +2835,31 @@
         <location filename="../ui/MainWindow.ui" line="352"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="352"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="308"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="308"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="308"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="308"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="308"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Ctrl+W</source>
         <translation>Ctrl+W</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1934,10 +2884,31 @@
         <location filename="../ui/MainWindow.ui" line="357"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="357"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="313"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="313"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="313"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="313"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="313"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Quit</source>
         <translation>Izlaz</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1962,10 +2933,31 @@
         <location filename="../ui/MainWindow.ui" line="360"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="360"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="316"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="316"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="316"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="316"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="316"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Ctrl+Q</source>
         <translation>Ctrl+Q</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1990,10 +2982,31 @@
         <location filename="../ui/MainWindow.ui" line="370"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="370"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="326"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="326"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="326"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="326"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="326"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>First Page</source>
         <translation>Prva stranica</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2018,10 +3031,31 @@
         <location filename="../ui/MainWindow.ui" line="373"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="373"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="329"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="329"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="329"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="329"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="329"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Home</source>
         <translation>Početak</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2046,10 +3080,31 @@
         <location filename="../ui/MainWindow.ui" line="378"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="378"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="334"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="334"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="334"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="334"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="334"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Last Page</source>
         <translation>Zadnja stranica</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2074,10 +3129,31 @@
         <location filename="../ui/MainWindow.ui" line="381"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="381"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="337"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="337"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="337"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="337"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="337"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>End</source>
         <translation>Kraj</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2102,10 +3178,31 @@
         <location filename="../ui/MainWindow.ui" line="386"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="386"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="342"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="342"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="342"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="342"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="342"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>About</source>
         <translation>O programu</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2130,10 +3227,31 @@
         <location filename="../ui/MainWindow.ui" line="391"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="391"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="347"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="347"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="347"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="347"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="347"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Fix DPI ...</source>
         <translation>Popravi DPI ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2158,10 +3276,31 @@
         <location filename="../ui/MainWindow.ui" line="396"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="396"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Relinking ...</source>
         <translation>Ponovno pronađi...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2191,10 +3330,31 @@
         <location filename="../ui/MainWindow.ui" line="365"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="365"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="321"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="321"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="321"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="321"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ui/MainWindow.ui" line="321"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Settings ...</source>
         <translation>Postavke...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2459,6 +3619,218 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../ui/MainWindow.ui" line="107"/>
+        <source>Thumbnails</source>
+        <translation>Minijature</translation>
+    </message>
+    <message>
+        <location filename="../ui/MainWindow.ui" line="199"/>
+        <source>Filters</source>
+        <translation>Filteri</translation>
+    </message>
+    <message>
+        <source>Stop batch processing</source>
+        <translation type="obsolete">Zaustavite skupne obrade</translation>
+    </message>
+    <message>
+        <source>Save this project?</source>
+        <translation type="obsolete">Spremiti ovaj projekt?</translation>
+    </message>
+    <message>
+        <source>Insert before ...</source>
+        <translation type="obsolete">Umetni prije...</translation>
+    </message>
+    <message>
+        <source>Insert after ...</source>
+        <translation type="obsolete">Umetni poslije...</translation>
+    </message>
+    <message>
+        <source>Remove from project ...</source>
+        <translation type="obsolete">Ukloni iz projekta...</translation>
+    </message>
+    <message>
+        <source>Insert here ...</source>
+        <translation type="obsolete">Umetni ovdije...</translation>
+    </message>
+    <message>
+        <source>Scan Tailor Projects</source>
+        <translation type="obsolete">Scan Tailor projekti</translation>
+    </message>
+    <message>
+        <source>Open Project</source>
+        <translation type="obsolete">Otvori projekt</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="obsolete">Greška</translation>
+    </message>
+    <message>
+        <source>Unable to open the project file.</source>
+        <translation type="obsolete">Ne mogu otvoriti projekt datoteku.</translation>
+    </message>
+    <message>
+        <source>The project file is broken.</source>
+        <translation type="obsolete">Datoteka projekta je neispravna.</translation>
+    </message>
+    <message>
+        <source>Output is not yet possible, as the final size of pages is not yet known.
+To determine it, run batch processing at &quot;Select Content&quot; or &quot;Margins&quot;.</source>
+        <translation type="obsolete">Izlaz još nije moguć jer  konačna veličina stranice nije poznata.
+Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &quot;Margine&quot;.</translation>
+    </message>
+    <message>
+        <source>Unnamed</source>
+        <translation type="obsolete">Nema imena</translation>
+    </message>
+    <message>
+        <source>%2 - Scan Tailor \&quot;Enhanced\&quot; build from %3 [%1bit]&quot;</source>
+        <translation type="obsolete">%2 - Scan Tailor \&quot;Enhanced\&quot; izrada %3 [%1bit]</translation>
+    </message>
+    <message>
+        <source>Error saving the project file!</source>
+        <translation type="obsolete">Greška spremanja projekt datpteke!</translation>
+    </message>
+    <message>
+        <source>Files to insert</source>
+        <translation type="obsolete">Datoteke za umetnuti</translation>
+    </message>
+    <message>
+        <source>Images not in project (%1)</source>
+        <translation type="obsolete">Slike koje nisu u projektu (%1)</translation>
+    </message>
+    <message>
+        <source>Skip failed files</source>
+        <translation type="obsolete">Preskoči neispravne datoteke</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation type="obsolete">Ukloni</translation>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../MainWindow.cpp" line="492"/>
+        <source>Stop batch processing</source>
+        <translation>Zaustavite skupne obrade</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="564"/>
+        <source>Save this project?</source>
+        <translation>Spremiti ovaj projekt?</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1001"/>
+        <source>Insert before ...</source>
+        <translation>Umetni prije...</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1004"/>
+        <source>Insert after ...</source>
+        <translation>Umetni poslije...</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1010"/>
+        <source>Remove from project ...</source>
+        <translation>Ukloni iz projekta...</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1031"/>
+        <source>Insert here ...</source>
+        <translation>Umetni ovdije...</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1369"/>
+        <location filename="../MainWindow.cpp" line="1437"/>
+        <source>Scan Tailor Projects</source>
+        <translation>Scan Tailor projekti</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1436"/>
+        <source>Open Project</source>
+        <translation>Otvori projekt</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1454"/>
+        <location filename="../MainWindow.cpp" line="1463"/>
+        <location filename="../MainWindow.cpp" line="1777"/>
+        <location filename="../MainWindow.cpp" line="1808"/>
+        <source>Error</source>
+        <translation>Greška</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1455"/>
+        <source>Unable to open the project file.</source>
+        <translation>Ne mogu otvoriti projekt datoteku.</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1464"/>
+        <source>The project file is broken.</source>
+        <translation>Datoteka projekta je neispravna.</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1673"/>
+        <source>Output is not yet possible, as the final size of pages is not yet known.
+To determine it, run batch processing at &quot;Select Content&quot; or &quot;Margins&quot;.</source>
+        <translation>Izlaz još nije moguć jer  konačna veličina stranice nije poznata.
+Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &quot;Margine&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1706"/>
+        <source>Unnamed</source>
+        <translation>Nema imena</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1711"/>
+        <source>%2 - Scan Tailor %3 [%1bit]</source>
+        <translation>%2 - Scan Tailor %3 [%1bit]</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1778"/>
+        <location filename="../MainWindow.cpp" line="1809"/>
+        <source>Error saving the project file!</source>
+        <translation>Greška spremanja projekt datpteke!</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1860"/>
+        <source>Files to insert</source>
+        <translation>Datoteke ze umetnuti</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1866"/>
+        <source>Images not in project (%1)</source>
+        <translation>Slike koje nisu u projektu (%1)</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1915"/>
+        <source>Skip failed files</source>
+        <translation>Preskoči neispravne datoteke</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1962"/>
+        <source>Remove</source>
+        <translation>Ukloni</translation>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -2512,6 +3884,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -2540,6 +3913,10 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <translation>Ova stranica i koje slijede</translation>
     </message>
     <message>
@@ -2559,6 +3936,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="181"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -2569,10 +3947,47 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <translation>Ova stranica i sve koje slijede</translation>
+    </message>
+    <message>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="71"/>
+        <source>Every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translatorcomment>sve parane ili neparane stranice ovise o trenutnoj stranici, je lii parana ili neparana</translatorcomment>
+        <translation>Sve druge stranice</translation>
+    </message>
+    <message>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="101"/>
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="206"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>The current page will be included.</source>
         <translation>Trenutna stranica će biti uključena.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2597,12 +4012,33 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="100"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="100"/>
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="125"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="125"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="125"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="125"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="125"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Selected pages</source>
         <translation>Odbrane stranice</translation>
     </message>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="155"/>
 =======
 =======
@@ -2616,6 +4052,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="71"/>
         <source>This page and the following every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
@@ -2625,6 +4066,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="130"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -2635,10 +4077,28 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="155"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="155"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="155"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="155"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="155"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2669,6 +4129,38 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="151"/>
+        <source>Every other selected page</source>
+        <translation>Svaka druga odabrana stranica</translation>
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="176"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="176"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="176"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="176"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ui/OrientationApplyDialog.ui" line="176"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -2802,6 +4294,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -2853,6 +4346,55 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Scan Tailor Projects</source>
+        <translation type="obsolete">Scan Tailor projekti</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="obsolete">Greška</translation>
+    </message>
+    <message>
+        <source>Error saving the project file!</source>
+        <translation type="obsolete">Greška spremanja projekt datpteke!</translation>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../OutOfMemoryDialog.cpp" line="88"/>
+        <source>Scan Tailor Projects</source>
+        <translation>Scan Tailor projekti</translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="123"/>
+        <source>Error</source>
+        <translation>Greška</translation>
+    </message>
+    <message>
+        <location filename="../OutOfMemoryDialog.cpp" line="124"/>
+        <source>Error saving the project file!</source>
+        <translation>Greška spremanja projekt datpteke!</translation>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -2860,6 +4402,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     <message>
         <location filename="../filters/output/ui/OutputApplyColorsDialog.ui" line="17"/>
         <source>Apply Mode</source>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2884,6 +4427,26 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <translation>Primjena načina</translation>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation>Primjena načina</translation>
+=======
+        <translation>Primijena</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Primijena</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Primijena</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Primijena</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Primijena</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
     <message>
         <location filename="../filters/output/ui/OutputApplyColorsDialog.ui" line="23"/>
@@ -2942,6 +4505,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -2963,10 +4527,14 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="49"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="49"/>
+>>>>>>> pod/translations
         <source>Manual</source>
         <translation>Ručno</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2996,10 +4564,14 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="59"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="59"/>
+>>>>>>> pod/translations
         <source>Scope</source>
         <translation>Područje</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3024,10 +4596,14 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="65"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="65"/>
+>>>>>>> pod/translations
         <source>This page only</source>
         <translation>Samo ova stranica</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3052,10 +4628,14 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="75"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="75"/>
+>>>>>>> pod/translations
         <source>All pages</source>
         <translation>Sve stranice</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3099,10 +4679,39 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="82"/>
+        <source>This page and the following ones</source>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation>Ova stranica i koje slijede</translation>
+=======
+        <translation>Ova stranica i sve koje slijede</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Ova stranica i sve koje slijede</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Ova stranica i sve koje slijede</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Ova stranica i sve koje slijede</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Ova stranica i sve koje slijede</translation>
+>>>>>>> scantailor/master
+    </message>
+    <message>
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="98"/>
+>>>>>>> pod/translations
         <source>Selected pages</source>
         <translation>Odabrane stranice</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3127,6 +4736,9 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="131"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputChangeDewarpingDialog.ui" line="131"/>
+>>>>>>> pod/translations
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
     </message>
@@ -3159,6 +4771,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -3180,6 +4793,26 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <translation>Ova stranica i koje slijede</translation>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation>Ova stranica i koje slijede</translation>
+=======
+        <translation>Ova stranica i sve koje slijede</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Ova stranica i sve koje slijede</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Ova stranica i sve koje slijede</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Ova stranica i sve koje slijede</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Ova stranica i sve koje slijede</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
     <message>
         <location filename="../filters/output/ui/OutputChangeDpiDialog.ui" line="107"/>
@@ -3214,6 +4847,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -3235,6 +4869,26 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="419"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="419"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="419"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="419"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="419"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Change ...</source>
         <translation>Promijeni...</translation>
     </message>
@@ -3254,6 +4908,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <translation>Izjednači osvjetljenje</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3283,10 +4938,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="361"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="361"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="361"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="361"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="361"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Dewarping</source>
         <translation>Poravnanje (Warp)</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3311,10 +4987,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="444"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="444"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="444"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="444"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="444"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Depth perception</source>
         <translation>Dubina percepcije</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3339,10 +5036,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="533"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="533"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="533"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="533"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="533"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>No despeckling</source>
         <translation>Bez čišćenja</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3373,10 +5091,43 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="336"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="484"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="666"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="336"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="484"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="666"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="336"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="484"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="666"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="336"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="484"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="666"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="336"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="484"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="666"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Apply To ...</source>
         <translation>Primijeni na...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3401,10 +5152,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="509"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="509"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="509"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="509"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="509"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Despeckling</source>
         <translation>Čišćenje</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3429,10 +5201,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="558"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="558"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="558"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="558"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="558"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Cautious despeckling</source>
         <translation>Čišćenje - oprezno</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3463,10 +5256,43 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="561"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="587"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="613"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="561"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="587"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="613"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="561"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="587"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="613"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="561"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="587"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="613"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="561"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="587"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="613"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3491,10 +5317,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="584"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="584"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="584"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="584"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="584"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Normal despeckling</source>
         <translation>Čišćenje - normalno</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3519,6 +5366,26 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="610"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="610"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="610"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="610"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="610"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Aggressive despeckling</source>
         <translation>Čišćenje - jako</translation>
     </message>
@@ -3534,6 +5401,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -3545,6 +5413,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
     <message>
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
         <source>Picture Shape</source>
@@ -3557,6 +5430,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     </message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -3567,6 +5441,18 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
 </context>
 <context>
     <name>PageLayoutApplyDialog</name>
@@ -3593,6 +5479,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
 =======
 =======
@@ -3606,6 +5493,11 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <source>This page and following every other ones</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translatorcomment>Sve parne i neparne stranice ovise o tome je li trenutna stranica parna ili neparna.</translatorcomment>
@@ -3615,6 +5507,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="69"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -3625,12 +5518,30 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
         <translatorcomment>Sve parne i neparne stranice ovise o tome je li trenutna stranica parna ili neparna.</translatorcomment>
         <translation>Sve druge stranice</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3656,10 +5567,36 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="169"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="169"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="89"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="194"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="89"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="194"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="89"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="194"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="89"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="194"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="89"/>
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="194"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>The current page will be included.</source>
         <translation>Trenutna stranica će biti uključena.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3684,10 +5621,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="85"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="85"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="110"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="110"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="110"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="110"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="110"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Selected pages</source>
         <translation>Odbrane stranice</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3705,6 +5663,10 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="59"/>
         <source>This page and the following every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
@@ -3714,6 +5676,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="118"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -3724,10 +5687,28 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="143"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="143"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="143"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="143"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="143"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3758,6 +5739,38 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="139"/>
+        <source>Every other selected page</source>
+        <translation>Svaka druga odabrana stranica</translation>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="164"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="164"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="164"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="164"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutApplyDialog.ui" line="164"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -3773,6 +5786,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <translation>Margine</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3797,10 +5811,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="44"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="44"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="42"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="42"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="42"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="42"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="42"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Millimeters (mm)</source>
         <translation>Milimetara (mm)</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3825,10 +5860,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="49"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="49"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="47"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="47"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="47"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="47"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="47"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Inches (in)</source>
         <translation>Inča (in)</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3853,6 +5909,26 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="91"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="91"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="87"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="87"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="87"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="87"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="87"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Top</source>
         <translation>Vrh</translation>
     </message>
@@ -3860,11 +5936,36 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="104"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="165"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="378"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="401"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="424"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="447"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="470"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="496"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="519"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="542"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="565"/>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="100"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="161"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="338"/>
@@ -3876,6 +5977,7 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="479"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="502"/>
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="525"/>
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3910,10 +6012,26 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3938,10 +6056,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="125"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="125"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="121"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="121"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="121"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="121"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="121"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Bottom</source>
         <translation>Dno</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3966,10 +6105,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="142"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="142"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="138"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="138"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="138"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="138"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="138"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Left</source>
         <translation>Lijevo</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3994,10 +6154,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="189"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="189"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="185"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="185"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="185"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="185"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="185"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Right</source>
         <translation>Desno</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4025,10 +6206,37 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="248"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="620"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="244"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="580"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="244"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="580"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="244"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="580"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="244"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="580"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="244"/>
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="580"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Apply To ...</source>
         <translation>Primijeni na...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4053,10 +6261,31 @@ Da bi to odredili, pokrenite skupne obrade u &quot;Odredi sadržaja&quot; ili &q
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="273"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="273"/>
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="269"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="269"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="269"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="269"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="269"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Alignment</source>
         <translation>Poravnanje</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4080,6 +6309,10 @@ ostalim stranicama</translation>
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="303"/>
         <source>Auto</source>
         <comment>auto</comment>
@@ -4116,6 +6349,7 @@ ostalim stranicama</translation>
         <translation type="obsolete">Izvorno</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -4126,6 +6360,34 @@ ostalim stranicama</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../filters/page_layout/ui/PageLayoutOptionsWidget.ui" line="293"/>
+        <source>Match size with other pages</source>
+        <translation>Prilagodi veličinu 
+ostalim stranicama</translation>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -4133,6 +6395,7 @@ ostalim stranicama</translation>
     <message>
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="17"/>
         <source>Split Pages</source>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4172,10 +6435,45 @@ ostalim stranicama</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation>Podjela stranica</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="65"/>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <translation>Podijela stranica</translation>
+    </message>
+    <message>
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="63"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Mode</source>
         <translation>Način</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4200,10 +6498,31 @@ ostalim stranicama</translation>
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="71"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="71"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="69"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="69"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="69"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="69"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="69"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4228,10 +6547,31 @@ ostalim stranicama</translation>
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="81"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="81"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="79"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="79"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="79"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="79"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="79"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Manual</source>
         <translation>Ručno</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4256,10 +6596,31 @@ ostalim stranicama</translation>
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="122"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="122"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="89"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="89"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="89"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="89"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="89"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Scope</source>
         <translation>Područje</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4284,10 +6645,31 @@ ostalim stranicama</translation>
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="95"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="95"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="95"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="95"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="95"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>This page only</source>
         <translation>Samo ova stranica</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4312,10 +6694,31 @@ ostalim stranicama</translation>
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="145"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="145"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="112"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="112"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="112"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="112"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="112"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>This page and the following ones</source>
         <translation>Ova stranica i koje slijede</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4340,10 +6743,31 @@ ostalim stranicama</translation>
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="175"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="175"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="128"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Selected pages</source>
         <translation>Izabrane stranice</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4368,10 +6792,31 @@ ostalim stranicama</translation>
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="208"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="208"/>
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="161"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="161"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="161"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="161"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="161"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4395,6 +6840,10 @@ ostalim stranicama</translation>
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="138"/>
         <source>All pages</source>
         <translation>Sve stranice</translation>
@@ -4426,6 +6875,7 @@ ostalim stranicama</translation>
     </message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -4436,6 +6886,34 @@ ostalim stranicama</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../filters/page_split/ui/PageSplitModeDialog.ui" line="105"/>
+        <source>All pages</source>
+        <translation>Sve stranice</translation>
+    </message>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
 </context>
 <context>
     <name>PageSplitOptionsWidget</name>
@@ -4504,6 +6982,7 @@ ostalim stranicama</translation>
         <location filename="../ui/ProjectFilesDialog.ui" line="20"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ProjectFilesDialog.cpp" line="334"/>
 =======
 >>>>>>> origin/enhanced
@@ -4519,6 +6998,26 @@ ostalim stranicama</translation>
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <location filename="../ProjectFilesDialog.cpp" line="334"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ProjectFilesDialog.cpp" line="334"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ProjectFilesDialog.cpp" line="334"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ProjectFilesDialog.cpp" line="334"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ProjectFilesDialog.cpp" line="334"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Input Directory</source>
         <translation>Ulazna putanja</translation>
     </message>
@@ -4527,6 +7026,7 @@ ostalim stranicama</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ProjectFilesDialog.cpp" line="354"/>
 =======
 >>>>>>> origin/enhanced
@@ -4543,6 +7043,25 @@ ostalim stranicama</translation>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <location filename="../ProjectFilesDialog.cpp" line="354"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ProjectFilesDialog.cpp" line="354"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ProjectFilesDialog.cpp" line="354"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ProjectFilesDialog.cpp" line="354"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ProjectFilesDialog.cpp" line="354"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Output Directory</source>
         <translation>Izlazna putanja</translation>
     </message>
@@ -4596,6 +7115,9 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Ukloni izabrane datoteke iz projekta.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
         <location filename="../ui/ProjectFilesDialog.ui" line="121"/>
         <source>&lt;&lt;</source>
         <translation>&lt;&lt;</translation>
@@ -4619,11 +7141,84 @@ p, li { white-space: pre-wrap; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Error</source>
+        <translation type="obsolete">Greška</translation>
+    </message>
+    <message>
+        <source>No files in project!</source>
+        <translation type="obsolete">Nema datoteka u projektu!</translation>
+    </message>
+    <message>
+        <source>Input directory is not set or doesn&apos;t exist.</source>
+        <translation type="obsolete">Izlazna putanja nije izabrana ili ne postoji.</translation>
+    </message>
+    <message>
+        <source>Input and output directories can&apos;t be the same.</source>
+        <translation type="obsolete">Izlazna i ulazna putanja ne mogu biti iste.</translation>
+    </message>
+    <message>
+        <source>Create Directory?</source>
+        <translation type="obsolete">Stvoriti putanju?</translation>
+    </message>
+    <message>
+        <source>Output directory doesn&apos;t exist.  Create it?</source>
+        <translation type="obsolete">Izlazna putanja ne postoji. Stvoriti ju?</translation>
+    </message>
+    <message>
+        <source>Unable to create output directory.</source>
+        <translation type="obsolete">Ne mogu stvoriti izlaznu putanj.</translation>
+    </message>
+    <message>
+        <source>Output directory is not set or doesn&apos;t exist.</source>
+        <translation type="obsolete">Izlazna putanja nije izabrana ili ne postoji.</translation>
+    </message>
+    <message>
+        <source>Some of the files failed to load.
+Either we don&apos;t support their format, or they are broken.
+You should remove them from the project.</source>
+        <translation type="obsolete">Neke datoteke nisu učitane.
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> pod/translations
+        <location filename="../ui/ProjectFilesDialog.ui" line="121"/>
+        <source>&lt;&lt;</source>
+        <translation>&lt;&lt;</translation>
+    </message>
+    <message>
+        <location filename="../ui/ProjectFilesDialog.ui" line="143"/>
+        <source>Files In Project</source>
+        <translation>Datoteke u projektu</translation>
+    </message>
+    <message>
+        <location filename="../ui/ProjectFilesDialog.ui" line="171"/>
+        <source>Right to left layout (for Hebrew and Arabic)</source>
+        <translation>Desno-lijevo raspored (za Hebrejski i Arapski)</translation>
+    </message>
+    <message>
+        <location filename="../ui/ProjectFilesDialog.ui" line="178"/>
+        <source>Fix DPIs, even if they look OK</source>
+        <translation>Popravi DPI, iako izgledaju OK</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <location filename="../ProjectFilesDialog.cpp" line="526"/>
         <location filename="../ProjectFilesDialog.cpp" line="534"/>
         <location filename="../ProjectFilesDialog.cpp" line="543"/>
@@ -4674,6 +7269,7 @@ p, li { white-space: pre-wrap; }
 Either we don&apos;t support their format, or they are broken.
 You should remove them from the project.</source>
         <translation>Neke datoteke nisu učitane.
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4733,6 +7329,21 @@ You should remove them from the project.</source>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
 Ili mi ne podržavamo njihov format, ili su neispravne.
 Trebali bi ih uklonili iz projekta.</translation>
     </message>
@@ -4740,6 +7351,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <context>
     <name>ProjectOpeningContext</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4785,6 +7397,46 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Error</source>
+        <translation type="obsolete">Greška</translation>
+    </message>
+    <message>
+        <source>Unable to interpret the project file.</source>
+        <translation type="obsolete">Ne mogu interpretirati projekt datoteku.</translation>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../ProjectOpeningContext.cpp" line="51"/>
+        <source>Error</source>
+        <translation>Greška</translation>
+    </message>
+    <message>
+        <location filename="../ProjectOpeningContext.cpp" line="52"/>
+        <source>Unable to interpret the project file.</source>
+        <translation>Ne mogu interpretirati projekt datoteku.</translation>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -4805,6 +7457,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <translation>...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4859,6 +7512,55 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Substitution File for %1</source>
+        <translation type="obsolete">Zamjena datoteke za %1</translation>
+    </message>
+    <message>
+        <source>Substitution Directory for %1</source>
+        <translation type="obsolete">Zamjena putanje za %1</translation>
+    </message>
+    <message>
+        <source>This change would merge several files into one.</source>
+        <translation type="obsolete">Ova promijena će spojiti nekoliko datoteka u jednu.</translation>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../RelinkingDialog.cpp" line="95"/>
+        <source>Substitution File for %1</source>
+        <translation>Zamjena datoteke za %1</translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="102"/>
+        <source>Substitution Directory for %1</source>
+        <translation>Zamjena putanje za %1</translation>
+    </message>
+    <message>
+        <location filename="../RelinkingDialog.cpp" line="130"/>
+        <source>This change would merge several files into one.</source>
+        <translation>Ova promijena će spojiti nekoliko datoteka u jednu.</translation>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -4890,6 +7592,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="23"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -4901,6 +7604,11 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <source>Options</source>
         <translation>Mogućnosti</translation>
     </message>
@@ -4913,6 +7621,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -4923,10 +7632,23 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Apply to</source>
         <translation>Primijeni na</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4970,10 +7692,49 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="45"/>
+        <source>This page only (already applied)</source>
+        <translation>Samo ova stranica (već primjenjeno)</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="55"/>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="29"/>
+        <source>This page only (already applied)</source>
+        <translation>Samo ova stranica (već primijenjeno)</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="39"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>All pages</source>
         <translation>Sve stranice</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5007,6 +7768,10 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="62"/>
         <source>This page and the following ones</source>
         <translation>Ova stranica i koje slijede</translation>
@@ -5028,6 +7793,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="197"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -5038,10 +7804,49 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="46"/>
+        <source>This page and the following ones</source>
+        <translation>Ova stranica i sve koje slijede</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="71"/>
+        <source>Every other page</source>
+        <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
+        <translatorcomment>Sve parne ili neparne stranice ovise je li ova stranica parna ili neparna</translatorcomment>
+        <translation>Sve druge stranice</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="101"/>
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="206"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>The current page will be included.</source>
         <translation>Trenutna stranica će biti uključena.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5066,10 +7871,31 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="116"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="116"/>
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="125"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="125"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="125"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="125"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="125"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Selected pages</source>
         <translation>Odbrane stranice</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5087,6 +7913,10 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="109"/>
         <source>Every other page</source>
         <extracomment>All odd or even pages, depending on the current page being odd or even.</extracomment>
@@ -5096,6 +7926,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="146"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -5106,10 +7937,28 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="155"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="155"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="155"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="155"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="155"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Use Ctrl+Click / Shift+Click to select multiple pages.</source>
         <translation>Koristite Ctrl+Click / Shift+Click za izbor više stranica.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5140,11 +7989,44 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="167"/>
+        <source>Every other selected page</source>
+        <translation>Svaka druga odabrana stranica</translation>
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="176"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="176"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="176"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="176"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentApplyDialog.ui" line="176"/>
+        <source>Every other selected page</source>
+        <translation>Sve druge odabrane stranice</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
     <name>SelectContentOptionsWidget</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5169,10 +8051,31 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="14"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="14"/>
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="13"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="13"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="13"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="13"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="13"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Form</source>
         <translation>Oblik</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5197,10 +8100,31 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="159"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="159"/>
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="19"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="19"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="19"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="19"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="19"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Content Box</source>
         <translation>Sadržajni okvir</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5218,6 +8142,10 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="73"/>
         <source>Borders in MM</source>
         <translation>Obrubi u mm</translation>
@@ -5227,6 +8155,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="191"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -5237,6 +8166,23 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="38"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="38"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="38"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="38"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="38"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
@@ -5244,6 +8190,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="54"/>
 =======
 =======
@@ -5258,6 +8205,10 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="96"/>
         <source>Left</source>
         <translation>Lijevo</translation>
@@ -5271,6 +8222,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="207"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -5281,6 +8233,23 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="54"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="54"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="54"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="54"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="54"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Manual</source>
         <translation>Ručno</translation>
     </message>
@@ -5288,6 +8257,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="83"/>
 =======
 =======
@@ -5302,6 +8272,10 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="116"/>
         <source>Right</source>
         <translation>Desno</translation>
@@ -5315,6 +8289,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="236"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -5325,10 +8300,28 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="83"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="83"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="83"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="83"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="83"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Scope</source>
         <translation>Područje</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5352,6 +8345,10 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="20"/>
         <source>Page Box</source>
         <translation>Okvir stranice</translation>
@@ -5379,6 +8376,7 @@ Trebali bi ih uklonili iz projekta.</translation>
     </message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -5389,6 +8387,34 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../filters/select_content/ui/SelectContentOptionsWidget.ui" line="104"/>
+        <source>Apply to ...</source>
+        <translation>Primijeni na...</translation>
+    </message>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
 </context>
 <context>
     <name>SettingsDialog</name>
@@ -5403,6 +8429,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <translation>Koristitite 3D ubrzanje za korisničko sučelje</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5458,11 +8485,52 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Compiled without OpenGL support.</source>
+        <translation type="obsolete">Sastavljen bez OpenGL podrške.</translation>
+    </message>
+    <message>
+        <source>Your hardware / driver don&apos;t provide the necessary features.</source>
+        <translation type="obsolete">Vaš hardware / driver ne osigurava potrebne značajke.</translation>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../SettingsDialog.cpp" line="36"/>
+        <source>Compiled without OpenGL support.</source>
+        <translation>Sastavljen bez OpenGL podrške.</translation>
+    </message>
+    <message>
+        <location filename="../SettingsDialog.cpp" line="41"/>
+        <source>Your hardware / driver don&apos;t provide the necessary features.</source>
+        <translation>Vaš hardware / driver ne osigurava potrebne značajke.</translation>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
     <name>StageListView</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5485,6 +8553,10 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <source>Launch batch processing</source>
         <translation type="obsolete">Pokrenite skupne obrade</translation>
     </message>
@@ -5512,6 +8584,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <translation>Izbor</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -5522,6 +8595,33 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+        <location filename="../StageListView.cpp" line="130"/>
+        <source>Launch batch processing</source>
+        <translation>Pokrenite skupne obrade</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../StageListView.cpp" line="130"/>
+        <source>Launch batch processing</source>
+        <translation>Pokrenite skupne obrade</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../StageListView.cpp" line="130"/>
+        <source>Launch batch processing</source>
+        <translation>Pokrenite skupne obrade</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../StageListView.cpp" line="130"/>
+        <source>Launch batch processing</source>
+        <translation>Pokrenite skupne obrade</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../StageListView.cpp" line="130"/>
+        <source>Launch batch processing</source>
+        <translation>Pokrenite skupne obrade</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -5543,6 +8643,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <translation>...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5588,11 +8689,52 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Minimal</source>
+        <translation type="obsolete">Minimalno</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation type="obsolete">Normalno</translation>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../SystemLoadWidget.cpp" line="98"/>
+        <source>Minimal</source>
+        <translation>Minimalno</translation>
+    </message>
+    <message>
+        <location filename="../SystemLoadWidget.cpp" line="100"/>
+        <source>Normal</source>
+        <translation>Normalno</translation>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
     <name>ThumbnailSequence</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5636,6 +8778,37 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>%1 (page %2)</source>
+        <translation type="obsolete">%1 (stranica %2)</translation>
+=======
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
+        <source>%1 (page %2)</source>
+        <translation>%1 (stranica %2)</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
+        <source>%1 (page %2)</source>
+        <translation>%1 (stranica %2)</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
+        <source>%1 (page %2)</source>
+        <translation>%1 (stranica %2)</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
+        <source>%1 (page %2)</source>
+        <translation>%1 (stranica %2)</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
+        <source>%1 (page %2)</source>
+        <translation>%1 (stranica %2)</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -5667,6 +8840,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -5688,10 +8862,14 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../zones/ZoneCreationInteraction.cpp" line="206"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../zones/ZoneCreationInteraction.cpp" line="206"/>
+>>>>>>> pod/translations
         <source>Click to finish this zone.  ESC to cancel.</source>
         <translation>Klikni za završetak zone. ESC za otkazati.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5716,10 +8894,14 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../zones/ZoneCreationInteraction.cpp" line="208"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../zones/ZoneCreationInteraction.cpp" line="208"/>
+>>>>>>> pod/translations
         <source>Connect first and last points to finish this zone.  ESC to cancel.</source>
         <translation>Spojite prvu i zadnju točku za završetak zone. ESC za otkazati.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5744,6 +8926,9 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../zones/ZoneCreationInteraction.cpp" line="211"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../zones/ZoneCreationInteraction.cpp" line="211"/>
+>>>>>>> pod/translations
         <source>Zones need to have at least 3 points.  ESC to cancel.</source>
         <translation>Zona mora imati najmanje tri točke. ESC za otkazati.</translation>
     </message>
@@ -5774,6 +8959,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <context>
     <name>ZoneVertexDragInteraction</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5826,6 +9012,14 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../zones/ZoneVertexDragInteraction.cpp" line="162"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../zones/ZoneVertexDragInteraction.cpp" line="160"/>
+        <source>Merge these two vertices.</source>
+        <translation>Spojite ta dva vrha.</translation>
+    </message>
+    <message>
+        <location filename="../zones/ZoneVertexDragInteraction.cpp" line="162"/>
+>>>>>>> pod/translations
         <source>Move the vertex to one of its neighbors to merge them.</source>
         <translation>Pomaknite vrh do najbližeg da bi se spojili.</translation>
     </message>
@@ -5865,6 +9059,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -5890,6 +9085,37 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation type="obsolete">Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+=======
+        <location filename="../filters/fix_orientation/ApplyDialog.cpp" line="53"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ApplyDialog.cpp" line="53"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ApplyDialog.cpp" line="53"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ApplyDialog.cpp" line="53"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/fix_orientation/ApplyDialog.cpp" line="53"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -5944,6 +9170,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -5965,6 +9192,26 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/output/Filter.cpp" line="64"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/Filter.cpp" line="64"/>
+=======
+        <location filename="../filters/output/Filter.cpp" line="63"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/Filter.cpp" line="63"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/Filter.cpp" line="63"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/Filter.cpp" line="63"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/Filter.cpp" line="63"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Output</source>
         <translation>Izlaz</translation>
     </message>
@@ -5972,6 +9219,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <context>
     <name>output::OptionsWidget</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5996,10 +9244,31 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="63"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="63"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="63"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="63"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="63"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Black and White</source>
         <translation>Crno - bijelo</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6024,10 +9293,31 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="64"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Color / Grayscale</source>
         <translation>Kolor / Sivi tonovi</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6052,10 +9342,31 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/output/OptionsWidget.cpp" line="66"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/OptionsWidget.cpp" line="66"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="65"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Mixed</source>
         <translation>Miješano</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6096,6 +9407,10 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
         <source>Free</source>
         <translation>Slobodan</translation>
@@ -6131,6 +9446,7 @@ Trebali bi ih uklonili iz projekta.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../filters/output/OptionsWidget.cpp" line="442"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6362,8 +9678,29 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
         <source>Output</source>
         <translation>Izlaz</translation>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="442"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="407"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="407"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="407"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="407"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="407"/>
+>>>>>>> scantailor/master
+        <source>Apply Despeckling Level</source>
+        <translation>Prihvati razinu čišćenja</translation>
+>>>>>>> pod/translations
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6390,8 +9727,31 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
         <source>Picture Zones</source>
         <translation>Zone slike</translation>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="487"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="487"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="487"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="487"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="487"/>
+>>>>>>> scantailor/master
+        <source>Apply Depth Perception</source>
+        <translation>Prihvati dubinu percepcije</translation>
+>>>>>>> pod/translations
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6418,8 +9778,31 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
         <source>Fill Zones</source>
         <translation>Popuni zone</translation>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="660"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="660"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="660"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="660"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="660"/>
+>>>>>>> scantailor/master
+        <source>Off</source>
+        <translation>Isključeno</translation>
+>>>>>>> pod/translations
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6446,8 +9829,31 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
         <source>Dewarping</source>
         <translation>Poravnanje</translation>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="663"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="663"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="663"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="663"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="663"/>
+>>>>>>> scantailor/master
+        <source>Auto</source>
+        <translation>Auto</translation>
+>>>>>>> pod/translations
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6472,6 +9878,64 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/output/Task.cpp" line="585"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="666"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="666"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="666"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="666"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="666"/>
+>>>>>>> scantailor/master
+        <source>Manual</source>
+        <translation>Ručno</translation>
+    </message>
+</context>
+<context>
+    <name>output::Task::UiUpdater</name>
+    <message>
+        <location filename="../filters/output/Task.cpp" line="512"/>
+        <source>Picture zones are only available in Mixed mode.</source>
+        <translation>Zone slike su jedino moguće u mješanom načinu.</translation>
+    </message>
+    <message>
+        <location filename="../filters/output/Task.cpp" line="564"/>
+        <source>Despeckling can&apos;t be done in Color / Grayscale mode.</source>
+        <translation>Čišćenje se  ne može koristiti kod slika u boji / u sivim tonovima.</translation>
+    </message>
+    <message>
+        <location filename="../filters/output/Task.cpp" line="581"/>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+    <message>
+        <location filename="../filters/output/Task.cpp" line="582"/>
+        <source>Picture Zones</source>
+        <translation>Zone slike</translation>
+    </message>
+    <message>
+        <location filename="../filters/output/Task.cpp" line="583"/>
+        <source>Fill Zones</source>
+        <translation>Popuni zone</translation>
+    </message>
+    <message>
+        <location filename="../filters/output/Task.cpp" line="584"/>
+        <source>Dewarping</source>
+        <translation>Poravnanje</translation>
+    </message>
+    <message>
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> pod/translations
         <source>Despeckling</source>
         <translation>Čišćenje</translation>
     </message>
@@ -6479,6 +9943,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <context>
     <name>page_layout::ApplyDialog</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6507,6 +9972,37 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation type="obsolete">Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+=======
+        <location filename="../filters/page_layout/ApplyDialog.cpp" line="51"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ApplyDialog.cpp" line="51"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ApplyDialog.cpp" line="51"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ApplyDialog.cpp" line="51"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ApplyDialog.cpp" line="51"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -6538,6 +10034,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -6559,6 +10056,26 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/page_layout/ImageView.cpp" line="78"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/ImageView.cpp" line="78"/>
+=======
+        <location filename="../filters/page_layout/ImageView.cpp" line="76"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ImageView.cpp" line="76"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ImageView.cpp" line="76"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ImageView.cpp" line="76"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/ImageView.cpp" line="76"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Resize margins by dragging any of the solid lines.</source>
         <translation>Promijeni veličinu margina povlačenjem bilo koje pune linije.</translation>
     </message>
@@ -6566,6 +10083,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <context>
     <name>page_layout::OptionsWidget</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6590,10 +10108,31 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Apply Margins</source>
         <translation>Prihvati margine</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6618,6 +10157,26 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Apply Alignment</source>
         <translation>Prihvati poravnanje</translation>
     </message>
@@ -6637,6 +10196,7 @@ Trebali bi ih uklonili iz projekta.</translation>
     <message>
         <location filename="../filters/page_split/Filter.cpp" line="76"/>
         <source>Split Pages</source>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6661,6 +10221,26 @@ Trebali bi ih uklonili iz projekta.</translation>
         <translation>Podjela stranica</translation>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <translation>Podjela stranica</translation>
+=======
+        <translation>Podijela stranica</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Podijela stranica</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Podijela stranica</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Podijela stranica</translation>
+>>>>>>> scantailor/master
+=======
+        <translation>Podijela stranica</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -6676,6 +10256,7 @@ Trebali bi ih uklonili iz projekta.</translation>
     <message>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="116"/>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="208"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6700,11 +10281,32 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="289"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="289"/>
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="301"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="301"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="301"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="301"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="301"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Set manually</source>
         <translation>Postavi ručno</translation>
     </message>
     <message>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="165"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6729,6 +10331,26 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/page_split/OptionsWidget.cpp" line="286"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="286"/>
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="298"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="298"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="298"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="298"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_split/OptionsWidget.cpp" line="298"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Auto detected</source>
         <translation>Automatsko otkrivanje</translation>
     </message>
@@ -6744,6 +10366,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <context>
     <name>select_content::ApplyDialog</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6772,6 +10395,37 @@ Trebali bi ih uklonili iz projekta.</translation>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation type="obsolete">Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+=======
+        <location filename="../filters/select_content/ApplyDialog.cpp" line="53"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ApplyDialog.cpp" line="53"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ApplyDialog.cpp" line="53"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ApplyDialog.cpp" line="53"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ApplyDialog.cpp" line="53"/>
+        <source>Can&apos;t do: more than one group is selected.</source>
+        <translation>Ne mogu napraviti: izabrano je više od jedne grupe.</translation>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -6800,6 +10454,7 @@ Trebali bi ih uklonili iz projekta.</translation>
 <context>
     <name>select_content::ImageView</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6843,10 +10498,49 @@ Trebali bi ih uklonili iz projekta.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/select_content/ImageView.cpp" line="59"/>
+        <source>Use the context menu to enable / disable the content box.</source>
+        <translation>Upotrijebite kontekstni izbornik za uključivanje / isključivanje sadržajnog okvira.</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ImageView.cpp" line="62"/>
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../filters/select_content/ImageView.cpp" line="58"/>
+        <source>Use the context menu to enable / disable the content box.</source>
+        <translation>Upotrijebite kontekstni izbornik za uključivanje / isključivanje la sadržajnog okvira.</translation>
+    </message>
+    <message>
+        <location filename="../filters/select_content/ImageView.cpp" line="61"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Drag lines or corners to resize the content box.</source>
         <translation>Povucite crte ili kutove za promjenu veličine sadržajnog okvira.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6871,10 +10565,31 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ImageView.cpp" line="108"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="107"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="107"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="107"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="107"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="107"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Create Content Box</source>
         <translation>Stvori sadržajni okvir</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6899,6 +10614,26 @@ Trebali bi ih uklonili iz projekta.</translation>
         <location filename="../filters/select_content/ImageView.cpp" line="109"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/select_content/ImageView.cpp" line="109"/>
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/select_content/ImageView.cpp" line="108"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Remove Content Box</source>
         <translation>Ukloni sadržajni okvir</translation>
     </message>

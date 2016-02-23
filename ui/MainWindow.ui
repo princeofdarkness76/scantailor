@@ -403,6 +403,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -422,6 +423,8 @@
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+>>>>>>> pod/translations
   <action name="actionSwitchFilter1">
    <property name="text">
     <string>Switch filter to orientation</string>
@@ -485,6 +488,7 @@
     <string>P</string>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -495,6 +499,8 @@
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/translations
    </property>
   </action>
  </widget>

@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,6 +162,10 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+    <width>269</width>
+    <height>789</height>
+>>>>>>> pod/translations
    </rect>
   </property>
   <property name="windowTitle">
@@ -477,6 +482,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -625,6 +631,9 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+>>>>>>> pod/translations
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_14">
            <item>
@@ -641,6 +650,7 @@
             </spacer>
            </item>
            <item>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -787,6 +797,9 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+            <widget class="QLabel" name="label">
+>>>>>>> pod/translations
              <property name="text">
               <string>Picture Shape</string>
              </property>
@@ -1221,6 +1234,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1377,6 +1391,8 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> pod/translations
     <widget class="QWidget" name="pictureShapeOptions_2" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_10">
       <item>
@@ -1459,6 +1475,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1570,6 +1587,8 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> pod/translations
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>

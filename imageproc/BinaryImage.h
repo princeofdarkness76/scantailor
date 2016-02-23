@@ -210,6 +210,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,6 +345,8 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 
 	void rectangularizeAreas(BWColor content_color = BLACK);
 	

@@ -95,6 +95,7 @@ public:
 	void setPictureShape(PageId const& page_id, PictureShape picture_shape);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> scantailor/tiff
 =======
 <<<<<<< HEAD
@@ -204,6 +205,8 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 	void setDpi(PageId const& page_id, Dpi const& dpi);
 
 	void setDewarpingMode(PageId const& page_id, DewarpingMode const& mode);

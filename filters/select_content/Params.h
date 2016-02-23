@@ -56,6 +56,9 @@ public:
 =======
 >>>>>>> master
 	
+	Params(QRectF const& rect, QSizeF const& size_mm,
+		Dependencies const& deps, AutoManualMode mode, bool contentDetect, bool pageDetect, bool fineTuning);
+	
 	Params(Dependencies const& deps);
 	
 	Params(QDomElement const& filter_el);
@@ -76,6 +79,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height()); }
 =======
 	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height() / 4); }
@@ -99,6 +103,9 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	void computeDeviation(double avg) { m_deviation = avg - sqrt(m_contentSizeMM.width() * m_contentSizeMM.height() / 4); }
+>>>>>>> pod/translations
 	bool isDeviant(double std, double max_dev) { return (max_dev*std) < fabs(m_deviation); }
 
 	bool isContentDetectionEnabled() const { return m_contentDetect; };
@@ -107,6 +114,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -136,6 +144,11 @@ public:
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+    
+    Margins pageBorders() const { return m_pageBorders; };
+    void setPageBorders(Margins borders) { m_pageBorders = borders; };
+>>>>>>> pod/translations
 
 	void setMode(AutoManualMode const& mode) { m_mode = mode; };
 	void setContentRect(QRectF const& rect) { m_contentRect = rect; };
@@ -153,6 +166,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     Margins m_pageBorders;
 >>>>>>> origin/enhanced
@@ -173,6 +187,9 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+    Margins m_pageBorders;
+>>>>>>> pod/translations
 	QSizeF m_contentSizeMM;
 	Dependencies m_deps;
 	AutoManualMode m_mode;

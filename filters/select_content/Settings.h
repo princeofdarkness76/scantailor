@@ -57,6 +57,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -70,6 +71,8 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> pod/translations
     
     QSizeF pageDetectionBox() const { return m_pageDetectionBox; }
     void setPageDetectionBox(QSizeF size) { m_pageDetectionBox = size; }
@@ -77,6 +80,7 @@ public:
     double pageDetectionTolerance() const { return m_pageDetectionTolerance; }
     void setPageDetectionTolerance(double tolerance) { m_pageDetectionTolerance = tolerance; }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
@@ -92,6 +96,8 @@ public:
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 
     double avg() const { return m_avg; };
     void setAvg(double a) { m_avg = a; };
@@ -109,6 +115,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,6 +142,10 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+    QSizeF m_pageDetectionBox;
+    double m_pageDetectionTolerance;
+>>>>>>> pod/translations
 };
 
 } // namespace select_content

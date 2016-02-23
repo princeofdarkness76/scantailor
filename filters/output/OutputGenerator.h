@@ -138,6 +138,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +285,9 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> pod/translations
 	
 	QSize outputImageSize() const;
 	
@@ -309,6 +313,7 @@ private:
 //end of modified by monday2000
 		imageproc::BinaryImage* auto_picture_mask = 0,
 		imageproc::BinaryImage* speckles_image = 0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,6 +468,9 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> pod/translations
 
 	QImage processAsIs(
 		FilterData const& input, TaskStatus const& status,
@@ -482,6 +490,7 @@ private:
 //end of modified by monday2000
 		imageproc::BinaryImage* auto_picture_mask = 0,
 		imageproc::BinaryImage* speckles_image = 0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,6 +644,9 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> pod/translations
 
 	QImage processWithDewarping(
 		TaskStatus const& status, FilterData const& input,
@@ -652,6 +664,7 @@ private:
 //end of modified by monday2000
 		imageproc::BinaryImage* auto_picture_mask = 0,
 		imageproc::BinaryImage* speckles_image = 0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -818,6 +831,9 @@ private:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+		DebugImages* dbg = 0, PictureShape picture_shape=FREE_SHAPE) const;
+>>>>>>> pod/translations
 	
 	void setupTrivialDistortionModel(dewarping::DistortionModel& distortion_model) const;
 

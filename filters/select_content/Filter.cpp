@@ -125,6 +125,7 @@ Filter::saveSettings(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -154,6 +155,11 @@ Filter::saveSettings(
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+	filter_el.setAttribute("pageDetectionBoxWidth", m_ptrSettings->pageDetectionBox().width());
+	filter_el.setAttribute("pageDetectionBoxHeight", m_ptrSettings->pageDetectionBox().height());
+	filter_el.setAttribute("pageDetectionTolerance", m_ptrSettings->pageDetectionTolerance());
+>>>>>>> pod/translations
 
 	writer.enumPages(
 		bind(
@@ -190,6 +196,7 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     CommandLine cli = CommandLine::get();
 >>>>>>> origin/enhanced
@@ -210,6 +217,9 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+    CommandLine cli = CommandLine::get();
+>>>>>>> pod/translations
 
 	QDomElement const filter_el(
 		filters_el.namedItem("select-content").toElement()
@@ -220,6 +230,7 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_ptrSettings->setMaxDeviation(filter_el.attribute("maxDeviation", "1.0").toDouble());
 =======
 =======
@@ -237,6 +248,8 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+>>>>>>> pod/translations
     
     if (cli.hasContentDeviation()) {
         m_ptrSettings->setMaxDeviation(cli.getContentDeviation());
@@ -251,6 +264,7 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 	
 	m_ptrSettings->setPageDetectionTolerance(filter_el.attribute("pageDetectionTolerance", "0.1").toDouble());
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
@@ -267,6 +281,8 @@ Filter::loadSettings(ProjectReader const& reader, QDomElement const& filters_el)
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 
 	QString const page_tag_name("page");
 	QDomNode node(filter_el.firstChild());

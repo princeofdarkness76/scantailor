@@ -262,6 +262,7 @@ ConsoleBatch::process()
 		m_ptrStages->filterAt(j)->updateStatistics();
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
@@ -277,6 +278,8 @@ ConsoleBatch::process()
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 }
 
 
@@ -391,6 +394,7 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -476,10 +480,35 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
         params.setContentDetect(cli.isContentDetectionEnabled());
         params.setPageDetect(cli.isPageDetectionEnabled());
         params.setFineTuneCorners(cli.isFineTuningEnabled());
+=======
+		select_content::Dependencies deps;
+
+		select_content::Params params(deps);
+		std::auto_ptr<select_content::Params> old_params = select_content->getSettings()->getPageParams(page);
+
+		if (old_params.get()) {
+			params = *old_params;
+		}
+
+		// SELECT CONTENT FILTER
+		if (cli.hasContentRect()) {
+			params.setContentRect(cli.getContentRect());
+			//QRectF rect(cli.getContentRect());
+			//QSizeF size_mm(rect.width(), rect.height());
+			//select_content::Params params(rect, size_mm, deps, MODE_MANUAL);
+		}
+
+		params.setContentDetect(cli.isContentDetectionEnabled());
+		params.setPageDetect(cli.isPageDetectionEnabled());
+		params.setFineTuneCorners(cli.isFineTuningEnabled());
+        if (cli.hasPageBorders())
+			params.setPageBorders(cli.getPageBorders());
+>>>>>>> pod/translations
 
 		select_content->getSettings()->setPageParams(page, params);
 	}
 
+<<<<<<< HEAD
 	if (cli.hasContentDeviation()) {
 		select_content->getSettings()->setMaxDeviation(cli.getContentDeviation());
 <<<<<<< HEAD
@@ -519,6 +548,8 @@ ConsoleBatch::setupSelectContent(std::set<PageId> allPages)
 >>>>>>> master
 	}
 
+=======
+>>>>>>> pod/translations
 	if (cli.hasContentDeviation())
 		select_content->getSettings()->setMaxDeviation(cli.getContentDeviation());
 
@@ -596,6 +627,7 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 			params.setOutputDpi(outputDpi);
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -764,6 +796,11 @@ ConsoleBatch::setupOutput(std::set<PageId> allPages)
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+		if (cli.hasPictureShape()) {
+			params.setPictureShape(cli.getPictureShape());
+		}
+>>>>>>> pod/translations
 
 		output::ColorParams colorParams = params.colorParams();
 		if (cli.hasColorMode())

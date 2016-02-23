@@ -24,6 +24,7 @@
 #ifndef Q_MOC_RUN
 #include <boost/foreach.hpp>
 #endif
+<<<<<<< HEAD
 
 #include <cmath>
 #include <iostream>
@@ -49,6 +50,24 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+#include <cmath>
+#include <iostream>
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+
+>>>>>>> pod/translations
 namespace deskew
 {
 
@@ -57,6 +76,7 @@ Settings::Settings() :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_sigma(0.0),
 	m_maxDeviation(1.0)
 =======
@@ -83,6 +103,9 @@ Settings::Settings() :
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+    m_sigma(0.0)
+>>>>>>> pod/translations
 {
     m_maxDeviation = CommandLine::get().getSkewDeviation();
 }

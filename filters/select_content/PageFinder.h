@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include "Margins.h"
 >>>>>>> origin/enhanced
@@ -44,6 +45,9 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+#include "Margins.h"
+>>>>>>> pod/translations
 
 #include <Qt>
 
@@ -56,6 +60,7 @@ class QRectF;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,6 +87,10 @@ class QSize;
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+class QSizeF;
+class QSize;
+>>>>>>> pod/translations
 
 namespace imageproc
 {
@@ -95,6 +104,7 @@ class PageFinder
 {
 public:
 	static QRectF findPageBox(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +138,8 @@ private:
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+>>>>>>> pod/translations
         TaskStatus const& status, FilterData const& data, bool fine_tune, QSizeF const& box, double tolerance, Margins borders, DebugImages* dbg = 0);
 private:
 	static QRect detectBorders(QImage const& img);
@@ -135,6 +147,7 @@ private:
 	static void fineTuneCorners(QImage const& img, QRect &rect, QSize const& size, double tolerance);
 	static bool fineTuneCorner(QImage const& img, int &x, int &y, int max_x, int max_y, int inc_x, int inc_y, QSize const& size, double tolerance);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
@@ -150,6 +163,8 @@ private:
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 };
 
 } // namespace select_content

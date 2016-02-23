@@ -157,6 +157,7 @@ Settings::setPictureShape(PageId const& page_id, PictureShape picture_shape)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -300,6 +301,10 @@ void
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+
+void
+>>>>>>> pod/translations
 Settings::setDpi(PageId const& page_id, Dpi const& dpi)
 {
 	QMutexLocker const locker(&m_mutex);

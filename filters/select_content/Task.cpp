@@ -102,6 +102,7 @@ Task::process(TaskStatus const& status, FilterData const& data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,6 +133,8 @@ Task::process(TaskStatus const& status, FilterData const& data)
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 
 	if (params.get())
 	{
@@ -150,6 +153,7 @@ Task::process(TaskStatus const& status, FilterData const& data)
 			goto create_new_content;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
@@ -165,6 +169,8 @@ Task::process(TaskStatus const& status, FilterData const& data)
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 	}
 	else
 	{
@@ -172,6 +178,7 @@ create_new_content:
 		QRectF page_rect(data.xform().resultingRect());
 		QRectF content_rect(page_rect);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +232,8 @@ create_new_content:
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 		if (new_params.isPageDetectionEnabled()) {
 			//std::cout << "PageFinder" << std::endl;
 			page_rect = PageFinder::findPageBox(status, data, new_params.isFineTuningEnabled(), m_ptrSettings->pageDetectionBox(), m_ptrSettings->pageDetectionTolerance(), new_params.pageBorders(), m_ptrDbg.get());
@@ -253,10 +262,13 @@ create_new_content:
 	ui_data.setPageBorders(new_params.pageBorders());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 
 	new_params.setContentSizeMM(ui_data.contentSizeMM());
 
@@ -301,6 +313,7 @@ create_new_content:
     ui_data.setPageBorders(new_params.pageBorders());
 
 	new_params.setContentSizeMM(ui_data.contentSizeMM());
+<<<<<<< HEAD
 
 	new_params.computeDeviation(m_ptrSettings->avg());
 	m_ptrSettings->setPageParams(m_pageId, new_params);
@@ -402,6 +415,12 @@ create_new_content:
 
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+
+	new_params.computeDeviation(m_ptrSettings->avg());
+	m_ptrSettings->setPageParams(m_pageId, new_params);
+*/
+>>>>>>> pod/translations
 	/*
 	if (params.get()) {
 		ui_data.setContentRect(params->contentRect());
@@ -450,6 +469,7 @@ create_new_content:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			page_rect, ui_data.contentRect()
 =======
 			ui_data.pageRect(), ui_data.contentRect()
@@ -481,6 +501,9 @@ create_new_content:
 			page_rect, ui_data.contentRect()
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+			ui_data.pageRect(), ui_data.contentRect()
+>>>>>>> pod/translations
 		);
 	} else {
 		return FilterResultPtr(

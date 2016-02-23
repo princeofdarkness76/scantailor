@@ -101,6 +101,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -125,6 +126,9 @@ public:
     std::vector<PageRange> selectedRanges() const;
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+    std::vector<PageRange> selectedRanges() const;
+>>>>>>> pod/translations
 protected:
     bool eventFilter(QObject *obj, QEvent *ev);
 	virtual void closeEvent(QCloseEvent* event);

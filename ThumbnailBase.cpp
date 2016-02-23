@@ -230,6 +230,7 @@ void ThumbnailBase::paintDeviant(QPainter &painter)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +262,8 @@ void ThumbnailBase::paintDeviant(QPainter &painter)
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 	QPen pen(QColor(0xdd, 0x00, 0x00, 0xee));
 	pen.setWidth(5);
 	pen.setCosmetic(true);
@@ -278,6 +281,7 @@ void ThumbnailBase::paintDeviant(QPainter &painter)
     painter.drawText(boundingRect(), Qt::AlignCenter, "*");
 	//painter.drawRect(boundingRect());
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/enhanced
 =======
 <<<<<<< HEAD
@@ -293,6 +297,8 @@ void ThumbnailBase::paintDeviant(QPainter &painter)
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 }
 
 void

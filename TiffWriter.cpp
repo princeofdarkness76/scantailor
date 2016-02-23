@@ -200,6 +200,7 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -222,6 +223,8 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 	CommandLine const& cli = CommandLine::get();
 
 	if (! cli.hasTiffForceRGB()) {
@@ -237,6 +240,7 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 		}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -247,6 +251,8 @@ TiffWriter::writeImage(QIODevice& device, QImage const& image, int compression)
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/translations
 	}
 	
 	if (image.hasAlphaChannel()) {

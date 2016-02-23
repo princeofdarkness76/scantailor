@@ -68,6 +68,7 @@
         <location filename="../ui/AboutDialog.ui" line="205"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -78,10 +79,13 @@
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/translations
         <source>Neco Torquato - Brazilian Portuguese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,6 +110,9 @@
         <location filename="../ui/AboutDialog.ui" line="212"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="212"/>
+>>>>>>> pod/translations
         <source>Svetoslav Sashkov, Mandor - Bulgarian</source>
         <translation type="unfinished"></translation>
     </message>
@@ -115,6 +122,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,10 +147,14 @@
         <location filename="../ui/AboutDialog.ui" line="219"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="219"/>
+>>>>>>> pod/translations
         <source>Petr Kovář - Czech</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,10 +179,14 @@
         <location filename="../ui/AboutDialog.ui" line="226"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="226"/>
+>>>>>>> pod/translations
         <source>Stefan Birkner - German</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,10 +211,14 @@
         <location filename="../ui/AboutDialog.ui" line="233"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="233"/>
+>>>>>>> pod/translations
         <source>Angelo Gemmi - Italian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,10 +243,14 @@
         <location filename="../ui/AboutDialog.ui" line="240"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="240"/>
+>>>>>>> pod/translations
         <source>Masahiro Kitagawa - Japanese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,10 +275,14 @@
         <location filename="../ui/AboutDialog.ui" line="247"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="247"/>
+>>>>>>> pod/translations
         <source>Patrick Pascal - French</source>
         <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,10 +307,14 @@
         <location filename="../ui/AboutDialog.ui" line="254"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="254"/>
+>>>>>>> pod/translations
         <source>Daniel Koć - Polish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,10 +339,14 @@
         <location filename="../ui/AboutDialog.ui" line="261"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="261"/>
+>>>>>>> pod/translations
         <source>Joseph Artsimovich - Russian</source>
         <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,10 +371,14 @@
         <location filename="../ui/AboutDialog.ui" line="268"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="268"/>
+>>>>>>> pod/translations
         <source>Marián Hvolka - Slovak</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,10 +403,14 @@
         <location filename="../ui/AboutDialog.ui" line="275"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="275"/>
+>>>>>>> pod/translations
         <source>Flavio Benelli - Spanish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -391,6 +435,9 @@
         <location filename="../ui/AboutDialog.ui" line="282"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="282"/>
+>>>>>>> pod/translations
         <source>Davidson Wang - Traditional Chinese</source>
         <translation type="unfinished"></translation>
     </message>
@@ -400,6 +447,7 @@
         <translation>Prispeli</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -417,11 +465,16 @@
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> pod/translations
         <location filename="../ui/AboutDialog.ui" line="14"/>
         <source>About Scan Tailor &quot;Enhanced&quot;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/AboutDialog.ui" line="289"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -435,10 +488,24 @@
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../ui/AboutDialog.ui" line="289"/>
+>>>>>>> pod/translations
         <source>Yuri Chornoivan - Ukrainian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,10 +530,14 @@
         <location filename="../ui/AboutDialog.ui" line="301"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="301"/>
+>>>>>>> pod/translations
         <source>Documentation</source>
         <translation>Dokumentácia</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,10 +562,14 @@
         <location filename="../ui/AboutDialog.ui" line="316"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="316"/>
+>>>>>>> pod/translations
         <source>denver 22</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,6 +594,9 @@
         <location filename="../ui/AboutDialog.ui" line="357"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/AboutDialog.ui" line="357"/>
+>>>>>>> pod/translations
         <source>License</source>
         <translation>Licencia</translation>
     </message>
@@ -710,6 +788,7 @@ English or Russian please.</source>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>ExportDialog</name>
     <message>
         <location filename="../ui/ExportDialog.ui" line="14"/>
@@ -841,6 +920,8 @@ English or Russian please.</source>
     </message>
 </context>
 <context>
+=======
+>>>>>>> pod/translations
     <name>FixDpiDialog</name>
     <message>
         <location filename="../ui/FixDpiDialog.ui" line="13"/>
@@ -1030,6 +1111,7 @@ English or Russian please.</source>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -1051,10 +1133,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="76"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="76"/>
+>>>>>>> pod/translations
         <source>File</source>
         <translation>Súbor</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1079,6 +1165,9 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="90"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="90"/>
+>>>>>>> pod/translations
         <source>Help</source>
         <translation>Pomocník</translation>
     </message>
@@ -1089,6 +1178,7 @@ English or Russian please.</source>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="228"/>
 =======
 =======
@@ -1102,6 +1192,8 @@ English or Russian please.</source>
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+>>>>>>> pod/translations
         <location filename="../ui/MainWindow.ui" line="199"/>
         <source>Filters</source>
         <translation type="unfinished"></translation>
@@ -1110,6 +1202,7 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="271"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -1120,10 +1213,13 @@ English or Russian please.</source>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/translations
         <source>Debug Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,10 +1245,30 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="276"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="276"/>
+=======
+        <location filename="../ui/MainWindow.ui" line="232"/>
+        <location filename="../MainWindow.cpp" line="564"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Save Project</source>
         <translation>Uložiť projekt</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1177,10 +1293,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="279"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="279"/>
+>>>>>>> pod/translations
         <source>Ctrl+S</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1205,10 +1325,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="284"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="284"/>
+>>>>>>> pod/translations
         <source>Save Project As ...</source>
         <translation>Uložiť projekt ako ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1236,10 +1360,15 @@ English or Russian please.</source>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="289"/>
+        <location filename="../ui/MainWindow.ui" line="338"/>
+>>>>>>> pod/translations
         <source>Next Page</source>
         <translation>Ďalšia strana</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1264,10 +1393,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="292"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="292"/>
+>>>>>>> pod/translations
         <source>PgDown</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1295,10 +1428,15 @@ English or Russian please.</source>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="300"/>
+        <location filename="../ui/MainWindow.ui" line="327"/>
+>>>>>>> pod/translations
         <source>Previous Page</source>
         <translation>Predošlá strana</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1323,10 +1461,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="303"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="303"/>
+>>>>>>> pod/translations
         <source>PgUp</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1351,10 +1493,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="311"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="311"/>
+>>>>>>> pod/translations
         <source>New Project ...</source>
         <translation>Nový projekt ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1379,10 +1525,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="314"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="314"/>
+>>>>>>> pod/translations
         <source>Ctrl+N</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1407,10 +1557,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="319"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="319"/>
+>>>>>>> pod/translations
         <source>Open Project ...</source>
         <translation>Otvoriť projekt ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1435,10 +1589,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="322"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="322"/>
+>>>>>>> pod/translations
         <source>Ctrl+O</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1463,10 +1621,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="330"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="330"/>
+>>>>>>> pod/translations
         <source>Q</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1491,10 +1653,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="341"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="341"/>
+>>>>>>> pod/translations
         <source>W</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1519,10 +1685,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="349"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="349"/>
+>>>>>>> pod/translations
         <source>Close Project</source>
         <translation>Zatvoriť projekt</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1547,10 +1717,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="352"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="352"/>
+>>>>>>> pod/translations
         <source>Ctrl+W</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1575,10 +1749,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="357"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="357"/>
+>>>>>>> pod/translations
         <source>Quit</source>
         <translation>Koniec</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1603,10 +1781,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="360"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="360"/>
+>>>>>>> pod/translations
         <source>Ctrl+Q</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1631,10 +1813,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="365"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="365"/>
+>>>>>>> pod/translations
         <source>Settings ...</source>
         <translation>Nastavenie...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1659,10 +1845,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="370"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="370"/>
+>>>>>>> pod/translations
         <source>First Page</source>
         <translation>Prvá strana</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1687,10 +1877,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="373"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="373"/>
+>>>>>>> pod/translations
         <source>Home</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1715,10 +1909,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="378"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="378"/>
+>>>>>>> pod/translations
         <source>Last Page</source>
         <translation>Posledná strana</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1743,10 +1941,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="381"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="381"/>
+>>>>>>> pod/translations
         <source>End</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1771,10 +1973,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="386"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="386"/>
+>>>>>>> pod/translations
         <source>About</source>
         <translation>O programe</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1799,10 +2005,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="391"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="391"/>
+>>>>>>> pod/translations
         <source>Fix DPI ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1827,10 +2037,14 @@ English or Russian please.</source>
         <location filename="../ui/MainWindow.ui" line="396"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../ui/MainWindow.ui" line="396"/>
+>>>>>>> pod/translations
         <source>Relinking ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/MainWindow.ui" line="358"/>
         <source>Export...</source>
         <translation type="unfinished"></translation>
@@ -1853,41 +2067,75 @@ English or Russian please.</source>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="622"/>
+=======
+        <location filename="../MainWindow.cpp" line="492"/>
+        <source>Stop batch processing</source>
+        <translation type="unfinished">Zastaviť dávkové spracovanie</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="564"/>
+>>>>>>> pod/translations
         <source>Save this project?</source>
         <translation type="unfinished">Uložiť projekt?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1098"/>
+=======
+        <location filename="../MainWindow.cpp" line="1001"/>
+>>>>>>> pod/translations
         <source>Insert before ...</source>
         <translation type="unfinished">Vložiť pred ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1101"/>
+=======
+        <location filename="../MainWindow.cpp" line="1004"/>
+>>>>>>> pod/translations
         <source>Insert after ...</source>
         <translation type="unfinished">Vložiť za ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1107"/>
+=======
+        <location filename="../MainWindow.cpp" line="1010"/>
+>>>>>>> pod/translations
         <source>Remove from project ...</source>
         <translation type="unfinished">Odstrániť z projektu ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1128"/>
+=======
+        <location filename="../MainWindow.cpp" line="1031"/>
+>>>>>>> pod/translations
         <source>Insert here ...</source>
         <translation type="unfinished">Vložiť sem ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1466"/>
         <location filename="../MainWindow.cpp" line="1534"/>
+=======
+        <location filename="../MainWindow.cpp" line="1369"/>
+        <location filename="../MainWindow.cpp" line="1437"/>
+>>>>>>> pod/translations
         <source>Scan Tailor Projects</source>
         <translation type="unfinished">Zoznam projektov</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1533"/>
+=======
+        <location filename="../MainWindow.cpp" line="1436"/>
+>>>>>>> pod/translations
         <source>Open Project</source>
         <translation type="unfinished">Otvoriť projekt</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1551"/>
         <location filename="../MainWindow.cpp" line="1560"/>
         <location filename="../MainWindow.cpp" line="1834"/>
@@ -1897,15 +2145,26 @@ English or Russian please.</source>
         <location filename="../MainWindow.cpp" line="2059"/>
         <location filename="../MainWindow.cpp" line="2336"/>
         <location filename="../MainWindow.cpp" line="2367"/>
+=======
+        <location filename="../MainWindow.cpp" line="1454"/>
+        <location filename="../MainWindow.cpp" line="1463"/>
+        <location filename="../MainWindow.cpp" line="1777"/>
+        <location filename="../MainWindow.cpp" line="1808"/>
+>>>>>>> pod/translations
         <source>Error</source>
         <translation type="unfinished">Chyba</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1552"/>
+=======
+        <location filename="../MainWindow.cpp" line="1455"/>
+>>>>>>> pod/translations
         <source>Unable to open the project file.</source>
         <translation type="unfinished">Nemožno otvoriť súbor s projektom.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="1561"/>
         <source>The project file is broken.</source>
         <translation type="unfinished">Súbor s projektom je poškodený.</translation>
@@ -1939,12 +2198,21 @@ English or Russian please.</source>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2229"/>
+=======
+        <location filename="../MainWindow.cpp" line="1464"/>
+        <source>The project file is broken.</source>
+        <translation type="unfinished">Súbor s projektom je poškodený.</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1673"/>
+>>>>>>> pod/translations
         <source>Output is not yet possible, as the final size of pages is not yet known.
 To determine it, run batch processing at &quot;Select Content&quot; or &quot;Margins&quot;.</source>
         <translation type="unfinished">Výstup zatiaľ nie je možný, lebo ešte nie je známa konečná veľkosť strán.
 Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obsah&quot; alebo &quot;Okraje&quot;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2262"/>
         <source>Unnamed</source>
         <translation type="unfinished">Nepomenovaný</translation>
@@ -1957,16 +2225,66 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
     <message>
         <location filename="../MainWindow.cpp" line="2337"/>
         <location filename="../MainWindow.cpp" line="2368"/>
+=======
+        <location filename="../MainWindow.cpp" line="1706"/>
+        <source>Unnamed</source>
+        <translation type="unfinished">Nepomenovaný</translation>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1711"/>
+        <source>%2 - Scan Tailor %3 [%1bit]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> scantailor/master
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="1711"/>
+        <source>%2 - Scan Tailor %3 [%1bit]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+        <location filename="../MainWindow.cpp" line="1778"/>
+        <location filename="../MainWindow.cpp" line="1809"/>
+>>>>>>> pod/translations
         <source>Error saving the project file!</source>
         <translation type="unfinished">Chyba pri ukladaní súboru s projektom!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2419"/>
+=======
+        <location filename="../MainWindow.cpp" line="1860"/>
+>>>>>>> pod/translations
         <source>Files to insert</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2474"/>
+=======
+        <location filename="../MainWindow.cpp" line="1915"/>
+>>>>>>> pod/translations
         <source>Skip failed files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1975,7 +2293,11 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <translation type="obsolete">Súbor na vloženie</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2425"/>
+=======
+        <location filename="../MainWindow.cpp" line="1866"/>
+>>>>>>> pod/translations
         <source>Images not in project (%1)</source>
         <translation type="unfinished">Obrázky, ktoré nie sú v projekte (%1)</translation>
     </message>
@@ -1984,7 +2306,11 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <translation type="obsolete">Chyba pri otváraní súboru s obrázkom.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../MainWindow.cpp" line="2521"/>
+=======
+        <location filename="../MainWindow.cpp" line="1962"/>
+>>>>>>> pod/translations
         <source>Remove</source>
         <translation type="unfinished">Odstrániť</translation>
     </message>
@@ -2376,6 +2702,7 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -2397,6 +2724,9 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="560"/>
+>>>>>>> pod/translations
         <source>Change ...</source>
         <translation>Zmeniť ...</translation>
     </message>
@@ -2429,6 +2759,7 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -2450,10 +2781,14 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="339"/>
+>>>>>>> pod/translations
         <source>Picture Shape</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2484,10 +2819,16 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="412"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="477"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="742"/>
+>>>>>>> pod/translations
         <source>Apply To ...</source>
         <translation>Použiť na ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2512,12 +2853,16 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="502"/>
+>>>>>>> pod/translations
         <source>Dewarping</source>
         <translation>Deformácie</translation>
     </message>
     <message>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="529"/>
 =======
 =======
@@ -2531,6 +2876,8 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+>>>>>>> pod/translations
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="785"/>
         <source>Tiff Compression</source>
         <translation type="unfinished"></translation>
@@ -2539,6 +2886,7 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="437"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -2549,10 +2897,13 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/translations
         <source>Depth perception</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2577,10 +2928,14 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="585"/>
+>>>>>>> pod/translations
         <source>Despeckling</source>
         <translation>Čistenie</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2605,10 +2960,14 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="609"/>
+>>>>>>> pod/translations
         <source>No despeckling</source>
         <translation>Bez čistenia</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2633,10 +2992,14 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="634"/>
+>>>>>>> pod/translations
         <source>Cautious despeckling</source>
         <translation>Opatrné čistenie</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2667,10 +3030,16 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="637"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="663"/>
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="689"/>
+>>>>>>> pod/translations
         <source>...</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2695,10 +3064,14 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="660"/>
+>>>>>>> pod/translations
         <source>Normal despeckling</source>
         <translation>Normálne čistenie</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2723,6 +3096,9 @@ Na určenie veľkosti strán spustite dávkové spracovanie pre &quot;Vybrat Obs
         <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/ui/OutputOptionsWidget.ui" line="686"/>
+>>>>>>> pod/translations
         <source>Aggressive despeckling</source>
         <translation>Agresívne čistenie</translation>
     </message>
@@ -3383,6 +3759,7 @@ Vyraďte ich z projektu.</translation>
         <translation>Používať 3D akceleráciu pre použivateľské rozhranie</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../ui/SettingsDialog.ui" line="27"/>
         <source>Auto-save the existing project</source>
         <translation type="unfinished"></translation>
@@ -3393,6 +3770,8 @@ Vyraďte ich z projektu.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
+=======
+>>>>>>> pod/translations
         <location filename="../SettingsDialog.cpp" line="36"/>
         <source>Compiled without OpenGL support.</source>
         <translation type="unfinished">Skompilované bez podpory OpenGL.</translation>
@@ -3409,6 +3788,44 @@ Vyraďte ich z projektu.</translation>
         <location filename="../StageListView.cpp" line="130"/>
         <source>Launch batch processing</source>
         <translation type="unfinished">Spustiť dávkové spracovanie</translation>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    </message>
+</context>
+<context>
+    <name>StartBatchProcessingDialog</name>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="26"/>
+        <source>Batch Process</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="33"/>
+        <source>All pages</source>
+        <translation type="unfinished">Všetky strany</translation>
+    </message>
+    <message>
+        <location filename="../ui/StartBatchProcessingDialog.ui" line="43"/>
+        <source>Start from selected</source>
+        <translation type="unfinished"></translation>
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+=======
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
     </message>
 </context>
 <context>
@@ -3498,6 +3915,7 @@ Vyraďte ich z projektu.</translation>
 <context>
     <name>ThumbnailSequence</name>
     <message>
+<<<<<<< HEAD
         <location filename="../ThumbnailSequence.cpp" line="780"/>
         <source>Warning</source>
         <translation type="unfinished"></translation>
@@ -3514,6 +3932,9 @@ Vyraďte ich z projektu.</translation>
     </message>
     <message>
         <location filename="../ThumbnailSequence.cpp" line="1405"/>
+=======
+        <location filename="../ThumbnailSequence.cpp" line="1359"/>
+>>>>>>> pod/translations
         <source>%1 (page %2)</source>
         <translation type="unfinished">%1 (strana %2)</translation>
     </message>
@@ -3706,6 +4127,7 @@ Vyraďte ich z projektu.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -3727,10 +4149,14 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="68"/>
+>>>>>>> pod/translations
         <source>Free</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3758,10 +4184,15 @@ Vyraďte ich z projektu.</translation>
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="69"/>
+        <source>Rectangular</source>
+>>>>>>> pod/translations
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="71"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3786,10 +4217,14 @@ Vyraďte ich z projektu.</translation>
         <source>None</source>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <source>None</source>
+>>>>>>> pod/translations
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filters/output/OptionsWidget.cpp" line="72"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3814,6 +4249,8 @@ Vyraďte ich z projektu.</translation>
 =======
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+>>>>>>> pod/translations
         <source>LZW</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3836,6 +4273,7 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/OptionsWidget.cpp" line="442"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/enhanced
@@ -3846,10 +4284,13 @@ Vyraďte ich z projektu.</translation>
 =======
 >>>>>>> master
 >>>>>>> origin/enhanced
+=======
+>>>>>>> pod/translations
         <source>Apply Despeckling Level</source>
         <translation>Použiť úroveň čistenia</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3874,10 +4315,14 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="522"/>
+>>>>>>> pod/translations
         <source>Apply Depth Perception</source>
         <translation></translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3902,10 +4347,14 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="706"/>
+>>>>>>> pod/translations
         <source>Off</source>
         <translation>Vypnuté</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3930,10 +4379,14 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="709"/>
+>>>>>>> pod/translations
         <source>Auto</source>
         <translation>Automaticky</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3958,6 +4411,9 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/OptionsWidget.cpp" line="712"/>
+>>>>>>> pod/translations
         <source>Manual</source>
         <translation>Ručne</translation>
     </message>
@@ -3970,6 +4426,7 @@ Vyraďte ich z projektu.</translation>
 <context>
     <name>output::Task::UiUpdater</name>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3994,10 +4451,14 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/Task.cpp" line="512"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/Task.cpp" line="512"/>
+>>>>>>> pod/translations
         <source>Picture zones are only available in Mixed mode.</source>
         <translation>Zóny obrázkov sú možné len v zmiešanom móde.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4022,10 +4483,14 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/Task.cpp" line="564"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/Task.cpp" line="564"/>
+>>>>>>> pod/translations
         <source>Despeckling can&apos;t be done in Color / Grayscale mode.</source>
         <translation>Čistenie nemožno použiť vo farebnom / šedom móde.</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4050,10 +4515,14 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/Task.cpp" line="581"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/Task.cpp" line="581"/>
+>>>>>>> pod/translations
         <source>Output</source>
         <translation>Výstup</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4078,10 +4547,14 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/Task.cpp" line="582"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/Task.cpp" line="582"/>
+>>>>>>> pod/translations
         <source>Picture Zones</source>
         <translation>Zóny obrázkov</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4106,10 +4579,14 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/Task.cpp" line="583"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/Task.cpp" line="583"/>
+>>>>>>> pod/translations
         <source>Fill Zones</source>
         <translation>Prázdne zóny</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4134,10 +4611,14 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/Task.cpp" line="584"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/Task.cpp" line="584"/>
+>>>>>>> pod/translations
         <source>Dewarping</source>
         <translation>Deformácie</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4162,6 +4643,9 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/output/Task.cpp" line="585"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+        <location filename="../filters/output/Task.cpp" line="585"/>
+>>>>>>> pod/translations
         <source>Despeckling</source>
         <translation>Čistenie</translation>
     </message>
@@ -4210,6 +4694,7 @@ Vyraďte ich z projektu.</translation>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -4231,10 +4716,31 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="386"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="320"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Apply Margins</source>
         <translation>Použiť okraje</translation>
     </message>
     <message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4259,6 +4765,26 @@ Vyraďte ich z projektu.</translation>
         <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
 >>>>>>> origin/enhanced
 >>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="401"/>
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+=======
+        <location filename="../filters/page_layout/OptionsWidget.cpp" line="335"/>
+>>>>>>> scantailor/master
+>>>>>>> pod/translations
         <source>Apply Alignment</source>
         <translation>Použiť zarovnanie</translation>
     </message>

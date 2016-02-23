@@ -316,6 +316,7 @@ OutputGenerator::process(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -464,11 +465,15 @@ OutputGenerator::process(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> pod/translations
 {
 	QImage image(
 		processImpl(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -629,6 +634,9 @@ OutputGenerator::process(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/translations
 		)
 	);
 	assert(!image.isNull());
@@ -828,6 +836,7 @@ OutputGenerator::processImpl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -976,6 +985,9 @@ OutputGenerator::processImpl(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	DebugImages* const dbg, PictureShape picture_shape) const
+>>>>>>> pod/translations
 {
 	RenderParams const render_params(m_colorParams);
 
@@ -1020,6 +1032,7 @@ OutputGenerator::processImpl(
 		return processWithDewarping(
 			status, input, picture_zones, fill_zones,
 			dewarping_mode, distortion_model, depth_perception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1179,6 +1192,9 @@ OutputGenerator::processImpl(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/translations
 		);
 	} else if (!render_params.whiteMargins()) {
 		return processAsIs(
@@ -1187,6 +1203,7 @@ OutputGenerator::processImpl(
 	} else {
 		return processWithoutDewarping(
 			status, input, picture_zones, fill_zones,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1345,6 +1362,9 @@ OutputGenerator::processImpl(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+			auto_picture_mask, speckles_image, dbg, picture_shape
+>>>>>>> pod/translations
 		);
 	}
 }
@@ -1414,6 +1434,7 @@ OutputGenerator::processWithoutDewarping(
 //end of modified by monday2000
 	imageproc::BinaryImage* auto_picture_mask,
 	imageproc::BinaryImage* speckles_image,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1605,6 +1626,9 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> pod/translations
 {
 	RenderParams const render_params(m_colorParams);
 	
@@ -1757,6 +1781,7 @@ OutputGenerator::processWithoutDewarping(
 			normalize_illumination_rect,
 			small_margins_rect, dbg
 		);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1939,6 +1964,8 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 
 		if (picture_shape == RECTANGULAR_SHAPE) {
 			bw_mask.rectangularizeAreas(WHITE);
@@ -1949,6 +1976,7 @@ OutputGenerator::processWithoutDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2041,6 +2069,8 @@ OutputGenerator::processWithoutDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+>>>>>>> pod/translations
 
 		if (dbg) {
 			dbg->add(bw_mask, "bw_mask");
@@ -2207,6 +2237,7 @@ OutputGenerator::processWithDewarping(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2355,6 +2386,9 @@ OutputGenerator::processWithDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	DebugImages* dbg, PictureShape picture_shape) const
+>>>>>>> pod/translations
 {
 	QSize const target_size(m_outRect.size().expandedTo(QSize(1, 1)));
 	if (m_outRect.isEmpty()) {
@@ -2524,6 +2558,7 @@ OutputGenerator::processWithDewarping(
 			dbg->add(warped_bw_mask, "warped_bw_mask");
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2731,6 +2766,11 @@ OutputGenerator::processWithDewarping(
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+		if (picture_shape == RECTANGULAR_SHAPE) {
+			warped_bw_mask.rectangularizeAreas(WHITE);
+		}
+>>>>>>> pod/translations
 
 		status.throwIfCancelled();
 

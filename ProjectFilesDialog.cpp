@@ -261,6 +261,7 @@ ProjectFilesDialog::inProjectFiles() const
 {	
 	std::vector<ImageFileInfo> files;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	m_ptrInProjectFiles->items(bind(&pushFileInfo<Item>, boost::ref(files), _1));
 =======
 	m_ptrInProjectFiles->items([&] (Item const& item) {
@@ -271,6 +272,11 @@ ProjectFilesDialog::inProjectFiles() const
 	std::sort(files.begin(), files.end(), [] (ImageFileInfo const& lhs, ImageFileInfo const& rhs) {
 		return SmartFilenameOrdering()(lhs.fileInfo(), rhs.fileInfo());
 	});
+=======
+	m_ptrInProjectFiles->items(bind(&pushFileInfo<Item>, boost::ref(files), _1));
+	
+	std::sort(files.begin(), files.end(), imageFileInfoLess);
+>>>>>>> pod/translations
 	
 	return files;
 }

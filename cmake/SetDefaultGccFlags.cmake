@@ -60,6 +60,7 @@ MACRO(ST_SET_DEFAULT_GCC_FLAGS)
 			# Flags common for all build configurations.
 			SET(
 <<<<<<< HEAD
+<<<<<<< HEAD
 				CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${default_flags_}"
 				CACHE STRING "Common C flags for all build configurations." FORCE
 			)
@@ -74,6 +75,14 @@ MACRO(ST_SET_DEFAULT_GCC_FLAGS)
 			SET(
 				CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} ${stdlibs_shared_static_} -std=c++11 -Wno-deprecated-declarations"
 >>>>>>> origin/qt5
+=======
+				CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${default_flags_}"
+				CACHE STRING "Common C flags for all build configurations." FORCE
+			)
+			SET(
+				CMAKE_CXX_FLAGS
+				"${CMAKE_CXX_FLAGS} ${default_flags_} ${stdlibs_shared_static_}"
+>>>>>>> pod/translations
 				CACHE STRING "Common C++ flags for all build configurations." FORCE
 			)
 		

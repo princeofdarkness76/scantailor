@@ -121,6 +121,7 @@ Task::process(TaskStatus const& status, FilterData const& data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> master
@@ -149,6 +150,11 @@ Task::process(TaskStatus const& status, FilterData const& data)
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+		if (!deps.matches(params->dependencies())) {
+			//std::cout << "Deskew: " << "reset params" << std::endl;
+			//std::cout << (deps.matches(params->dependencies())) << std::endl;
+>>>>>>> pod/translations
 			params.reset();
 		} else {
 			ui_data.setEffectiveDeskewAngle(params->deskewAngle());

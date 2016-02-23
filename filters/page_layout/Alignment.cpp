@@ -53,6 +53,7 @@ Alignment::Alignment(QDomElement const& el)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	m_autoMargins = el.attribute("autoMargins") == "true" ? true: false;
 >>>>>>> origin/enhanced
@@ -73,6 +74,9 @@ Alignment::Alignment(QDomElement const& el)
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	m_autoMargins = el.attribute("autoMargins") == "true" ? true: false;
+>>>>>>> pod/translations
 	
 	if (vert == "top") {
 		m_vert = TOP;
@@ -148,6 +152,7 @@ Alignment::toXml(QDomDocument& doc, QString const& name) const
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	el.setAttribute("autoMargins", m_autoMargins ? "true" : "false");
 >>>>>>> origin/enhanced
@@ -168,6 +173,9 @@ Alignment::toXml(QDomDocument& doc, QString const& name) const
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	el.setAttribute("autoMargins", m_autoMargins ? "true" : "false");
+>>>>>>> pod/translations
 	return el;
 }
 

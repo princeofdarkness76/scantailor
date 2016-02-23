@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -56,6 +57,11 @@ class CommandLine;
 =======
 >>>>>>> pod/tiff
 >>>>>>> master
+=======
+
+#include "CommandLine.h"
+class CommandLine;
+>>>>>>> pod/translations
 
 class QDomDocument;
 class QDomElement;
@@ -83,6 +89,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	bool isDeviant(double std, double max_dev=1.0) const { return std::max(1.5*std, max_dev) < fabs(m_deviation); }
 =======
 	bool isDeviant(double std, double max_dev=CommandLine::get().getSkewDeviation()) const { return std::max(1.5*std, max_dev) < fabs(m_deviation); }
@@ -106,6 +113,9 @@ public:
 >>>>>>> master
 =======
 >>>>>>> master
+=======
+	bool isDeviant(double std, double max_dev=CommandLine::get().getSkewDeviation()) const { return std::max(1.5*std, max_dev) < fabs(m_deviation); }
+>>>>>>> pod/translations
 	
 	Dependencies const& dependencies() const { return m_deps; }
 	
